@@ -2,3 +2,8 @@
 ######################
 .DS_Store
 .DS_Store?
+
+# Proprietary data #
+######################
+3D Print Data/Source/docklands_lidar_2009_dsm.las
+3D Print Data/Source/DublinBuildingGrangeGormantoDocks.gdb
