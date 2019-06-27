@@ -1,1 +1,1 @@
-# BCD-Interactive-Architectural-City-Models
+# BCD Interactive Architectural City Models
