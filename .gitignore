@@ -10,4 +10,4 @@
 
 # Log files #
 ######################
-3D Print Data/Source/3D Print Data Source.log
+3D Print Data/Source/*.log
