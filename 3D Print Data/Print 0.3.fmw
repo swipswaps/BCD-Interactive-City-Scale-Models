@@ -1,9 +1,9 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        /Library/FME/2019.0/fme "/Users/mlinnane/OneDrive - Maynooth University/BCD/Architectural Model/Data/FME/Prototype 1/Prototype 1.3.fmw"
-#              --SourceDataset_FILEGDB_3 "/Users/mlinnane/OneDrive - Maynooth University/BCD/Architectural Model/Data/FME/Prototype 1/Source/2/2019_05_01_3D_Data_Hack_OSi_Datasets/DublinBuildingGrangeGormantoDocks.gdb"
-#              --SourceDataset_LAS "/Users/mlinnane/OneDrive - Maynooth University/BCD/Architectural Model/Data/FME/Prototype 1/Source/1/Dockland_LiDAR/docklands_lidar_2009_dsm.las"
+#        /Library/FME/2019.0/fme "/Users/mlinnane/Documents/GitHub/BCD-Architectural-Models/3D Print Data/Print 0.3.fmw"
+#              --SourceDataset_FILEGDB_3 "/Users/mlinnane/Documents/GitHub/BCD-Architectural-Models/3D Print Data/Source/DublinBuildingGrangeGormantoDocks.gdb"
+#              --SourceDataset_LAS "/Users/mlinnane/Documents/GitHub/BCD-Architectural-Models/3D Print Data/Source/docklands_lidar_2009_dsm.las"
 #              --DestDataset_STL_3 "/Users/mlinnane/OneDrive - Maynooth University/BCD/Architectural Model/Data/FME/Print"
 #              --SourceDataset_ESRISHAPE_3 "/Users/mlinnane/OneDrive - Maynooth University/BCD/Architectural Model/Data/Grids/DubGridTest.shp"
 #    
@@ -20,8 +20,8 @@
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="19253"
-#!   FME_DOCUMENT_GUID="1b40eb8d-e3ce-459c-ab5a-cf10cce0e181"
-#!   FME_DOCUMENT_PRIORGUID="68b12c8c-99ab-495a-a174-076bff6b15cb,c648c1ab-38ab-4b3e-b465-83471714acde,98f9ae55-bb49-4252-935e-b53bf80ecca5,293769ee-fe7c-4836-9ed4-65e0194992ee,38a315f3-3cad-4230-a2e9-5f07f2cefa16,802922f7-d417-462f-8147-7d885c4655a5,3c7189c0-f430-4286-b6dc-18d34aeb4c4a,453dd9f2-f866-45db-91d7-96fb6c08068e,872340a0-768d-4d73-b6bc-81b1d9771e65,dcf338e5-0c02-4146-91b3-d7d8af6388e0,efeb2729-d8fb-4b69-8901-1c67658fcd67,78b4130d-dc89-4b2d-b21c-912d1eda131e,86e6407c-ad93-497a-9a7c-1c180f620cf6,65246751-e564-47e9-b813-ad35649b3ce8,f3262bc0-99de-4bfc-98a7-e42826bfe615,5f7f3c52-4ed1-4296-9e50-d4b0bf9c8f58,3c4eac53-f39d-4df7-8e69-41089d7bacc2,3a4f56a8-7aab-4e8c-ba65-472ae4b6261b,5ac96545-292d-406c-92a4-e0310f667781,6217b015-fc09-403a-980d-99d93a325986,1e1e86b2-07ee-4163-b6f7-7b42d7608444,cfcb2eef-2e0b-48f2-8b31-7a8f9587de1c,293e4c58-2db2-4aec-ba0b-436495e0a1f2,9ee776ba-a6dc-4a80-8f16-41276fff7bae,bdb1ea60-c61c-4914-9ccc-ec3e4836f2b4,64d0ed1b-370c-4dc7-b4e0-9bc57fdf9c22,de3320ff-804a-4ba0-9729-5fbe2f358199"
+#!   FME_DOCUMENT_GUID="0e67a7f8-7d04-420c-83b8-c280300f102e"
+#!   FME_DOCUMENT_PRIORGUID="68b12c8c-99ab-495a-a174-076bff6b15cb,c648c1ab-38ab-4b3e-b465-83471714acde,98f9ae55-bb49-4252-935e-b53bf80ecca5,293769ee-fe7c-4836-9ed4-65e0194992ee,38a315f3-3cad-4230-a2e9-5f07f2cefa16,802922f7-d417-462f-8147-7d885c4655a5,3c7189c0-f430-4286-b6dc-18d34aeb4c4a,453dd9f2-f866-45db-91d7-96fb6c08068e,872340a0-768d-4d73-b6bc-81b1d9771e65,dcf338e5-0c02-4146-91b3-d7d8af6388e0,efeb2729-d8fb-4b69-8901-1c67658fcd67,78b4130d-dc89-4b2d-b21c-912d1eda131e,86e6407c-ad93-497a-9a7c-1c180f620cf6,65246751-e564-47e9-b813-ad35649b3ce8,f3262bc0-99de-4bfc-98a7-e42826bfe615,5f7f3c52-4ed1-4296-9e50-d4b0bf9c8f58,3c4eac53-f39d-4df7-8e69-41089d7bacc2,3a4f56a8-7aab-4e8c-ba65-472ae4b6261b,5ac96545-292d-406c-92a4-e0310f667781,6217b015-fc09-403a-980d-99d93a325986,1e1e86b2-07ee-4163-b6f7-7b42d7608444,cfcb2eef-2e0b-48f2-8b31-7a8f9587de1c,293e4c58-2db2-4aec-ba0b-436495e0a1f2,9ee776ba-a6dc-4a80-8f16-41276fff7bae,bdb1ea60-c61c-4914-9ccc-ec3e4836f2b4,64d0ed1b-370c-4dc7-b4e0-9bc57fdf9c22,de3320ff-804a-4ba0-9729-5fbe2f358199,1b40eb8d-e3ce-459c-ab5a-cf10cce0e181,862e5008-8820-4f2f-a40a-394fef816113"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -30,7 +30,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2019.0.1.0 (20190506 - Build 19253 - macosx)"
-#!   LAST_SAVE_DATE="2019-06-25T10:24:04"
+#!   LAST_SAVE_DATE="2019-06-27T11:15:33"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -49,7 +49,7 @@
 #!   TITLE="OSiDataTo3D"
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-1607.56 107.548"
+#!   VIEW_POSITION="-6908.56 164.153"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="106"
@@ -60,7 +60,7 @@
 #!   ROLE="READER"
 #!   FORMAT="FILEGDB"
 #!   DATASET="$(SourceDataset_FILEGDB_3)"
-#!   KEYWORD="FILEGDB_1"
+#!   KEYWORD="FILEGDB_2"
 #!   MULTI_GEOM_ALLOWED="false"
 #!   ATTR_MAX_LENGTH="0"
 #!   ATTR_CASE="ANY"
@@ -68,7 +68,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="filegdb_type {FME_GEN_GEOMETRY} filegdb_where_wwjd &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_dataset text(50) multi_reader_full_id int fme_start_angle double fme_text_size double multi_reader_id int fme_text_string text(50) fme_rotation double fme_feature_type text(50) fme_sweep_angle double fme_fill_color text(50) fme_geometry text(50) fme_type text(50) fme_color text(50) fme_primary_axis double fme_secondary_axis double multi_reader_type text(50) multi_reader_keyword text(50) fme_basename text(50)"
+#!   EXPOSABLE_ATTRS="fme_fill_color text(50) fme_dataset text(50) multi_reader_full_id int multi_reader_keyword text(50) fme_secondary_axis double multi_reader_id int fme_sweep_angle double multi_reader_type text(50) fme_rotation double fme_type text(50) fme_feature_type text(50) fme_text_string text(50) fme_start_angle double fme_color text(50) fme_primary_axis double fme_basename text(50) fme_geometry text(50) fme_text_size double"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP filegdb_table_settings_group filegdb_where_wwjd Table Settings&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG filegdb_where_wwjd MODE,WHERE;FORMAT,FILEGDB WHERE Clause&quot; &quot;&quot; "
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -130,7 +130,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="false"
-#!   EXPOSABLE_ATTRS="fme_dataset char(50) multi_reader_full_id number(11,0) las_vertical_coordsys_code number(6,0) fme_start_angle number(31,15) las_system_identifier char(32) fme_text_size number(31,15) multi_reader_id number(11,0) fme_rotation number(31,15) fme_text_string char(50) las_file_creation_date date fme_feature_type char(50) fme_sweep_angle number(31,15) fme_fill_color char(50) las_zlas_rearranged_points logical las_version char(3) las_generating_software char(32) las_synthetic_returns logical fme_geometry char(50) fme_type char(50) fme_color char(50) las_file_source_id number(6,0) las_gps_time_type number(1,0) fme_primary_axis number(31,15) fme_secondary_axis number(31,15) las_type char(255) las_vertical_datum_code number(6,0) multi_reader_keyword char(50) multi_reader_type char(50) las_vertical_units_code number(6,0) fme_basename char(50) las_project_id char(36)"
+#!   EXPOSABLE_ATTRS="las_generating_software char(32) las_vertical_units_code number(6,0) fme_fill_color char(50) fme_dataset char(50) multi_reader_full_id number(11,0) fme_secondary_axis number(31,15) las_type char(255) multi_reader_keyword char(50) las_system_identifier char(32) multi_reader_id number(11,0) fme_sweep_angle number(31,15) multi_reader_type char(50) fme_rotation number(31,15) fme_type char(50) fme_feature_type char(50) fme_text_string char(50) las_project_id char(36) las_vertical_coordsys_code number(6,0) las_zlas_rearranged_points logical las_file_creation_date date las_file_source_id number(6,0) las_version char(3) fme_start_angle number(31,15) las_vertical_datum_code number(6,0) fme_color char(50) fme_primary_axis number(31,15) fme_basename char(50) fme_text_size number(31,15) las_synthetic_returns logical fme_geometry char(50) las_gps_time_type number(1,0)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -192,7 +192,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_dataset char(50) multi_reader_full_id long SHAPE_GEOMETRY char(50) fme_start_angle double fme_text_size double multi_reader_id long fme_text_string char(50) fme_rotation double fme_feature_type char(50) fme_sweep_angle double fme_fill_color char(50) shape_measures char(254) fme_geometry char(50) fme_color char(50) fme_type char(50) fme_primary_axis double fme_secondary_axis double shape_geometry_error{} char(254) multi_reader_type char(50) multi_reader_keyword char(50) fme_basename char(50)"
+#!   EXPOSABLE_ATTRS="fme_fill_color char(50) shape_measures char(254) fme_dataset char(50) multi_reader_full_id long fme_secondary_axis double multi_reader_keyword char(50) multi_reader_id long fme_sweep_angle double multi_reader_type char(50) fme_rotation double fme_type char(50) fme_feature_type char(50) shape_geometry_error{} char(254) fme_text_string char(50) SHAPE_GEOMETRY char(50) fme_start_angle double fme_color char(50) fme_primary_axis double fme_basename char(50) fme_geometry char(50) fme_text_size double"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -250,7 +250,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="false"
-#!   EXPOSABLE_ATTRS="fme_feature_type string fme_primary_axis float fme_dataset string fme_text_string string fme_secondary_axis float fme_basename string fme_geometry string fme_type string fme_rotation float fme_text_size float fme_sweep_angle float fme_color string fme_start_angle float fme_fill_color string"
+#!   EXPOSABLE_ATTRS="fme_rotation float fme_start_angle float fme_fill_color string fme_primary_axis float fme_text_string string fme_geometry string fme_sweep_angle float fme_basename string fme_dataset string fme_text_size float fme_secondary_axis float fme_feature_type string fme_type string fme_color string"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -1294,7 +1294,7 @@
 #!   BOUNDING_RECT="-6088.7786204883605 -457.96445705232571 495.00106825772946 71"
 #!   ORDER="500000000000000"
 #!   COLLAPSED="true"
-#!   KEYWORD="FILEGDB_1"
+#!   KEYWORD="FILEGDB_2"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
 #!   HIDDEN_USER_ATTRS=""
@@ -1398,9 +1398,9 @@
 #!   DATASET="ESRISHAPE_1/DubGridTest.shp"
 #! />
 #! <DATASET 
-#!   NAME="FILEGDB_1"
-#!   OVERRIDE="-FILEGDB_1_DATASET"
-#!   DATASET="FILEGDB_1/DublinBuildingGrangeGormantoDocks.gdb"
+#!   NAME="FILEGDB_2"
+#!   OVERRIDE="-FILEGDB_2_DATASET"
+#!   DATASET="FILEGDB_2/DublinBuildingGrangeGormantoDocks.gdb"
 #! />
 #! </READER_DATASETS>
 #! <WRITER_DATASETS>
@@ -1414,12 +1414,12 @@
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI SOURCE_GEODATABASE SourceDataset_FILEGDB_3 File Geodatabase:"
-#!   DEFAULT_VALUE="$(FME_MF_DIR)Source/2/2019_05_01_3D_Data_Hack_OSi_Datasets/DublinBuildingGrangeGormantoDocks.gdb"
+#!   DEFAULT_VALUE="$(FME_MF_DIR)Source/DublinBuildingGrangeGormantoDocks.gdb"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI MULTIFILE SourceDataset_LAS LAS_Files(*.las;*.laz;*.zlas;*.lasd)|*.las;*.laz;*.zlas;*.lasd|LAS_Files(*.las)|*.las|Compressed_LAS_Files(*.laz)|*.laz|Esri_Optimized_LAS_Files(*.zlas)|*.zlas|Esri_LAS_Dataset_Files(*.lasd)|*.lasd|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_files(*)|* Source ASPRS LAS File(s):"
-#!   DEFAULT_VALUE="$(FME_MF_DIR)Source/1/Dockland_LiDAR/docklands_lidar_2009_dsm.las"
+#!   DEFAULT_VALUE="$(FME_MF_DIR)Source/docklands_lidar_2009_dsm.las"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
@@ -1492,7 +1492,7 @@
 #!   BOUNDING_RECT="-2842.8855717128599 -561.00445004450035 2157.164428787145 989.01105011050117"
 #!   STICKY="true"
 #!   COLOUR="0.62352941176470589,0.5725490196078431,0.8784313725490196,1"
-#!   CONTENTS="16 43 17 44 15 "
+#!   CONTENTS="15 16 17 43 44 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1506,7 +1506,7 @@
 #!   BOUNDING_RECT="-835.7226429407151 0 2096.4495359239309 517.86232148035765"
 #!   STICKY="true"
 #!   COLOUR="0.81568627450980391,0.5607843137254902,0.85882352941176465,1"
-#!   CONTENTS="33 18 11 10 46 "
+#!   CONTENTS="46 18 33 11 10 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1562,7 +1562,7 @@
 #!   BOUNDING_RECT="-4344.6906465524899 -663.53538125443254 1131.6150375355301 561.05010550908071"
 #!   STICKY="true"
 #!   COLOUR="0.59215686274509804,0.8901960784313725,0.90980392156862744,1"
-#!   CONTENTS="23 49 24 "
+#!   CONTENTS="23 24 49 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -2768,10 +2768,10 @@
 #! </WORKSPACE>
 
 FME_PYTHON_VERSION 37
-GUI IGNORE SourceDataset_FILEGDB_1,FILEGDB_IN_FME_CONNECTION_GROUP_FILEGDB_1,FILEGDB_IN_ADVANCED_FILEGDB_1,FILEGDB_IN_BEGIN_SQL_FILEGDB_1,FILEGDB_IN_END_SQL_FILEGDB_1,FILEGDB_IN_STRIP_GUID_GLOBALID_BRACES_FILEGDB_1,FILEGDB_IN_GEOMETRY_FILEGDB_1,FILEGDB_IN_SIMPLE_DONUT_GEOMETRY_FILEGDB_1,FILEGDB_IN_USE_SEARCH_ENVELOPE_FILEGDB_1,FILEGDB_IN_SEARCH_ENVELOPE_MINX_FILEGDB_1,FILEGDB_IN_SEARCH_ENVELOPE_MINY_FILEGDB_1,FILEGDB_IN_SEARCH_ENVELOPE_MAXX_FILEGDB_1,FILEGDB_IN_SEARCH_ENVELOPE_MAXY_FILEGDB_1,FILEGDB_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_FILEGDB_1,FILEGDB_IN_CLIP_TO_ENVELOPE_FILEGDB_1,FILEGDB_IN_NETWORK_AUTHENTICATION_FILEGDB_1,SourceDataset_LAS_1,LAS_IN_USE_SEARCH_ENVELOPE_LAS_1,LAS_IN_SEARCH_ENVELOPE_MINX_LAS_1,LAS_IN_SEARCH_ENVELOPE_MINY_LAS_1,LAS_IN_SEARCH_ENVELOPE_MAXX_LAS_1,LAS_IN_SEARCH_ENVELOPE_MAXY_LAS_1,LAS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_LAS_1,LAS_IN_CLIP_TO_ENVELOPE_LAS_1,LAS_IN_NETWORK_AUTHENTICATION_LAS_1,SourceDataset_ESRISHAPE_1,ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_1,ESRISHAPE_IN_ENCODING_ESRISHAPE_1,ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_1,ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_1,ESRISHAPE_IN_ADVANCED_ESRISHAPE_1,ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_1,ESRISHAPE_IN_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_1,ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_1,ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_1,DestDataset_STL_1,STL_OUT_FME_GROUP_NAMED1_STL_1,STL_OUT_FILE_TYPE_STL_1,STL_OUT_FME_GROUP_NAMED2_STL_1,STL_OUT_MOVE_TO_LOCAL_COORDSYS_STL_1
-DEFAULT_MACRO SourceDataset_FILEGDB_3 $(FME_MF_DIR)Source/2/2019_05_01_3D_Data_Hack_OSi_Datasets/DublinBuildingGrangeGormantoDocks.gdb
+GUI IGNORE SourceDataset_FILEGDB_2,FILEGDB_IN_FME_CONNECTION_GROUP_FILEGDB_2,FILEGDB_IN_ADVANCED_FILEGDB_2,FILEGDB_IN_BEGIN_SQL_FILEGDB_2,FILEGDB_IN_END_SQL_FILEGDB_2,FILEGDB_IN_STRIP_GUID_GLOBALID_BRACES_FILEGDB_2,FILEGDB_IN_GEOMETRY_FILEGDB_2,FILEGDB_IN_SIMPLE_DONUT_GEOMETRY_FILEGDB_2,FILEGDB_IN_USE_SEARCH_ENVELOPE_FILEGDB_2,FILEGDB_IN_SEARCH_ENVELOPE_MINX_FILEGDB_2,FILEGDB_IN_SEARCH_ENVELOPE_MINY_FILEGDB_2,FILEGDB_IN_SEARCH_ENVELOPE_MAXX_FILEGDB_2,FILEGDB_IN_SEARCH_ENVELOPE_MAXY_FILEGDB_2,FILEGDB_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_FILEGDB_2,FILEGDB_IN_CLIP_TO_ENVELOPE_FILEGDB_2,FILEGDB_IN_NETWORK_AUTHENTICATION_FILEGDB_2,SourceDataset_LAS_1,LAS_IN_USE_SEARCH_ENVELOPE_LAS_1,LAS_IN_SEARCH_ENVELOPE_MINX_LAS_1,LAS_IN_SEARCH_ENVELOPE_MINY_LAS_1,LAS_IN_SEARCH_ENVELOPE_MAXX_LAS_1,LAS_IN_SEARCH_ENVELOPE_MAXY_LAS_1,LAS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_LAS_1,LAS_IN_CLIP_TO_ENVELOPE_LAS_1,LAS_IN_NETWORK_AUTHENTICATION_LAS_1,SourceDataset_ESRISHAPE_1,ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_1,ESRISHAPE_IN_ENCODING_ESRISHAPE_1,ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_1,ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_1,ESRISHAPE_IN_ADVANCED_ESRISHAPE_1,ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_1,ESRISHAPE_IN_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_1,ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_1,ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_1,DestDataset_STL_1,STL_OUT_FME_GROUP_NAMED1_STL_1,STL_OUT_FILE_TYPE_STL_1,STL_OUT_FME_GROUP_NAMED2_STL_1,STL_OUT_MOVE_TO_LOCAL_COORDSYS_STL_1
+DEFAULT_MACRO SourceDataset_FILEGDB_3 $(FME_MF_DIR)Source/DublinBuildingGrangeGormantoDocks.gdb
 GUI SOURCE_GEODATABASE SourceDataset_FILEGDB_3 File Geodatabase:
-DEFAULT_MACRO SourceDataset_LAS $(FME_MF_DIR)Source/1/Dockland_LiDAR/docklands_lidar_2009_dsm.las
+DEFAULT_MACRO SourceDataset_LAS $(FME_MF_DIR)Source/docklands_lidar_2009_dsm.las
 GUI MULTIFILE SourceDataset_LAS LAS_Files(*.las;*.laz;*.zlas;*.lasd)|*.las;*.laz;*.zlas;*.lasd|LAS_Files(*.las)|*.las|Compressed_LAS_Files(*.laz)|*.laz|Esri_Optimized_LAS_Files(*.zlas)|*.zlas|Esri_LAS_Dataset_Files(*.lasd)|*.lasd|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_files(*)|* Source ASPRS LAS File(s):
 DEFAULT_MACRO DestDataset_STL_3 /Users/mlinnane/OneDrive - Maynooth University/BCD/Architectural Model/Data/FME/Print
 GUI DIRNAME DestDataset_STL_3 Destination STL Folder:
@@ -2785,8 +2785,8 @@ INCLUDE [ if {{$(SourceDataset_ESRISHAPE_3)} == {}} { puts_real {Parameter 'Sour
 #! START_WB_HEADER
 READER_TYPE MULTI_READER
 MULTI_READER_TYPE{0} FILEGDB
-MULTI_READER_KEYWORD{0} FILEGDB_1
-MULTI_READER_GEN_DIRECTIVES{0} CLIP_TO_ENVELOPE,NO,BEGIN_SQL,,ADVANCED,,TABLELIST,BuildingFootprints,SEARCH_ENVELOPE_MAXX,0,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,USE_SEARCH_ENVELOPE,NO,SEARCH_ENVELOPE_MINX,0,SEARCH_ENVELOPE_MAXY,0,FILEGDB_EXPOSE_FORMAT_ATTRS,,_MERGE_SCHEMAS,YES,GEOMETRY,,SEARCH_ENVELOPE_MINY,0,END_SQL,,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,STRIP_GUID_GLOBALID_BRACES,yes,UPDATE_FEATURE_TYPES,no,EXPOSE_ATTRS_GROUP,,SIMPLE_DONUT_GEOMETRY,simple
+MULTI_READER_KEYWORD{0} FILEGDB_2
+MULTI_READER_GEN_DIRECTIVES{0} GEOMETRY,,ADVANCED,,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,SEARCH_ENVELOPE_MAXX,0,END_SQL,,FILEGDB_EXPOSE_FORMAT_ATTRS,,UPDATE_FEATURE_TYPES,no,SEARCH_ENVELOPE_MINY,0,SEARCH_ENVELOPE_MINX,0,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,CLIP_TO_ENVELOPE,NO,EXPOSE_ATTRS_GROUP,,_MERGE_SCHEMAS,YES,BEGIN_SQL,,TABLELIST,BuildingFootprints,SEARCH_ENVELOPE_MAXY,0,USE_SEARCH_ENVELOPE,NO,SIMPLE_DONUT_GEOMETRY,simple,STRIP_GUID_GLOBALID_BRACES,yes
 MULTI_READER_TYPE{1} LAS
 MULTI_READER_KEYWORD{1} LAS_1
 MULTI_READER_GEN_DIRECTIVES{1} READER_META_ATTRIBUTES,fme_dataset,SEARCH_ENVELOPE_MAXX,0,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,EXPOSE_ATTRS_GROUP,,LAS_EXPOSE_FORMAT_ATTRS,,USE_SEARCH_ENVELOPE,NO,_MERGE_SCHEMAS,YES,SEARCH_ENVELOPE_MINX,0,UPDATE_FEATURE_TYPES,no,SEARCH_ENVELOPE_MAXY,0,CLIP_TO_ENVELOPE,NO,GROUP_BY_DATASET,No,SEARCH_ENVELOPE_MINY,0
@@ -2800,92 +2800,92 @@ MULTI_WRITER_TYPE{0} STL
 MULTI_WRITER_KEYWORD{0} STL_1
 #! END_WB_HEADER
 #! START_WB_HEADER
-MACRO WB_KEYWORD "FILEGDB_1"
+MACRO WB_KEYWORD "FILEGDB_2"
 #! END_WB_HEADER
-#! START_SOURCE_HEADER FILEGDB FILEGDB_1
+#! START_SOURCE_HEADER FILEGDB FILEGDB_2
 # The dataset this mapping file was generated from was:
 #! END_SOURCE_HEADER
 #! START_WB_HEADER
 DEFAULT_MACRO SourceDataset
 INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
- puts {DEFAULT_MACRO SourceDataset_FILEGDB_1 $(SourceDataset)}     \
+ puts {DEFAULT_MACRO SourceDataset_FILEGDB_2 $(SourceDataset)}     \
  } ]
 #! END_WB_HEADER
-#! START_SOURCE_HEADER FILEGDB FILEGDB_1
-DEFAULT_MACRO SourceDataset_FILEGDB_1 $(SourceDataset_FILEGDB_3)
-GUI SOURCE_GEODATABASE SourceDataset_FILEGDB_1 File Geodatabase:
-DEFAULT_MACRO FILEGDB_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_FILEGDB_1 Yes
-FILEGDB_1_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS "$(FILEGDB_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_FILEGDB_1)"
-DEFAULT_MACRO FILEGDB_IN_FME_CONNECTION_GROUP_FILEGDB_1 
-GUI OPTIONAL DISCLOSUREGROUP FILEGDB_IN_FME_CONNECTION_GROUP_FILEGDB_1 FILEGDB_IN_NAMED_CONNECTION Database Connection
-DEFAULT_MACRO FILEGDB_IN_ADVANCED_FILEGDB_1 
-GUI OPTIONAL DISCLOSUREGROUP FILEGDB_IN_ADVANCED_FILEGDB_1 FILEGDB_IN_BEGIN_SQL_FILEGDB_1%FILEGDB_IN_END_SQL_FILEGDB_1%FILEGDB_IN_GEOMETRY_FILEGDB_1%FILEGDB_IN_STRIP_GUID_GLOBALID_BRACES_FILEGDB_1 Advanced
-DEFAULT_MACRO FILEGDB_IN_BEGIN_SQL_FILEGDB_1 
-FILEGDB_1_BEGIN_SQL "$(FILEGDB_IN_BEGIN_SQL_FILEGDB_1)"
-GUI OPTIONAL TEXT_EDIT_SQL_CFG FILEGDB_IN_BEGIN_SQL_FILEGDB_1 MODE,SQL;FORMAT,FILEGDB SQL To Run Before Read
-DEFAULT_MACRO FILEGDB_IN_END_SQL_FILEGDB_1 
-FILEGDB_1_END_SQL "$(FILEGDB_IN_END_SQL_FILEGDB_1)"
-GUI OPTIONAL TEXT_EDIT_SQL_CFG FILEGDB_IN_END_SQL_FILEGDB_1 MODE,SQL;FORMAT,FILEGDB SQL To Run After Read
-DEFAULT_MACRO FILEGDB_IN_STRIP_GUID_GLOBALID_BRACES_FILEGDB_1 yes
-FILEGDB_1_STRIP_GUID_GLOBALID_BRACES "$(FILEGDB_IN_STRIP_GUID_GLOBALID_BRACES_FILEGDB_1)"
-GUI CHOICE FILEGDB_IN_STRIP_GUID_GLOBALID_BRACES_FILEGDB_1 yes%no Strip braces off GlobalID and GUID:
-DEFAULT_MACRO FILEGDB_IN_GEOMETRY_FILEGDB_1 
-GUI OPTIONAL DISCLOSUREGROUP FILEGDB_IN_GEOMETRY_FILEGDB_1 FILEGDB_IN_SIMPLE_DONUT_GEOMETRY_FILEGDB_1 Geometry
+#! START_SOURCE_HEADER FILEGDB FILEGDB_2
+DEFAULT_MACRO SourceDataset_FILEGDB_2 $(SourceDataset_FILEGDB_3)
+GUI SOURCE_GEODATABASE SourceDataset_FILEGDB_2 File Geodatabase:
+DEFAULT_MACRO FILEGDB_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_FILEGDB_2 Yes
+FILEGDB_2_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS "$(FILEGDB_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_FILEGDB_2)"
+DEFAULT_MACRO FILEGDB_IN_FME_CONNECTION_GROUP_FILEGDB_2 
+GUI OPTIONAL DISCLOSUREGROUP FILEGDB_IN_FME_CONNECTION_GROUP_FILEGDB_2 FILEGDB_IN_NAMED_CONNECTION Database Connection
+DEFAULT_MACRO FILEGDB_IN_ADVANCED_FILEGDB_2 
+GUI OPTIONAL DISCLOSUREGROUP FILEGDB_IN_ADVANCED_FILEGDB_2 FILEGDB_IN_BEGIN_SQL_FILEGDB_2%FILEGDB_IN_END_SQL_FILEGDB_2%FILEGDB_IN_GEOMETRY_FILEGDB_2%FILEGDB_IN_STRIP_GUID_GLOBALID_BRACES_FILEGDB_2 Advanced
+DEFAULT_MACRO FILEGDB_IN_BEGIN_SQL_FILEGDB_2 
+FILEGDB_2_BEGIN_SQL "$(FILEGDB_IN_BEGIN_SQL_FILEGDB_2)"
+GUI OPTIONAL TEXT_EDIT_SQL_CFG FILEGDB_IN_BEGIN_SQL_FILEGDB_2 MODE,SQL;FORMAT,FILEGDB SQL To Run Before Read
+DEFAULT_MACRO FILEGDB_IN_END_SQL_FILEGDB_2 
+FILEGDB_2_END_SQL "$(FILEGDB_IN_END_SQL_FILEGDB_2)"
+GUI OPTIONAL TEXT_EDIT_SQL_CFG FILEGDB_IN_END_SQL_FILEGDB_2 MODE,SQL;FORMAT,FILEGDB SQL To Run After Read
+DEFAULT_MACRO FILEGDB_IN_STRIP_GUID_GLOBALID_BRACES_FILEGDB_2 yes
+FILEGDB_2_STRIP_GUID_GLOBALID_BRACES "$(FILEGDB_IN_STRIP_GUID_GLOBALID_BRACES_FILEGDB_2)"
+GUI CHOICE FILEGDB_IN_STRIP_GUID_GLOBALID_BRACES_FILEGDB_2 yes%no Strip braces off GlobalID and GUID:
+DEFAULT_MACRO FILEGDB_IN_GEOMETRY_FILEGDB_2 
+GUI OPTIONAL DISCLOSUREGROUP FILEGDB_IN_GEOMETRY_FILEGDB_2 FILEGDB_IN_SIMPLE_DONUT_GEOMETRY_FILEGDB_2 Geometry
 # ============================================================================
 # Option to use simple donut geometry creation, which is faster than the
 # original creation method, but less meticulous at detecting and correcting
 # geometric anomalies
-DEFAULT_MACRO FILEGDB_IN_SIMPLE_DONUT_GEOMETRY_FILEGDB_1 simple
-FILEGDB_1_SIMPLE_DONUT_GEOMETRY "$(FILEGDB_IN_SIMPLE_DONUT_GEOMETRY_FILEGDB_1)"
-GUI LOOKUP_CHOICE FILEGDB_IN_SIMPLE_DONUT_GEOMETRY_FILEGDB_1 "\"Orientation Only\",simple"%"\"Orientation and Spatial Relationship\",complex" Donut Geometry Detection
-DEFAULT_MACRO FILEGDB_IN_EXPOSE_ATTRS_GROUP_FILEGDB_1 
-FILEGDB_1_EXPOSE_ATTRS_GROUP "$(FILEGDB_IN_EXPOSE_ATTRS_GROUP_FILEGDB_1)"
+DEFAULT_MACRO FILEGDB_IN_SIMPLE_DONUT_GEOMETRY_FILEGDB_2 simple
+FILEGDB_2_SIMPLE_DONUT_GEOMETRY "$(FILEGDB_IN_SIMPLE_DONUT_GEOMETRY_FILEGDB_2)"
+GUI LOOKUP_CHOICE FILEGDB_IN_SIMPLE_DONUT_GEOMETRY_FILEGDB_2 "\"Orientation Only\",simple"%"\"Orientation and Spatial Relationship\",complex" Donut Geometry Detection
+DEFAULT_MACRO FILEGDB_IN_EXPOSE_ATTRS_GROUP_FILEGDB_2 
+FILEGDB_2_EXPOSE_ATTRS_GROUP "$(FILEGDB_IN_EXPOSE_ATTRS_GROUP_FILEGDB_2)"
 # Include this file in source setting section to add native search envelope processing
 # Zero as a default means we don't do any search -- this makes workbench happier
-DEFAULT_MACRO FILEGDB_IN_USE_SEARCH_ENVELOPE_FILEGDB_1 NO
-FILEGDB_1_USE_SEARCH_ENVELOPE "$(FILEGDB_IN_USE_SEARCH_ENVELOPE_FILEGDB_1)"
-GUI ACTIVEDISCLOSUREGROUP FILEGDB_IN_USE_SEARCH_ENVELOPE_FILEGDB_1 FILEGDB_IN_SEARCH_ENVELOPE_MINX_FILEGDB_1%FILEGDB_IN_SEARCH_ENVELOPE_MINY_FILEGDB_1%FILEGDB_IN_SEARCH_ENVELOPE_MAXX_FILEGDB_1%FILEGDB_IN_SEARCH_ENVELOPE_MAXY_FILEGDB_1%FILEGDB_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_FILEGDB_1%FILEGDB_IN_CLIP_TO_ENVELOPE_FILEGDB_1%FILEGDB_IN_SEARCH_METHOD%FILEGDB_IN_SEARCH_METHOD_FILTER%FILEGDB_IN_SEARCH_ORDER%FILEGDB_IN_SEARCH_FEATURE%FILEGDB_IN_DUMMY_SEARCH_ENVELOPE_PARAMETER Use Search Envelope
+DEFAULT_MACRO FILEGDB_IN_USE_SEARCH_ENVELOPE_FILEGDB_2 NO
+FILEGDB_2_USE_SEARCH_ENVELOPE "$(FILEGDB_IN_USE_SEARCH_ENVELOPE_FILEGDB_2)"
+GUI ACTIVEDISCLOSUREGROUP FILEGDB_IN_USE_SEARCH_ENVELOPE_FILEGDB_2 FILEGDB_IN_SEARCH_ENVELOPE_MINX_FILEGDB_2%FILEGDB_IN_SEARCH_ENVELOPE_MINY_FILEGDB_2%FILEGDB_IN_SEARCH_ENVELOPE_MAXX_FILEGDB_2%FILEGDB_IN_SEARCH_ENVELOPE_MAXY_FILEGDB_2%FILEGDB_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_FILEGDB_2%FILEGDB_IN_CLIP_TO_ENVELOPE_FILEGDB_2%FILEGDB_IN_SEARCH_METHOD%FILEGDB_IN_SEARCH_METHOD_FILTER%FILEGDB_IN_SEARCH_ORDER%FILEGDB_IN_SEARCH_FEATURE%FILEGDB_IN_DUMMY_SEARCH_ENVELOPE_PARAMETER Use Search Envelope
 # ===========================================================================
-GUI LOOKUP FILEGDB_IN_SEARCH_ENVELOPE_MINX_FILEGDB_1 <Unused>,0 
-DEFAULT_MACRO FILEGDB_IN_SEARCH_ENVELOPE_MINX_FILEGDB_1 0
-FILEGDB_1_SEARCH_ENVELOPE "$(FILEGDB_IN_SEARCH_ENVELOPE_MINX_FILEGDB_1)"
-GUI OPTIONAL FLOAT FILEGDB_IN_SEARCH_ENVELOPE_MINX_FILEGDB_1 Minimum X:
+GUI LOOKUP FILEGDB_IN_SEARCH_ENVELOPE_MINX_FILEGDB_2 <Unused>,0 
+DEFAULT_MACRO FILEGDB_IN_SEARCH_ENVELOPE_MINX_FILEGDB_2 0
+FILEGDB_2_SEARCH_ENVELOPE "$(FILEGDB_IN_SEARCH_ENVELOPE_MINX_FILEGDB_2)"
+GUI OPTIONAL FLOAT FILEGDB_IN_SEARCH_ENVELOPE_MINX_FILEGDB_2 Minimum X:
 # ===========================================================================
-GUI LOOKUP FILEGDB_IN_SEARCH_ENVELOPE_MINY_FILEGDB_1 <Unused>,0 
-DEFAULT_MACRO FILEGDB_IN_SEARCH_ENVELOPE_MINY_FILEGDB_1 0
-FILEGDB_1_SEARCH_ENVELOPE "$(FILEGDB_IN_SEARCH_ENVELOPE_MINY_FILEGDB_1)"
-GUI OPTIONAL FLOAT FILEGDB_IN_SEARCH_ENVELOPE_MINY_FILEGDB_1 Minimum Y:
+GUI LOOKUP FILEGDB_IN_SEARCH_ENVELOPE_MINY_FILEGDB_2 <Unused>,0 
+DEFAULT_MACRO FILEGDB_IN_SEARCH_ENVELOPE_MINY_FILEGDB_2 0
+FILEGDB_2_SEARCH_ENVELOPE "$(FILEGDB_IN_SEARCH_ENVELOPE_MINY_FILEGDB_2)"
+GUI OPTIONAL FLOAT FILEGDB_IN_SEARCH_ENVELOPE_MINY_FILEGDB_2 Minimum Y:
 # ===========================================================================
-GUI LOOKUP FILEGDB_IN_SEARCH_ENVELOPE_MAXX_FILEGDB_1 <Unused>,0 
-DEFAULT_MACRO FILEGDB_IN_SEARCH_ENVELOPE_MAXX_FILEGDB_1 0
-FILEGDB_1_SEARCH_ENVELOPE "$(FILEGDB_IN_SEARCH_ENVELOPE_MAXX_FILEGDB_1)"
-GUI OPTIONAL FLOAT FILEGDB_IN_SEARCH_ENVELOPE_MAXX_FILEGDB_1 Maximum X:
+GUI LOOKUP FILEGDB_IN_SEARCH_ENVELOPE_MAXX_FILEGDB_2 <Unused>,0 
+DEFAULT_MACRO FILEGDB_IN_SEARCH_ENVELOPE_MAXX_FILEGDB_2 0
+FILEGDB_2_SEARCH_ENVELOPE "$(FILEGDB_IN_SEARCH_ENVELOPE_MAXX_FILEGDB_2)"
+GUI OPTIONAL FLOAT FILEGDB_IN_SEARCH_ENVELOPE_MAXX_FILEGDB_2 Maximum X:
 # ===========================================================================
-GUI LOOKUP FILEGDB_IN_SEARCH_ENVELOPE_MAXY_FILEGDB_1 <Unused>,0 
-DEFAULT_MACRO FILEGDB_IN_SEARCH_ENVELOPE_MAXY_FILEGDB_1 0
-FILEGDB_1_SEARCH_ENVELOPE "$(FILEGDB_IN_SEARCH_ENVELOPE_MAXY_FILEGDB_1)"
-GUI OPTIONAL FLOAT FILEGDB_IN_SEARCH_ENVELOPE_MAXY_FILEGDB_1 Maximum Y:
+GUI LOOKUP FILEGDB_IN_SEARCH_ENVELOPE_MAXY_FILEGDB_2 <Unused>,0 
+DEFAULT_MACRO FILEGDB_IN_SEARCH_ENVELOPE_MAXY_FILEGDB_2 0
+FILEGDB_2_SEARCH_ENVELOPE "$(FILEGDB_IN_SEARCH_ENVELOPE_MAXY_FILEGDB_2)"
+GUI OPTIONAL FLOAT FILEGDB_IN_SEARCH_ENVELOPE_MAXY_FILEGDB_2 Maximum Y:
 # ===========================================================================
-GUI LOOKUP FILEGDB_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_FILEGDB_1 <Unused>, 
-DEFAULT_MACRO FILEGDB_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_FILEGDB_1 
-FILEGDB_1_SEARCH_ENVELOPE "$(FILEGDB_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_FILEGDB_1)"
-GUI OPTIONAL COORDSYS FILEGDB_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_FILEGDB_1 Search Envelope Coordinate System:
+GUI LOOKUP FILEGDB_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_FILEGDB_2 <Unused>, 
+DEFAULT_MACRO FILEGDB_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_FILEGDB_2 
+FILEGDB_2_SEARCH_ENVELOPE "$(FILEGDB_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_FILEGDB_2)"
+GUI OPTIONAL COORDSYS FILEGDB_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_FILEGDB_2 Search Envelope Coordinate System:
 # ===========================================================================
-GUI LOOKUP FILEGDB_IN_CLIP_TO_ENVELOPE_FILEGDB_1 <Unused>,NO 
-DEFAULT_MACRO FILEGDB_IN_CLIP_TO_ENVELOPE_FILEGDB_1 NO
-FILEGDB_1_CLIP_TO_ENVELOPE "$(FILEGDB_IN_CLIP_TO_ENVELOPE_FILEGDB_1)"
-GUI OPTIONAL CHECKBOX FILEGDB_IN_CLIP_TO_ENVELOPE_FILEGDB_1 YES%NO Clip to Search Envelope
+GUI LOOKUP FILEGDB_IN_CLIP_TO_ENVELOPE_FILEGDB_2 <Unused>,NO 
+DEFAULT_MACRO FILEGDB_IN_CLIP_TO_ENVELOPE_FILEGDB_2 NO
+FILEGDB_2_CLIP_TO_ENVELOPE "$(FILEGDB_IN_CLIP_TO_ENVELOPE_FILEGDB_2)"
+GUI OPTIONAL CHECKBOX FILEGDB_IN_CLIP_TO_ENVELOPE_FILEGDB_2 YES%NO Clip to Search Envelope
 #
 # ===========================================================================
-DEFAULT_MACRO FILEGDB_IN_NETWORK_AUTHENTICATION_FILEGDB_1 
-FILEGDB_1_NETWORK_AUTHENTICATION "$(FILEGDB_IN_NETWORK_AUTHENTICATION_FILEGDB_1)"
-GUI OPTIONAL AUTHENTICATOR FILEGDB_IN_NETWORK_AUTHENTICATION_FILEGDB_1 CONTAINER%GROUP%CONTAINER_TITLE%"Network Authentication"%PROMPT_TYPE%NETWORK Network Authentication
+DEFAULT_MACRO FILEGDB_IN_NETWORK_AUTHENTICATION_FILEGDB_2 
+FILEGDB_2_NETWORK_AUTHENTICATION "$(FILEGDB_IN_NETWORK_AUTHENTICATION_FILEGDB_2)"
+GUI OPTIONAL AUTHENTICATOR FILEGDB_IN_NETWORK_AUTHENTICATION_FILEGDB_2 CONTAINER%GROUP%CONTAINER_TITLE%"Network Authentication"%PROMPT_TYPE%NETWORK Network Authentication
 # ============================================================================ 
-DEFAULT_MACRO FILEGDB_IN_ATTRIBUTE_READING_FILEGDB_1 DEFLINE
-FILEGDB_1_ATTRIBUTE_READING "$(FILEGDB_IN_ATTRIBUTE_READING_FILEGDB_1)"
+DEFAULT_MACRO FILEGDB_IN_ATTRIBUTE_READING_FILEGDB_2 DEFLINE
+FILEGDB_2_ATTRIBUTE_READING "$(FILEGDB_IN_ATTRIBUTE_READING_FILEGDB_2)"
 # ============================================================================ 
-FILEGDB_1_GENERATE_FME_BUILD_NUM 19253
-FILEGDB_1_DATASET "$(SourceDataset_FILEGDB_1)"
+FILEGDB_2_GENERATE_FME_BUILD_NUM 19253
+FILEGDB_2_DATASET "$(SourceDataset_FILEGDB_2)"
 #! END_SOURCE_HEADER
 #! START_WB_HEADER
 MACRO WB_KEYWORD "LAS_1"
@@ -3124,7 +3124,7 @@ STL_1_DATASET "$(DestDataset_STL_1)"
 #! END_WB_HEADER
 #! END_HEADER
 
-LOG_FILENAME "$(FME_MF_DIR)Prototype 1.3.log"
+LOG_FILENAME "$(FME_MF_DIR)Print 0.3.log"
 LOG_APPEND NO
 LOG_FILTER_MASK -1
 LOG_MAX_FEATURES 200
@@ -3134,17 +3134,17 @@ FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
 FME_GEOMETRY_HANDLING Enhanced
 FME_STROKE_MAX_DEVIATION 0
 MAPPING_FILE_ID OSiDataTo3D
-DEFAULT_MACRO DATASET_KEYWORD_FILEGDB_1 FILEGDB_1
+DEFAULT_MACRO DATASET_KEYWORD_FILEGDB_2 FILEGDB_2
 DEFAULT_MACRO DATASET_KEYWORD_LAS_1 LAS_1
 DEFAULT_MACRO DATASET_KEYWORD_ESRISHAPE_1 ESRISHAPE_1
 DEFAULT_MACRO DATASET_KEYWORD_STL_1 STL_1
 # -------------------------------------------------------------------------
 
-FILEGDB_1_READER_META_ATTRIBUTES fme_feature_type
+FILEGDB_2_READER_META_ATTRIBUTES fme_feature_type
 
 # -------------------------------------------------------------------------
 
-LAS_1_READER_META_ATTRIBUTES fme_feature_type fme_basename
+LAS_1_READER_META_ATTRIBUTES fme_basename fme_feature_type
 
 # -------------------------------------------------------------------------
 
@@ -3157,7 +3157,7 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 
 # -------------------------------------------------------------------------
 
-MACRO WORKSPACE_NAME Prototype 1.3
+MACRO WORKSPACE_NAME Print 0.3
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
 
@@ -3171,8 +3171,8 @@ LAS_1_DEF LAS
 ESRISHAPE_1_DEF DubGridTest   SHAPE_GEOMETRY               shape_polygon   left                         double   top                          double   right                        double   bottom                       double   id                           long
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FILEGDB FILEGDB_1::BuildingFootprints multi_reader_keyword,$(DATASET_KEYWORD_FILEGDB_1) TO FME_GENERIC ::BuildingFootprints ALIAS_GEOMETRY    ROUTE LAS LAS_1::LAS multi_reader_keyword,$(DATASET_KEYWORD_LAS_1) TO FME_GENERIC ::LAS ALIAS_GEOMETRY    ROUTE ESRISHAPE ESRISHAPE_1::DubGridTest multi_reader_keyword,$(DATASET_KEYWORD_ESRISHAPE_1) TO FME_GENERIC ::DubGridTest ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
-FILEGDB_1_MERGE_DEF FILEGDB_1::BuildingFootprints EXACT BuildingFootprints DEFLINE filegdb_type,geodb_polygon,filegdb_where_wwjd,,fme_attribute_reading,defined,GUID,text<openparen>114<closeparen>,FORM_VALUE,text<openparen>120<closeparen>,FUNC_VALUE,text<openparen>240<closeparen>,POLY_GEOM_CAPTURE_DATE,date,POLY_GEOM_CHANGE_DATE,date,WAY_SEG_VALUE,text<openparen>114<closeparen>,STATUS_VALUE,text<openparen>120<closeparen>,Z_ORDER_VALUE,double,OBJECTID,objectid
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FILEGDB FILEGDB_2::BuildingFootprints multi_reader_keyword,$(DATASET_KEYWORD_FILEGDB_2) TO FME_GENERIC ::BuildingFootprints ALIAS_GEOMETRY    ROUTE LAS LAS_1::LAS multi_reader_keyword,$(DATASET_KEYWORD_LAS_1) TO FME_GENERIC ::LAS ALIAS_GEOMETRY    ROUTE ESRISHAPE ESRISHAPE_1::DubGridTest multi_reader_keyword,$(DATASET_KEYWORD_ESRISHAPE_1) TO FME_GENERIC ::DubGridTest ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+FILEGDB_2_MERGE_DEF FILEGDB_2::BuildingFootprints EXACT BuildingFootprints DEFLINE filegdb_type,geodb_polygon,filegdb_where_wwjd,,fme_attribute_reading,defined,GUID,text<openparen>114<closeparen>,FORM_VALUE,text<openparen>120<closeparen>,FUNC_VALUE,text<openparen>240<closeparen>,POLY_GEOM_CAPTURE_DATE,date,POLY_GEOM_CHANGE_DATE,date,WAY_SEG_VALUE,text<openparen>114<closeparen>,STATUS_VALUE,text<openparen>120<closeparen>,Z_ORDER_VALUE,double,OBJECTID,objectid
 LAS_1_MERGE_DEF LAS_1::LAS EXACT LAS
 ESRISHAPE_1_MERGE_DEF ESRISHAPE_1::DubGridTest EXACT DubGridTest
 # -------------------------------------------------------------------------
@@ -3180,10 +3180,10 @@ ESRISHAPE_1_MERGE_DEF ESRISHAPE_1::DubGridTest EXACT DubGridTest
 FACTORY_DEF * TeeFactory    FACTORY_NAME "LAS (LAS_1) Splitter"    INPUT FEATURE_TYPE LAS    OUTPUT FEATURE_TYPE LAS_LAS_1
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME "BuildingFootprints (FILEGDB_1) Splitter"    INPUT FEATURE_TYPE BuildingFootprints    OUTPUT FEATURE_TYPE BuildingFootprints_FILEGDB_1
+FACTORY_DEF * TeeFactory    FACTORY_NAME "DubGridTest (ESRISHAPE_1) Splitter"    INPUT FEATURE_TYPE DubGridTest    OUTPUT FEATURE_TYPE DubGridTest_ESRISHAPE_1_0_Gf0+enJkh5s=    OUTPUT FEATURE_TYPE DubGridTest_ESRISHAPE_1_1_x3zQ7yxJeXs=
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME "DubGridTest (ESRISHAPE_1) Splitter"    INPUT FEATURE_TYPE DubGridTest    OUTPUT FEATURE_TYPE DubGridTest_ESRISHAPE_1_0_Gf0+enJkh5s=    OUTPUT FEATURE_TYPE DubGridTest_ESRISHAPE_1_1_x3zQ7yxJeXs=
+FACTORY_DEF * TeeFactory    FACTORY_NAME "BuildingFootprints (FILEGDB_2) Splitter"    INPUT FEATURE_TYPE BuildingFootprints    OUTPUT FEATURE_TYPE BuildingFootprints_FILEGDB_2
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME gridIDFilter    INPUT  FEATURE_TYPE DubGridTest_ESRISHAPE_1_1_x3zQ7yxJeXs=    OUTPUT FEATURE_TYPE gridIDFilter_FILTER
@@ -3274,9 +3274,9 @@ INCLUDE [    if {($(FME_BUILD_NUM) < 5669) || [FME_ComponentIsLicensed -factory 
 FACTORY_DEF * TeeFactory    FACTORY_NAME buildingFootprintsClipper_ClipperCloner    INPUT  FEATURE_TYPE gridIDFilter_105_3_TKAkCFMXpa0=    INPUT FEATURE_TYPE buildingFootprintsClipper___ClipperMakeSureWeDontGetAllFeatures___    OUTPUT FEATURE_TYPE buildingFootprintsClipper___ClippersForSolidOrVector___    OUTPUT FEATURE_TYPE buildingFootprintsClipper___ClippersForRaster___
 FACTORY_DEF * TestFactory    FACTORY_NAME buildingFootprintsClipper_SolidClipperFilter    INPUT FEATURE_TYPE buildingFootprintsClipper___ClippersForSolidOrVector___    TEST &fme_type == "fme_solid"    OUTPUT FAILED FEATURE_TYPE buildingFootprintsClipper___ClippersForVector___    OUTPUT PASSED FEATURE_TYPE buildingFootprintsClipper___ClippersForSolid___
 # The dummy input feature type buildingFootprintsClipper___ClippeeMakeSureWeDontGetAllFeatures___
-# makes sure that if INPUT  FEATURE_TYPE BuildingFootprints_FILEGDB_1  is emtpy, we don't get every feature
+# makes sure that if INPUT  FEATURE_TYPE BuildingFootprints_FILEGDB_2  is emtpy, we don't get every feature
 # sent into this factory.
-FACTORY_DEF * TestFactory    FACTORY_NAME buildingFootprintsClipper_ClippeeFilter    INPUT  FEATURE_TYPE BuildingFootprints_FILEGDB_1    INPUT FEATURE_TYPE buildingFootprintsClipper___ClippeeMakeSureWeDontGetAllFeatures___    TEST &fme_type == "fme_raster"    OUTPUT FAILED FEATURE_TYPE buildingFootprintsClipper___VectorOrSolidClippees___    OUTPUT PASSED FEATURE_TYPE buildingFootprintsClipper___RasterClippees___
+FACTORY_DEF * TestFactory    FACTORY_NAME buildingFootprintsClipper_ClippeeFilter    INPUT  FEATURE_TYPE BuildingFootprints_FILEGDB_2    INPUT FEATURE_TYPE buildingFootprintsClipper___ClippeeMakeSureWeDontGetAllFeatures___    TEST &fme_type == "fme_raster"    OUTPUT FAILED FEATURE_TYPE buildingFootprintsClipper___VectorOrSolidClippees___    OUTPUT PASSED FEATURE_TYPE buildingFootprintsClipper___RasterClippees___
 FACTORY_DEF {$(RASTER_CLIPPER_IN)} RasterClippingFactory    FACTORY_NAME buildingFootprintsClipper_Raster    INPUT CLIPPER FEATURE_TYPE buildingFootprintsClipper___ClippersForRaster___    INPUT CLIPPEE FEATURE_TYPE buildingFootprintsClipper___RasterClippees___    MULTICLIP YES    MERGE_CLIPPER_ATTRIBUTES NO    ATTR_ACCUM_MODE "<Unused>"    ATTR_CONFLICT_RES "<Unused>"    CLIPPER_PREFIX "<Unused>"    PRESERVE_CLIPPEE_EXTENTS NO    FLUSH_WHEN_GROUPS_CHANGE No    OUTPUT_NO_CLIPPERS_AS_OUTSIDE    OUTSIDE_NO_CLIPPERS_ATTR _fme_no_clipper    OUTPUT INSIDE FEATURE_TYPE buildingFootprintsClipper_INSIDE        "_clipped" no    OUTPUT CLIPPED_INSIDE FEATURE_TYPE buildingFootprintsClipper_INSIDE        "_clipped" yes    OUTPUT EXTRA_CLIPPER FEATURE_TYPE buildingFootprintsClipper__delete__ @Tcl2("FME_LogMessage fme_warn 917351 buildingFootprintsClipper")    OUTPUT REJECTED FEATURE_TYPE buildingFootprintsClipper_<REJECTED>
 FACTORY_DEF {*} ClippingFactory    FACTORY_NAME buildingFootprintsClipper_Vector    INPUT CLIPPER FEATURE_TYPE buildingFootprintsClipper___ClippersForVector___    INPUT CLIPPEE FEATURE_TYPE buildingFootprintsClipper___VectorOrSolidClippees___    INPUT CLIPPEE FEATURE_TYPE buildingFootprintsClipper___RasterClippees___    MULTICLIP YES    CONNECT_Z_MODE <Unused>    MISSING_VAL_MODE COMPUTE_NANS    COMPUTE_MEASURES_MODE CONTINUOUS    MEASURES_AND_Z_FROM CLIPPEE    CLIPPEE_ON_BOUNDARY INSIDE    MERGE_CLIPPER_ATTRIBUTES NO    ATTR_ACCUM_MODE "<Unused>"    ATTR_CONFLICT_RES "<Unused>"    CLIPPER_PREFIX "<Unused>"    OUTPUT_NO_CLIPPERS_AS_OUTSIDE    OUTSIDE_NO_CLIPPERS_ATTR _fme_no_clipper    LINES_AS_SEGMENTS    NO    FLUSH_WHEN_GROUPS_CHANGE No    MODE COMPLETE    CLEANING_TOLERANCE AUTO    OUTPUT INSIDE FEATURE_TYPE buildingFootprintsClipper_INSIDE        "_clipped" no    OUTPUT CLIPPED_INSIDE FEATURE_TYPE buildingFootprintsClipper_INSIDE        "_clipped" yes    OUTPUT OUTSIDE_NO_CLIPPER FEATURE_TYPE buildingFootprintsClipper___ClippeeForSolid___    OUTPUT EXTRA_CLIPPER   FEATURE_TYPE buildingFootprintsClipper__delete__ @Tcl2("FME_LogMessage fme_warn 917351 buildingFootprintsClipper")    OUTPUT NONPOLY_CLIPPER FEATURE_TYPE buildingFootprintsClipper__delete__ @Tcl2("FME_LogMessage fme_warn 917352 buildingFootprintsClipper")    OUTPUT REJECTED FEATURE_TYPE buildingFootprintsClipper_<REJECTED>
 FACTORY_DEF * SolidIntersectionFactory    FACTORY_NAME buildingFootprintsClipper_Solid    INPUT CLIPPER FEATURE_TYPE buildingFootprintsClipper___ClippersForSolid___    INPUT CLIPPEE FEATURE_TYPE buildingFootprintsClipper___ClippeeForSolid___    MULTICLIP YES    CLIPPEE_ON_BOUNDARY INSIDE    MERGE_CLIPPER_ATTRIBUTES NO    ATTR_ACCUM_MODE "<Unused>"    ATTR_CONFLICT_RES "<Unused>"    CLIPPER_PREFIX "<Unused>"    OUTPUT_NO_CLIPPERS_AS_OUTSIDE    OUTSIDE_NO_CLIPPERS_ATTR _fme_no_clipper    FLUSH_WHEN_GROUPS_CHANGE No    OUTPUT INSIDE FEATURE_TYPE buildingFootprintsClipper_INSIDE        "_clipped" no    OUTPUT CLIPPED_INSIDE FEATURE_TYPE buildingFootprintsClipper_INSIDE        "_clipped" yes    OUTPUT EXTRA_CLIPPER   FEATURE_TYPE buildingFootprintsClipper__delete__ @Tcl2("FME_LogMessage fme_warn 917351 buildingFootprintsClipper")    OUTPUT REJECTED FEATURE_TYPE buildingFootprintsClipper_<REJECTED>
@@ -3364,7 +3364,7 @@ DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
 # [PR#45549] The Data Inspector will limit the maximum number of features
 # it reads on WIN32, so we will correspondingly limit the number of
 # features we record here using the MAX_FEATURES_TO_RECORD directive.
-FACTORY_DEF * RecorderFactory    FACTORY_NAME Inspector_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA GUID,varchar<openparen>255<closeparen>,FORM_VALUE,varchar<openparen>255<closeparen>,FUNC_VALUE,varchar<openparen>255<closeparen>,POLY_GEOM_CAPTURE_DATE,varchar<openparen>255<closeparen>,POLY_GEOM_CHANGE_DATE,varchar<openparen>255<closeparen>,WAY_SEG_VALUE,varchar<openparen>255<closeparen>,STATUS_VALUE,varchar<openparen>255<closeparen>,Z_ORDER_VALUE,varchar<openparen>255<closeparen>,OBJECTID,varchar<openparen>255<closeparen>,_clipped,varchar<openparen>255<closeparen>,fme_basename,varchar<openparen>255<closeparen>,z.min,varchar<openparen>255<closeparen>,z.median,varchar<openparen>255<closeparen>,left,varchar<openparen>255<closeparen>,top,varchar<openparen>255<closeparen>,right,varchar<openparen>255<closeparen>,bottom,varchar<openparen>255<closeparen>,id,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+FACTORY_DEF * RecorderFactory    FACTORY_NAME Inspector_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA left,varchar<openparen>255<closeparen>,top,varchar<openparen>255<closeparen>,right,varchar<openparen>255<closeparen>,bottom,varchar<openparen>255<closeparen>,id,varchar<openparen>255<closeparen>,GUID,varchar<openparen>255<closeparen>,FORM_VALUE,varchar<openparen>255<closeparen>,FUNC_VALUE,varchar<openparen>255<closeparen>,POLY_GEOM_CAPTURE_DATE,varchar<openparen>255<closeparen>,POLY_GEOM_CHANGE_DATE,varchar<openparen>255<closeparen>,WAY_SEG_VALUE,varchar<openparen>255<closeparen>,STATUS_VALUE,varchar<openparen>255<closeparen>,Z_ORDER_VALUE,varchar<openparen>255<closeparen>,OBJECTID,varchar<openparen>255<closeparen>,_clipped,varchar<openparen>255<closeparen>,fme_basename,varchar<openparen>255<closeparen>,z.min,varchar<openparen>255<closeparen>,z.median,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory   FACTORY_NAME "GeometryValidator (Disabled) Nuker"   INPUT FEATURE_TYPE Extruder_EXTRUDED_0_kfw687BSEmc=
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No

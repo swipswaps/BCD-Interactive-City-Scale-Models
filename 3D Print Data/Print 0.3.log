@@ -1,0 +1,539 @@
+2019-06-27 11:15:38|   0.0|  0.0|INFORM|FME 2019.0.1.0 (20190506 - Build 19253 - macosx)
+2019-06-27 11:15:38|   0.0|  0.0|INFORM|FME_HOME is '/Library/FME/2019.0/'
+2019-06-27 11:15:38|   0.0|  0.0|INFORM|FME Home Edition (node locked-crc)
+2019-06-27 11:15:38|   0.0|  0.0|INFORM|Serial Number: 0
+2019-06-27 11:15:38|   0.0|  0.0|INFORM|Temporary License: 339 days left.
+2019-06-27 11:15:38|   0.0|  0.0|INFORM|Machine host name is: Marks-MacBook-Pro.local
+2019-06-27 11:15:38|   0.0|  0.0|INFORM|START - ProcessID: 9058, peak process memory usage: 68456 kB, current process memory usage: 68456 kB
+2019-06-27 11:15:38|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `/Library/FME/2019.0//bin/fme' `/Users/mlinnane/Documents/GitHub/BCD-Architectural-Models/3D Print Data/wb-xlate-1561630537705_8985' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{9edbc659-c6e3-4b91-94e6-03aa633277ae}'
+2019-06-27 11:15:38|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: '/Users/mlinnane/Library/Caches/Safe Software/FME/'
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|Shared folders for formats are : /Library/FME/2019.0/datasources;/Users/mlinnane/Library/Application Support/FME/Formats
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|Shared folders for transformers are : /Users/mlinnane/Library/Caches/Safe Software/FME/Packages/19253-macosx/transformers;/Library/FME/2019.0/transformers
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|Shared folders for coordinate systems are : /Users/mlinnane/Library/Application Support/FME/CoordinateSystems
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|Shared folders for coordinate system exceptions are : /Users/mlinnane/Library/Application Support/FME/CoordinateSystemExceptions
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|Shared folders for coordinate system grid overrides are : /Users/mlinnane/Library/Application Support/FME/CoordinateSystemGridOverrides
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : /Users/mlinnane/Library/Application Support/FME/CsmapTransformationExceptions
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|Shared folders for transformer categories are : /Users/mlinnane/Library/Application Support/FME/TransformerCategories
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|Mapping File Identifier is: OSiDataTo3D
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|FME Configuration: Current working folder is `/Users/mlinnane/Documents/GitHub/BCD-Architectural-Models/3D Print Data'
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|FME Configuration: Temporary folder is in the system location `/private/tmp'
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|FME Configuration: FME_HOME is `/Library/FME/2019.0/'
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|FME Configuration: FME_MF_DIR is '/Users/mlinnane/Documents/GitHub/BCD-Architectural-Models/3D Print Data/'
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'Print 0.3.fmw'
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2019.0.1.0'
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|System Status: 13.63 TB of disk space available in the FME temporary folder (/private/tmp)
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|System Status: 17.00 GB of virtual memory available
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|Operating System: Mac OS X Version 10.14.5 (Build 18F203)
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|FME Platform: macosx
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|Locale: en_GB
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|FME Configuration: Process limit is 16.00 GB of physical memory
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 15.83 GB of virtual memory
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 11.87 GB of virtual memory
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|Creating writer for format: 
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|Creating reader for format: 
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding FILEGDB Reader with keyword FILEGDB_2
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding LAS Reader with keyword LAS_1
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding ESRISHAPE Reader with keyword ESRISHAPE_1
+2019-06-27 11:15:38|   0.1|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2019-06-27 11:15:38|   0.3|  0.2|INFORM|Creating reader for format: Esri Geodatabase (File Geodb Open API)
+2019-06-27 11:15:38|   0.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `FILEGDB'
+2019-06-27 11:15:38|   0.3|  0.0|INFORM|DYLD_LIBRARY_PATH is '/Library/FME/2019.0'
+2019-06-27 11:15:38|   0.3|  0.0|INFORM|Loaded module 'FILEGDB' from file '/Library/FME/2019.0//plugins/filegdb.so'
+2019-06-27 11:15:38|   0.3|  0.0|INFORM|FME API version of module 'FILEGDB' matches current internal version (3.8 20181030)
+2019-06-27 11:15:38|   0.3|  0.0|INFORM|FILEGDB reader: Building feature table
+2019-06-27 11:15:38|   0.3|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2019-06-27 11:15:38|   0.3|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2019-06-27 11:15:38|   0.4|  0.0|INFORM|Loaded module 'LogCount_func' from file '/Library/FME/2019.0//plugins/logcount_func.so'
+2019-06-27 11:15:38|   0.4|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20181030)
+2019-06-27 11:15:38|   0.4|  0.0|INFORM|Loaded module 'AttributeFilterFactory' from file '/Library/FME/2019.0//plugins/attributefilterfactory.so'
+2019-06-27 11:15:38|   0.4|  0.0|INFORM|FME API version of module 'AttributeFilterFactory' matches current internal version (3.8 20181030)
+2019-06-27 11:15:38|   0.4|  0.0|INFORM|Loaded module 'RasterClippingFactory' from file '/Library/FME/2019.0//plugins/rasterclippingfactory.so'
+2019-06-27 11:15:38|   0.4|  0.0|INFORM|FME API version of module 'RasterClippingFactory' matches current internal version (3.8 20181030)
+2019-06-27 11:15:38|   0.5|  0.0|INFORM|Loaded module 'SolidIntersectionFactory' from file '/Library/FME/2019.0//plugins/solidintersectionfactory.so'
+2019-06-27 11:15:38|   0.5|  0.0|INFORM|FME API version of module 'SolidIntersectionFactory' matches current internal version (3.8 20181030)
+2019-06-27 11:15:38|   0.5|  0.0|INFORM|Loaded module 'PointCloudEvaluationFactory' from file '/Library/FME/2019.0//plugins/pointcloudevaluationfactory.so'
+2019-06-27 11:15:38|   0.5|  0.0|INFORM|FME API version of module 'PointCloudEvaluationFactory' matches current internal version (3.8 20181030)
+2019-06-27 11:15:38|   0.5|  0.0|INFORM|FME API version of module 'RasterClippingFactory' matches current internal version (3.8 20181030)
+2019-06-27 11:15:38|   0.5|  0.0|INFORM|FME API version of module 'SolidIntersectionFactory' matches current internal version (3.8 20181030)
+2019-06-27 11:15:38|   0.5|  0.0|INFORM|Loaded module 'Geometry_func' from file '/Library/FME/2019.0//plugins/geometry_func.so'
+2019-06-27 11:15:38|   0.5|  0.0|INFORM|FME API version of module 'Geometry_func' matches current internal version (3.8 20181030)
+2019-06-27 11:15:38|   0.5|  0.0|INFORM|FME API version of module 'RasterClippingFactory' matches current internal version (3.8 20181030)
+2019-06-27 11:15:38|   0.5|  0.0|INFORM|FME API version of module 'SolidIntersectionFactory' matches current internal version (3.8 20181030)
+2019-06-27 11:15:38|   0.6|  0.0|INFORM|Loaded module 'CalculatePointCloudStatistics_func' from file '/Library/FME/2019.0//plugins/calculatepointcloudstatistics_func.so'
+2019-06-27 11:15:38|   0.6|  0.0|INFORM|FME API version of module 'CalculatePointCloudStatistics_func' matches current internal version (3.8 20181030)
+2019-06-27 11:15:38|   0.6|  0.0|INFORM|Loaded module 'InspectorFactory' from file '/Library/FME/2019.0//plugins/inspectorfactory.so'
+2019-06-27 11:15:38|   0.6|  0.0|INFORM|FME API version of module 'InspectorFactory' matches current internal version (3.8 20181030)
+2019-06-27 11:15:38|   0.7|  0.1|INFORM|The OGC definition of the FME coordinate system 'IRENET95.IrishTM' is 'PROJCS["IRENET95_IRISH_Transverse_Mercator",GEOGCS["GCS_IRENET95",DATUM["D_IRENET95",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",600000.0],PARAMETER["False_Northing",750000.0],PARAMETER["Central_Meridian",-8.0],PARAMETER["Scale_Factor",0.99982],PARAMETER["Latitude_Of_Origin",53.5],UNIT["Meter",1.0]]'
+2019-06-27 11:15:38|   0.7|  0.0|INFORM|FME Configuration: Source coordinate system for reader FILEGDB_2[FILEGDB] set to `IRENET95.IrishTM' as read from input data
+2019-06-27 11:15:38|   0.7|  0.0|INFORM|Coordinate System `IRENET95.IrishTM' parameters: CS_NAME=`IRENET95.IrishTM' DESC_NM=`IRENET95 / Irish Transverse Mercator' DT_NAME=`IRENET95' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`55.8' MAX_LNG=`-4.666666666666667' MIN_LAT=`50.916666666666664' MIN_LNG=`-11.266666666666667' ORG_LAT=`53.5' PARM1=`-8' PROJ=`TM' QUAD=`1' SCL_RED=`0.99982' SOURCE=`EPSG, V6.3, 2157 [Large and medium scale topographic mappi]' UNIT=`Meter' X_OFF=`600000' Y_OFF=`750000' ZERO_X=`0.0001' ZERO_Y=`0.0001' 
+2019-06-27 11:15:40|   2.4|  1.6|STATS |Storing feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_BuildingFootprints -1 4 -1  0  7100040faedf4b7d025541d210f1b5643ec7d980.ffsupdating'
+2019-06-27 11:15:40|   2.4|  0.0|INFORM|FFS writer: Writing 46903 feature(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_BuildingFootprints -1 4 -1  0  7100040faedf4b7d025541d210f1b5643ec7d980.fts'
+2019-06-27 11:15:40|   2.5|  0.2|INFORM|Spatial Index: Adding 46903 features
+2019-06-27 11:15:40|   2.6|  0.1|INFORM|buildingFootprintsClipper_ClippeeFilter (TestFactory): Splitting feature table
+2019-06-27 11:15:41|   3.1|  0.5|INFORM|Creating reader for format: ASPRS Lidar Data Exchange Format (LAS)
+2019-06-27 11:15:41|   3.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `LAS'
+2019-06-27 11:15:41|   3.2|  0.0|INFORM|FME Configuration: Source coordinate system for reader LAS_1[LAS] set to `EPSG:2157'
+2019-06-27 11:15:41|   3.2|  0.0|INFORM|Coordinate System `EPSG:2157' parameters: CS_NAME=`IRENET95.IrishTM' DESC_NM=`IRENET95 / Irish Transverse Mercator' DT_NAME=`IRENET95' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`55.8' MAX_LNG=`-4.666666666666667' MIN_LAT=`50.916666666666664' MIN_LNG=`-11.266666666666667' ORG_LAT=`53.5' PARM1=`-8' PROJ=`TM' QUAD=`1' SCL_RED=`0.99982' SOURCE=`EPSG, V6.3, 2157 [Large and medium scale topographic mappi]' UNIT=`Meter' X_OFF=`600000' Y_OFF=`750000' ZERO_X=`0.0001' ZERO_Y=`0.0001' 
+2019-06-27 11:15:41|   3.2|  0.0|INFORM|Loaded module 'LAS' from file '/Library/FME/2019.0//plugins/lidar_fme.so'
+2019-06-27 11:15:41|   3.2|  0.0|INFORM|FME API version of module 'LAS' matches current internal version (3.8 20181030)
+2019-06-27 11:15:41|   3.2|  0.0|STATS |Storing feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_LAS -1 5 -1  0  b3ca12e81f1adbce095babd9cb1ed9da5b42df4e.ffsupdating'
+2019-06-27 11:15:41|   3.2|  0.0|INFORM|FFS writer: Writing point cloud with 17231411 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_LAS -1 5 -1  0  b3ca12e81f1adbce095babd9cb1ed9da5b42df4e.fps'
+2019-06-27 11:15:44|   4.7|  1.5|INFORM|Creating reader for format: Esri Shapefile
+2019-06-27 11:15:44|   4.8|  0.0|INFORM|Using Shape Reader to read shape files from folder `/Users/mlinnane/OneDrive - Maynooth University/BCD/Architectural Model/Data/Grids/'
+2019-06-27 11:15:44|   4.8|  0.0|INFORM|ESRISHAPE_1 Reader: Using enhanced geometry
+2019-06-27 11:15:44|   4.8|  0.0|INFORM|Shape Reader: Using simple donut geometry detection
+2019-06-27 11:15:44|   4.8|  0.0|INFORM|Shape Reader: Handling numeric types with standard integer and floating point types
+2019-06-27 11:15:44|   4.8|  0.0|INFORM|Shape Reader: Allowing attribute names with mixed case
+2019-06-27 11:15:44|   4.8|  0.0|INFORM|Opened Shape File '/Users/mlinnane/OneDrive - Maynooth University/BCD/Architectural Model/Data/Grids/DubGridTest.shp' for input
+2019-06-27 11:15:44|   4.8|  0.0|INFORM|Opened DBF File '/Users/mlinnane/OneDrive - Maynooth University/BCD/Architectural Model/Data/Grids/DubGridTest.dbf' for input
+2019-06-27 11:15:44|   4.8|  0.0|INFORM|DBF Reader: Detected character encoding `UTF-8'
+2019-06-27 11:15:44|   4.8|  0.0|INFORM|DBF File '/Users/mlinnane/OneDrive - Maynooth University/BCD/Architectural Model/Data/Grids/DubGridTest.dbf' has fields: left double, top double, right double, bottom double, id long
+2019-06-27 11:15:44|   4.8|  0.0|INFORM|Predefined coordinate system `IRENET95.IrishTM' (IRENET95 / Irish Transverse Mercator) matches dataset coordinate system 
+2019-06-27 11:15:44|   4.8|  0.0|INFORM|The OGC definition of the FME coordinate system '_IRENET95.IrishTM_0' is 'PROJCS["IRENET95_Irish_Transverse_Mercator",GEOGCS["GCS_IRENET95",DATUM["D_IRENET95",SPHEROID["GRS_1980",6378137,298.257222101]],PRIMEM["Greenwich",0],UNIT["Degree",0.017453292519943295]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",53.5],PARAMETER["central_meridian",-8],PARAMETER["scale_factor",0.99982],PARAMETER["false_easting",600000],PARAMETER["false_northing",750000],UNIT["Meter",1]]'
+2019-06-27 11:15:44|   4.8|  0.0|INFORM|FME Configuration: Source coordinate system for reader ESRISHAPE_1[ESRISHAPE] set to `_IRENET95.IrishTM_0' as read from input data
+2019-06-27 11:15:44|   4.8|  0.0|INFORM|Coordinate System `_IRENET95.IrishTM_0' parameters: CS_NAME=`_IRENET95.IrishTM_0' DESC_NM=`IRENET95 / Irish Transverse Mercator' DT_NAME=`IRENET95' ESRI_WKT=`PROJCS["IRENET95_Irish_Transverse_Mercator",GEOGCS["GCS_IRENET95",DATUM["D_IRENET95",SPHEROID["GRS_1980",6378137,298.257222101]],PRIMEM["Greenwich",0],UNIT["Degree",0.017453292519943295]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",53.5],PARAMETER["central_meridian",-8],PARAMETER["scale_factor",0.99982],PARAMETER["false_easting",600000],PARAMETER["false_northing",750000],UNIT["Meter",1]]' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`55.8' MAX_LNG=`-4.666666666666667' MIN_LAT=`50.916666666666664' MIN_LNG=`-11.266666666666667' ORG_LAT=`53.5' PARM1=`-8' PROJ=`TM' QUAD=`1' SCL_RED=`0.99982' SOURCE=`EPSG, V6.3, 2157 [Large and medium scale topographic mappi]' UNIT=`Meter' X_OFF=`600000' Y_OFF=`750000' ZERO_X=`0.0001' ZERO_Y=`0.0001' 
+2019-06-27 11:15:44|   4.8|  0.0|INFORM|Shape Reader: Bounding box of shapefile `/Users/mlinnane/OneDrive - Maynooth University/BCD/Architectural Model/Data/Grids/DUBGRIDTEST' is: (712581.6281316513,732277.830923688),(719931.6281316513,735777.830923688)
+2019-06-27 11:15:44|   4.8|  0.0|INFORM|Shape Reader: Bounding box of shapefile(s) selected from folder `/Users/mlinnane/OneDrive - Maynooth University/BCD/Architectural Model/Data/Grids/' is: (712581.6281316513,732277.830923688),(719931.6281316513,735777.830923688)
+2019-06-27 11:15:44|   4.8|  0.0|STATS |Storing feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_DubGridTest -1 9 -1  0  cd957bef327188f18cb6d3cb2cb03cbddd20515f.ffsupdating'
+2019-06-27 11:15:44|   4.8|  0.0|STATS |Storing feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_gridIDFilter -1 25 fo 4 _lt_lt_gt_UNFILTERED_lt_gt_gt_  0  3696578c10ac46146a1561c89c81680439b1aee9.ffsupdating'
+2019-06-27 11:15:44|   4.8|  0.0|STATS |Storing feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_gridIDFilter -1 25 fo 1 105  0  d57d01b2be618f8acc1dd1a004875f891a938888.ffsupdating'
+2019-06-27 11:15:44|   4.8|  0.0|STATS |Storing feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Extruder_2 -1 28 fo 0 EXTRUDED  0  1bc21bb77366057073ad715b7d87915d9f0c0724.ffsupdating'
+2019-06-27 11:15:44|   4.8|  0.0|STATS |Storing feature(s) to FME feature store file `/private/tmp/wb-inspectors-CsmyTf/inspector.ffs'
+2019-06-27 11:15:44|   4.8|  0.0|INFORM|Adding Clipper 1
+2019-06-27 11:15:44|   4.8|  0.0|INFORM|Adding Clipper 1
+2019-06-27 11:15:44|   4.8|  0.0|INFORM|MULTI_READER(MULTI_READER): Done reading 47114 features from 3 readers
+2019-06-27 11:15:44|   4.8|  0.0|INFORM|Emptying factory pipeline
+2019-06-27 11:15:44|   4.8|  0.0|STATS |Router and Unexpected Input Remover (RoutingFactory): Tested 47114 input feature(s), wrote 47114 output feature(s): 47114 matched merge filters, 47114 were routed to output, 0 could not be routed.
+2019-06-27 11:15:44|   4.8|  0.0|STATS |Unexpected Input Remover Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:44|   4.8|  0.0|STATS |LAS (LAS_1) Splitter (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-06-27 11:15:44|   4.8|  0.0|STATS |LAS_LAS_1 Feature Counter -1 30 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-06-27 11:15:44|   4.8|  0.0|STATS |DubGridTest (ESRISHAPE_1) Splitter (TeeFactory): Cloned 210 input feature(s) into 210 output feature(s)
+2019-06-27 11:15:44|   4.8|  0.0|STATS |DubGridTest_ESRISHAPE_1 Feature Counter -1 32 (TeeFactory): Cloned 210 input feature(s) into 210 output feature(s)
+2019-06-27 11:15:44|   4.8|  0.0|STATS |BuildingFootprints (FILEGDB_2) Splitter (TeeFactory): Cloned 46903 input feature(s) into 46903 output feature(s)
+2019-06-27 11:15:44|   4.8|  0.0|STATS |BuildingFootprints_FILEGDB_2 Feature Counter -1 29 (TeeFactory): Cloned 46903 input feature(s) into 46903 output feature(s)
+2019-06-27 11:15:44|   4.8|  0.0|STATS |gridIDFilter (TeeFactory): Cloned 210 input feature(s) into 210 output feature(s)
+2019-06-27 11:15:44|   4.8|  0.0|STATS |gridIDFilter 105 Splitter (TeeFactory): Cloned 1 input feature(s) into 3 output feature(s)
+2019-06-27 11:15:44|   4.8|  0.0|STATS |gridIDFilter_<lt>EMPTY<gt> Feature Counter -1 2147614745 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:44|   4.8|  0.0|STATS |gridIDFilter_105_0_6ZrD5DfxNts= Feature Counter -1 71 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-06-27 11:15:44|   4.8|  0.0|STATS |gridIDFilter_105_1_Ti0m2qW/CuA= Feature Counter -1 70 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-06-27 11:15:44|   4.8|  0.0|STATS |gridIDFilter_105_2_VAN0ldG9VTA= Feature Counter -1 69 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-06-27 11:15:44|   4.8|  0.0|STATS |gridIDFilter_<lt>MISSING<gt> Feature Counter -1 2147745817 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:44|   4.8|  0.0|STATS |gridIDFilter_<lt>NULL<gt> Feature Counter -1 2147811353 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:44|   4.8|  0.0|STATS |gridIDFilter_<lt>UNFILTERED<gt> Feature Counter -1 2147876889 (TeeFactory): Cloned 209 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:44|   4.8|  0.0|STATS |Extruder_2 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-06-27 11:15:44|   4.8|  0.0|STATS |Extruder_2_Rejector (TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2019-06-27 11:15:44|   4.8|  0.0|STATS |Extruder_2_EXTRUDED Feature Counter -1 51 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-06-27 11:15:44|   4.8|  0.0|STATS |Extruder_2_<REJECTED> Feature Counter -1 2147680284 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:44|   4.8|  0.0|STATS |Extruder_2_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:44|   4.8|  0.0|STATS |LASClipper_ClipperCloner (TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2019-06-27 11:15:44|   4.8|  0.0|STATS |LASClipper_SolidClipperFilter (TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
+2019-06-27 11:15:44|   4.8|  0.0|STATS |LASClipper_ClippeeFilter (TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
+2019-06-27 11:15:44|   4.8|  0.0|INFORM|LASClipper_Vector (ClippingFactory): Clipping with an automatic tolerance of 1.4687556618473763e-9
+2019-06-27 11:15:46|   6.8|  2.0|STATS |Storing feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_LASClipper -1 24 fo 1 OUTSIDE  0  3edb9e4f6c8d6f41d39d31bff0bb758813548ad6.ffsupdating'
+2019-06-27 11:15:46|   6.9|  0.0|INFORM|FFS writer: Writing point cloud with 17129032 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_LASClipper -1 24 fo 1 OUTSIDE  0  3edb9e4f6c8d6f41d39d31bff0bb758813548ad6.fps'
+2019-06-27 11:15:47|   8.1|  1.3|STATS |Storing feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_LASClipper -1 24 fo 0 INSIDE  0  d0974d0c479eedb8e30b70b9180d411c3fe9dfa0.ffsupdating'
+2019-06-27 11:15:48|   8.1|  0.0|INFORM|FFS writer: Writing point cloud with 102379 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_LASClipper -1 24 fo 0 INSIDE  0  d0974d0c479eedb8e30b70b9180d411c3fe9dfa0.fps'
+2019-06-27 11:15:48|   8.1|  0.0|STATS |Storing feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudFilter -1 15 fo 0 Feature  0  6a9d4e3e85689d0b6271f567a75f196fe48df035.ffsupdating'
+2019-06-27 11:15:48|   8.2|  0.0|INFORM|FFS writer: Writing point cloud with 56334 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudFilter -1 15 fo 0 Feature  0  6a9d4e3e85689d0b6271f567a75f196fe48df035.fps'
+2019-06-27 11:15:48|   8.2|  0.0|STATS |Storing feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudFilter -1 15 fo 1 Ground  0  be11b4f096ab912357c97a1aaf68340734e0527f.ffsupdating'
+2019-06-27 11:15:48|   8.2|  0.0|INFORM|FFS writer: Writing point cloud with 46045 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudFilter -1 15 fo 1 Ground  0  be11b4f096ab912357c97a1aaf68340734e0527f.fps'
+2019-06-27 11:15:48|   8.2|  0.0|STATS |LASClipper_Vector (ClippingFactory): Group '' had 1 input feature(s): 0 feature(s) were clipped, 0 feature(s) were totally inside and 0 feature(s) were totally outside
+2019-06-27 11:15:48|   8.2|  0.0|STATS |LASClipper_Vector (ClippingFactory): Processed 1 input feature(s), of which 0 feature(s) were clipped, 0 feature(s) were totally inside and 0 feature(s) were totally outside
+2019-06-27 11:15:48|   8.2|  0.0|WARN  |LASClipper_Solid (SolidIntersectionFactory): No clipper supplied, all clipees will be treated as OUTSIDE
+2019-06-27 11:15:48|   8.2|  0.0|STATS |LASClipper_Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:48|   8.2|  0.0|STATS |LASClipper_INSIDE Feature Counter -1 50 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-06-27 11:15:48|   8.2|  0.0|STATS |LASClipper_OUTSIDE Feature Counter -1 2147680280 (TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:48|   8.2|  0.0|STATS |LASClipper_<REJECTED> Feature Counter -1 2147745816 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:48|   8.2|  0.0|STATS |LASClipper_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:48|   8.2|  0.0|STATS |PointCloudFilter_TestFactory_0 (TestFactory): Tested 2 input feature(s) -- 1 feature(s) passed and 1 feature(s) failed
+2019-06-27 11:15:48|   8.2|  0.0|STATS |PointCloudFilter_TestFactory_1 (TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2019-06-27 11:15:48|   8.2|  0.0|STATS |PointCloudFilter_UNFILTERED (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:48|   8.2|  0.0|STATS |PointCloudFilter_Feature Feature Counter -1 43 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2019-06-27 11:15:48|   8.2|  0.0|STATS |PointCloudFilter_Ground Feature Counter -1 2147680271 (TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:48|   8.2|  0.0|STATS |PointCloudFilter_<UNFILTERED> Feature Counter -1 2147745807 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:48|   8.2|  0.0|STATS |PointCloudFilter_<REJECTED> Feature Counter -1 2147811343 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:48|   8.2|  0.0|STATS |PointCloudFilter_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:48|   8.2|  0.0|STATS |buildingFootprintsClipper_ClipperCloner (TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2019-06-27 11:15:48|   8.2|  0.0|STATS |buildingFootprintsClipper_SolidClipperFilter (TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
+2019-06-27 11:15:48|   8.2|  0.0|STATS |buildingFootprintsClipper_ClippeeFilter (TestFactory): Tested 46903 input feature(s) -- 0 feature(s) passed and 46903 feature(s) failed
+2019-06-27 11:15:48|   8.2|  0.0|INFORM|buildingFootprintsClipper_Vector (ClippingFactory): Clipping with an automatic tolerance of 1.4687556618473763e-9
+2019-06-27 11:15:48|   8.2|  0.0|STATS |Storing feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_buildingFootprintsClipper -1 22 fo 1 OUTSIDE  0  d7f40ce9d3d0553ca4143660b19e776cc57c5f2b.ffsupdating'
+2019-06-27 11:15:49|   9.1|  0.9|INFORM|Total clipped 1
+2019-06-27 11:15:49|   9.1|  0.0|STATS |Storing feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_buildingFootprintsClipper -1 22 fo 0 INSIDE  0  a7f0ca02a5d2177e4fe9d5f72d73df9c63a0fd17.ffsupdating'
+2019-06-27 11:15:49|   9.1|  0.0|STATS |Storing feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_GeometryExtractor -1 14 fo 0 OUTPUT  0  c815e11c892c1f00bca33926226d378ed8ff2d8a.ffsupdating'
+2019-06-27 11:15:49|   9.1|  0.0|INFORM|Adding Clipper 1
+2019-06-27 11:15:50|  10.0|  0.9|STATS |buildingFootprintsClipper_Vector (ClippingFactory): Group '' had 46903 input feature(s): 15 feature(s) were clipped, 98 feature(s) were totally inside and 46790 feature(s) were totally outside
+2019-06-27 11:15:50|  10.0|  0.0|STATS |buildingFootprintsClipper_Vector (ClippingFactory): Processed 46903 input feature(s), of which 15 feature(s) were clipped, 98 feature(s) were totally inside and 46790 feature(s) were totally outside
+2019-06-27 11:15:50|  10.0|  0.0|WARN  |buildingFootprintsClipper_Solid (SolidIntersectionFactory): No clipper supplied, all clipees will be treated as OUTSIDE
+2019-06-27 11:15:50|  10.0|  0.0|STATS |buildingFootprintsClipper_Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:50|  10.0|  0.0|STATS |buildingFootprintsClipper_INSIDE Feature Counter -1 48 (TeeFactory): Cloned 113 input feature(s) into 113 output feature(s)
+2019-06-27 11:15:50|  10.0|  0.0|STATS |buildingFootprintsClipper_OUTSIDE Feature Counter -1 2147680278 (TeeFactory): Cloned 46805 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:50|  10.0|  0.0|STATS |buildingFootprintsClipper_<REJECTED> Feature Counter -1 2147745814 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:50|  10.0|  0.0|STATS |buildingFootprintsClipper_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:50|  10.0|  0.0|STATS |GeometryExtractor (TeeFactory): Cloned 113 input feature(s) into 113 output feature(s)
+2019-06-27 11:15:50|  10.0|  0.0|STATS |GeometryExtractor_Rejector (TestFactory): Tested 113 input feature(s) -- 0 feature(s) passed and 113 feature(s) failed
+2019-06-27 11:15:50|  10.0|  0.0|STATS |GeometryExtractor_OUTPUT Feature Counter -1 42 (TeeFactory): Cloned 113 input feature(s) into 113 output feature(s)
+2019-06-27 11:15:50|  10.0|  0.0|STATS |GeometryExtractor_<REJECTED> Feature Counter -1 2147680270 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:50|  10.0|  0.0|STATS |GeometryExtractor_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:50|  10.0|  0.0|STATS |Clipper_ClipperCloner (TeeFactory): Cloned 113 input feature(s) into 226 output feature(s)
+2019-06-27 11:15:50|  10.0|  0.0|STATS |Clipper_SolidClipperFilter (TestFactory): Tested 113 input feature(s) -- 0 feature(s) passed and 113 feature(s) failed
+2019-06-27 11:15:50|  10.0|  0.0|STATS |Clipper_ClippeeFilter (TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
+2019-06-27 11:15:50|  10.0|  0.0|INFORM|Clipper_Vector (ClippingFactory): Clipping with an automatic tolerance of 1.4687556618473763e-9
+2019-06-27 11:15:50|  10.1|  0.1|STATS |Storing feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 1 OUTSIDE  0  fb82a43970d35924e008c13d40e6097a816a89ef.ffsupdating'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 14230 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 1 OUTSIDE  0  fb82a43970d35924e008c13d40e6097a816a89ef.fps'
+2019-06-27 11:15:50|  10.2|  0.0|STATS |Storing feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5.ffsupdating'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 85 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5.fps'
+2019-06-27 11:15:50|  10.2|  0.0|STATS |Storing feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06.ffsupdating'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 85 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06.fps'
+2019-06-27 11:15:50|  10.2|  0.0|STATS |Storing feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_GeometryReplacer -1 18 fo 0 OUTPUT  0  05e8b38e68ee50d12f8b7961a908548c8ca700b0.ffsupdating'
+2019-06-27 11:15:50|  10.2|  0.0|STATS |Storing feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_3DForcer -1 10 fo 0 OUTPUT  0  5865923f297c2e0f71afb6b071a69551349fb8f2.ffsupdating'
+2019-06-27 11:15:50|  10.2|  0.0|STATS |Storing feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Extruder -1 11 fo 0 EXTRUDED  0  7b45946619d7ef6531014771f03f398e54621a93.ffsupdating'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 253 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_1.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 253 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_1.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 1100 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_2.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 1100 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_2.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 682 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_3.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 682 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_3.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 5 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_4.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 5 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_4.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 977 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_5.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 977 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_5.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 1080 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_6.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 1080 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_6.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 9 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_7.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 9 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_7.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 28 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_8.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 28 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_8.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 18 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_9.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 18 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_9.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 45 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_10.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 45 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_10.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 970 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_11.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 970 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_11.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 53 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_12.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 53 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_12.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 48 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_13.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 48 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_13.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 36 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_14.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 36 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_14.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 1070 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_15.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 1070 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_15.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 38 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_16.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 38 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_16.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 34 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_17.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 34 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_17.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 3 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_18.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 3 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_18.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 30 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_19.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 30 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_19.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 6 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_20.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 6 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_20.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 30 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_21.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 30 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_21.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 34 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_22.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 34 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_22.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 399 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_23.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 399 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_23.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 584 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_24.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 584 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_24.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 546 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_25.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 546 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_25.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 2562 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_26.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 2562 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_26.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 48 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_27.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 48 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_27.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 24 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_28.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 24 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_28.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 13 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_29.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 13 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_29.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 81 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_30.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 81 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_30.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 30 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_31.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 30 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_31.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 138 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_32.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 138 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_32.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 806 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_33.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 806 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_33.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 65 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_34.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 65 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_34.fps'
+2019-06-27 11:15:50|  10.2|  0.0|INFORM|FFS writer: Writing point cloud with 233 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_35.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 233 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_35.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 40 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_36.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 40 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_36.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 794 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_37.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 794 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_37.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 218 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_38.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 218 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_38.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 286 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_39.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 286 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_39.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 22 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_40.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 22 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_40.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 478 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_41.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 478 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_41.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 543 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_42.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 543 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_42.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 46 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_43.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 46 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_43.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 216 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_44.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 216 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_44.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 72 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_45.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 72 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_45.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 485 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_46.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 485 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_46.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 842 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_47.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 842 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_47.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 635 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_48.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 635 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_48.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 1480 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_49.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 1480 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_49.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 1107 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_50.fps'
+2019-06-27 11:15:50|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 1107 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_50.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 2173 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_51.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 2173 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_51.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 49 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_52.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 49 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_52.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 105 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_53.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 105 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_53.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 67 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_54.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 67 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_54.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 69 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_55.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 69 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_55.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 4 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_56.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 4 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_56.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 270 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_57.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 270 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_57.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 1110 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_58.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 1110 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_58.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 368 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_59.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 368 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_59.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 90 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_60.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 90 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_60.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 388 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_61.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 388 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_61.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 91 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_62.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 91 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_62.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 69 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_63.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 69 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_63.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 157 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_64.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 157 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_64.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 111 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_65.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 111 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_65.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 78 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_66.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 78 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_66.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 154 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_67.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 154 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_67.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 199 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_68.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 199 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_68.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 607 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_69.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 607 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_69.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 427 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_70.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 427 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_70.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 185 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_71.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 185 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_71.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 166 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_72.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 166 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_72.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 216 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_73.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 216 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_73.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 410 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_74.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 410 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_74.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 106 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_75.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 106 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_75.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 125 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_76.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 125 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_76.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 215 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_77.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 215 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_77.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 51 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_78.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 51 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_78.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 254 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_79.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 254 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_79.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 255 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_80.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 255 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_80.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 131 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_81.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 131 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_81.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 264 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_82.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 264 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_82.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 233 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_83.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 233 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_83.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 885 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_84.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 885 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_84.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 150 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_85.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 150 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_85.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 163 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_86.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 163 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_86.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 8 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_87.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 8 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_87.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 73 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_88.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 73 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_88.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 314 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_89.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 314 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_89.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 61 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_90.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 61 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_90.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 362 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_91.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 362 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_91.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 1275 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_92.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 1275 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_92.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 644 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_93.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 644 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_93.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 102 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_94.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 102 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_94.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 60 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_95.fps'
+2019-06-27 11:15:51|  10.3|  0.0|INFORM|FFS writer: Writing point cloud with 60 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_95.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 139 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_96.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 139 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_96.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 3 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_97.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 3 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_97.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 536 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_98.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 536 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_98.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 1037 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_99.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 1037 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_99.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 905 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_100.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 905 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_100.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 581 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_101.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 581 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_101.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 887 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_102.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 887 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_102.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 871 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_103.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 871 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_103.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 421 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_104.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 421 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_104.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 613 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_105.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 613 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_105.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 631 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_106.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 631 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_106.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 928 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_107.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 928 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_107.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 890 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_108.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 890 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_108.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 45 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_109.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 45 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_109.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 747 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_110.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 747 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_110.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 145 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_111.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 145 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_111.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 4 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5_112.fps'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FFS writer: Writing point cloud with 4 point(s) to file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06_112.fps'
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Clipper_Vector (ClippingFactory): Group '' had 1 input feature(s): 0 feature(s) were clipped, 0 feature(s) were totally inside and 0 feature(s) were totally outside
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Clipper_Vector (ClippingFactory): Processed 1 input feature(s), of which 0 feature(s) were clipped, 0 feature(s) were totally inside and 0 feature(s) were totally outside
+2019-06-27 11:15:51|  10.4|  0.0|WARN  |Clipper_Solid (SolidIntersectionFactory): No clipper supplied, all clipees will be treated as OUTSIDE
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Clipper_Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Clipper_INSIDE Feature Counter -1 44 (TeeFactory): Cloned 113 input feature(s) into 113 output feature(s)
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Clipper_OUTSIDE Feature Counter -1 2147680272 (TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Clipper_<REJECTED> Feature Counter -1 2147745808 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Clipper_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:51|  10.4|  0.0|STATS |PointCloudStatisticsCalculator (TeeFactory): Cloned 113 input feature(s) into 113 output feature(s)
+2019-06-27 11:15:51|  10.4|  0.0|STATS |PointCloudStatisticsCalculator_Rejector (TestFactory): Tested 113 input feature(s) -- 0 feature(s) passed and 113 feature(s) failed
+2019-06-27 11:15:51|  10.4|  0.0|STATS |PointCloudStatisticsCalculator_OUTPUT Feature Counter -1 45 (TeeFactory): Cloned 113 input feature(s) into 113 output feature(s)
+2019-06-27 11:15:51|  10.4|  0.0|STATS |PointCloudStatisticsCalculator_<REJECTED> Feature Counter -1 2147680273 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:51|  10.4|  0.0|STATS |PointCloudStatisticsCalculator_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:51|  10.4|  0.0|STATS |GeometryReplacer (TeeFactory): Cloned 113 input feature(s) into 113 output feature(s)
+2019-06-27 11:15:51|  10.4|  0.0|STATS |GeometryReplacer_Rejector (TestFactory): Tested 113 input feature(s) -- 0 feature(s) passed and 113 feature(s) failed
+2019-06-27 11:15:51|  10.4|  0.0|STATS |GeometryReplacer_OUTPUT Feature Counter -1 46 (TeeFactory): Cloned 113 input feature(s) into 113 output feature(s)
+2019-06-27 11:15:51|  10.4|  0.0|STATS |GeometryReplacer_<REJECTED> Feature Counter -1 2147680274 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:51|  10.4|  0.0|STATS |GeometryReplacer_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:51|  10.4|  0.0|STATS |3DForcer (TeeFactory): Cloned 113 input feature(s) into 113 output feature(s)
+2019-06-27 11:15:51|  10.4|  0.0|STATS |3DForcer_Rejector (TestFactory): Tested 113 input feature(s) -- 0 feature(s) passed and 113 feature(s) failed
+2019-06-27 11:15:51|  10.4|  0.0|STATS |3DForcer_OUTPUT Feature Counter -1 33 (TeeFactory): Cloned 113 input feature(s) into 113 output feature(s)
+2019-06-27 11:15:51|  10.4|  0.0|STATS |3DForcer_<REJECTED> Feature Counter -1 2147680266 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:51|  10.4|  0.0|STATS |3DForcer_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Extruder (TeeFactory): Cloned 113 input feature(s) into 113 output feature(s)
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Extruder_Rejector (TestFactory): Tested 113 input feature(s) -- 113 feature(s) passed and 0 feature(s) failed
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Extruder_EXTRUDED Feature Counter -1 35 (TeeFactory): Cloned 113 input feature(s) into 113 output feature(s)
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Extruder_<REJECTED> Feature Counter -1 2147680267 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Extruder_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Stored 113 feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Extruder -1 11 fo 0 EXTRUDED  0  7b45946619d7ef6531014771f03f398e54621a93.ffsupdating'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Extruder -1 11 fo 0 EXTRUDED  0  7b45946619d7ef6531014771f03f398e54621a93.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Finished saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Extruder -1 11 fo 0 EXTRUDED  0  7b45946619d7ef6531014771f03f398e54621a93.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Stored 113 feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_3DForcer -1 10 fo 0 OUTPUT  0  5865923f297c2e0f71afb6b071a69551349fb8f2.ffsupdating'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_3DForcer -1 10 fo 0 OUTPUT  0  5865923f297c2e0f71afb6b071a69551349fb8f2.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Finished saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_3DForcer -1 10 fo 0 OUTPUT  0  5865923f297c2e0f71afb6b071a69551349fb8f2.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Stored 113 feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_GeometryReplacer -1 18 fo 0 OUTPUT  0  05e8b38e68ee50d12f8b7961a908548c8ca700b0.ffsupdating'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_GeometryReplacer -1 18 fo 0 OUTPUT  0  05e8b38e68ee50d12f8b7961a908548c8ca700b0.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Finished saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_GeometryReplacer -1 18 fo 0 OUTPUT  0  05e8b38e68ee50d12f8b7961a908548c8ca700b0.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Stored 113 feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06.ffsupdating'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Finished saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudStatisticsCalculator -1 17 fo 0 OUTPUT  0  2ba9698952981b8b80a38d7f9c33736d2d2ded06.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_LASClipper -1 24 fo 1 OUTSIDE  0  3edb9e4f6c8d6f41d39d31bff0bb758813548ad6.ffsupdating'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_LASClipper -1 24 fo 1 OUTSIDE  0  3edb9e4f6c8d6f41d39d31bff0bb758813548ad6.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Finished saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_LASClipper -1 24 fo 1 OUTSIDE  0  3edb9e4f6c8d6f41d39d31bff0bb758813548ad6.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudFilter -1 15 fo 0 Feature  0  6a9d4e3e85689d0b6271f567a75f196fe48df035.ffsupdating'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudFilter -1 15 fo 0 Feature  0  6a9d4e3e85689d0b6271f567a75f196fe48df035.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Finished saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudFilter -1 15 fo 0 Feature  0  6a9d4e3e85689d0b6271f567a75f196fe48df035.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Extruder_2 -1 28 fo 0 EXTRUDED  0  1bc21bb77366057073ad715b7d87915d9f0c0724.ffsupdating'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Extruder_2 -1 28 fo 0 EXTRUDED  0  1bc21bb77366057073ad715b7d87915d9f0c0724.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Finished saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Extruder_2 -1 28 fo 0 EXTRUDED  0  1bc21bb77366057073ad715b7d87915d9f0c0724.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_gridIDFilter -1 25 fo 1 105  0  d57d01b2be618f8acc1dd1a004875f891a938888.ffsupdating'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_gridIDFilter -1 25 fo 1 105  0  d57d01b2be618f8acc1dd1a004875f891a938888.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Finished saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_gridIDFilter -1 25 fo 1 105  0  d57d01b2be618f8acc1dd1a004875f891a938888.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Stored 46805 feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_buildingFootprintsClipper -1 22 fo 1 OUTSIDE  0  d7f40ce9d3d0553ca4143660b19e776cc57c5f2b.ffsupdating'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_buildingFootprintsClipper -1 22 fo 1 OUTSIDE  0  d7f40ce9d3d0553ca4143660b19e776cc57c5f2b.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Finished saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_buildingFootprintsClipper -1 22 fo 1 OUTSIDE  0  d7f40ce9d3d0553ca4143660b19e776cc57c5f2b.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Stored 209 feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_gridIDFilter -1 25 fo 4 _lt_lt_gt_UNFILTERED_lt_gt_gt_  0  3696578c10ac46146a1561c89c81680439b1aee9.ffsupdating'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_gridIDFilter -1 25 fo 4 _lt_lt_gt_UNFILTERED_lt_gt_gt_  0  3696578c10ac46146a1561c89c81680439b1aee9.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Finished saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_gridIDFilter -1 25 fo 4 _lt_lt_gt_UNFILTERED_lt_gt_gt_  0  3696578c10ac46146a1561c89c81680439b1aee9.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Stored 113 feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5.ffsupdating'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Finished saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 0 INSIDE  0  79ae4e296df93f92a4d7d55b8c9f5313e0f0d8e5.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudFilter -1 15 fo 1 Ground  0  be11b4f096ab912357c97a1aaf68340734e0527f.ffsupdating'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudFilter -1 15 fo 1 Ground  0  be11b4f096ab912357c97a1aaf68340734e0527f.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Finished saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_PointCloudFilter -1 15 fo 1 Ground  0  be11b4f096ab912357c97a1aaf68340734e0527f.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Stored 113 feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_buildingFootprintsClipper -1 22 fo 0 INSIDE  0  a7f0ca02a5d2177e4fe9d5f72d73df9c63a0fd17.ffsupdating'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_buildingFootprintsClipper -1 22 fo 0 INSIDE  0  a7f0ca02a5d2177e4fe9d5f72d73df9c63a0fd17.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Finished saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_buildingFootprintsClipper -1 22 fo 0 INSIDE  0  a7f0ca02a5d2177e4fe9d5f72d73df9c63a0fd17.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Stored 210 feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_DubGridTest -1 9 -1  0  cd957bef327188f18cb6d3cb2cb03cbddd20515f.ffsupdating'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_DubGridTest -1 9 -1  0  cd957bef327188f18cb6d3cb2cb03cbddd20515f.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Finished saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_DubGridTest -1 9 -1  0  cd957bef327188f18cb6d3cb2cb03cbddd20515f.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_LASClipper -1 24 fo 0 INSIDE  0  d0974d0c479eedb8e30b70b9180d411c3fe9dfa0.ffsupdating'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_LASClipper -1 24 fo 0 INSIDE  0  d0974d0c479eedb8e30b70b9180d411c3fe9dfa0.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Finished saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_LASClipper -1 24 fo 0 INSIDE  0  d0974d0c479eedb8e30b70b9180d411c3fe9dfa0.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Stored 114 feature(s) to FME feature store file `/private/tmp/wb-inspectors-CsmyTf/inspector.ffs'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Saving spatial index into file '/private/tmp/wb-inspectors-CsmyTf/inspector.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Finished saving spatial index into file '/private/tmp/wb-inspectors-CsmyTf/inspector.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 1 OUTSIDE  0  fb82a43970d35924e008c13d40e6097a816a89ef.ffsupdating'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 1 OUTSIDE  0  fb82a43970d35924e008c13d40e6097a816a89ef.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Finished saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_Clipper -1 16 fo 1 OUTSIDE  0  fb82a43970d35924e008c13d40e6097a816a89ef.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_LAS -1 5 -1  0  b3ca12e81f1adbce095babd9cb1ed9da5b42df4e.ffsupdating'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_LAS -1 5 -1  0  b3ca12e81f1adbce095babd9cb1ed9da5b42df4e.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Finished saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_LAS -1 5 -1  0  b3ca12e81f1adbce095babd9cb1ed9da5b42df4e.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Stored 113 feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_GeometryExtractor -1 14 fo 0 OUTPUT  0  c815e11c892c1f00bca33926226d378ed8ff2d8a.ffsupdating'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_GeometryExtractor -1 14 fo 0 OUTPUT  0  c815e11c892c1f00bca33926226d378ed8ff2d8a.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Finished saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_GeometryExtractor -1 14 fo 0 OUTPUT  0  c815e11c892c1f00bca33926226d378ed8ff2d8a.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Stored 1 feature(s) to FME feature store file `/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_BuildingFootprints -1 4 -1  0  7100040faedf4b7d025541d210f1b5643ec7d980.ffsupdating'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_BuildingFootprints -1 4 -1  0  7100040faedf4b7d025541d210f1b5643ec7d980.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Finished saving spatial index into file '/private/tmp/wb-cache-Print 0.3-ZolVdZ/Main_BuildingFootprints -1 4 -1  0  7100040faedf4b7d025541d210f1b5643ec7d980.fsi'
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:51|  10.4|  0.0|STATS |VisualizerProcessor (CreationFactory): Created 1 features
+2019-06-27 11:15:51|  10.4|  0.0|STATS |VisualizerCleaner (TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2019-06-27 11:15:51|  10.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-06-27 11:15:51|  10.4|  0.0|STATS |                            Features Read Summary
+2019-06-27 11:15:51|  10.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-06-27 11:15:51|  10.4|  0.0|STATS |BuildingFootprints                                                       46903
+2019-06-27 11:15:51|  10.4|  0.0|STATS |DubGridTest                                                                210
+2019-06-27 11:15:51|  10.4|  0.0|STATS |LAS                                                                          1
+2019-06-27 11:15:51|  10.4|  0.0|STATS |==============================================================================
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Total Features Read                                                      47114
+2019-06-27 11:15:51|  10.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-06-27 11:15:51|  10.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-06-27 11:15:51|  10.4|  0.0|STATS |                           Features Written Summary
+2019-06-27 11:15:51|  10.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-06-27 11:15:51|  10.4|  0.0|STATS |==============================================================================
+2019-06-27 11:15:51|  10.4|  0.0|STATS |Total Features Written                                                       0
+2019-06-27 11:15:51|  10.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2019-06-27 11:15:51|  10.4|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2019-06-27 11:15:51|  10.4|  0.0|WARN  |-~                                                                             ~-
+2019-06-27 11:15:51|  10.4|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
+2019-06-27 11:15:51|  10.4|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
+2019-06-27 11:15:51|  10.4|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
+2019-06-27 11:15:51|  10.4|  0.0|WARN  |-~                                                                             ~-
+2019-06-27 11:15:51|  10.4|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|Translation was SUCCESSFUL with 10 warning(s) (0 feature(s) output)
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|FME Session Duration: 13.5 seconds. (CPU: 6.2s user, 4.2s system)
+2019-06-27 11:15:51|  10.4|  0.0|INFORM|END - ProcessID: 9058, peak process memory usage: 253672 kB, current process memory usage: 253672 kB
