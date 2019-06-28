@@ -10,8 +10,8 @@
 
 # Log files #
 ######################
-3D Print Data/Source/*.log
+3D Print Data/*.log
 
 # Recovery files #
 ######################
-3D Print Data/Source/*.fmw.recover
+3D Print Data/*.fmw.recover
