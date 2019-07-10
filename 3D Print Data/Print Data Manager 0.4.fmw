@@ -15,8 +15,8 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="16013.2 3577.75"
-#!   DOC_TOP_LEFT="-6230.5 -2790.71"
+#!   DOC_EXTENTS="16002.3 3919.86"
+#!   DOC_TOP_LEFT="-6219.61 -3132.82"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
@@ -31,7 +31,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2019.0.1.0 (20190506 - Build 19253 - macosx)"
-#!   LAST_SAVE_DATE="2019-07-10T10:04:39"
+#!   LAST_SAVE_DATE="2019-07-10T10:57:50"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -50,10 +50,10 @@
 #!   TITLE="OSiDataTo3D"
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-8773.77 268.424"
+#!   VIEW_POSITION="-7092.07 -1782.02"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
-#!   ZOOM_SCALE="57"
+#!   ZOOM_SCALE="100"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -1348,8 +1348,8 @@
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="8"
 #!   FEAT_GEOMTYPE="All"
-#!   POSITION="-5483.5352983774128 -2222.9003604219856"
-#!   BOUNDING_RECT="-5483.5352983774128 -2222.9003604219856 495.00106825772946 71"
+#!   POSITION="-5462.4824562700442 -2565.0090446667223"
+#!   BOUNDING_RECT="-5462.4824562700442 -2565.0090446667223 495.00106825772946 71"
 #!   ORDER="500000000000005"
 #!   COLLAPSED="true"
 #!   KEYWORD="STL_1"
@@ -1548,10 +1548,10 @@
 #! <COMMENT
 #!   IDENTIFIER="64"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Extract tile by id&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-5064.351743338395 -1366.3296955107021"
-#!   TOP_LEFT="-5064.351743338395 -1366.3296955107021"
-#!   BOTTOM_RIGHT="-4709.7549473704348 -1365.3296955107021"
-#!   BOUNDING_RECT="-5064.351743338395 -1366.3296955107021 354.59679596795968 -1"
+#!   POSITION="-5121.3523133440949 -1216.3281954957019"
+#!   TOP_LEFT="-5121.3523133440949 -1216.3281954957019"
+#!   BOTTOM_RIGHT="-4766.7555173761357 -1215.3281954957019"
+#!   BOUNDING_RECT="-5121.3523133440949 -1216.3281954957019 354.59679596795968 -1"
 #!   ORDER="500000000000055"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1608,10 +1608,10 @@
 #! <COMMENT
 #!   IDENTIFIER="88"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Output inspector&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-5479.1874288117606 -2510.7060025146911"
-#!   TOP_LEFT="-5479.1874288117606 -2510.7060025146911"
-#!   BOTTOM_RIGHT="-4983.1874288117606 -2511.7060025146911"
-#!   BOUNDING_RECT="-5479.1874288117606 -2510.7060025146911 496 1"
+#!   POSITION="-5458.1345867043919 -2852.8146867594278"
+#!   TOP_LEFT="-5458.1345867043919 -2852.8146867594278"
+#!   BOTTOM_RIGHT="-4962.1345867043919 -2853.8146867594278"
+#!   BOUNDING_RECT="-5458.1345867043919 -2852.8146867594278 496 1"
 #!   ORDER="500000000000068"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1623,10 +1623,10 @@
 #! <COMMENT
 #!   IDENTIFIER="89"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;.stl writer&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-5483.5352983774128 -2067.3996404147856"
-#!   TOP_LEFT="-5483.5352983774128 -2067.3996404147856"
-#!   BOTTOM_RIGHT="-4946.5342301196833 -2068.3996404147856"
-#!   BOUNDING_RECT="-5483.5352983774128 -2067.3996404147856 537.00106825772946 1"
+#!   POSITION="-5462.4824562700442 -2409.5083246595223"
+#!   TOP_LEFT="-5462.4824562700442 -2409.5083246595223"
+#!   BOTTOM_RIGHT="-4925.4813880123147 -2410.5083246595223"
+#!   BOUNDING_RECT="-5462.4824562700442 -2409.5083246595223 537.00106825772946 1"
 #!   ORDER="500000000000069"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1925,11 +1925,11 @@
 #!   IDENTIFIER="183"
 #!   NAME="Outputs"
 #!   DESCRIPTION=""
-#!   TOP_LEFT="-6230.4970875795716 -1957.3996404147856"
+#!   TOP_LEFT="-6209.444245472203 -2299.5083246595223"
 #!   ORDER="500000000000155"
 #!   PALETTE_COLOR="Color5"
-#!   BOTTOM_RIGHT="-4896.5342301196833 -2790.7067225218916"
-#!   BOUNDING_RECT="-6230.4970875795716 -1957.3996404147856 1333.9628574598883 833.307082107106"
+#!   BOTTOM_RIGHT="-4875.4813880123147 -3132.8154067666283"
+#!   BOUNDING_RECT="-6209.444245472203 -2299.5083246595223 1333.9628574598883 833.307082107106"
 #!   STICKY="true"
 #!   COLOUR="0.59607843137254901,0.91764705882352937,0.72549019607843135,1"
 #!   CONTENTS="159 8 119 35 89 88 20 "
@@ -1997,7 +1997,7 @@
 #!     <XFORM_PARM PARM_NAME="PARAMETER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="3DForcer"/>
-#!     <XFORM_PARM PARM_NAME="ZVALATTR" PARM_VALUE="$(ELEVATION)"/>
+#!     <XFORM_PARM PARM_NAME="ZVALATTR" PARM_VALUE="0"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="11"
@@ -2042,7 +2042,7 @@
 #!     <XFORM_ATTR ATTR_NAME="z.median" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="DIRECTION" PARM_VALUE="Auto"/>
-#!     <XFORM_PARM PARM_NAME="DISTANCE" PARM_VALUE="@Value(z.median)-@Value(z.min)"/>
+#!     <XFORM_PARM PARM_NAME="DISTANCE" PARM_VALUE="@Value(z.median)-@Value(z.min)+8"/>
 #!     <XFORM_PARM PARM_NAME="EXTRUSION_X" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="EXTRUSION_Y" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="EXTRUSION_Z" PARM_VALUE="&lt;Unused&gt;"/>
@@ -2323,8 +2323,8 @@
 #!   IDENTIFIER="20"
 #!   TYPE="Inspector"
 #!   VERSION="5"
-#!   POSITION="-5479.1874288117606 -2666.2067225218912"
-#!   BOUNDING_RECT="-5479.1874288117606 -2666.2067225218912 454 71"
+#!   POSITION="-5458.1345867043919 -3008.3154067666278"
+#!   BOUNDING_RECT="-5458.1345867043919 -3008.3154067666278 454 71"
 #!   ORDER="500000000000029"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2437,8 +2437,8 @@
 #!   IDENTIFIER="25"
 #!   TYPE="AttributeFilter"
 #!   VERSION="5"
-#!   POSITION="-5064.351743338395 -1503.3304155179021"
-#!   BOUNDING_RECT="-5064.351743338395 -1503.3304155179021 454 71"
+#!   POSITION="-5121.3523133440949 -1353.328915502902"
+#!   BOUNDING_RECT="-5121.3523133440949 -1353.328915502902 454 71"
 #!   ORDER="500000000000040"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2458,30 +2458,51 @@
 #!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <OUTPUT_FEAT NAME="&lt;lt&gt;MISSING&lt;gt&gt;"/>
+#!     <OUTPUT_FEAT NAME="149"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
 #!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <OUTPUT_FEAT NAME="&lt;lt&gt;NULL&lt;gt&gt;"/>
+#!     <OUTPUT_FEAT NAME="161"/>
 #!     <FEAT_COLLAPSED COLLAPSED="3"/>
 #!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <OUTPUT_FEAT NAME="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
+#!     <OUTPUT_FEAT NAME="162"/>
 #!     <FEAT_COLLAPSED COLLAPSED="4"/>
 #!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <OUTPUT_FEAT NAME="&lt;lt&gt;MISSING&lt;gt&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="5"/>
+#!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#!     <OUTPUT_FEAT NAME="&lt;lt&gt;NULL&lt;gt&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="6"/>
+#!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#!     <OUTPUT_FEAT NAME="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="7"/>
+#!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #!     <XFORM_PARM PARM_NAME="ATTR_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="id"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_VALUES" PARM_VALUE="&lt;lt&gt;Empty&lt;gt&gt;,148,&lt;lt&gt;Missing&lt;gt&gt;,&lt;lt&gt;Null&lt;gt&gt;,&lt;lt&gt;Unfiltered&lt;gt&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_VALUES" PARM_VALUE="&lt;lt&gt;Empty&lt;gt&gt;,148,149,161,162,&lt;lt&gt;Missing&lt;gt&gt;,&lt;lt&gt;Null&lt;gt&gt;,&lt;lt&gt;Unfiltered&lt;gt&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_VALUES_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="gridIDFilter"/>
@@ -3314,8 +3335,8 @@
 #!   IDENTIFIER="119"
 #!   TYPE="Junction"
 #!   VERSION="0"
-#!   POSITION="-6076.5618757856337 -2545.7502586849173"
-#!   BOUNDING_RECT="-6076.5618757856337 -2545.7502586849173 40 40"
+#!   POSITION="-6055.509033678265 -2887.8589429296539"
+#!   BOUNDING_RECT="-6055.509033678265 -2887.8589429296539 40 40"
 #!   ORDER="500000000000138"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -4270,17 +4291,6 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="161"
-#!   SOURCE_NODE="25"
-#!   TARGET_NODE="160"
-#!   SOURCE_PORT_DESC="fo 1 148"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
 #!   IDENTIFIER="147"
 #!   SOURCE_NODE="65"
 #!   TARGET_NODE="69"
@@ -4385,6 +4395,17 @@
 #!   TARGET_NODE="190"
 #!   SOURCE_PORT_DESC="fo 5 TRIANGLES"
 #!   TARGET_PORT_DESC="fi 1 CLIPPEE"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="161"
+#!   SOURCE_NODE="25"
+#!   TARGET_NODE="160"
+#!   SOURCE_PORT_DESC="fo 3 161"
+#!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -4824,13 +4845,16 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME "Tiles v0.4 (ESRISHAPE_1) Splitter"    
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME gridIDFilter    INPUT  FEATURE_TYPE "Tiles v0.4_ESRISHAPE_1"    OUTPUT FEATURE_TYPE gridIDFilter_FILTER
-FACTORY_DEF * AttributeFilterFactory FACTORY_NAME gridIDFilter_Filter COMMAND_PARM_EVALUATION SINGLE_PASS INPUT FEATURE_TYPE gridIDFilter_FILTER FILTER_ATTRIBUTE id FILTER_VALUES <lt>EMPTY<gt> 148 <lt>MISSING<gt> <lt>NULL<gt> <lt>UNFILTERED<gt> OUTPUT <lt>EMPTY<gt> FEATURE_TYPE gridIDFilter_<lt>EMPTY<gt> OUTPUT 148 FEATURE_TYPE gridIDFilter_148 OUTPUT <lt>MISSING<gt> FEATURE_TYPE gridIDFilter_<lt>MISSING<gt> OUTPUT <lt>NULL<gt> FEATURE_TYPE gridIDFilter_<lt>NULL<gt> OUTPUT <lt>UNFILTERED<gt> FEATURE_TYPE gridIDFilter_<lt>UNFILTERED<gt>
+FACTORY_DEF * AttributeFilterFactory FACTORY_NAME gridIDFilter_Filter COMMAND_PARM_EVALUATION SINGLE_PASS INPUT FEATURE_TYPE gridIDFilter_FILTER FILTER_ATTRIBUTE id FILTER_VALUES <lt>EMPTY<gt> 148 149 161 162 <lt>MISSING<gt> <lt>NULL<gt> <lt>UNFILTERED<gt> OUTPUT <lt>EMPTY<gt> FEATURE_TYPE gridIDFilter_<lt>EMPTY<gt> OUTPUT 148 FEATURE_TYPE gridIDFilter_148 OUTPUT 149 FEATURE_TYPE gridIDFilter_149 OUTPUT 161 FEATURE_TYPE gridIDFilter_161 OUTPUT 162 FEATURE_TYPE gridIDFilter_162 OUTPUT <lt>MISSING<gt> FEATURE_TYPE gridIDFilter_<lt>MISSING<gt> OUTPUT <lt>NULL<gt> FEATURE_TYPE gridIDFilter_<lt>NULL<gt> OUTPUT <lt>UNFILTERED<gt> FEATURE_TYPE gridIDFilter_<lt>UNFILTERED<gt>
 FACTORY_DEF * TeeFactory   FACTORY_NAME "gridIDFilter <lt>EMPTY<gt> Transformer Output Nuker"   INPUT FEATURE_TYPE gridIDFilter_<lt>EMPTY<gt>
+FACTORY_DEF * TeeFactory   FACTORY_NAME "gridIDFilter 148 Transformer Output Nuker"   INPUT FEATURE_TYPE gridIDFilter_148
+FACTORY_DEF * TeeFactory   FACTORY_NAME "gridIDFilter 149 Transformer Output Nuker"   INPUT FEATURE_TYPE gridIDFilter_149
+FACTORY_DEF * TeeFactory   FACTORY_NAME "gridIDFilter 162 Transformer Output Nuker"   INPUT FEATURE_TYPE gridIDFilter_162
 FACTORY_DEF * TeeFactory   FACTORY_NAME "gridIDFilter <lt>MISSING<gt> Transformer Output Nuker"   INPUT FEATURE_TYPE gridIDFilter_<lt>MISSING<gt>
 FACTORY_DEF * TeeFactory   FACTORY_NAME "gridIDFilter <lt>NULL<gt> Transformer Output Nuker"   INPUT FEATURE_TYPE gridIDFilter_<lt>NULL<gt>
 FACTORY_DEF * TeeFactory   FACTORY_NAME "gridIDFilter <lt>UNFILTERED<gt> Transformer Output Nuker"   INPUT FEATURE_TYPE gridIDFilter_<lt>UNFILTERED<gt>
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME Junction_2    INPUT  FEATURE_TYPE gridIDFilter_148    OUTPUT FEATURE_TYPE Junction_2_Output
+FACTORY_DEF * TeeFactory    FACTORY_NAME Junction_2    INPUT  FEATURE_TYPE gridIDFilter_161    OUTPUT FEATURE_TYPE Junction_2_Output
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Junction_2 Output Splitter"   INPUT FEATURE_TYPE Junction_2_Output   OUTPUT FEATURE_TYPE Junction_2_Output_0_tvGfyYWUJeA=   OUTPUT FEATURE_TYPE Junction_2_Output_1_8yJTK7wdGRQ=
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME Junction_4    INPUT  FEATURE_TYPE Junction_2_Output_0_tvGfyYWUJeA=    OUTPUT FEATURE_TYPE Junction_4_Output
@@ -4881,18 +4905,18 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME Aggregator_AGGREGATE_VectorSetterUpper 
 # Note that we don't call the ThinPointCloud function directly, but rather
 # do it through TCL. This should allow this transformer to be used with a
 # Desktop license, even though ThinPointCloud requires Professional.
-Tcl2 proc Aggregator_AGGREGATE_72f3407e_2be6_4b29_b9c7_201e8c12de4f1_thinPointCloud {} {    FME_Execute ThinPointCloud NO_THINNING 1; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME Aggregator_AGGREGATE___PointCloudThinner    INPUT FEATURE_TYPE Aggregator_AGGREGATE___PointCloudFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("Aggregator_AGGREGATE_72f3407e_2be6_4b29_b9c7_201e8c12de4f1_thinPointCloud")
-Tcl2 proc Aggregator_AGGREGATE_72f3407e_2be6_4b29_b9c7_201e8c12de4f1_prepareRaster {subsetStartRow subsetNumRows subsetStartCol subsetNumCols} {    set useDI [string equal -nocase {$(FME_VIEWER_APP)} {fmedatainspector}];    if {!$useDI} {       FME_Execute ApplyRasterRotation BILINEAR;    };    set doResample [string equal {NoReduction} {Resample}];    set doSubset [string equal {NoReduction} {Subset}];    set doBounds [string equal {NoReduction} {BoundingBoxOnly}];    if {$doBounds}  {       FME_Execute GeometryType fme_polygon;    }    elseif {$doResample || $doSubset} {       set comment {          First, we need to prefix all the attributes. This is done because          we are going to call @RasterProperties, and we want to make sure          it doesn't overwrite any existing attributes.       };       set kAttrPrefix ".";       set allNames [FME_AttributeNames];       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $newName $oldName;       };       FME_Execute RasterProperties RASTER;       if {$doResample} {          set oldNumCols [FME_GetAttribute _num_columns];          set oldNumRows [FME_GetAttribute _num_rows];          set oldSpacingX [FME_GetAttribute _spacing_x];          set oldSpacingY [FME_GetAttribute _spacing_y];          set kMinNumCells 32;          set kMaxNumCells 512;          set comment {             We will only resample if both dimensions are greater than the             minimum num cells, and at least one is greater than the maximum.          };          if {$oldNumRows > $kMinNumCells && $oldNumCols > $kMinNumCells && ($oldNumRows > $kMaxNumCells || $oldNumCols > $kMaxNumCells)} {             set newSpacingX 1.0;             set newSpacingY 1.0;             if {$oldNumRows > $oldNumCols} {                set comment {                   If we have more rows than columns, we need to choose a spacing                   that reduces the number of rows to the maximum we've chosen.                };                set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMaxNumCells];                set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                set comment {                   Now we need to check if doing this will result in the columns                   going below the minimum. If so, choose the spacing such that                   we only go down to the minimum (and not past).                };                set newNumCols [expr $oldNumCols * $oldSpacingX / $newSpacingX];                if {$newNumCols < $kMinNumCells}                {                   set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMinNumCells];                   set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                };             }             else {                set comment {                   This is identical to the above case, except the roles of                   rows and cols are reversed.                };                set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMaxNumCells];                set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                set newNumRows [expr $oldNumRows * $oldSpacingY / $newSpacingY];                if {$newNumRows < $kMinNumCells}                {                   set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMinNumCells];                   set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                };             };             FME_Execute ResampleRaster CELL_SIZE $newSpacingX $newSpacingY NearestNeighbor;          };       }       elseif {$doSubset} {          set comment {             Get the value of some strings that may be attributes or constants.             Note that we pass in the attribute prefix we're using, because if             one does turn out to be an attribute, it won't actually be the exact             name in the string (since we renamed all our attributes above).          };          set rasterNumRows [FME_GetAttribute _num_rows];          set rasterNumCols [FME_GetAttribute _num_columns];          set comment {             Only do subsetting if the specified start position is actually             within the raster.          };          if {$subsetStartRow < $rasterNumRows && $subsetStartCol < $rasterNumCols}          {             set comment {                Now bound the subset to the size of the raster, so that                we don't create padding.             };             if {[expr $subsetStartRow + $subsetNumRows] > $rasterNumRows}             {                set subsetNumRows [expr $rasterNumRows - $subsetStartRow];             };             if {[expr $subsetStartCol + $subsetNumCols] > $rasterNumCols}             {                set subsetNumCols [expr $rasterNumCols - $subsetStartCol];             };             FME_Execute SubsetRaster $subsetStartRow $subsetNumRows $subsetStartCol $subsetNumCols;          };       };       set comment {          Remove all the attributes added by @RasterProperties and remove the          prefix from the real attributes. We assume they all start with an          underscore.       };       FME_Execute RemoveAttributes fme_regexp_match {^_};       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $oldName $newName;       };    }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME Aggregator_AGGREGATE_RasterSetterUpper    INPUT FEATURE_TYPE Aggregator_AGGREGATE___RasterFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("Aggregator_AGGREGATE_72f3407e_2be6_4b29_b9c7_201e8c12de4f1_prepareRaster {<Unused>} {<Unused>} {<Unused>} {<Unused>}")
+Tcl2 proc Aggregator_AGGREGATE_72f3407e_2be6_4b29_b9c7_201e8c12de4f6_thinPointCloud {} {    FME_Execute ThinPointCloud NO_THINNING 1; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME Aggregator_AGGREGATE___PointCloudThinner    INPUT FEATURE_TYPE Aggregator_AGGREGATE___PointCloudFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("Aggregator_AGGREGATE_72f3407e_2be6_4b29_b9c7_201e8c12de4f6_thinPointCloud")
+Tcl2 proc Aggregator_AGGREGATE_72f3407e_2be6_4b29_b9c7_201e8c12de4f6_prepareRaster {subsetStartRow subsetNumRows subsetStartCol subsetNumCols} {    set useDI [string equal -nocase {$(FME_VIEWER_APP)} {fmedatainspector}];    if {!$useDI} {       FME_Execute ApplyRasterRotation BILINEAR;    };    set doResample [string equal {NoReduction} {Resample}];    set doSubset [string equal {NoReduction} {Subset}];    set doBounds [string equal {NoReduction} {BoundingBoxOnly}];    if {$doBounds}  {       FME_Execute GeometryType fme_polygon;    }    elseif {$doResample || $doSubset} {       set comment {          First, we need to prefix all the attributes. This is done because          we are going to call @RasterProperties, and we want to make sure          it doesn't overwrite any existing attributes.       };       set kAttrPrefix ".";       set allNames [FME_AttributeNames];       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $newName $oldName;       };       FME_Execute RasterProperties RASTER;       if {$doResample} {          set oldNumCols [FME_GetAttribute _num_columns];          set oldNumRows [FME_GetAttribute _num_rows];          set oldSpacingX [FME_GetAttribute _spacing_x];          set oldSpacingY [FME_GetAttribute _spacing_y];          set kMinNumCells 32;          set kMaxNumCells 512;          set comment {             We will only resample if both dimensions are greater than the             minimum num cells, and at least one is greater than the maximum.          };          if {$oldNumRows > $kMinNumCells && $oldNumCols > $kMinNumCells && ($oldNumRows > $kMaxNumCells || $oldNumCols > $kMaxNumCells)} {             set newSpacingX 1.0;             set newSpacingY 1.0;             if {$oldNumRows > $oldNumCols} {                set comment {                   If we have more rows than columns, we need to choose a spacing                   that reduces the number of rows to the maximum we've chosen.                };                set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMaxNumCells];                set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                set comment {                   Now we need to check if doing this will result in the columns                   going below the minimum. If so, choose the spacing such that                   we only go down to the minimum (and not past).                };                set newNumCols [expr $oldNumCols * $oldSpacingX / $newSpacingX];                if {$newNumCols < $kMinNumCells}                {                   set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMinNumCells];                   set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                };             }             else {                set comment {                   This is identical to the above case, except the roles of                   rows and cols are reversed.                };                set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMaxNumCells];                set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                set newNumRows [expr $oldNumRows * $oldSpacingY / $newSpacingY];                if {$newNumRows < $kMinNumCells}                {                   set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMinNumCells];                   set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                };             };             FME_Execute ResampleRaster CELL_SIZE $newSpacingX $newSpacingY NearestNeighbor;          };       }       elseif {$doSubset} {          set comment {             Get the value of some strings that may be attributes or constants.             Note that we pass in the attribute prefix we're using, because if             one does turn out to be an attribute, it won't actually be the exact             name in the string (since we renamed all our attributes above).          };          set rasterNumRows [FME_GetAttribute _num_rows];          set rasterNumCols [FME_GetAttribute _num_columns];          set comment {             Only do subsetting if the specified start position is actually             within the raster.          };          if {$subsetStartRow < $rasterNumRows && $subsetStartCol < $rasterNumCols}          {             set comment {                Now bound the subset to the size of the raster, so that                we don't create padding.             };             if {[expr $subsetStartRow + $subsetNumRows] > $rasterNumRows}             {                set subsetNumRows [expr $rasterNumRows - $subsetStartRow];             };             if {[expr $subsetStartCol + $subsetNumCols] > $rasterNumCols}             {                set subsetNumCols [expr $rasterNumCols - $subsetStartCol];             };             FME_Execute SubsetRaster $subsetStartRow $subsetNumRows $subsetStartCol $subsetNumCols;          };       };       set comment {          Remove all the attributes added by @RasterProperties and remove the          prefix from the real attributes. We assume they all start with an          underscore.       };       FME_Execute RemoveAttributes fme_regexp_match {^_};       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $oldName $newName;       };    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME Aggregator_AGGREGATE_RasterSetterUpper    INPUT FEATURE_TYPE Aggregator_AGGREGATE___RasterFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("Aggregator_AGGREGATE_72f3407e_2be6_4b29_b9c7_201e8c12de4f6_prepareRaster {<Unused>} {<Unused>} {<Unused>} {<Unused>}")
 # Now route all the features into the recorder, changing their
 # feature type to the transformer name so that they view nicely
-# Aggregator_AGGREGATE_72f3407e_2be6_4b29_b9c7_201e8c12de4f1_VIS_FEAT_TYPE changes the feature types
+# Aggregator_AGGREGATE_72f3407e_2be6_4b29_b9c7_201e8c12de4f6_VIS_FEAT_TYPE changes the feature types
 # of the features being visualized.
-DEFAULT_MACRO Aggregator_AGGREGATE_72f3407e_2be6_4b29_b9c7_201e8c12de4f1_VIS_FEAT_TYPE Aggregator_AGGREGATE$(CATMAC)
+DEFAULT_MACRO Aggregator_AGGREGATE_72f3407e_2be6_4b29_b9c7_201e8c12de4f6_VIS_FEAT_TYPE Aggregator_AGGREGATE$(CATMAC)
 DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
 DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
-FACTORY_DEF * RecorderFactory    FACTORY_NAME Aggregator_AGGREGATE_Recorder    INPUT FEATURE_TYPE __viewme__  _wb_termination_feature Yes @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__  @FeatureType($(Aggregator_AGGREGATE_72f3407e_2be6_4b29_b9c7_201e8c12de4f1_VIS_FEAT_TYPE))    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA SurfaceModel.aspect,varchar<openparen>255<closeparen>,SurfaceModel.percentageSlope,varchar<openparen>255<closeparen>,SurfaceModel.slope,varchar<openparen>255<closeparen>,SurfaceModel.vertex1_id,varchar<openparen>255<closeparen>,SurfaceModel.vertex2_id,varchar<openparen>255<closeparen>,SurfaceModel.vertex3_id,varchar<openparen>255<closeparen>    MODE RECORD
+FACTORY_DEF * RecorderFactory    FACTORY_NAME Aggregator_AGGREGATE_Recorder    INPUT FEATURE_TYPE __viewme__  _wb_termination_feature Yes @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__  @FeatureType($(Aggregator_AGGREGATE_72f3407e_2be6_4b29_b9c7_201e8c12de4f6_VIS_FEAT_TYPE))    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA SurfaceModel.aspect,varchar<openparen>255<closeparen>,SurfaceModel.percentageSlope,varchar<openparen>255<closeparen>,SurfaceModel.slope,varchar<openparen>255<closeparen>,SurfaceModel.vertex1_id,varchar<openparen>255<closeparen>,SurfaceModel.vertex2_id,varchar<openparen>255<closeparen>,SurfaceModel.vertex3_id,varchar<openparen>255<closeparen>    MODE RECORD
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} SurfaceModelFactory    FACTORY_NAME TINGenerator    INPUT POINTS FEATURE_TYPE Aggregator_2_AGGREGATE_0_Ki45vvC/Bu8=    TOLERANCE 1    OUTPUT TIN_SURFACE FEATURE_TYPE TINGenerator_TIN_SURFACE
 # -------------------------------------------------------------------------
@@ -4909,8 +4933,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_InputPassThrough    INPU
 FACTORY_DEF $(INSTANCE_FILTERING) TestFactory    FACTORY_NAME GeometryFilter_InstanceTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST @Geometry(IS_GEOMETRY_INSTANCE) == 1    OUTPUT PASSED FEATURE_TYPE $(OUTPUT_INSTANCE_FTYPE)    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Input___
 FACTORY_DEF $(COLLECTION_HANDLING) TestFactory    FACTORY_NAME GeometryFilter_CollectionTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST &fme_type == "fme_collection"    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Not_Collection___    OUTPUT PASSED FEATURE_TYPE GeometryFilter___Collection___
 FACTORY_DEF $(COLLECTION_HANDLING) DeaggregateFactory    FACTORY_NAME GeometryFilter_Deagg    INPUT FEATURE_TYPE GeometryFilter___Collection___    HOMOGENIZE_COLLECTIONS YES    RECURSIVE YES    SET_FME_TYPE YES    INSTANTIATE_GEOMETRY_INSTANCES_NEW <Unused>    OUTPUT POINT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT LINE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT POLYGON FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT DONUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT AGGREGATE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___
-FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_6ee6c814_e6dc_4f6c_846a_693c824c83052_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
-FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_6ee6c814_e6dc_4f6c_846a_693c824c83052_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_6ee6c814_e6dc_4f6c_846a_693c824c83052_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_6ee6c814_e6dc_4f6c_846a_693c824c83052_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_6ee6c814_e6dc_4f6c_846a_693c824c83052_targetFeatureType)
+FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_6ee6c814_e6dc_4f6c_846a_693c824c83058_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
+FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_6ee6c814_e6dc_4f6c_846a_693c824c83058_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_6ee6c814_e6dc_4f6c_846a_693c824c83058_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_6ee6c814_e6dc_4f6c_846a_693c824c83058_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_6ee6c814_e6dc_4f6c_846a_693c824c83058_targetFeatureType)
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME BoundsExtractor    INPUT  FEATURE_TYPE GeometryFilter_SURFACE    OUTPUT FEATURE_TYPE BoundsExtractor_OUTPUT         @Bounds(fme_encoded,,,,,__ssc.zmin,__ssc.zmax,GEOMETRIC)
 # -------------------------------------------------------------------------
@@ -5078,12 +5102,12 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME buildingFootprintsClipper_Nuker    INPU
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME buildingFootprintsClipper_<Rejected> INPUT FEATURE_TYPE buildingFootprintsClipper_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, buildingFootprintsClipper<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME 3DForcer    INPUT  FEATURE_TYPE buildingFootprintsClipper_INSIDE    OUTPUT FEATURE_TYPE ___TOREJECTOR___         @ZValue("@EvaluateExpression(FDIV,FLOAT,$(ELEVATION$encode),3DForcer)", "No", ___fme_rejection_code___)
+FACTORY_DEF * TeeFactory    FACTORY_NAME 3DForcer    INPUT  FEATURE_TYPE buildingFootprintsClipper_INSIDE    OUTPUT FEATURE_TYPE ___TOREJECTOR___         @ZValue("0", "No", ___fme_rejection_code___)
 FACTORY_DEF * TestFactory    FACTORY_NAME 3DForcer_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(___fme_rejection_code___) != ""    OUTPUT PASSED FEATURE_TYPE 3DForcer_<REJECTED>         @RenameAttributes(fme_rejection_code, ___fme_rejection_code___)    OUTPUT FAILED FEATURE_TYPE 3DForcer_OUTPUT
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME 3DForcer_<Rejected> INPUT FEATURE_TYPE 3DForcer_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, 3DForcer<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-INCLUDE [          if { ({AUTO} == {SPECIFIED}) } {             puts {MACRO Extruder_func @GeometryType(REJECTABLE, fme_extrusion_exact,"<Unused>","<Unused>","<Unused>")};          } else {             puts {MACRO Extruder_func @GeometryType(REJECTABLE, fme_extrusion_exact,0.0,0.0,0.0,"@EvaluateExpression(FDIV,FLOAT,<at>Value<openparen>z.median<closeparen>-<at>Value<openparen>z.min<closeparen>,Extruder)","AUTO")};          }          ]
+INCLUDE [          if { ({AUTO} == {SPECIFIED}) } {             puts {MACRO Extruder_func @GeometryType(REJECTABLE, fme_extrusion_exact,"<Unused>","<Unused>","<Unused>")};          } else {             puts {MACRO Extruder_func @GeometryType(REJECTABLE, fme_extrusion_exact,0.0,0.0,0.0,"@EvaluateExpression(FDIV,FLOAT,<at>Value<openparen>z.median<closeparen>-<at>Value<openparen>z.min<closeparen>+8,Extruder)","AUTO")};          }          ]
 FACTORY_DEF * TeeFactory    FACTORY_NAME Extruder    INPUT  FEATURE_TYPE 3DForcer_OUTPUT    OUTPUT FEATURE_TYPE ___TOREJECTOR___         @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)         $(Extruder_func)
 FACTORY_DEF * TestFactory    FACTORY_NAME Extruder_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) == ""    OUTPUT PASSED FEATURE_TYPE Extruder_EXTRUDED       @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)    OUTPUT FAILED FEATURE_TYPE Extruder_<REJECTED>       @RemoveAttributes(___fme_rejection_code___)
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
