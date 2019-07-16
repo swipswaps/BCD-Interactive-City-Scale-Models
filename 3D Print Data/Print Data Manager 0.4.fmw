@@ -31,7 +31,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2019.0.1.0 (20190506 - Build 19253 - macosx)"
-#!   LAST_SAVE_DATE="2019-07-12T16:30:37"
+#!   LAST_SAVE_DATE="2019-07-12T16:37:49"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -50,7 +50,7 @@
 #!   TITLE="OSiDataTo3D"
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-7847.45 -336.845"
+#!   VIEW_POSITION="-7847.45 -1157.91"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="57"
@@ -4799,22 +4799,22 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="161"
-#!   SOURCE_NODE="25"
-#!   TARGET_NODE="160"
-#!   SOURCE_PORT_DESC="fo 3 161"
-#!   TARGET_PORT_DESC="fi 0 "
+#!   IDENTIFIER="192"
+#!   SOURCE_NODE="153"
+#!   TARGET_NODE="190"
+#!   SOURCE_PORT_DESC="fo 3 DRAPED_FEATURES"
+#!   TARGET_PORT_DESC="fi 0 CLIPPER"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="192"
-#!   SOURCE_NODE="153"
-#!   TARGET_NODE="190"
-#!   SOURCE_PORT_DESC="fo 3 DRAPED_FEATURES"
-#!   TARGET_PORT_DESC="fi 0 CLIPPER"
+#!   IDENTIFIER="161"
+#!   SOURCE_NODE="25"
+#!   TARGET_NODE="160"
+#!   SOURCE_PORT_DESC="fo 4 162"
+#!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -5269,12 +5269,12 @@ FACTORY_DEF * AttributeFilterFactory FACTORY_NAME tileFilter_Filter COMMAND_PARM
 FACTORY_DEF * TeeFactory   FACTORY_NAME "tileFilter <lt>EMPTY<gt> Transformer Output Nuker"   INPUT FEATURE_TYPE tileFilter_<lt>EMPTY<gt>
 FACTORY_DEF * TeeFactory   FACTORY_NAME "tileFilter 148 Transformer Output Nuker"   INPUT FEATURE_TYPE tileFilter_148
 FACTORY_DEF * TeeFactory   FACTORY_NAME "tileFilter 149 Transformer Output Nuker"   INPUT FEATURE_TYPE tileFilter_149
-FACTORY_DEF * TeeFactory   FACTORY_NAME "tileFilter 162 Transformer Output Nuker"   INPUT FEATURE_TYPE tileFilter_162
+FACTORY_DEF * TeeFactory   FACTORY_NAME "tileFilter 161 Transformer Output Nuker"   INPUT FEATURE_TYPE tileFilter_161
 FACTORY_DEF * TeeFactory   FACTORY_NAME "tileFilter <lt>MISSING<gt> Transformer Output Nuker"   INPUT FEATURE_TYPE tileFilter_<lt>MISSING<gt>
 FACTORY_DEF * TeeFactory   FACTORY_NAME "tileFilter <lt>NULL<gt> Transformer Output Nuker"   INPUT FEATURE_TYPE tileFilter_<lt>NULL<gt>
 FACTORY_DEF * TeeFactory   FACTORY_NAME "tileFilter <lt>UNFILTERED<gt> Transformer Output Nuker"   INPUT FEATURE_TYPE tileFilter_<lt>UNFILTERED<gt>
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME Junction_2    INPUT  FEATURE_TYPE tileFilter_161    OUTPUT FEATURE_TYPE Junction_2_Output
+FACTORY_DEF * TeeFactory    FACTORY_NAME Junction_2    INPUT  FEATURE_TYPE tileFilter_162    OUTPUT FEATURE_TYPE Junction_2_Output
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Junction_2 Output Splitter"   INPUT FEATURE_TYPE Junction_2_Output   OUTPUT FEATURE_TYPE Junction_2_Output_0_tvGfyYWUJeA=   OUTPUT FEATURE_TYPE Junction_2_Output_1_8yJTK7wdGRQ=
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME Junction_4    INPUT  FEATURE_TYPE Junction_2_Output_0_tvGfyYWUJeA=    OUTPUT FEATURE_TYPE Junction_4_Output
@@ -5319,8 +5319,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_InputPassThrough    INPU
 FACTORY_DEF $(INSTANCE_FILTERING) TestFactory    FACTORY_NAME GeometryFilter_InstanceTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST @Geometry(IS_GEOMETRY_INSTANCE) == 1    OUTPUT PASSED FEATURE_TYPE $(OUTPUT_INSTANCE_FTYPE)    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Input___
 FACTORY_DEF $(COLLECTION_HANDLING) TestFactory    FACTORY_NAME GeometryFilter_CollectionTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST &fme_type == "fme_collection"    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Not_Collection___    OUTPUT PASSED FEATURE_TYPE GeometryFilter___Collection___
 FACTORY_DEF $(COLLECTION_HANDLING) DeaggregateFactory    FACTORY_NAME GeometryFilter_Deagg    INPUT FEATURE_TYPE GeometryFilter___Collection___    HOMOGENIZE_COLLECTIONS YES    RECURSIVE YES    SET_FME_TYPE YES    INSTANTIATE_GEOMETRY_INSTANCES_NEW <Unused>    OUTPUT POINT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT LINE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT POLYGON FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT DONUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT AGGREGATE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___
-FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_fcfed05b_3ec9_408d_9852_728eac93181226_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
-FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_fcfed05b_3ec9_408d_9852_728eac93181226_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_fcfed05b_3ec9_408d_9852_728eac93181226_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_fcfed05b_3ec9_408d_9852_728eac93181226_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_fcfed05b_3ec9_408d_9852_728eac93181226_targetFeatureType)
+FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_fcfed05b_3ec9_408d_9852_728eac93181228_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
+FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_fcfed05b_3ec9_408d_9852_728eac93181228_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_fcfed05b_3ec9_408d_9852_728eac93181228_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_fcfed05b_3ec9_408d_9852_728eac93181228_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_fcfed05b_3ec9_408d_9852_728eac93181228_targetFeatureType)
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME BoundsExtractor    INPUT  FEATURE_TYPE GeometryFilter_SURFACE    OUTPUT FEATURE_TYPE BoundsExtractor_OUTPUT         @Bounds(fme_encoded,,,,,__ssc.zmin,__ssc.zmax,GEOMETRIC)
 # -------------------------------------------------------------------------
