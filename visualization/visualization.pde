@@ -1,64 +1,69 @@
+String[] data;
+String dataString;
+int start;
+int end;
+
+Table table;
+
+//String openTag = "<table>";
+String tableOpen = "<table class=\"table table-hover\">";
+String tableClosed = "</table>";
+String trOpen = "<tr>";
+String trClosed = "</tr>";
+String thOpen = "<th>";
+String thClosed = "</th>";
+String tdOpen = "<td>";
+String tdClosed = "</td>";
+
 void setup() {
-  size(200, 200);
-  //Ranelagh Luas XML
-  String ranelagh = "https://luasforecasts.rpa.ie/xml/get.ashx?action=forecast&stop=ran&encrypt=false";
-  //local dummy data
-  String data = "dummyData.xml";
-  XML stopInfo = loadXML(data);
-  XML stopChild = stopInfo.getChild("direction/tram");
-  int childContent = stopChild.getInt("dueMins");
-  
-  print(childContent);
-}
+  table = new Table();
+  //Ranelagh Luas status url
+  String ranelagh = "http://luasforecasts.rpa.ie/analysis/view.aspx?id=27";
+  data = loadStrings(ranelagh);
+  dataString = join(data, "");
+  start = 0;
 
-
-void draw() {
-
-}
-
-
-
-
-
-
-
-
-
-
-/*
-// Grab the data from Luas API
-void loadData() {
-  // Get the raw HTML source into an array of strings
-  // (each line is one element in the array)
-  String url = "https://luasforecasts.rpa.ie/xml/get.ashx?action=forecast&stop=try&encrypt=false";
-  String[] lines = loadStrings(url);
-  //Turn array into one long String
-  String html = join(lines, "");
-  
-  // Search for tram due time
-  String start = "<tram dueMins>";
-  String end = "</time>";
-  runningtime = giveMeTextBetween(html, start, end);
-
-  // Searching for poster image
-  start = "<link rel='image_src' href=\"";
-  end = "\">";
-  String imgUrl = giveMeTextBetween(html, start, end);
-  poster = loadImage(imgUrl);
-}
-
-// A function that returns a substring between two substrings
-String giveMeTextBetween(String s, String before, String after) {
-  String found = "";
-  int start = s.indexOf(before);     // Find the index of the beginning tag
-  if (start == -1) {
-    return "";   // If we don't find anything, send back a blank String
-  }    
-  start += before.length();          // Move to the end of the beginning tag
-  int end = s.indexOf(after, start); // Find the index of the end tag
-  if (end == -1) {
-    return "";          // If we don't find the end tag, send back a blank String
+  start = dataString.indexOf(tableOpen);
+  while (start != -1) {
+    start += tableOpen.length();
+    end = dataString.indexOf(tableClosed, start);
+    //println(dataString.substring(start, end)); // Nest child loop here!!!!
+    start = dataString.indexOf(tableClosed, start);
+    start += tableClosed.length();
+    end += tableClosed.length();
+    start = dataString.indexOf(tableOpen, start);
   }
-  return s.substring(start, end);    // Return the text in between
+
+  start = dataString.indexOf(trOpen, start);
+  while (start != -1) {
+    start += trOpen.length();
+    end = dataString.indexOf(trClosed, start);
+    //println(dataString.substring(start, end));
+    start = dataString.indexOf(trClosed, start);
+    start += trClosed.length();
+    end += trClosed.length();
+    start = dataString.indexOf(trOpen, start);
+  }
+
+  start = dataString.indexOf(thOpen, start);
+  while (start != -1) {
+    start += thOpen.length();
+    end = dataString.indexOf(thClosed, start);
+    println(dataString.substring(start, end)); /// Table Header
+    start = dataString.indexOf(thClosed, start);
+    start += thClosed.length();
+    end += thClosed.length();
+    start = dataString.indexOf(thOpen, start);
+  }
+
+  start = dataString.indexOf(tdOpen, start);
+  while (start != -1) {
+    start += tdOpen.length();
+    end = dataString.indexOf(tdClosed, start);
+    println(dataString.substring(start, end)); ///Table contents
+    start = dataString.indexOf(tdClosed, start);
+    start += tdClosed.length();
+    end += tdClosed.length();
+    start = dataString.indexOf(tdOpen, start);
+  }
 }
-*/

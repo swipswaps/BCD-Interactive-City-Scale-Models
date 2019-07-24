@@ -21,8 +21,8 @@
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="19253"
-#!   FME_DOCUMENT_GUID="4e9af456-e6d1-4553-b76a-6d108ca26fe8"
-#!   FME_DOCUMENT_PRIORGUID="68b12c8c-99ab-495a-a174-076bff6b15cb,c648c1ab-38ab-4b3e-b465-83471714acde,98f9ae55-bb49-4252-935e-b53bf80ecca5,293769ee-fe7c-4836-9ed4-65e0194992ee,38a315f3-3cad-4230-a2e9-5f07f2cefa16,802922f7-d417-462f-8147-7d885c4655a5,3c7189c0-f430-4286-b6dc-18d34aeb4c4a,453dd9f2-f866-45db-91d7-96fb6c08068e,872340a0-768d-4d73-b6bc-81b1d9771e65,dcf338e5-0c02-4146-91b3-d7d8af6388e0,efeb2729-d8fb-4b69-8901-1c67658fcd67,78b4130d-dc89-4b2d-b21c-912d1eda131e,86e6407c-ad93-497a-9a7c-1c180f620cf6,65246751-e564-47e9-b813-ad35649b3ce8,f3262bc0-99de-4bfc-98a7-e42826bfe615,5f7f3c52-4ed1-4296-9e50-d4b0bf9c8f58,3c4eac53-f39d-4df7-8e69-41089d7bacc2,3a4f56a8-7aab-4e8c-ba65-472ae4b6261b,5ac96545-292d-406c-92a4-e0310f667781,6217b015-fc09-403a-980d-99d93a325986,1e1e86b2-07ee-4163-b6f7-7b42d7608444,cfcb2eef-2e0b-48f2-8b31-7a8f9587de1c,293e4c58-2db2-4aec-ba0b-436495e0a1f2,9ee776ba-a6dc-4a80-8f16-41276fff7bae,bdb1ea60-c61c-4914-9ccc-ec3e4836f2b4,64d0ed1b-370c-4dc7-b4e0-9bc57fdf9c22,de3320ff-804a-4ba0-9729-5fbe2f358199,1b40eb8d-e3ce-459c-ab5a-cf10cce0e181,862e5008-8820-4f2f-a40a-394fef816113,0e67a7f8-7d04-420c-83b8-c280300f102e,5f9e0af2-4de6-4df0-97a1-a38452a1f9e2,f3d6d944-5990-4c00-8ef5-b7c4170a3fbf,844e2200-5b0e-49c6-bf15-317946536a3c,6d7ab4dc-7c51-4f4b-a0b5-13359aa24a4d,80db57ba-1a85-4781-9a7c-9d35ab318200,e3131f80-cb41-4785-a8b5-02bfa019280c,2b2a14a3-b27e-4515-a4e7-9a7c67b2ab2f,dc9a2222-b441-49fe-a36a-fe223d47c3c3,a8975ded-b67f-40f7-88d4-1d3af3d896cb,2d113d20-a002-4914-a8c1-0ed6ff80351f,792e9007-5450-4024-8a50-5a2bc407be26,f836c424-5acc-45b8-89b4-1c268cf48edd,729520d1-c5ed-4555-9f17-19ab59988657,1b9808e5-733d-4bd6-bc3f-a273d81f593c"
+#!   FME_DOCUMENT_GUID="21dd865c-1c57-4a8b-9c1d-1daa6fb665cf"
+#!   FME_DOCUMENT_PRIORGUID="68b12c8c-99ab-495a-a174-076bff6b15cb,c648c1ab-38ab-4b3e-b465-83471714acde,98f9ae55-bb49-4252-935e-b53bf80ecca5,293769ee-fe7c-4836-9ed4-65e0194992ee,38a315f3-3cad-4230-a2e9-5f07f2cefa16,802922f7-d417-462f-8147-7d885c4655a5,3c7189c0-f430-4286-b6dc-18d34aeb4c4a,453dd9f2-f866-45db-91d7-96fb6c08068e,872340a0-768d-4d73-b6bc-81b1d9771e65,dcf338e5-0c02-4146-91b3-d7d8af6388e0,efeb2729-d8fb-4b69-8901-1c67658fcd67,78b4130d-dc89-4b2d-b21c-912d1eda131e,86e6407c-ad93-497a-9a7c-1c180f620cf6,65246751-e564-47e9-b813-ad35649b3ce8,f3262bc0-99de-4bfc-98a7-e42826bfe615,5f7f3c52-4ed1-4296-9e50-d4b0bf9c8f58,3c4eac53-f39d-4df7-8e69-41089d7bacc2,3a4f56a8-7aab-4e8c-ba65-472ae4b6261b,5ac96545-292d-406c-92a4-e0310f667781,6217b015-fc09-403a-980d-99d93a325986,1e1e86b2-07ee-4163-b6f7-7b42d7608444,cfcb2eef-2e0b-48f2-8b31-7a8f9587de1c,293e4c58-2db2-4aec-ba0b-436495e0a1f2,9ee776ba-a6dc-4a80-8f16-41276fff7bae,bdb1ea60-c61c-4914-9ccc-ec3e4836f2b4,64d0ed1b-370c-4dc7-b4e0-9bc57fdf9c22,de3320ff-804a-4ba0-9729-5fbe2f358199,1b40eb8d-e3ce-459c-ab5a-cf10cce0e181,862e5008-8820-4f2f-a40a-394fef816113,0e67a7f8-7d04-420c-83b8-c280300f102e,5f9e0af2-4de6-4df0-97a1-a38452a1f9e2,f3d6d944-5990-4c00-8ef5-b7c4170a3fbf,844e2200-5b0e-49c6-bf15-317946536a3c,6d7ab4dc-7c51-4f4b-a0b5-13359aa24a4d,80db57ba-1a85-4781-9a7c-9d35ab318200,e3131f80-cb41-4785-a8b5-02bfa019280c,2b2a14a3-b27e-4515-a4e7-9a7c67b2ab2f,dc9a2222-b441-49fe-a36a-fe223d47c3c3,a8975ded-b67f-40f7-88d4-1d3af3d896cb,2d113d20-a002-4914-a8c1-0ed6ff80351f,792e9007-5450-4024-8a50-5a2bc407be26,f836c424-5acc-45b8-89b4-1c268cf48edd,729520d1-c5ed-4555-9f17-19ab59988657,1b9808e5-733d-4bd6-bc3f-a273d81f593c,4e9af456-e6d1-4553-b76a-6d108ca26fe8"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -31,7 +31,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2019.0.1.0 (20190506 - Build 19253 - macosx)"
-#!   LAST_SAVE_DATE="2019-07-12T16:37:49"
+#!   LAST_SAVE_DATE="2019-07-23T14:51:40"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -50,10 +50,10 @@
 #!   TITLE="OSiDataTo3D"
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-7847.45 -1157.91"
+#!   VIEW_POSITION="-7669.96 -2519.3"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
-#!   ZOOM_SCALE="57"
+#!   ZOOM_SCALE="83"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -69,7 +69,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="filegdb_type {FME_GEN_GEOMETRY} filegdb_where_wwjd &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_primary_axis double fme_secondary_axis double fme_text_size double fme_basename text(50) fme_fill_color text(50) fme_geometry text(50) fme_text_string text(50) fme_feature_type text(50) fme_dataset text(50) fme_color text(50) fme_rotation double multi_reader_full_id int multi_reader_keyword text(50) multi_reader_type text(50) fme_type text(50) fme_start_angle double multi_reader_id int fme_sweep_angle double"
+#!   EXPOSABLE_ATTRS="fme_dataset text(50) fme_start_angle double fme_basename text(50) fme_sweep_angle double fme_fill_color text(50) fme_primary_axis double fme_geometry text(50) fme_type text(50) multi_reader_type text(50) fme_secondary_axis double multi_reader_keyword text(50) fme_color text(50) fme_text_size double fme_rotation double fme_text_string text(50) fme_feature_type text(50) multi_reader_id int multi_reader_full_id int"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP filegdb_table_settings_group filegdb_where_wwjd Table Settings&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG filegdb_where_wwjd MODE,WHERE;FORMAT,FILEGDB WHERE Clause&quot; &quot;&quot; "
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -131,7 +131,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="false"
-#!   EXPOSABLE_ATTRS="fme_primary_axis number(31,15) fme_secondary_axis number(31,15) las_file_creation_date date fme_basename char(50) fme_text_size number(31,15) las_type char(255) fme_fill_color char(50) las_system_identifier char(32) fme_geometry char(50) fme_text_string char(50) las_vertical_units_code number(6,0) fme_feature_type char(50) las_generating_software char(32) fme_dataset char(50) las_vertical_coordsys_code number(6,0) fme_color char(50) fme_rotation number(31,15) multi_reader_full_id number(11,0) las_file_source_id number(6,0) las_gps_time_type number(1,0) multi_reader_keyword char(50) las_zlas_rearranged_points logical las_vertical_datum_code number(6,0) las_version char(3) multi_reader_type char(50) fme_type char(50) las_synthetic_returns logical las_project_id char(36) fme_start_angle number(31,15) multi_reader_id number(11,0) fme_sweep_angle number(31,15)"
+#!   EXPOSABLE_ATTRS="fme_dataset char(50) las_vertical_units_code number(6,0) fme_start_angle number(31,15) fme_basename char(50) las_file_creation_date date las_gps_time_type number(1,0) fme_sweep_angle number(31,15) fme_fill_color char(50) fme_primary_axis number(31,15) las_version char(3) fme_geometry char(50) fme_type char(50) multi_reader_type char(50) fme_secondary_axis number(31,15) las_system_identifier char(32) las_file_source_id number(6,0) multi_reader_keyword char(50) las_zlas_rearranged_points logical las_project_id char(36) fme_color char(50) fme_text_size number(31,15) fme_rotation number(31,15) fme_text_string char(50) las_vertical_datum_code number(6,0) las_vertical_coordsys_code number(6,0) fme_feature_type char(50) las_type char(255) las_synthetic_returns logical multi_reader_id number(11,0) las_generating_software char(32) multi_reader_full_id number(11,0)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -193,7 +193,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_primary_axis double fme_secondary_axis double fme_text_size double fme_basename char(50) fme_fill_color char(50) shape_measures char(254) fme_geometry char(50) fme_text_string char(50) fme_feature_type char(50) shape_geometry_error{} char(254) fme_dataset char(50) fme_color char(50) fme_rotation double multi_reader_full_id long multi_reader_keyword char(50) multi_reader_type char(50) fme_type char(50) fme_start_angle double SHAPE_GEOMETRY char(50) multi_reader_id long fme_sweep_angle double"
+#!   EXPOSABLE_ATTRS="fme_dataset char(50) fme_start_angle double shape_measures char(254) fme_basename char(50) fme_sweep_angle double fme_fill_color char(50) fme_primary_axis double fme_geometry char(50) fme_type char(50) multi_reader_type char(50) shape_geometry_error{} char(254) fme_secondary_axis double multi_reader_keyword char(50) SHAPE_GEOMETRY char(50) fme_color char(50) fme_text_size double fme_rotation double fme_text_string char(50) fme_feature_type char(50) multi_reader_id long multi_reader_full_id long"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -251,7 +251,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="false"
-#!   EXPOSABLE_ATTRS="fme_sweep_angle float fme_primary_axis float fme_text_size float fme_type string fme_secondary_axis float fme_fill_color string fme_text_string string fme_color string fme_dataset string fme_feature_type string fme_basename string fme_start_angle float fme_rotation float fme_geometry string"
+#!   EXPOSABLE_ATTRS="fme_sweep_angle float fme_dataset string fme_rotation float fme_type string fme_color string fme_geometry string fme_text_size float fme_secondary_axis float fme_primary_axis float fme_basename string fme_feature_type string fme_start_angle float fme_fill_color string fme_text_string string"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -283,6 +283,330 @@
 #! </DATASET>
 #! </DATASETS>
 #! <DATA_TYPES>
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="LAS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="LAS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="LAS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="LAS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="LAS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="LAS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="LAS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="LAS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(20)"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="LAS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(12)"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="LAS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="LAS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(31,15)"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="LAS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(15,7)"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="LAS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(11,0)"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="LAS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(11,0)"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="LAS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="LAS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="LAS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="logical"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="LAS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(6,0)"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="LAS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(6,0)"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="LAS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(4,0)"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="LAS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(4,0)"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="LAS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="LAS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(20)"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(12)"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(31,15)"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(11,0)"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(15,7)"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="logical"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="short"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(6,0)"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="short"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(4,0)"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="short"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(4,0)"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="long"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(11,0)"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="long"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(6,0)"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="ESRISHAPE"
+#! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="text(width)"
@@ -440,330 +764,6 @@
 #!   FORMAT="FILEGDB"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(width)"
-#!   FME_TYPE="fme_varchar(width)"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(width)"
-#!   FME_TYPE="fme_varbinary(width)"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(width)"
-#!   FME_TYPE="fme_char(width)"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(width)"
-#!   FME_TYPE="fme_binary(width)"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(254)"
-#!   FME_TYPE="fme_buffer"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(254)"
-#!   FME_TYPE="fme_binarybuffer"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(254)"
-#!   FME_TYPE="fme_xml"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(254)"
-#!   FME_TYPE="fme_json"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(20)"
-#!   FME_TYPE="fme_datetime"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(12)"
-#!   FME_TYPE="fme_time"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="date"
-#!   FME_TYPE="fme_date"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="double"
-#!   FME_TYPE="fme_real64"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="number(31,15)"
-#!   FME_TYPE="fme_real64"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="double"
-#!   FME_TYPE="fme_uint32"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="number(11,0)"
-#!   FME_TYPE="fme_uint32"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="float"
-#!   FME_TYPE="fme_real32"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="number(15,7)"
-#!   FME_TYPE="fme_real32"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="number(20,0)"
-#!   FME_TYPE="fme_int64"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="number(20,0)"
-#!   FME_TYPE="fme_uint64"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="logical"
-#!   FME_TYPE="fme_boolean"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="short"
-#!   FME_TYPE="fme_int16"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="number(6,0)"
-#!   FME_TYPE="fme_int16"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="short"
-#!   FME_TYPE="fme_int8"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="number(4,0)"
-#!   FME_TYPE="fme_int8"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="short"
-#!   FME_TYPE="fme_uint8"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="number(4,0)"
-#!   FME_TYPE="fme_uint8"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="long"
-#!   FME_TYPE="fme_int32"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="number(11,0)"
-#!   FME_TYPE="fme_int32"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="long"
-#!   FME_TYPE="fme_uint16"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="number(6,0)"
-#!   FME_TYPE="fme_uint16"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="number(width,decimal)"
-#!   FME_TYPE="fme_decimal(width,decimal)"
-#!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(width)"
-#!   FME_TYPE="fme_varchar(width)"
-#!   FORMAT="LAS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(width)"
-#!   FME_TYPE="fme_varbinary(width)"
-#!   FORMAT="LAS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(width)"
-#!   FME_TYPE="fme_char(width)"
-#!   FORMAT="LAS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(width)"
-#!   FME_TYPE="fme_binary(width)"
-#!   FORMAT="LAS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(254)"
-#!   FME_TYPE="fme_buffer"
-#!   FORMAT="LAS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(254)"
-#!   FME_TYPE="fme_binarybuffer"
-#!   FORMAT="LAS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(254)"
-#!   FME_TYPE="fme_xml"
-#!   FORMAT="LAS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(254)"
-#!   FME_TYPE="fme_json"
-#!   FORMAT="LAS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(20)"
-#!   FME_TYPE="fme_datetime"
-#!   FORMAT="LAS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(12)"
-#!   FME_TYPE="fme_time"
-#!   FORMAT="LAS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="date"
-#!   FME_TYPE="fme_date"
-#!   FORMAT="LAS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="number(31,15)"
-#!   FME_TYPE="fme_real64"
-#!   FORMAT="LAS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="number(15,7)"
-#!   FME_TYPE="fme_real32"
-#!   FORMAT="LAS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="number(11,0)"
-#!   FME_TYPE="fme_int32"
-#!   FORMAT="LAS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="number(11,0)"
-#!   FME_TYPE="fme_uint32"
-#!   FORMAT="LAS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="number(20,0)"
-#!   FME_TYPE="fme_int64"
-#!   FORMAT="LAS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="number(20,0)"
-#!   FME_TYPE="fme_uint64"
-#!   FORMAT="LAS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="logical"
-#!   FME_TYPE="fme_boolean"
-#!   FORMAT="LAS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="number(6,0)"
-#!   FME_TYPE="fme_int16"
-#!   FORMAT="LAS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="number(6,0)"
-#!   FME_TYPE="fme_uint16"
-#!   FORMAT="LAS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="number(4,0)"
-#!   FME_TYPE="fme_int8"
-#!   FORMAT="LAS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="number(4,0)"
-#!   FME_TYPE="fme_uint8"
-#!   FORMAT="LAS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="number(width,decimal)"
-#!   FME_TYPE="fme_decimal(width,decimal)"
-#!   FORMAT="LAS"
-#! />
-#! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_buffer"
@@ -905,99 +905,93 @@
 #! <GEOM_TYPES>
 #! <GEOM_TYPE
 #!   IS_SOURCE="true"
-#!   FORMAT_TYPE="geodb_point"
-#!   FME_TYPE="fme_point"
-#!   FORMAT="FILEGDB"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="geodb_polygon"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="FILEGDB"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="geodb_polygon"
-#!   FME_TYPE="fme_rounded_rectangle"
-#!   FORMAT="FILEGDB"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="geodb_polyline"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="FILEGDB"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="geodb_multipoint"
-#!   FME_TYPE="fme_point"
-#!   FORMAT="FILEGDB"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="geodb_polygon"
-#!   FME_TYPE="fme_rectangle"
-#!   FORMAT="FILEGDB"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="geodb_point"
-#!   FME_TYPE="fme_text"
-#!   FORMAT="FILEGDB"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="geodb_polyline"
-#!   FME_TYPE="fme_arc"
-#!   FORMAT="FILEGDB"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="geodb_polygon"
-#!   FME_TYPE="fme_ellipse"
-#!   FORMAT="FILEGDB"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="geodb_no_geom"
-#!   FME_TYPE="fme_no_geom"
-#!   FORMAT="FILEGDB"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="geodb_polygon"
-#!   FME_TYPE="fme_raster"
-#!   FORMAT="FILEGDB"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="geodb_polyline"
-#!   FME_TYPE="fme_surface"
-#!   FORMAT="FILEGDB"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="geodb_polyline"
-#!   FME_TYPE="fme_solid"
-#!   FORMAT="FILEGDB"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="geodb_polygon"
+#!   FORMAT_TYPE="las_point_cloud"
 #!   FME_TYPE="fme_point_cloud"
-#!   FORMAT="FILEGDB"
+#!   FORMAT="LAS"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="true"
-#!   FORMAT_TYPE="geodb_no_geom"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="LAS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="LAS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="LAS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="LAS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="LAS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="LAS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="LAS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="LAS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="LAS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="LAS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="LAS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="LAS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
 #!   FME_TYPE="fme_feature_table"
-#!   FORMAT="FILEGDB"
+#!   FORMAT="LAS"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="true"
-#!   FORMAT_TYPE="geodb_no_geom"
+#!   FORMAT_TYPE="fme_no_map"
 #!   FME_TYPE="fme_collection"
-#!   FORMAT="FILEGDB"
+#!   FORMAT="LAS"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="true"
@@ -1103,93 +1097,99 @@
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="true"
-#!   FORMAT_TYPE="las_point_cloud"
-#!   FME_TYPE="fme_point_cloud"
-#!   FORMAT="LAS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="fme_no_map"
+#!   FORMAT_TYPE="geodb_point"
 #!   FME_TYPE="fme_point"
-#!   FORMAT="LAS"
+#!   FORMAT="FILEGDB"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="true"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_text"
-#!   FORMAT="LAS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="LAS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_arc"
-#!   FORMAT="LAS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="fme_no_map"
+#!   FORMAT_TYPE="geodb_polygon"
 #!   FME_TYPE="fme_area"
-#!   FORMAT="LAS"
+#!   FORMAT="FILEGDB"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="true"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_ellipse"
-#!   FORMAT="LAS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_rectangle"
-#!   FORMAT="LAS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="fme_no_map"
+#!   FORMAT_TYPE="geodb_polygon"
 #!   FME_TYPE="fme_rounded_rectangle"
-#!   FORMAT="LAS"
+#!   FORMAT="FILEGDB"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="true"
-#!   FORMAT_TYPE="fme_no_map"
+#!   FORMAT_TYPE="geodb_polyline"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="FILEGDB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="geodb_multipoint"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="FILEGDB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="geodb_polygon"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="FILEGDB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="geodb_point"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="FILEGDB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="geodb_polyline"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="FILEGDB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="geodb_polygon"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="FILEGDB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="geodb_no_geom"
 #!   FME_TYPE="fme_no_geom"
-#!   FORMAT="LAS"
+#!   FORMAT="FILEGDB"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="true"
-#!   FORMAT_TYPE="fme_no_map"
+#!   FORMAT_TYPE="geodb_polygon"
 #!   FME_TYPE="fme_raster"
-#!   FORMAT="LAS"
+#!   FORMAT="FILEGDB"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="true"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_solid"
-#!   FORMAT="LAS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="fme_no_map"
+#!   FORMAT_TYPE="geodb_polyline"
 #!   FME_TYPE="fme_surface"
-#!   FORMAT="LAS"
+#!   FORMAT="FILEGDB"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="true"
-#!   FORMAT_TYPE="fme_no_map"
+#!   FORMAT_TYPE="geodb_polyline"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="FILEGDB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="geodb_polygon"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="FILEGDB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="geodb_no_geom"
 #!   FME_TYPE="fme_feature_table"
-#!   FORMAT="LAS"
+#!   FORMAT="FILEGDB"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="true"
-#!   FORMAT_TYPE="fme_no_map"
+#!   FORMAT_TYPE="geodb_no_geom"
 #!   FME_TYPE="fme_collection"
-#!   FORMAT="LAS"
+#!   FORMAT="FILEGDB"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
@@ -1875,7 +1875,7 @@
 #!   BOUNDING_RECT="6385.2569678359405 -1392.1254236022357 1157.1400000000001 296"
 #!   STICKY="true"
 #!   COLOUR="0.42352941176470588,0.23529411764705882,0.13333333333333333,0.39215686274509803"
-#!   CONTENTS="116 115 136 "
+#!   CONTENTS="115 116 136 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1889,7 +1889,7 @@
 #!   BOUNDING_RECT="-5174.4490343427815 433.00730879493972 6954.2459903523695 764.54094694793093"
 #!   STICKY="true"
 #!   COLOUR="1,0.85490196078431369,0.59999999999999998,1"
-#!   CONTENTS="17 22 67 75 11 158 165 74 78 163 86 16 10 72 83 60 177 79 85 176 33 76 18 149 14 66 "
+#!   CONTENTS="78 149 17 66 18 83 163 85 10 176 74 67 16 72 33 75 14 165 11 22 177 86 60 79 76 158 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1917,7 +1917,7 @@
 #!   BOUNDING_RECT="-6161.443765467403 -2899.5143247195228 1333.9628574598883 833.307082107106"
 #!   STICKY="true"
 #!   COLOUR="0.59607843137254901,0.91764705882352937,0.72549019607843135,1"
-#!   CONTENTS="159 8 89 88 20 35 119 "
+#!   CONTENTS="159 20 88 89 8 35 119 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1931,7 +1931,7 @@
 #!   BOUNDING_RECT="-6219.6116743818602 421.74334786826131 763.97488974889711 2095.6731306443503"
 #!   STICKY="true"
 #!   COLOUR="0.59215686274509804,0.8901960784313725,0.90980392156862744,1"
-#!   CONTENTS="5 82 4 184 59 97 "
+#!   CONTENTS="5 82 184 4 97 59 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -2429,65 +2429,93 @@
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="19253"
 #! >
-#!     <OUTPUT_FEAT NAME="&lt;lt&gt;EMPTY&lt;gt&gt;"/>
+#!     <OUTPUT_FEAT NAME="148"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="148"/>
+#!     <OUTPUT_FEAT NAME="149"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <OUTPUT_FEAT NAME="149"/>
+#!     <OUTPUT_FEAT NAME="161"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
 #!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <OUTPUT_FEAT NAME="161"/>
+#!     <OUTPUT_FEAT NAME="162"/>
 #!     <FEAT_COLLAPSED COLLAPSED="3"/>
 #!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <OUTPUT_FEAT NAME="162"/>
+#!     <OUTPUT_FEAT NAME="194"/>
 #!     <FEAT_COLLAPSED COLLAPSED="4"/>
 #!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <OUTPUT_FEAT NAME="&lt;lt&gt;MISSING&lt;gt&gt;"/>
+#!     <OUTPUT_FEAT NAME="195"/>
 #!     <FEAT_COLLAPSED COLLAPSED="5"/>
 #!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#!     <OUTPUT_FEAT NAME="&lt;lt&gt;NULL&lt;gt&gt;"/>
+#!     <OUTPUT_FEAT NAME="207"/>
 #!     <FEAT_COLLAPSED COLLAPSED="6"/>
 #!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#!     <OUTPUT_FEAT NAME="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
+#!     <OUTPUT_FEAT NAME="208"/>
 #!     <FEAT_COLLAPSED COLLAPSED="7"/>
 #!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#!     <OUTPUT_FEAT NAME="&lt;lt&gt;EMPTY&lt;gt&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="8"/>
+#!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#!     <OUTPUT_FEAT NAME="&lt;lt&gt;MISSING&lt;gt&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="9"/>
+#!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#!     <OUTPUT_FEAT NAME="&lt;lt&gt;NULL&lt;gt&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="10"/>
+#!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="10" />
+#!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="10" />
+#!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="10" />
+#!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="10" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="10" />
+#!     <OUTPUT_FEAT NAME="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="11"/>
+#!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="11" />
+#!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="11" />
+#!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="11" />
+#!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="11" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="11" />
 #!     <XFORM_PARM PARM_NAME="ATTR_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="id"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_VALUES" PARM_VALUE="&lt;lt&gt;Empty&lt;gt&gt;,148,149,161,162,&lt;lt&gt;Missing&lt;gt&gt;,&lt;lt&gt;Null&lt;gt&gt;,&lt;lt&gt;Unfiltered&lt;gt&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_VALUES" PARM_VALUE="148,149,161,162,194,195,207,208,&lt;lt&gt;Empty&lt;gt&gt;,&lt;lt&gt;Missing&lt;gt&gt;,&lt;lt&gt;Null&lt;gt&gt;,&lt;lt&gt;Unfiltered&lt;gt&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_VALUES_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="tileFilter"/>
@@ -4810,22 +4838,22 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="161"
-#!   SOURCE_NODE="25"
-#!   TARGET_NODE="160"
-#!   SOURCE_PORT_DESC="fo 4 162"
-#!   TARGET_PORT_DESC="fi 0 "
+#!   IDENTIFIER="197"
+#!   SOURCE_NODE="153"
+#!   TARGET_NODE="190"
+#!   SOURCE_PORT_DESC="fo 5 TRIANGLES"
+#!   TARGET_PORT_DESC="fi 1 CLIPPEE"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="197"
-#!   SOURCE_NODE="153"
-#!   TARGET_NODE="190"
-#!   SOURCE_PORT_DESC="fo 5 TRIANGLES"
-#!   TARGET_PORT_DESC="fi 1 CLIPPEE"
+#!   IDENTIFIER="161"
+#!   SOURCE_NODE="25"
+#!   TARGET_NODE="160"
+#!   SOURCE_PORT_DESC="fo 7 208"
+#!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -5222,7 +5250,7 @@ FILEGDB_1_READER_META_ATTRIBUTES fme_feature_type
 
 # -------------------------------------------------------------------------
 
-LAS_1_READER_META_ATTRIBUTES fme_feature_type fme_basename
+LAS_1_READER_META_ATTRIBUTES fme_basename fme_feature_type
 
 # -------------------------------------------------------------------------
 
@@ -5258,23 +5286,27 @@ ESRISHAPE_1_MERGE_DEF "ESRISHAPE_1::Tiles v0.4" EXACT Tiles<space>v0.4
 FACTORY_DEF * TeeFactory    FACTORY_NAME "BuildingFootprints (FILEGDB_1) Splitter"    INPUT FEATURE_TYPE BuildingFootprints    OUTPUT FEATURE_TYPE BuildingFootprints_FILEGDB_1
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME "Tiles v0.4 (ESRISHAPE_1) Splitter"    INPUT FEATURE_TYPE "Tiles v0.4"    OUTPUT FEATURE_TYPE "Tiles v0.4_ESRISHAPE_1"
+FACTORY_DEF * TeeFactory    FACTORY_NAME "LAS (LAS_1) Splitter"    INPUT FEATURE_TYPE LAS    OUTPUT FEATURE_TYPE LAS_LAS_1
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME "LAS (LAS_1) Splitter"    INPUT FEATURE_TYPE LAS    OUTPUT FEATURE_TYPE LAS_LAS_1
+FACTORY_DEF * TeeFactory    FACTORY_NAME "Tiles v0.4 (ESRISHAPE_1) Splitter"    INPUT FEATURE_TYPE "Tiles v0.4"    OUTPUT FEATURE_TYPE "Tiles v0.4_ESRISHAPE_1"
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME tileFilter    INPUT  FEATURE_TYPE "Tiles v0.4_ESRISHAPE_1"    OUTPUT FEATURE_TYPE tileFilter_FILTER
-FACTORY_DEF * AttributeFilterFactory FACTORY_NAME tileFilter_Filter COMMAND_PARM_EVALUATION SINGLE_PASS INPUT FEATURE_TYPE tileFilter_FILTER FILTER_ATTRIBUTE id FILTER_VALUES <lt>EMPTY<gt> 148 149 161 162 <lt>MISSING<gt> <lt>NULL<gt> <lt>UNFILTERED<gt> OUTPUT <lt>EMPTY<gt> FEATURE_TYPE tileFilter_<lt>EMPTY<gt> OUTPUT 148 FEATURE_TYPE tileFilter_148 OUTPUT 149 FEATURE_TYPE tileFilter_149 OUTPUT 161 FEATURE_TYPE tileFilter_161 OUTPUT 162 FEATURE_TYPE tileFilter_162 OUTPUT <lt>MISSING<gt> FEATURE_TYPE tileFilter_<lt>MISSING<gt> OUTPUT <lt>NULL<gt> FEATURE_TYPE tileFilter_<lt>NULL<gt> OUTPUT <lt>UNFILTERED<gt> FEATURE_TYPE tileFilter_<lt>UNFILTERED<gt>
-FACTORY_DEF * TeeFactory   FACTORY_NAME "tileFilter <lt>EMPTY<gt> Transformer Output Nuker"   INPUT FEATURE_TYPE tileFilter_<lt>EMPTY<gt>
+FACTORY_DEF * AttributeFilterFactory FACTORY_NAME tileFilter_Filter COMMAND_PARM_EVALUATION SINGLE_PASS INPUT FEATURE_TYPE tileFilter_FILTER FILTER_ATTRIBUTE id FILTER_VALUES 148 149 161 162 194 195 207 208 <lt>EMPTY<gt> <lt>MISSING<gt> <lt>NULL<gt> <lt>UNFILTERED<gt> OUTPUT 148 FEATURE_TYPE tileFilter_148 OUTPUT 149 FEATURE_TYPE tileFilter_149 OUTPUT 161 FEATURE_TYPE tileFilter_161 OUTPUT 162 FEATURE_TYPE tileFilter_162 OUTPUT 194 FEATURE_TYPE tileFilter_194 OUTPUT 195 FEATURE_TYPE tileFilter_195 OUTPUT 207 FEATURE_TYPE tileFilter_207 OUTPUT 208 FEATURE_TYPE tileFilter_208 OUTPUT <lt>EMPTY<gt> FEATURE_TYPE tileFilter_<lt>EMPTY<gt> OUTPUT <lt>MISSING<gt> FEATURE_TYPE tileFilter_<lt>MISSING<gt> OUTPUT <lt>NULL<gt> FEATURE_TYPE tileFilter_<lt>NULL<gt> OUTPUT <lt>UNFILTERED<gt> FEATURE_TYPE tileFilter_<lt>UNFILTERED<gt>
 FACTORY_DEF * TeeFactory   FACTORY_NAME "tileFilter 148 Transformer Output Nuker"   INPUT FEATURE_TYPE tileFilter_148
 FACTORY_DEF * TeeFactory   FACTORY_NAME "tileFilter 149 Transformer Output Nuker"   INPUT FEATURE_TYPE tileFilter_149
 FACTORY_DEF * TeeFactory   FACTORY_NAME "tileFilter 161 Transformer Output Nuker"   INPUT FEATURE_TYPE tileFilter_161
+FACTORY_DEF * TeeFactory   FACTORY_NAME "tileFilter 162 Transformer Output Nuker"   INPUT FEATURE_TYPE tileFilter_162
+FACTORY_DEF * TeeFactory   FACTORY_NAME "tileFilter 194 Transformer Output Nuker"   INPUT FEATURE_TYPE tileFilter_194
+FACTORY_DEF * TeeFactory   FACTORY_NAME "tileFilter 195 Transformer Output Nuker"   INPUT FEATURE_TYPE tileFilter_195
+FACTORY_DEF * TeeFactory   FACTORY_NAME "tileFilter 207 Transformer Output Nuker"   INPUT FEATURE_TYPE tileFilter_207
+FACTORY_DEF * TeeFactory   FACTORY_NAME "tileFilter <lt>EMPTY<gt> Transformer Output Nuker"   INPUT FEATURE_TYPE tileFilter_<lt>EMPTY<gt>
 FACTORY_DEF * TeeFactory   FACTORY_NAME "tileFilter <lt>MISSING<gt> Transformer Output Nuker"   INPUT FEATURE_TYPE tileFilter_<lt>MISSING<gt>
 FACTORY_DEF * TeeFactory   FACTORY_NAME "tileFilter <lt>NULL<gt> Transformer Output Nuker"   INPUT FEATURE_TYPE tileFilter_<lt>NULL<gt>
 FACTORY_DEF * TeeFactory   FACTORY_NAME "tileFilter <lt>UNFILTERED<gt> Transformer Output Nuker"   INPUT FEATURE_TYPE tileFilter_<lt>UNFILTERED<gt>
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME Junction_2    INPUT  FEATURE_TYPE tileFilter_162    OUTPUT FEATURE_TYPE Junction_2_Output
+FACTORY_DEF * TeeFactory    FACTORY_NAME Junction_2    INPUT  FEATURE_TYPE tileFilter_208    OUTPUT FEATURE_TYPE Junction_2_Output
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Junction_2 Output Splitter"   INPUT FEATURE_TYPE Junction_2_Output   OUTPUT FEATURE_TYPE Junction_2_Output_0_tvGfyYWUJeA=   OUTPUT FEATURE_TYPE Junction_2_Output_1_8yJTK7wdGRQ=
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME Junction_4    INPUT  FEATURE_TYPE Junction_2_Output_0_tvGfyYWUJeA=    OUTPUT FEATURE_TYPE Junction_4_Output
@@ -5319,8 +5351,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_InputPassThrough    INPU
 FACTORY_DEF $(INSTANCE_FILTERING) TestFactory    FACTORY_NAME GeometryFilter_InstanceTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST @Geometry(IS_GEOMETRY_INSTANCE) == 1    OUTPUT PASSED FEATURE_TYPE $(OUTPUT_INSTANCE_FTYPE)    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Input___
 FACTORY_DEF $(COLLECTION_HANDLING) TestFactory    FACTORY_NAME GeometryFilter_CollectionTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST &fme_type == "fme_collection"    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Not_Collection___    OUTPUT PASSED FEATURE_TYPE GeometryFilter___Collection___
 FACTORY_DEF $(COLLECTION_HANDLING) DeaggregateFactory    FACTORY_NAME GeometryFilter_Deagg    INPUT FEATURE_TYPE GeometryFilter___Collection___    HOMOGENIZE_COLLECTIONS YES    RECURSIVE YES    SET_FME_TYPE YES    INSTANTIATE_GEOMETRY_INSTANCES_NEW <Unused>    OUTPUT POINT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT LINE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT POLYGON FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT DONUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT AGGREGATE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___
-FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_fcfed05b_3ec9_408d_9852_728eac93181228_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
-FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_fcfed05b_3ec9_408d_9852_728eac93181228_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_fcfed05b_3ec9_408d_9852_728eac93181228_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_fcfed05b_3ec9_408d_9852_728eac93181228_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_fcfed05b_3ec9_408d_9852_728eac93181228_targetFeatureType)
+FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_0fa8211b_a68a_4ce2_8f36_d07ac226e9616_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
+FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_0fa8211b_a68a_4ce2_8f36_d07ac226e9616_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_0fa8211b_a68a_4ce2_8f36_d07ac226e9616_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_0fa8211b_a68a_4ce2_8f36_d07ac226e9616_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_0fa8211b_a68a_4ce2_8f36_d07ac226e9616_targetFeatureType)
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME BoundsExtractor    INPUT  FEATURE_TYPE GeometryFilter_SURFACE    OUTPUT FEATURE_TYPE BoundsExtractor_OUTPUT         @Bounds(fme_encoded,,,,,__ssc.zmin,__ssc.zmax,GEOMETRIC)
 # -------------------------------------------------------------------------
