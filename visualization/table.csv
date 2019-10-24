@@ -1,4 +1,0 @@
-Direction,Destination,Time,AVLS<br/>Time,Tram,Action,Msg Sent<br />(AVLS time),Msg Received<br />(LF Server time),Msg Processed<br />(LF Server time),XML ID<br />(from AVLS),Total Lag,Create Lag,Process Lag
-Inbound,Parnell,00:06:46,00:07:26,5007,a,30/07/2019 15:26:11,30/07/2019 15:26:10,30/07/2019 15:26:11,19253,0.8067911,-0.0386371,0.8454282
-Inbound,Parnell,00:17:06,00:17:46,5022,a,30/07/2019 15:26:11,30/07/2019 15:26:10,30/07/2019 15:26:11,19253,0.9012837,-0.0386371,0.9399208
-Outbound,Bride's Glen,00:10:52,00:11:32,5001,a,30/07/2019 15:26:11,30/07/2019 15:26:10,30/07/2019 15:26:11,19253,0.7755325,-0.0386371,0.8141696

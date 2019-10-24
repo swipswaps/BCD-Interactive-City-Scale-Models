@@ -1,0 +1,40 @@
+﻿Attribute_Name,Display_Name
+AREA_SQMET,Area (km sq)
+AV_PER_HOU,Average Number of Persons Per Household
+COUNTY,County ID
+COUNTYNAME,County Name
+CSOED,CSO Electoral District ID
+DEP_RATIO,Dependency Ratio (per 100)
+EDNAME,Electoral District Name
+GEOGDESC,Geographic Description
+GEOGID,Geographic ID
+GUID,Globally Unique Identifier
+HO_POS2001,Housholds Built 2001 to 2016
+HO_PRE2001,Households Built to 2000
+NUTS1,NUTS 1 Region ID
+NUTS1NAME,NUTS 1 Region Name
+NUTS2,NUTS 2 Region ID
+NUTS2NAME,NUTS 2 Region Name
+NUTS3,NUTS 3 Region ID
+NUTS3NAME,NUTS 3 Region Name
+OSIED,OSI Electoral District ID
+PER_3ED,Percentage of Population With 3rd Level Education
+PER_CH_HOU,Percentage Change of Total Housholds 2011-2016
+PER_CH_POP,Percentage Change of Total Population 2011-2016
+PER_DISAB,Percentage of Persons with a Disability
+PER_FLAPBE,Percentage of Households in Flats/Apartments/Bedsits
+PER_NO3ED,Percentage of Population Without 3rd Level Education
+PER_NONIRE,Percentage of Non-Irish Nationals
+PER_NO_INT,Percentage of Households Without Internet
+PER_O_OCC,Percentage of Population Other Class Bands (C-Z)
+PER_PROF,"Percentage of Population in Professional, Management and Technical Class (A & B)"
+PER_RENT,Percentage of Rented Households
+PER_UNEM,Percentage of Unemployed Persons
+PER_VAC,Percentage of Vacant Households (excluding holiday homes)
+POP_DENS,Population Density (per km sq)
+SA_PUB2011,Small Area ID 2011
+SMALL_AREA,Small Area ID 2016
+TO_HOU2011,Total Number of Households 2016
+TO_HOU2016,Total Number of Households 2016
+TO_POP2011,Total Population 2011
+TO_POP2016,Total Population 2016

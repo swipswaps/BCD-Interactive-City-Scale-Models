@@ -5,16 +5,16 @@
 
 # Proprietary data #
 ######################
-3D Print Data/Source/docklands_lidar_2009_dsm.las
-3D Print Data/Source/DublinBuildingGrangeGormantoDocks.gdb
+Dublin/Fabrication/Sources/LiDAR_Footprints/docklands_lidar_2009_dsm.las
+Dublin/Fabrication/Sources/LiDAR_Footprints/DublinBuildingGrangeGormantoDocks.gdb
 
 # Log files #
 ######################
-3D Print Data/*.log
+*.log
 
 # Recovery files #
 ######################
-3D Print Data/*.fmw.recover
+*.fmw.recover
 
 # WIP #
 ######################
