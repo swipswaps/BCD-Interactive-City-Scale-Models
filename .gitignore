@@ -8,9 +8,9 @@
 Dublin/Fabrication/Sources/LiDAR_Footprints/docklands_lidar_2009_dsm.las
 Dublin/Fabrication/Sources/LiDAR_Footprints/DublinBuildingGrangeGormantoDocks.gdb
 
-# Log files #
+# Fabrication Manager Log files #
 ######################
-*.log
+Dublin Fabrication Data Manager.log
 
 # Recovery files #
 ######################
