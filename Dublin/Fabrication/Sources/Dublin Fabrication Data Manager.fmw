@@ -36,7 +36,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2019.0.1.0 (20190506 - Build 19253 - macosx)"
-#!   LAST_SAVE_DATE="2019-11-04T14:28:12"
+#!   LAST_SAVE_DATE="2019-11-04T14:40:21"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -55,10 +55,10 @@
 #!   TITLE="OSiDataTo3D"
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-4936.41 -209.093"
+#!   VIEW_POSITION="-4675.05 -987.51"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
-#!   ZOOM_SCALE="66"
+#!   ZOOM_SCALE="96"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -2340,6 +2340,36 @@
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="119"
 #! />
+#! <COMMENT
+#!   IDENTIFIER="214"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Extrude tile base&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-3352.3465990552741 -1861.7842793849186"
+#!   TOP_LEFT="-3352.3465990552741 -1861.7842793849186"
+#!   BOTTOM_RIGHT="-2984.8033634365829 -1963.7849993921186"
+#!   BOUNDING_RECT="-3352.3465990552741 -1861.7842793849186 367.54323561869137 102.00072000720007"
+#!   ORDER="500000000000062"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.28627450980392155,0.29803921568627451,0.0078431372549019607,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="207"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="216"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;2D -&amp;gt; 3D&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-4086.632989278668 -1806.4259879448618"
+#!   TOP_LEFT="-4086.632989278668 -1806.4259879448618"
+#!   BOTTOM_RIGHT="-3854.2874158229333 -1805.4259879448618"
+#!   BOUNDING_RECT="-4086.632989278668 -1806.4259879448618 232.34557345573455 -1"
+#!   ORDER="500000000000073"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.28627450980392155,0.29803921568627451,0.0078431372549019607,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="208"
+#! />
 #! </COMMENTS>
 #! <CONSTANTS>
 #! </CONSTANTS>
@@ -2349,7 +2379,7 @@
 #!   NAME="Terrain Solid Model"
 #!   DESCRIPTION=""
 #!   TOP_LEFT="3986.3895393565886 -1707.4994557863251"
-#!   ORDER="500000000000187.5"
+#!   ORDER="500000000000190.5"
 #!   PALETTE_COLOR=""
 #!   BOTTOM_RIGHT="5143.5295393565884 -2003.4994557863251"
 #!   BOUNDING_RECT="3986.3895393565886 -1707.4994557863251 1157.1400000000001 296"
@@ -2419,7 +2449,7 @@
 #!   NAME="Taksahi Flow creates base by creating side and bottom faces from terrain surface"
 #!   DESCRIPTION=""
 #!   TOP_LEFT="-2655.9287834257652 -860"
-#!   ORDER="500000000000189.13"
+#!   ORDER="500000000000190.5"
 #!   PALETTE_COLOR="Color7"
 #!   COLLAPSED="true"
 #!   UNCOLLAPSED_SIZE="8354.2846210765947 1943.5036959065242"
@@ -2456,7 +2486,7 @@
 #!   NAME="Draped Surface - Takashi Base"
 #!   DESCRIPTION=""
 #!   TOP_LEFT="-4200 -750"
-#!   ORDER="500000000000190.13"
+#!   ORDER="500000000000190.38"
 #!   PALETTE_COLOR="Color3"
 #!   COLLAPSED="true"
 #!   UNCOLLAPSED_SIZE="8368.7891878918781 440"
@@ -4869,6 +4899,101 @@
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Deaggregator"/>
 #! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="209"
+#!   TYPE="Inspector"
+#!   VERSION="5"
+#!   POSITION="-2762.255773501131 -2313.2306794766059"
+#!   BOUNDING_RECT="-2762.255773501131 -2313.2306794766059 454 71"
+#!   ORDER="500000000000196.13"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="19253"
+#! >
+#!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
+#!     <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Inspector_3"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="207"
+#!   TYPE="Extruder"
+#!   VERSION="4"
+#!   POSITION="-3352.3465990552741 -2100"
+#!   BOUNDING_RECT="-3352.3465990552741 -2100 454 71"
+#!   ORDER="500000000000041"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="19253"
+#! >
+#!     <OUTPUT_FEAT NAME="EXTRUDED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="DIRECTION" PARM_VALUE="Vertical"/>
+#!     <XFORM_PARM PARM_NAME="DISTANCE" PARM_VALUE="-2"/>
+#!     <XFORM_PARM PARM_NAME="EXTRUSION_X" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="EXTRUSION_Y" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="EXTRUSION_Z" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Extruder_2"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="208"
+#!   TYPE="3DForcer"
+#!   VERSION="2"
+#!   POSITION="-4048.632989278668 -1943.4267079520614"
+#!   BOUNDING_RECT="-4048.632989278668 -1943.4267079520614 454 71"
+#!   ORDER="500000000000072"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="19253"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="KEEPZVAL" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="3DForcer_2"/>
+#!     <XFORM_PARM PARM_NAME="ZVALATTR" PARM_VALUE="0"/>
+#! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
@@ -5345,6 +5470,17 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
+#!   IDENTIFIER="215"
+#!   SOURCE_NODE="160"
+#!   TARGET_NODE="208"
+#!   SOURCE_PORT_DESC="fo 0 Output"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="2"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
 #!   IDENTIFIER="165"
 #!   SOURCE_NODE="163"
 #!   TARGET_NODE="22"
@@ -5415,6 +5551,28 @@
 #!   SOURCE_NODE="199"
 #!   TARGET_NODE="157"
 #!   SOURCE_PORT_DESC="fo 0 AGGREGATE"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="218"
+#!   SOURCE_NODE="207"
+#!   TARGET_NODE="209"
+#!   SOURCE_PORT_DESC="fo 0 EXTRUDED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="217"
+#!   SOURCE_NODE="208"
+#!   TARGET_NODE="207"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -5593,10 +5751,10 @@ MULTI_READER_KEYWORD{0} FILEGDB_1
 MULTI_READER_GEN_DIRECTIVES{0} GEOMETRY,,ADVANCED,,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,SEARCH_ENVELOPE_MAXX,0,END_SQL,,FILEGDB_EXPOSE_FORMAT_ATTRS,,UPDATE_FEATURE_TYPES,no,SEARCH_ENVELOPE_MINY,0,SEARCH_ENVELOPE_MINX,0,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,CLIP_TO_ENVELOPE,NO,EXPOSE_ATTRS_GROUP,,_MERGE_SCHEMAS,YES,BEGIN_SQL,,TABLELIST,BuildingFootprints,SEARCH_ENVELOPE_MAXY,0,USE_SEARCH_ENVELOPE,NO,SIMPLE_DONUT_GEOMETRY,simple,STRIP_GUID_GLOBALID_BRACES,yes
 MULTI_READER_TYPE{1} LAS
 MULTI_READER_KEYWORD{1} LAS_1
-MULTI_READER_GEN_DIRECTIVES{1} READER_META_ATTRIBUTES,fme_dataset,SEARCH_ENVELOPE_MINY,0,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,USE_SEARCH_ENVELOPE,NO,SEARCH_ENVELOPE_MAXY,0,SEARCH_ENVELOPE_MINX,0,SEARCH_ENVELOPE_MAXX,0,GROUP_BY_DATASET,No,LAS_EXPOSE_FORMAT_ATTRS,,EXPOSE_ATTRS_GROUP,,CLIP_TO_ENVELOPE,NO,UPDATE_FEATURE_TYPES,no,_MERGE_SCHEMAS,YES
+MULTI_READER_GEN_DIRECTIVES{1} READER_META_ATTRIBUTES,fme_dataset,SEARCH_ENVELOPE_MAXX,0,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,EXPOSE_ATTRS_GROUP,,LAS_EXPOSE_FORMAT_ATTRS,,USE_SEARCH_ENVELOPE,NO,_MERGE_SCHEMAS,YES,SEARCH_ENVELOPE_MINX,0,UPDATE_FEATURE_TYPES,no,SEARCH_ENVELOPE_MAXY,0,CLIP_TO_ENVELOPE,NO,GROUP_BY_DATASET,No,SEARCH_ENVELOPE_MINY,0
 MULTI_READER_TYPE{2} ESRISHAPE
 MULTI_READER_KEYWORD{2} ESRISHAPE_1
-MULTI_READER_GEN_DIRECTIVES{2} READER_PARAMETERS,,DISSOLVE_HOLES,no,TRIM_PRECEDING_SPACES,yes,MEASURES_AS_Z,no,ENCODING,,REPORT_BAD_GEOMETRY,no,SEARCH_ENVELOPE_MINX,0,SEARCH_ENVELOPE_MINY,0,GEOMETRY,,_MERGE_SCHEMAS,YES,EXPOSE_ATTRS_GROUP,,UPPER_CASE_ATTR_NAMES,No,ESRISHAPE_EXPOSE_FORMAT_ATTRS,,CLIP_TO_ENVELOPE,NO,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,CHECK_NUMERIC_FIELDS,yes,ADVANCED,,USE_SEARCH_ENVELOPE,NO,SIMPLE_DONUT_GEOMETRY,simple,SEARCH_ENVELOPE_MAXX,0,SEARCH_ENVELOPE_MAXY,0
+MULTI_READER_GEN_DIRECTIVES{2} EXPOSE_ATTRS_GROUP,,ESRISHAPE_EXPOSE_FORMAT_ATTRS,,SEARCH_ENVELOPE_MAXY,0,ADVANCED,,NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,ENCODING,fme-source-encoding,SEARCH_ENVELOPE_MINX,0,TRIM_PRECEDING_SPACES,yes,MEASURES_AS_Z,no,SEARCH_ENVELOPE_MAXX,0,CHECK_NUMERIC_FIELDS,yes,USE_SEARCH_ENVELOPE,NO,SEARCH_ENVELOPE_MINY,0,CLIP_TO_ENVELOPE,NO,GEOMETRY,,_MERGE_SCHEMAS,YES,REPORT_BAD_GEOMETRY,no,DISSOLVE_HOLES,no,UPPER_CASE_ATTR_NAMES,No,SIMPLE_DONUT_GEOMETRY,simple,SEARCH_ENVELOPE_COORDINATE_SYSTEM,
 MULTI_READER_TYPE{3} ESRISHAPE
 MULTI_READER_KEYWORD{3} ESRISHAPE_2
 MULTI_READER_GEN_DIRECTIVES{3} SEARCH_ENVELOPE_COORDINATE_SYSTEM,,TRIM_PRECEDING_SPACES,yes,UPPER_CASE_ATTR_NAMES,No,GEOMETRY,,_MERGE_SCHEMAS,YES,MEASURES_AS_Z,no,ENCODING,fme-source-encoding,SEARCH_ENVELOPE_MINX,0,ESRISHAPE_EXPOSE_FORMAT_ATTRS,,DISSOLVE_HOLES,no,SEARCH_ENVELOPE_MAXX,0,CLIP_TO_ENVELOPE,NO,NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,SEARCH_ENVELOPE_MINY,0,SIMPLE_DONUT_GEOMETRY,simple,EXPOSE_ATTRS_GROUP,,USE_SEARCH_ENVELOPE,NO,ADVANCED,,SEARCH_ENVELOPE_MAXY,0,CHECK_NUMERIC_FIELDS,yes,REPORT_BAD_GEOMETRY,no
@@ -6731,7 +6889,31 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "406 <lt>NULL<gt> Transformer Output Nuk
 FACTORY_DEF * TeeFactory   FACTORY_NAME "406 <lt>UNFILTERED<gt> Transformer Output Nuker"   INPUT FEATURE_TYPE 406_<lt>UNFILTERED<gt>
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME Junction_2    INPUT  FEATURE_TYPE 406_1582    OUTPUT FEATURE_TYPE Junction_2_Output
-FACTORY_DEF * TeeFactory   FACTORY_NAME "Junction_2 Output Splitter"   INPUT FEATURE_TYPE Junction_2_Output   OUTPUT FEATURE_TYPE Junction_2_Output_0_tvGfyYWUJeA=   OUTPUT FEATURE_TYPE Junction_2_Output_1_8yJTK7wdGRQ=
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Junction_2 Output Splitter"   INPUT FEATURE_TYPE Junction_2_Output   OUTPUT FEATURE_TYPE Junction_2_Output_0_tvGfyYWUJeA=   OUTPUT FEATURE_TYPE Junction_2_Output_1_8yJTK7wdGRQ=   OUTPUT FEATURE_TYPE Junction_2_Output_2_YUQ6I6Jdn0k=
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory    FACTORY_NAME 3DForcer_2    INPUT  FEATURE_TYPE Junction_2_Output_2_YUQ6I6Jdn0k=    OUTPUT FEATURE_TYPE ___TOREJECTOR___         @ZValue("0", "No", ___fme_rejection_code___)
+FACTORY_DEF * TestFactory    FACTORY_NAME 3DForcer_2_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(___fme_rejection_code___) != ""    OUTPUT PASSED FEATURE_TYPE 3DForcer_2_<REJECTED>         @RenameAttributes(fme_rejection_code, ___fme_rejection_code___)    OUTPUT FAILED FEATURE_TYPE 3DForcer_2_OUTPUT
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME 3DForcer_2_<Rejected> INPUT FEATURE_TYPE 3DForcer_2_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, 3DForcer_2<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+INCLUDE [          if { ({VERTICAL} == {SPECIFIED}) } {             puts {MACRO Extruder_2_func @GeometryType(REJECTABLE, fme_extrusion_exact,"<Unused>","<Unused>","<Unused>")};          } else {             puts {MACRO Extruder_2_func @GeometryType(REJECTABLE, fme_extrusion_exact,0.0,0.0,0.0,"-2","VERTICAL")};          }          ]
+FACTORY_DEF * TeeFactory    FACTORY_NAME Extruder_2    INPUT  FEATURE_TYPE 3DForcer_2_OUTPUT    OUTPUT FEATURE_TYPE ___TOREJECTOR___         @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)         $(Extruder_2_func)
+FACTORY_DEF * TestFactory    FACTORY_NAME Extruder_2_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) == ""    OUTPUT PASSED FEATURE_TYPE Extruder_2_EXTRUDED       @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)    OUTPUT FAILED FEATURE_TYPE Extruder_2_<REJECTED>       @RemoveAttributes(___fme_rejection_code___)
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME Extruder_2_<Rejected> INPUT FEATURE_TYPE Extruder_2_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, Extruder_2<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
+DEFAULT_MACRO WORKSPACE_TEMP_DIR
+INCLUDE [    set safeName "[regsub -all {[^a-zA-Z0-9]} {Inspector_3} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";    puts "MACRO SAFE_FFS_NAME $safeName"; ]
+FACTORY_DEF {*} InspectorFactory    FACTORY_NAME Inspector_3_Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE Extruder_2_EXTRUDED    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY {  }    GROUP_ATTRIBUTE_PREFIX { Inspector_3 }    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
+# Now route all the features into the recorder, changing their
+# feature type to the transformer name so that they view nicely
+DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
+DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
+# [PR#45549] The Data Inspector will limit the maximum number of features
+# it reads on WIN32, so we will correspondingly limit the number of
+# features we record here using the MAX_FEATURES_TO_RECORD directive.
+FACTORY_DEF * RecorderFactory    FACTORY_NAME Inspector_3_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA left,varchar<openparen>255<closeparen>,top,varchar<openparen>255<closeparen>,right,varchar<openparen>255<closeparen>,bottom,varchar<openparen>255<closeparen>,id,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME Junction_4    INPUT  FEATURE_TYPE Junction_2_Output_0_tvGfyYWUJeA=    OUTPUT FEATURE_TYPE Junction_4_Output
 # -------------------------------------------------------------------------
@@ -6775,8 +6957,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_InputPassThrough    INPU
 FACTORY_DEF $(INSTANCE_FILTERING) TestFactory    FACTORY_NAME GeometryFilter_InstanceTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST @Geometry(IS_GEOMETRY_INSTANCE) == 1    OUTPUT PASSED FEATURE_TYPE $(OUTPUT_INSTANCE_FTYPE)    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Input___
 FACTORY_DEF $(COLLECTION_HANDLING) TestFactory    FACTORY_NAME GeometryFilter_CollectionTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST &fme_type == "fme_collection"    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Not_Collection___    OUTPUT PASSED FEATURE_TYPE GeometryFilter___Collection___
 FACTORY_DEF $(COLLECTION_HANDLING) DeaggregateFactory    FACTORY_NAME GeometryFilter_Deagg    INPUT FEATURE_TYPE GeometryFilter___Collection___    HOMOGENIZE_COLLECTIONS YES    RECURSIVE YES    SET_FME_TYPE YES    INSTANTIATE_GEOMETRY_INSTANCES_NEW <Unused>    OUTPUT POINT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT LINE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT POLYGON FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT DONUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT AGGREGATE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___
-FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_9a917008_c4ba_4359_9929_718f40a3ca831_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
-FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_9a917008_c4ba_4359_9929_718f40a3ca831_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_9a917008_c4ba_4359_9929_718f40a3ca831_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_9a917008_c4ba_4359_9929_718f40a3ca831_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_9a917008_c4ba_4359_9929_718f40a3ca831_targetFeatureType)
+FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_9a917008_c4ba_4359_9929_718f40a3ca836_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
+FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_9a917008_c4ba_4359_9929_718f40a3ca836_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_9a917008_c4ba_4359_9929_718f40a3ca836_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_9a917008_c4ba_4359_9929_718f40a3ca836_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_9a917008_c4ba_4359_9929_718f40a3ca836_targetFeatureType)
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME BoundsExtractor    INPUT  FEATURE_TYPE GeometryFilter_SURFACE    OUTPUT FEATURE_TYPE BoundsExtractor_OUTPUT         @Bounds(fme_encoded,,,,,__ssc.zmin,__ssc.zmax,GEOMETRIC)
 # -------------------------------------------------------------------------
