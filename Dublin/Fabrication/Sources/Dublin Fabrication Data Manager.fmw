@@ -20,8 +20,8 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="13002.2 4371.1"
-#!   DOC_TOP_LEFT="-7167.73 -3938.09"
+#!   DOC_EXTENTS="13184.5 4477.01"
+#!   DOC_TOP_LEFT="-7350 -4044"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
@@ -36,7 +36,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2019.0.1.0 (20190506 - Build 19253 - macosx)"
-#!   LAST_SAVE_DATE="2019-11-04T15:33:40"
+#!   LAST_SAVE_DATE="2019-11-04T16:28:33"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -55,10 +55,10 @@
 #!   TITLE="OSiDataTo3D"
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="747.465 203.392"
+#!   VIEW_POSITION="-6750.07 -2092.33"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
-#!   ZOOM_SCALE="177"
+#!   ZOOM_SCALE="78"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -1643,8 +1643,8 @@
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="8"
 #!   FEAT_GEOMTYPE="All"
-#!   POSITION="-6091.7024380689963 -2959.5006600066008"
-#!   BOUNDING_RECT="-6091.7024380689963 -2959.5006600066008 495.00106825772946 71"
+#!   POSITION="-6082.7023480680955 -2959.5006600066008"
+#!   BOUNDING_RECT="-6082.7023480680955 -2959.5006600066008 495.00106825772946 71"
 #!   ORDER="500000000000005"
 #!   COLLAPSED="true"
 #!   KEYWORD="STL_1"
@@ -2088,10 +2088,10 @@
 #! <COMMENT
 #!   IDENTIFIER="89"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;.stl writer&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-6091.7024380689963 -2803.9999399994012"
-#!   TOP_LEFT="-6091.7024380689963 -2803.9999399994012"
-#!   BOTTOM_RIGHT="-5554.7013698112669 -2804.9999399994012"
-#!   BOUNDING_RECT="-6091.7024380689963 -2803.9999399994012 537.00106825772946 1"
+#!   POSITION="-6082.7023480680955 -2803.9999399994012"
+#!   TOP_LEFT="-6082.7023480680955 -2803.9999399994012"
+#!   BOTTOM_RIGHT="-5545.701279810366 -2804.9999399994012"
+#!   BOUNDING_RECT="-6082.7023480680955 -2803.9999399994012 537.00106825772946 1"
 #!   ORDER="500000000000069"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -2327,16 +2327,16 @@
 #! />
 #! <COMMENT
 #!   IDENTIFIER="162"
-#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Helvetica Neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Buildings&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-7050 -2786.9963699637005"
-#!   TOP_LEFT="-7050 -2786.9963699637005"
-#!   BOTTOM_RIGHT="-6800 -2787.9963699637005"
-#!   BOUNDING_RECT="-7050 -2786.9963699637005 250 1"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Helvetica Neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Buildings for flat base&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-7284.2716745296848 -2834.0009900098999"
+#!   TOP_LEFT="-7284.2716745296848 -2834.0009900098999"
+#!   BOTTOM_RIGHT="-6825.3375851887913 -2936.0017100170999"
+#!   BOUNDING_RECT="-7284.2716745296848 -2834.0009900098999 458.93408934089348 102.00072000720007"
 #!   ORDER="500000000000174"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.28627450980392155,0.29803921568627451,0.0078431372549019607,0.78431372549019607"
+#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="119"
 #! />
@@ -2373,55 +2373,55 @@
 #! <COMMENT
 #!   IDENTIFIER="220"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Helvetica Neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Flat Base&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-7054.445157127625 -3080.9948099480985"
-#!   TOP_LEFT="-7054.445157127625 -3080.9948099480985"
-#!   BOTTOM_RIGHT="-6804.445157127625 -3081.9948099480985"
-#!   BOUNDING_RECT="-7054.445157127625 -3080.9948099480985 250 1"
+#!   POSITION="-7186.7158116471082 -3506.0002100020988"
+#!   TOP_LEFT="-7186.7158116471082 -3506.0002100020988"
+#!   BOTTOM_RIGHT="-6936.7158116471082 -3507.0002100020988"
+#!   BOUNDING_RECT="-7186.7158116471082 -3506.0002100020988 250 1"
 #!   ORDER="500000000000174"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.28627450980392155,0.29803921568627451,0.0078431372549019607,0.78431372549019607"
+#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="219"
 #! />
 #! <COMMENT
 #!   IDENTIFIER="222"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Helvetica Neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Draped/Takashi Base&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-7167.7293454805167 -3383.9948399483997"
-#!   TOP_LEFT="-7167.7293454805167 -3383.9948399483997"
-#!   BOTTOM_RIGHT="-6702.072244420513 -3485.9955599555997"
-#!   BOUNDING_RECT="-7167.7293454805167 -3383.9948399483997 465.6571010600037 102.00072000720007"
+#!   POSITION="-7300 -3809.0002400024"
+#!   TOP_LEFT="-7300 -3809.0002400024"
+#!   BOTTOM_RIGHT="-6834.3428989399963 -3911.0009600096"
+#!   BOUNDING_RECT="-7300 -3809.0002400024 465.6571010600037 102.00072000720007"
 #!   ORDER="500000000000174"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.28627450980392155,0.29803921568627451,0.0078431372549019607,0.78431372549019607"
+#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="221"
 #! />
 #! <COMMENT
 #!   IDENTIFIER="226"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Helvetica Neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Merge features&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-6513.8521490437997 -2751.4225641076159"
-#!   TOP_LEFT="-6513.8521490437997 -2751.4225641076159"
-#!   BOTTOM_RIGHT="-6200.8521490437997 -2752.4225641076159"
-#!   BOUNDING_RECT="-6513.8521490437997 -2751.4225641076159 313 1"
+#!   POSITION="-6716.271614529086 -2810"
+#!   TOP_LEFT="-6716.271614529086 -2810"
+#!   BOTTOM_RIGHT="-6403.271614529086 -2811"
+#!   BOUNDING_RECT="-6716.271614529086 -2810 313 1"
 #!   ORDER="500000000000198.13"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.28627450980392155,0.29803921568627451,0.0078431372549019607,0.78431372549019607"
+#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="223"
 #! />
 #! <COMMENT
 #!   IDENTIFIER="230"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;2D -&amp;gt; 3D&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-62 190"
-#!   TOP_LEFT="-62 190"
-#!   BOTTOM_RIGHT="170.34557345573455 191"
-#!   BOUNDING_RECT="-62 190 232.34557345573455 -1"
+#!   POSITION="-62 186.15380769192308"
+#!   TOP_LEFT="-62 186.15380769192308"
+#!   BOTTOM_RIGHT="170.34557345573455 187.15380769192308"
+#!   BOUNDING_RECT="-62 186.15380769192308 232.34557345573455 -1"
 #!   ORDER="500000000000064"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -2460,6 +2460,21 @@
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="229"
 #! />
+#! <COMMENT
+#!   IDENTIFIER="240"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Helvetica Neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Buildings for Draped/Takashi Base&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-7281.2716445293836 -3154.648961725668"
+#!   TOP_LEFT="-7281.2716445293836 -3154.648961725668"
+#!   BOTTOM_RIGHT="-6831.3376451893901 -3304.650161737668"
+#!   BOUNDING_RECT="-7281.2716445293836 -3154.648961725668 449.93399933999353 150.00120001200011"
+#!   ORDER="500000000000174"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="239"
+#! />
 #! </COMMENTS>
 #! <CONSTANTS>
 #! </CONSTANTS>
@@ -2489,7 +2504,7 @@
 #!   BOUNDING_RECT="-5174.4490343427815 433.00730879493972 6954.2459903523695 1327.9742416575459"
 #!   STICKY="true"
 #!   COLOUR="0.60784313725490191,0.46274509803921571,0.20784313725490197,1"
-#!   CONTENTS="231 218 236 232 10 209 67 75 229 18 74 14 22 16 66 237 235 83 163 161 149 230 78 86 60 158 17 177 176 234 33 79 72 76 11 165 "
+#!   CONTENTS="231 218 236 232 10 209 67 75 229 18 74 14 22 16 66 237 235 83 163 238 161 149 230 78 86 60 158 17 177 176 234 33 79 72 76 11 165 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2573,7 +2588,7 @@
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="206"
-#!   NAME="Draped Surface - Takashi Base"
+#!   NAME="Draped/Takashi Base"
 #!   DESCRIPTION=""
 #!   TOP_LEFT="-4190.5461239486358 -1965.3286201020614"
 #!   ORDER="500000000000190.38"
@@ -2609,13 +2624,31 @@
 #!   NAME="Extrusion for Draped/Takashi base"
 #!   DESCRIPTION=""
 #!   TOP_LEFT="-150 -300"
-#!   ORDER="500000000000200.13"
+#!   ORDER="500000000000211.13"
 #!   PALETTE_COLOR="Color5"
-#!   BOTTOM_RIGHT="1589.5160829811521 -771.43628579142944"
-#!   BOUNDING_RECT="-150 -300 1739.5160829811521 471.43628579142944"
+#!   COLLAPSED="true"
+#!   UNCOLLAPSED_SIZE="1739.5160829811521 471.43628579142944"
+#!   BOTTOM_RIGHT="790 -505"
+#!   BOUNDING_RECT="-150 -300 940 205"
 #!   STICKY="true"
 #!   COLOUR="0.21568627450980393,0.52549019607843139,0.33333333333333331,1"
 #!   CONTENTS="158 86 10 72 11 176 177 33 "
+#! >
+#!     <BOOKMARK_FEAT NAME="3DForcer" SOURCE_NODE="10" SOURCE_PORT_DESC="fi 0 "/>
+#!     <BOOKMARK_FEAT NAME="Junction_6 : Output" SOURCE_NODE="176" SOURCE_PORT_DESC="fo 0 Output"/>
+#! </BOOKMARK>
+#! <BOOKMARK
+#!   IDENTIFIER="242"
+#!   NAME="Feature Merging"
+#!   DESCRIPTION=""
+#!   TOP_LEFT="-7350 -2700"
+#!   ORDER="500000000000210.13"
+#!   PALETTE_COLOR="Color6"
+#!   BOTTOM_RIGHT="-6353.3002348152886 -4044.0002400024"
+#!   BOUNDING_RECT="-7350 -2700 996.6997651847114 1344.0002400024"
+#!   STICKY="true"
+#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,1"
+#!   CONTENTS="240 220 221 223 219 228 224 162 222 239 119 226 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -4573,8 +4606,8 @@
 #!   IDENTIFIER="119"
 #!   TYPE="Junction"
 #!   VERSION="0"
-#!   POSITION="-6960.7287754748177 -2943.3471682356326"
-#!   BOUNDING_RECT="-6960.7287754748177 -2943.3471682356326 40 40"
+#!   POSITION="-7092.9994299943019 -3002.3474082380326"
+#!   BOUNDING_RECT="-7092.9994299943019 -3002.3474082380326 40 40"
 #!   ORDER="500000000000138"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -4601,8 +4634,8 @@
 #!   IDENTIFIER="160"
 #!   TYPE="Junction"
 #!   VERSION="0"
-#!   POSITION="-4490.5461239486358 -2795.6111130678346"
-#!   BOUNDING_RECT="-4490.5461239486358 -2795.6111130678346 40 40"
+#!   POSITION="-4436.6994316355604 -2634.0710361286037"
+#!   BOUNDING_RECT="-4436.6994316355604 -2634.0710361286037 40 40"
 #!   ORDER="500000000000139"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -5070,8 +5103,8 @@
 #!   IDENTIFIER="219"
 #!   TYPE="Junction"
 #!   VERSION="0"
-#!   POSITION="-6960.7287754748177 -3242.5327316287407"
-#!   BOUNDING_RECT="-6960.7287754748177 -3242.5327316287407 40 40"
+#!   POSITION="-7092.999429994301 -3667.5381316827411"
+#!   BOUNDING_RECT="-7092.999429994301 -3667.5381316827411 40 40"
 #!   ORDER="500000000000138"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -5090,8 +5123,8 @@
 #!   IDENTIFIER="221"
 #!   TYPE="Junction"
 #!   VERSION="0"
-#!   POSITION="-6960.7287754748177 -3533.9948399483997"
-#!   BOUNDING_RECT="-6960.7287754748177 -3533.9948399483997 40 40"
+#!   POSITION="-7092.999429994301 -3959.0002400024"
+#!   BOUNDING_RECT="-7092.999429994301 -3959.0002400024 40 40"
 #!   ORDER="500000000000138"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -5123,8 +5156,8 @@
 #!   IDENTIFIER="223"
 #!   TYPE="Junction"
 #!   VERSION="0"
-#!   POSITION="-6388.8512790350987 -2943.4237341193161"
-#!   BOUNDING_RECT="-6388.8512790350987 -2943.4237341193161 40 40"
+#!   POSITION="-6591.2707445203851 -3002.0011700117002"
+#!   BOUNDING_RECT="-6591.2707445203851 -3002.0011700117002 40 40"
 #!   ORDER="500000000000197.13"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -5156,8 +5189,8 @@
 #!   IDENTIFIER="209"
 #!   TYPE="3DForcer"
 #!   VERSION="2"
-#!   POSITION="-62 52.999279992800098"
-#!   BOUNDING_RECT="-62 52.999279992800098 454 71"
+#!   POSITION="-62 49.153087684723175"
+#!   BOUNDING_RECT="-62 49.153087684723175 454 71"
 #!   ORDER="500000000000001"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -5278,6 +5311,34 @@
 #!     <XFORM_ATTR ATTR_NAME="z.min" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="z.median" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Junction_11"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="239"
+#!   TYPE="Junction"
+#!   VERSION="0"
+#!   POSITION="-7095.0687006870103 -3359.0002400024"
+#!   BOUNDING_RECT="-7095.0687006870103 -3359.0002400024 40 40"
+#!   ORDER="500000000000138"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="19253"
+#! >
+#!     <OUTPUT_FEAT NAME="Output"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="GUID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="FORM_VALUE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="FUNC_VALUE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="POLY_GEOM_CAPTURE_DATE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="POLY_GEOM_CHANGE_DATE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="WAY_SEG_VALUE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="STATUS_VALUE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Z_ORDER_VALUE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="z.min" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="z.median" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Junction_12"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -5788,6 +5849,17 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
+#!   IDENTIFIER="241"
+#!   SOURCE_NODE="176"
+#!   TARGET_NODE="239"
+#!   SOURCE_PORT_DESC="fo 0 Output"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="true"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
 #!   IDENTIFIER="181"
 #!   SOURCE_NODE="179"
 #!   TARGET_NODE="221"
@@ -5916,7 +5988,7 @@
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
+#!   HIDDEN="true"
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -7286,8 +7358,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_InputPassThrough    INPU
 FACTORY_DEF $(INSTANCE_FILTERING) TestFactory    FACTORY_NAME GeometryFilter_InstanceTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST @Geometry(IS_GEOMETRY_INSTANCE) == 1    OUTPUT PASSED FEATURE_TYPE $(OUTPUT_INSTANCE_FTYPE)    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Input___
 FACTORY_DEF $(COLLECTION_HANDLING) TestFactory    FACTORY_NAME GeometryFilter_CollectionTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST &fme_type == "fme_collection"    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Not_Collection___    OUTPUT PASSED FEATURE_TYPE GeometryFilter___Collection___
 FACTORY_DEF $(COLLECTION_HANDLING) DeaggregateFactory    FACTORY_NAME GeometryFilter_Deagg    INPUT FEATURE_TYPE GeometryFilter___Collection___    HOMOGENIZE_COLLECTIONS YES    RECURSIVE YES    SET_FME_TYPE YES    INSTANTIATE_GEOMETRY_INSTANCES_NEW <Unused>    OUTPUT POINT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT LINE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT POLYGON FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT DONUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT AGGREGATE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___
-FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_9a917008_c4ba_4359_9929_718f40a3ca8312_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
-FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_9a917008_c4ba_4359_9929_718f40a3ca8312_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_9a917008_c4ba_4359_9929_718f40a3ca8312_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_9a917008_c4ba_4359_9929_718f40a3ca8312_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_9a917008_c4ba_4359_9929_718f40a3ca8312_targetFeatureType)
+FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_9a917008_c4ba_4359_9929_718f40a3ca8316_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
+FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_9a917008_c4ba_4359_9929_718f40a3ca8316_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_9a917008_c4ba_4359_9929_718f40a3ca8316_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_9a917008_c4ba_4359_9929_718f40a3ca8316_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_9a917008_c4ba_4359_9929_718f40a3ca8316_targetFeatureType)
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME BoundsExtractor    INPUT  FEATURE_TYPE GeometryFilter_SURFACE    OUTPUT FEATURE_TYPE BoundsExtractor_OUTPUT         @Bounds(fme_encoded,,,,,__ssc.zmin,__ssc.zmax,GEOMETRIC)
 # -------------------------------------------------------------------------
@@ -7500,7 +7572,9 @@ FACTORY_DEF * TestFactory    FACTORY_NAME Extruder_Rejector    INPUT FEATURE_TYP
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME Extruder_<Rejected> INPUT FEATURE_TYPE Extruder_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, Extruder<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME Junction_6    INPUT  FEATURE_TYPE Extruder_EXTRUDED
+FACTORY_DEF * TeeFactory    FACTORY_NAME Junction_6    INPUT  FEATURE_TYPE Extruder_EXTRUDED    OUTPUT FEATURE_TYPE Junction_6_Output
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory    FACTORY_NAME Junction_12    INPUT  FEATURE_TYPE Junction_6_Output
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC Junction_10_Output_0_st1ltWAMeSg= TO STL __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>STL<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
