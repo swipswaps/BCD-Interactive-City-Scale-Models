@@ -3,7 +3,6 @@
 #    Command-line to run this workspace:
 #        /Library/FME/2019.0/fme "/Users/mlinnane/Documents/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/Dublin Fabrication Data Manager.fmw"
 #              --SourceDataset_FILEGDB_3 "/Users/mlinnane/Documents/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/LiDAR_Footprints/DublinBuildingGrangeGormantoDocks.gdb"
-#              --SourceDataset_LAS "/Users/mlinnane/Documents/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/LiDAR_Footprints/docklands_lidar_2009_dsm.las"
 #              --DestDataset_STL_3 "/Users/mlinnane/Documents/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Output/Prototypes"
 #              --SourceDataset_ESRISHAPE_9 "/Users/mlinnane/Documents/GitHub local copy/BCD-Architectural-Models/Grids/0.4/Tiles v0.4.shp"
 #              --ELEVATION "-8"
@@ -12,6 +11,7 @@
 #              --SourceDataset_ESRISHAPE_11 "/Users/mlinnane/Documents/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/Grids_Extents/Grid 500m2/Grid 500m2.shp"
 #              --SourceDataset_ESRISHAPE_8 "/Users/mlinnane/Documents/github/BCD-Interactive-Architectural-City-Models/Grids/Grid 400m2/Grid 400m2.shp"
 #              --SourceDataset_ESRISHAPE_12 "/Users/mlinnane/Documents/github/BCD-Interactive-Architectural-City-Models/Grids/Grid 1km2/Grid 1km2.shp"
+#              --SourceDataset_LAS_3 """"""/Users/mlinnane/Documents/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/LiDAR_Footprints/Dublin_Clipped_PointCloud/a_FCIR_20170408_110916.las"" ""/Users/mlinnane/Documents/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/LiDAR_Footprints/Dublin_Clipped_PointCloud/a_FCIR_20170408_112657.las"" ""/Users/mlinnane/Documents/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/LiDAR_Footprints/Dublin_Clipped_PointCloud/a_FCIR_20170408_141111.las"" ""/Users/mlinnane/Documents/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/LiDAR_Footprints/Dublin_Clipped_PointCloud/a_FCIR_20170408_142635.las"" ""/Users/mlinnane/Documents/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/LiDAR_Footprints/Dublin_Clipped_PointCloud/a_FCIR_20170408_144524.las"" ""/Users/mlinnane/Documents/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/LiDAR_Footprints/Dublin_Clipped_PointCloud/b_FCIR_20170408_110916.las"" ""/Users/mlinnane/Documents/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/LiDAR_Footprints/Dublin_Clipped_PointCloud/b_FCIR_20170408_112657.las"" ""/Users/mlinnane/Documents/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/LiDAR_Footprints/Dublin_Clipped_PointCloud/b_FCIR_20170408_141111.las"" ""/Users/mlinnane/Documents/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/LiDAR_Footprints/Dublin_Clipped_PointCloud/b_FCIR_20170408_142635.las"" ""/Users/mlinnane/Documents/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/LiDAR_Footprints/Dublin_Clipped_PointCloud/b_FCIR_20170408_144524.las"" ""/Users/mlinnane/Documents/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/LiDAR_Footprints/Dublin_Clipped_PointCloud/c_FCIR_20170408_110916.las"" ""/Users/mlinnane/Documents/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/LiDAR_Footprints/Dublin_Clipped_PointCloud/c_FCIR_20170408_112657.las"" ""/Users/mlinnane/Documents/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/LiDAR_Footprints/Dublin_Clipped_PointCloud/c_FCIR_20170408_141111.las"" ""/Users/mlinnane/Documents/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/LiDAR_Footprints/Dublin_Clipped_PointCloud/c_FCIR_20170408_142635.las"" ""/Users/mlinnane/Documents/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/LiDAR_Footprints/Dublin_Clipped_PointCloud/c_FCIR_20170408_144524.las""""""
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -26,8 +26,8 @@
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="19253"
-#!   FME_DOCUMENT_GUID="e3c08c80-9779-4f20-9835-690c2dff3990"
-#!   FME_DOCUMENT_PRIORGUID="68b12c8c-99ab-495a-a174-076bff6b15cb,c648c1ab-38ab-4b3e-b465-83471714acde,98f9ae55-bb49-4252-935e-b53bf80ecca5,293769ee-fe7c-4836-9ed4-65e0194992ee,38a315f3-3cad-4230-a2e9-5f07f2cefa16,802922f7-d417-462f-8147-7d885c4655a5,3c7189c0-f430-4286-b6dc-18d34aeb4c4a,453dd9f2-f866-45db-91d7-96fb6c08068e,872340a0-768d-4d73-b6bc-81b1d9771e65,dcf338e5-0c02-4146-91b3-d7d8af6388e0,efeb2729-d8fb-4b69-8901-1c67658fcd67,78b4130d-dc89-4b2d-b21c-912d1eda131e,86e6407c-ad93-497a-9a7c-1c180f620cf6,65246751-e564-47e9-b813-ad35649b3ce8,f3262bc0-99de-4bfc-98a7-e42826bfe615,5f7f3c52-4ed1-4296-9e50-d4b0bf9c8f58,3c4eac53-f39d-4df7-8e69-41089d7bacc2,3a4f56a8-7aab-4e8c-ba65-472ae4b6261b,5ac96545-292d-406c-92a4-e0310f667781,6217b015-fc09-403a-980d-99d93a325986,1e1e86b2-07ee-4163-b6f7-7b42d7608444,cfcb2eef-2e0b-48f2-8b31-7a8f9587de1c,293e4c58-2db2-4aec-ba0b-436495e0a1f2,9ee776ba-a6dc-4a80-8f16-41276fff7bae,bdb1ea60-c61c-4914-9ccc-ec3e4836f2b4,64d0ed1b-370c-4dc7-b4e0-9bc57fdf9c22,de3320ff-804a-4ba0-9729-5fbe2f358199,1b40eb8d-e3ce-459c-ab5a-cf10cce0e181,862e5008-8820-4f2f-a40a-394fef816113,0e67a7f8-7d04-420c-83b8-c280300f102e,5f9e0af2-4de6-4df0-97a1-a38452a1f9e2,f3d6d944-5990-4c00-8ef5-b7c4170a3fbf,844e2200-5b0e-49c6-bf15-317946536a3c,6d7ab4dc-7c51-4f4b-a0b5-13359aa24a4d,80db57ba-1a85-4781-9a7c-9d35ab318200,e3131f80-cb41-4785-a8b5-02bfa019280c,2b2a14a3-b27e-4515-a4e7-9a7c67b2ab2f,dc9a2222-b441-49fe-a36a-fe223d47c3c3,a8975ded-b67f-40f7-88d4-1d3af3d896cb,2d113d20-a002-4914-a8c1-0ed6ff80351f,792e9007-5450-4024-8a50-5a2bc407be26,f836c424-5acc-45b8-89b4-1c268cf48edd,729520d1-c5ed-4555-9f17-19ab59988657,1b9808e5-733d-4bd6-bc3f-a273d81f593c,4e9af456-e6d1-4553-b76a-6d108ca26fe8,21dd865c-1c57-4a8b-9c1d-1daa6fb665cf,850931f9-a0b9-473a-b11e-76ff04e15c7e,db5eb4c9-858e-4c62-94f1-5efb1416bad1,1d64beac-579d-4761-a870-1dc6cbdca52b,900be931-8240-4672-aea6-c27295a0cd76,a5c843e7-0fd5-40c4-82ba-d4fc3cc7b420,d9d2b699-2f03-4348-bf31-5c5590d3a38a,2867708b-bbdd-4df4-9739-4b9832fba4f7,d680998a-347b-4670-a280-83706afacff5,3d39cb04-3275-4cae-bed8-2b0a906be20f,2b31d81a-1878-45a2-9a9c-9fed7f639916,d1b089bb-edcd-4cfa-8f4f-c186c1df7439,794433e6-a667-402d-9e7e-b5c1591f0394,86af4ee3-6686-4046-b6fb-2ffece9d3ab8,72d083b0-4ba7-4c23-b3fa-befca2466a4b,954ffc8d-7f3d-4896-be1d-564b4fdd34b8"
+#!   FME_DOCUMENT_GUID="e93daeee-9121-4e83-b2c8-bdf40c5ddcf2"
+#!   FME_DOCUMENT_PRIORGUID="68b12c8c-99ab-495a-a174-076bff6b15cb,c648c1ab-38ab-4b3e-b465-83471714acde,98f9ae55-bb49-4252-935e-b53bf80ecca5,293769ee-fe7c-4836-9ed4-65e0194992ee,38a315f3-3cad-4230-a2e9-5f07f2cefa16,802922f7-d417-462f-8147-7d885c4655a5,3c7189c0-f430-4286-b6dc-18d34aeb4c4a,453dd9f2-f866-45db-91d7-96fb6c08068e,872340a0-768d-4d73-b6bc-81b1d9771e65,dcf338e5-0c02-4146-91b3-d7d8af6388e0,efeb2729-d8fb-4b69-8901-1c67658fcd67,78b4130d-dc89-4b2d-b21c-912d1eda131e,86e6407c-ad93-497a-9a7c-1c180f620cf6,65246751-e564-47e9-b813-ad35649b3ce8,f3262bc0-99de-4bfc-98a7-e42826bfe615,5f7f3c52-4ed1-4296-9e50-d4b0bf9c8f58,3c4eac53-f39d-4df7-8e69-41089d7bacc2,3a4f56a8-7aab-4e8c-ba65-472ae4b6261b,5ac96545-292d-406c-92a4-e0310f667781,6217b015-fc09-403a-980d-99d93a325986,1e1e86b2-07ee-4163-b6f7-7b42d7608444,cfcb2eef-2e0b-48f2-8b31-7a8f9587de1c,293e4c58-2db2-4aec-ba0b-436495e0a1f2,9ee776ba-a6dc-4a80-8f16-41276fff7bae,bdb1ea60-c61c-4914-9ccc-ec3e4836f2b4,64d0ed1b-370c-4dc7-b4e0-9bc57fdf9c22,de3320ff-804a-4ba0-9729-5fbe2f358199,1b40eb8d-e3ce-459c-ab5a-cf10cce0e181,862e5008-8820-4f2f-a40a-394fef816113,0e67a7f8-7d04-420c-83b8-c280300f102e,5f9e0af2-4de6-4df0-97a1-a38452a1f9e2,f3d6d944-5990-4c00-8ef5-b7c4170a3fbf,844e2200-5b0e-49c6-bf15-317946536a3c,6d7ab4dc-7c51-4f4b-a0b5-13359aa24a4d,80db57ba-1a85-4781-9a7c-9d35ab318200,e3131f80-cb41-4785-a8b5-02bfa019280c,2b2a14a3-b27e-4515-a4e7-9a7c67b2ab2f,dc9a2222-b441-49fe-a36a-fe223d47c3c3,a8975ded-b67f-40f7-88d4-1d3af3d896cb,2d113d20-a002-4914-a8c1-0ed6ff80351f,792e9007-5450-4024-8a50-5a2bc407be26,f836c424-5acc-45b8-89b4-1c268cf48edd,729520d1-c5ed-4555-9f17-19ab59988657,1b9808e5-733d-4bd6-bc3f-a273d81f593c,4e9af456-e6d1-4553-b76a-6d108ca26fe8,21dd865c-1c57-4a8b-9c1d-1daa6fb665cf,850931f9-a0b9-473a-b11e-76ff04e15c7e,db5eb4c9-858e-4c62-94f1-5efb1416bad1,1d64beac-579d-4761-a870-1dc6cbdca52b,900be931-8240-4672-aea6-c27295a0cd76,a5c843e7-0fd5-40c4-82ba-d4fc3cc7b420,d9d2b699-2f03-4348-bf31-5c5590d3a38a,2867708b-bbdd-4df4-9739-4b9832fba4f7,d680998a-347b-4670-a280-83706afacff5,3d39cb04-3275-4cae-bed8-2b0a906be20f,2b31d81a-1878-45a2-9a9c-9fed7f639916,d1b089bb-edcd-4cfa-8f4f-c186c1df7439,794433e6-a667-402d-9e7e-b5c1591f0394,86af4ee3-6686-4046-b6fb-2ffece9d3ab8,72d083b0-4ba7-4c23-b3fa-befca2466a4b,954ffc8d-7f3d-4896-be1d-564b4fdd34b8,e3c08c80-9779-4f20-9835-690c2dff3990"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -36,7 +36,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2019.0.1.0 (20190506 - Build 19253 - macosx)"
-#!   LAST_SAVE_DATE="2019-11-04T16:28:33"
+#!   LAST_SAVE_DATE="2019-11-05T12:47:10"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -55,7 +55,7 @@
 #!   TITLE="OSiDataTo3D"
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-6750.07 -2092.33"
+#!   VIEW_POSITION="-7734.69 -1765.4"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="78"
@@ -74,7 +74,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="filegdb_type {FME_GEN_GEOMETRY} filegdb_where_wwjd &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="multi_reader_id int fme_sweep_angle double fme_fill_color text(50) fme_basename text(50) multi_reader_type text(50) fme_dataset text(50) fme_geometry text(50) fme_type text(50) fme_start_angle double fme_feature_type text(50) fme_primary_axis double multi_reader_keyword text(50) multi_reader_full_id int fme_color text(50) fme_text_string text(50) fme_text_size double fme_rotation double fme_secondary_axis double"
+#!   EXPOSABLE_ATTRS="multi_reader_full_id int multi_reader_type text(50) fme_feature_type text(50) fme_text_string text(50) fme_type text(50) multi_reader_keyword text(50) fme_basename text(50) fme_rotation double multi_reader_id int fme_dataset text(50) fme_start_angle double fme_sweep_angle double fme_color text(50) fme_geometry text(50) fme_primary_axis double fme_fill_color text(50) fme_secondary_axis double fme_text_size double"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP filegdb_table_settings_group filegdb_where_wwjd Table Settings&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG filegdb_where_wwjd MODE,WHERE;FORMAT,FILEGDB WHERE Clause&quot; &quot;&quot; "
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -126,68 +126,6 @@
 #! <DATASET
 #!   IS_SOURCE="true"
 #!   ROLE="READER"
-#!   FORMAT="LAS"
-#!   DATASET="$(SourceDataset_LAS)"
-#!   KEYWORD="LAS_1"
-#!   MULTI_GEOM_ALLOWED="false"
-#!   ATTR_MAX_LENGTH="0"
-#!   ATTR_CASE="ANY"
-#!   ALLOWED_FEAT_TYPES=""
-#!   WRITE_DEFS="true"
-#!   DEFLINE_TEMPLATE=""
-#!   DEFLINE_ATTRS="false"
-#!   EXPOSABLE_ATTRS="las_gps_time_type number(1,0) multi_reader_id number(11,0) fme_sweep_angle number(31,15) fme_fill_color char(50) multi_reader_type char(50) fme_basename char(50) fme_dataset char(50) las_type char(255) las_vertical_datum_code number(6,0) las_file_source_id number(6,0) fme_geometry char(50) fme_type char(50) las_zlas_rearranged_points logical fme_start_angle number(31,15) fme_feature_type char(50) fme_primary_axis number(31,15) las_file_creation_date date las_project_id char(36) las_version char(3) las_vertical_coordsys_code number(6,0) multi_reader_keyword char(50) multi_reader_full_id number(11,0) fme_color char(50) las_system_identifier char(32) las_vertical_units_code number(6,0) fme_text_string char(50) fme_text_size number(31,15) fme_rotation number(31,15) fme_secondary_axis number(31,15) las_synthetic_returns logical las_generating_software char(32)"
-#!   DEFLINE_PARMS=""
-#!   ATTR_INDEX_TYPES=""
-#!   ATTR_NAME_INVALID_CHARS=""
-#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
-#!   ENABLED="true"
-#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
-#!   DATASET_TYPE="FILEDIR"
-#!   GENERATE_FME_BUILD_NUM="19253"
-#!   COORDSYS="EPSG:2157"
-#!   FEATURE_TYPES=""
-#!   MAX_FEATURES=""
-#!   MAX_FEATURES_PER_FEATURE_TYPE=""
-#!   MIN_FEATURES=""
-#!   START_FEATURE=""
-#! >
-#! <METAFILE_PARAMETER
-#!   NAME="ADVANCED_PARMS"
-#!   VALUE="LAS_OUT_ARCGIS_LAS_DATASET LAS_OUT_COMPUTE_STATISTICS_ON_ARCGIS_LAS_DATASET LAS_OUT_ZLAS_REARRANGE_POINTS LAS_OUT_ZLAS_POINT_SPACING_SOURCE LAS_OUT_ZLAS_POINT_SPACING_VALUE"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="AUTO_FANOUT_ATTRIBUTE"
-#!   VALUE="fme_basename"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="DATASET_NAME"
-#!   VALUE="las file"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
-#!   VALUE="File1"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_NAME"
-#!   VALUE="LAS File"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="READER_AUTO_EXPOSE"
-#!   VALUE="fme_basename char(50)"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="READER_DATASET_HINT"
-#!   VALUE="Select the LAS file(s)"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="WRITER_DATASET_HINT"
-#!   VALUE="Specify a folder for the LAS file"
-#! />
-#! </DATASET>
-#! <DATASET
-#!   IS_SOURCE="true"
-#!   ROLE="READER"
 #!   FORMAT="ESRISHAPE"
 #!   DATASET="$(SourceDataset_ESRISHAPE_9)"
 #!   KEYWORD="ESRISHAPE_1"
@@ -198,7 +136,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="multi_reader_id long fme_sweep_angle double fme_fill_color char(50) fme_basename char(50) multi_reader_type char(50) fme_dataset char(50) shape_measures char(254) SHAPE_GEOMETRY char(50) fme_geometry char(50) fme_type char(50) fme_start_angle double fme_feature_type char(50) fme_primary_axis double multi_reader_keyword char(50) multi_reader_full_id long fme_color char(50) fme_text_string char(50) shape_geometry_error{} char(254) fme_text_size double fme_rotation double fme_secondary_axis double"
+#!   EXPOSABLE_ATTRS="multi_reader_full_id long multi_reader_type char(50) fme_feature_type char(50) fme_text_string char(50) fme_type char(50) multi_reader_keyword char(50) shape_geometry_error{} char(254) fme_basename char(50) fme_rotation double multi_reader_id long fme_dataset char(50) SHAPE_GEOMETRY char(50) fme_start_angle double fme_sweep_angle double fme_color char(50) fme_geometry char(50) fme_primary_axis double shape_measures char(254) fme_fill_color char(50) fme_secondary_axis double fme_text_size double"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -256,7 +194,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="multi_reader_id long fme_sweep_angle double fme_fill_color char(50) fme_basename char(50) multi_reader_type char(50) fme_dataset char(50) shape_measures char(254) SHAPE_GEOMETRY char(50) fme_geometry char(50) fme_type char(50) fme_start_angle double fme_feature_type char(50) fme_primary_axis double multi_reader_keyword char(50) multi_reader_full_id long fme_color char(50) fme_text_string char(50) shape_geometry_error{} char(254) fme_text_size double fme_rotation double fme_secondary_axis double"
+#!   EXPOSABLE_ATTRS="multi_reader_full_id long multi_reader_type char(50) fme_feature_type char(50) fme_text_string char(50) fme_type char(50) multi_reader_keyword char(50) shape_geometry_error{} char(254) fme_basename char(50) fme_rotation double multi_reader_id long fme_dataset char(50) SHAPE_GEOMETRY char(50) fme_start_angle double fme_sweep_angle double fme_color char(50) fme_geometry char(50) fme_primary_axis double shape_measures char(254) fme_fill_color char(50) fme_secondary_axis double fme_text_size double"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -314,7 +252,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="multi_reader_id long fme_sweep_angle double fme_fill_color char(50) fme_basename char(50) multi_reader_type char(50) fme_dataset char(50) shape_measures char(254) SHAPE_GEOMETRY char(50) fme_geometry char(50) fme_type char(50) fme_start_angle double fme_feature_type char(50) fme_primary_axis double multi_reader_keyword char(50) multi_reader_full_id long fme_color char(50) fme_text_string char(50) shape_geometry_error{} char(254) fme_text_size double fme_rotation double fme_secondary_axis double"
+#!   EXPOSABLE_ATTRS="multi_reader_full_id long multi_reader_type char(50) fme_feature_type char(50) fme_text_string char(50) fme_type char(50) multi_reader_keyword char(50) shape_geometry_error{} char(254) fme_basename char(50) fme_rotation double multi_reader_id long fme_dataset char(50) SHAPE_GEOMETRY char(50) fme_start_angle double fme_sweep_angle double fme_color char(50) fme_geometry char(50) fme_primary_axis double shape_measures char(254) fme_fill_color char(50) fme_secondary_axis double fme_text_size double"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -372,7 +310,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="multi_reader_id long fme_sweep_angle double fme_fill_color char(50) fme_basename char(50) multi_reader_type char(50) fme_dataset char(50) shape_measures char(254) SHAPE_GEOMETRY char(50) fme_geometry char(50) fme_type char(50) fme_start_angle double fme_feature_type char(50) fme_primary_axis double multi_reader_keyword char(50) multi_reader_full_id long fme_color char(50) fme_text_string char(50) shape_geometry_error{} char(254) fme_text_size double fme_rotation double fme_secondary_axis double"
+#!   EXPOSABLE_ATTRS="multi_reader_full_id long multi_reader_type char(50) fme_feature_type char(50) fme_text_string char(50) fme_type char(50) multi_reader_keyword char(50) shape_geometry_error{} char(254) fme_basename char(50) fme_rotation double multi_reader_id long fme_dataset char(50) SHAPE_GEOMETRY char(50) fme_start_angle double fme_sweep_angle double fme_color char(50) fme_geometry char(50) fme_primary_axis double shape_measures char(254) fme_fill_color char(50) fme_secondary_axis double fme_text_size double"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -430,7 +368,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="multi_reader_id long fme_sweep_angle double fme_fill_color char(50) fme_basename char(50) multi_reader_type char(50) fme_dataset char(50) shape_measures char(254) SHAPE_GEOMETRY char(50) fme_geometry char(50) fme_type char(50) fme_start_angle double fme_feature_type char(50) fme_primary_axis double multi_reader_keyword char(50) multi_reader_full_id long fme_color char(50) fme_text_string char(50) shape_geometry_error{} char(254) fme_text_size double fme_rotation double fme_secondary_axis double"
+#!   EXPOSABLE_ATTRS="multi_reader_full_id long multi_reader_type char(50) fme_feature_type char(50) fme_text_string char(50) fme_type char(50) multi_reader_keyword char(50) shape_geometry_error{} char(254) fme_basename char(50) fme_rotation double multi_reader_id long fme_dataset char(50) SHAPE_GEOMETRY char(50) fme_start_angle double fme_sweep_angle double fme_color char(50) fme_geometry char(50) fme_primary_axis double shape_measures char(254) fme_fill_color char(50) fme_secondary_axis double fme_text_size double"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -488,7 +426,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="multi_reader_id long fme_sweep_angle double fme_fill_color char(50) fme_basename char(50) multi_reader_type char(50) fme_dataset char(50) shape_measures char(254) SHAPE_GEOMETRY char(50) fme_geometry char(50) fme_type char(50) fme_start_angle double fme_feature_type char(50) fme_primary_axis double multi_reader_keyword char(50) multi_reader_full_id long fme_color char(50) fme_text_string char(50) shape_geometry_error{} char(254) fme_text_size double fme_rotation double fme_secondary_axis double"
+#!   EXPOSABLE_ATTRS="multi_reader_full_id long multi_reader_type char(50) fme_feature_type char(50) fme_text_string char(50) fme_type char(50) multi_reader_keyword char(50) shape_geometry_error{} char(254) fme_basename char(50) fme_rotation double multi_reader_id long fme_dataset char(50) SHAPE_GEOMETRY char(50) fme_start_angle double fme_sweep_angle double fme_color char(50) fme_geometry char(50) fme_primary_axis double shape_measures char(254) fme_fill_color char(50) fme_secondary_axis double fme_text_size double"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -534,6 +472,68 @@
 #! />
 #! </DATASET>
 #! <DATASET
+#!   IS_SOURCE="true"
+#!   ROLE="READER"
+#!   FORMAT="LAS"
+#!   DATASET="$(SourceDataset_LAS_3)"
+#!   KEYWORD="LAS_2"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="0"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE=""
+#!   DEFLINE_ATTRS="false"
+#!   EXPOSABLE_ATTRS="multi_reader_full_id number(11,0) fme_feature_type char(50) multi_reader_type char(50) las_vertical_units_code number(6,0) fme_text_string char(50) fme_type char(50) multi_reader_keyword char(50) fme_basename char(50) fme_rotation number(31,15) las_system_identifier char(32) las_file_source_id number(6,0) multi_reader_id number(11,0) las_project_id char(36) fme_dataset char(50) las_file_creation_date date las_synthetic_returns logical fme_start_angle number(31,15) fme_sweep_angle number(31,15) fme_color char(50) las_type char(255) las_version char(3) fme_geometry char(50) fme_primary_axis number(31,15) las_gps_time_type number(1,0) las_vertical_datum_code number(6,0) las_generating_software char(32) fme_fill_color char(50) fme_secondary_axis number(31,15) fme_text_size number(31,15) las_vertical_coordsys_code number(6,0) las_zlas_rearranged_points logical"
+#!   DEFLINE_PARMS=""
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILEDIR"
+#!   GENERATE_FME_BUILD_NUM="19253"
+#!   COORDSYS=""
+#!   FEATURE_TYPES=""
+#!   MAX_FEATURES=""
+#!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   MIN_FEATURES=""
+#!   START_FEATURE=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="LAS_OUT_ARCGIS_LAS_DATASET LAS_OUT_COMPUTE_STATISTICS_ON_ARCGIS_LAS_DATASET LAS_OUT_ZLAS_REARRANGE_POINTS LAS_OUT_ZLAS_POINT_SPACING_SOURCE LAS_OUT_ZLAS_POINT_SPACING_VALUE"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="AUTO_FANOUT_ATTRIBUTE"
+#!   VALUE="fme_basename"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="las file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="File1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="LAS File"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_AUTO_EXPOSE"
+#!   VALUE="fme_basename char(50)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the LAS file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a folder for the LAS file"
+#! />
+#! </DATASET>
+#! <DATASET
 #!   IS_SOURCE="false"
 #!   ROLE="WRITER"
 #!   FORMAT="STL"
@@ -546,7 +546,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="false"
-#!   EXPOSABLE_ATTRS="fme_sweep_angle float fme_basename string fme_text_string string fme_color string fme_primary_axis float fme_rotation float fme_geometry string fme_text_size float fme_dataset string fme_start_angle float fme_type string fme_fill_color string fme_secondary_axis float fme_feature_type string"
+#!   EXPOSABLE_ATTRS="fme_start_angle float fme_text_string string fme_geometry string fme_text_size float fme_secondary_axis float fme_sweep_angle float fme_basename string fme_rotation float fme_type string fme_fill_color string fme_dataset string fme_primary_axis float fme_feature_type string fme_color string"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -1613,29 +1613,6 @@
 #!     <DEFLINE_PARM PARM_NAME="filegdb_where_wwjd" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
-#!   IS_SOURCE="true"
-#!   NODE_NAME="LAS"
-#!   FEATURE_TYPE_NAME=""
-#!   FEATURE_TYPE_NAME_QUALIFIER=""
-#!   IS_EDITABLE="false"
-#!   IDENTIFIER="5"
-#!   FEAT_GEOMTYPE="las_point_cloud"
-#!   POSITION="-6127.6116743818602 -712.85824739409395"
-#!   BOUNDING_RECT="-6127.6116743818602 -712.85824739409395 454 71"
-#!   ORDER="500000000000000"
-#!   COLLAPSED="true"
-#!   KEYWORD="LAS_1"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   HIDDEN_USER_ATTRS=""
-#!   MERGE_FILTER=""
-#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
-#!   MERGE_FILTER_CASE_SENSITIVE="false"
-#!   DYNAMIC_SCHEMA="false"
-#! >
-#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_basename" ATTR_TYPE="char(50)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! </FEATURE_TYPE>
-#! <FEATURE_TYPE
 #!   IS_SOURCE="false"
 #!   NODE_NAME="STL"
 #!   FEATURE_TYPE_NAME=""
@@ -1815,13 +1792,36 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="bottom" ATTR_TYPE="double" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="id" ATTR_TYPE="long" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="LAS"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="243"
+#!   FEAT_GEOMTYPE="las_point_cloud"
+#!   POSITION="-6099.4412697973148 -750"
+#!   BOUNDING_RECT="-6099.4412697973148 -750 454 71"
+#!   ORDER="500000000000000"
+#!   COLLAPSED="true"
+#!   KEYWORD="LAS_2"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="true"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_basename" ATTR_TYPE="char(50)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
 #! <READER_DATASETS>
 #! <DATASET 
-#!   NAME="LAS_1"
-#!   OVERRIDE="-LAS_1_DATASET"
-#!   DATASET="LAS_1/docklands_lidar_2009_dsm.las"
+#!   NAME="LAS_2"
+#!   OVERRIDE="-LAS_2_DATASET"
+#!   DATASET="LAS_2/c_FCIR_20170408_144524.las&quot;&quot;"
 #! />
 #! <DATASET 
 #!   NAME="FILEGDB_1"
@@ -1874,11 +1874,6 @@
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI MULTIFILE SourceDataset_LAS LAS_Files(*.las;*.laz;*.zlas;*.lasd)|*.las;*.laz;*.zlas;*.lasd|LAS_Files(*.las)|*.las|Compressed_LAS_Files(*.laz)|*.laz|Esri_Optimized_LAS_Files(*.zlas)|*.zlas|Esri_LAS_Dataset_Files(*.lasd)|*.lasd|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_files(*)|* Source ASPRS LAS File(s):"
-#!   DEFAULT_VALUE="$(FME_MF_DIR)LiDAR_Footprints/docklands_lidar_2009_dsm.las"
-#!   IS_STAND_ALONE="false"
-#! />
-#! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI DIRNAME DestDataset_STL_3 Destination STL Folder:"
 #!   DEFAULT_VALUE="/Users/mlinnane/Documents/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Output/Prototypes"
 #!   IS_STAND_ALONE="false"
@@ -1918,6 +1913,11 @@
 #!   DEFAULT_VALUE="/Users/mlinnane/Documents/github/BCD-Interactive-Architectural-City-Models/Grids/Grid 1km2/Grid 1km2.shp"
 #!   IS_STAND_ALONE="false"
 #! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI MULTIFILE SourceDataset_LAS_3 LAS_Files(*.las;*.laz;*.zlas;*.lasd)|*.las;*.laz;*.zlas;*.lasd|LAS_Files(*.las)|*.las|Compressed_LAS_Files(*.laz)|*.laz|Esri_Optimized_LAS_Files(*.zlas)|*.zlas|Esri_LAS_Dataset_Files(*.lasd)|*.lasd|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_files(*)|* Source ASPRS LAS File(s):"
+#!   DEFAULT_VALUE="&quot;&quot;$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/a_FCIR_20170408_110916.las&quot; &quot;$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/a_FCIR_20170408_112657.las&quot; &quot;$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/a_FCIR_20170408_141111.las&quot; &quot;$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/a_FCIR_20170408_142635.las&quot; &quot;$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/a_FCIR_20170408_144524.las&quot; &quot;$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/b_FCIR_20170408_110916.las&quot; &quot;$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/b_FCIR_20170408_112657.las&quot; &quot;$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/b_FCIR_20170408_141111.las&quot; &quot;$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/b_FCIR_20170408_142635.las&quot; &quot;$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/b_FCIR_20170408_144524.las&quot; &quot;$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/c_FCIR_20170408_110916.las&quot; &quot;$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/c_FCIR_20170408_112657.las&quot; &quot;$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/c_FCIR_20170408_141111.las&quot; &quot;$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/c_FCIR_20170408_142635.las&quot; &quot;$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/c_FCIR_20170408_144524.las&quot;&quot;"
+#!   IS_STAND_ALONE="false"
+#! />
 #! </GLOBAL_PARAMETERS>
 #! <COMMENTS>
 #! <COMMENT
@@ -1931,24 +1931,9 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,0.78431372549019607"
+#!   COLOUR="0.59215686274509804,0.8901960784313725,0.90980392156862744,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="4"
-#! />
-#! <COMMENT
-#!   IDENTIFIER="82"
-#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Read LiDAR data&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-6127.6116743818602 -542.78425040663251"
-#!   TOP_LEFT="-6127.6116743818602 -542.78425040663251"
-#!   BOTTOM_RIGHT="-5747.6569469104425 -644.78497041383253"
-#!   BOUNDING_RECT="-6127.6116743818602 -542.78425040663251 379.95472747141775 102.00072000720007"
-#!   ORDER="500000000000051"
-#!   FOLLOW_ANCHOR="true"
-#!   INFO_NODE="false"
-#!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,0.78431372549019607"
-#!   SIZE_POLICY="10"
-#!   ANCHORED_NODE="5"
 #! />
 #! <COMMENT
 #!   IDENTIFIER="60"
@@ -1961,7 +1946,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.60784313725490191,0.46274509803921571,0.20784313725490197,0.78431372549019607"
+#!   COLOUR="1,0.85490196078431369,0.59999999999999998,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="14"
 #! />
@@ -1976,7 +1961,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.45882352941176469,0.53725490196078429,0.21176470588235294,0.78431372549019607"
+#!   COLOUR="0.85098039215686272,0.92941176470588238,0.60392156862745094,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="15"
 #! />
@@ -1991,7 +1976,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.60784313725490191,0.46274509803921571,0.20784313725490197,0.78431372549019607"
+#!   COLOUR="1,0.85490196078431369,0.59999999999999998,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="16"
 #! />
@@ -2006,7 +1991,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.60784313725490191,0.46274509803921571,0.20784313725490197,0.78431372549019607"
+#!   COLOUR="1,0.85490196078431369,0.59999999999999998,0.78431372549019607"
 #!   SIZE_POLICY="8"
 #!   ANCHORED_NODE="17"
 #! />
@@ -2021,7 +2006,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.60784313725490191,0.46274509803921571,0.20784313725490197,0.78431372549019607"
+#!   COLOUR="1,0.85490196078431369,0.59999999999999998,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="18"
 #! />
@@ -2036,7 +2021,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.45882352941176469,0.53725490196078429,0.21176470588235294,0.78431372549019607"
+#!   COLOUR="0.85098039215686272,0.92941176470588238,0.60392156862745094,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="25"
 #! />
@@ -2051,7 +2036,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.21568627450980393,0.52549019607843139,0.33333333333333331,0.78431372549019607"
+#!   COLOUR="0.59607843137254901,0.91764705882352937,0.72549019607843135,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="10"
 #! />
@@ -2066,7 +2051,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.60784313725490191,0.46274509803921571,0.20784313725490197,0.78431372549019607"
+#!   COLOUR="0.59607843137254901,0.91764705882352937,0.72549019607843135,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="11"
 #! />
@@ -2081,7 +2066,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.21568627450980393,0.52549019607843139,0.33333333333333331,0.78431372549019607"
+#!   COLOUR="0.59607843137254901,0.91764705882352937,0.72549019607843135,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="20"
 #! />
@@ -2096,7 +2081,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.21568627450980393,0.52549019607843139,0.33333333333333331,0.78431372549019607"
+#!   COLOUR="0.59607843137254901,0.91764705882352937,0.72549019607843135,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="8"
 #! />
@@ -2111,7 +2096,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.20000000000000001,0.36078431372549019,0.51764705882352946,0.78431372549019607"
+#!   COLOUR="0.59215686274509804,0.75294117647058822,0.90980392156862744,0.78431372549019607"
 #!   SIZE_POLICY="8"
 #!   ANCHORED_NODE="108"
 #! />
@@ -2126,7 +2111,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.20000000000000001,0.36078431372549019,0.51764705882352946,0.78431372549019607"
+#!   COLOUR="0.59215686274509804,0.75294117647058822,0.90980392156862744,0.78431372549019607"
 #!   SIZE_POLICY="8"
 #!   ANCHORED_NODE="110"
 #! />
@@ -2141,7 +2126,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.20000000000000001,0.36078431372549019,0.51764705882352946,0.78431372549019607"
+#!   COLOUR="0.59215686274509804,0.75294117647058822,0.90980392156862744,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="166"
 #! />
@@ -2156,7 +2141,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.20000000000000001,0.36078431372549019,0.51764705882352946,0.78431372549019607"
+#!   COLOUR="0.59215686274509804,0.75294117647058822,0.90980392156862744,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="169"
 #! />
@@ -2171,7 +2156,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.20000000000000001,0.36078431372549019,0.51764705882352946,0.78431372549019607"
+#!   COLOUR="0.59215686274509804,0.75294117647058822,0.90980392156862744,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="109"
 #! />
@@ -2186,7 +2171,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.20000000000000001,0.36078431372549019,0.51764705882352946,0.78431372549019607"
+#!   COLOUR="0.59215686274509804,0.75294117647058822,0.90980392156862744,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="111"
 #! />
@@ -2201,7 +2186,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.20000000000000001,0.36078431372549019,0.51764705882352946,0.78431372549019607"
+#!   COLOUR="0.59215686274509804,0.75294117647058822,0.90980392156862744,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="179"
 #! />
@@ -2216,7 +2201,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,0.78431372549019607"
+#!   COLOUR="0.59215686274509804,0.8901960784313725,0.90980392156862744,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="97"
 #! />
@@ -2231,7 +2216,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.60784313725490191,0.46274509803921571,0.20784313725490197,0.78431372549019607"
+#!   COLOUR="0.63529411764705879,0.80000000000000004,0.59999999999999998,0.78431372549019607"
 #!   SIZE_POLICY="8"
 #!   ANCHORED_NODE="153"
 #! />
@@ -2246,7 +2231,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.24313725490196078,0.40784313725490196,0.20784313725490197,0.78431372549019607"
+#!   COLOUR="0.63529411764705879,0.80000000000000004,0.59999999999999998,0.78431372549019607"
 #!   SIZE_POLICY="8"
 #!   ANCHORED_NODE="190"
 #! />
@@ -2261,7 +2246,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.60784313725490191,0.46274509803921571,0.20784313725490197,0.78431372549019607"
+#!   COLOUR="0.63529411764705879,0.80000000000000004,0.59999999999999998,0.78431372549019607"
 #!   SIZE_POLICY="8"
 #!   ANCHORED_NODE="198"
 #! />
@@ -2276,7 +2261,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.24313725490196078,0.40784313725490196,0.20784313725490197,0.78431372549019607"
+#!   COLOUR="0.63529411764705879,0.80000000000000004,0.59999999999999998,0.78431372549019607"
 #!   SIZE_POLICY="8"
 #!   ANCHORED_NODE="199"
 #! />
@@ -2291,7 +2276,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.60784313725490191,0.46274509803921571,0.20784313725490197,0.78431372549019607"
+#!   COLOUR="0.59607843137254901,0.91764705882352937,0.72549019607843135,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="176"
 #! />
@@ -2306,7 +2291,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.60784313725490191,0.46274509803921571,0.20784313725490197,0.78431372549019607"
+#!   COLOUR="1,0.85490196078431369,0.59999999999999998,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="163"
 #! />
@@ -2321,7 +2306,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.60784313725490191,0.46274509803921571,0.20784313725490197,0.78431372549019607"
+#!   COLOUR="1,0.85490196078431369,0.59999999999999998,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="22"
 #! />
@@ -2336,7 +2321,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,0.78431372549019607"
+#!   COLOUR="0.59215686274509804,0.8901960784313725,0.90980392156862744,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="119"
 #! />
@@ -2351,7 +2336,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.45882352941176469,0.53725490196078429,0.21176470588235294,0.78431372549019607"
+#!   COLOUR="0.85098039215686272,0.92941176470588238,0.60392156862745094,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="207"
 #! />
@@ -2366,7 +2351,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.45882352941176469,0.53725490196078429,0.21176470588235294,0.78431372549019607"
+#!   COLOUR="0.85098039215686272,0.92941176470588238,0.60392156862745094,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="208"
 #! />
@@ -2381,7 +2366,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,0.78431372549019607"
+#!   COLOUR="0.59215686274509804,0.8901960784313725,0.90980392156862744,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="219"
 #! />
@@ -2396,7 +2381,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,0.78431372549019607"
+#!   COLOUR="0.59215686274509804,0.8901960784313725,0.90980392156862744,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="221"
 #! />
@@ -2411,7 +2396,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,0.78431372549019607"
+#!   COLOUR="0.59215686274509804,0.8901960784313725,0.90980392156862744,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="223"
 #! />
@@ -2426,7 +2411,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.45882352941176469,0.53725490196078429,0.21176470588235294,0.78431372549019607"
+#!   COLOUR="0.85098039215686272,0.92941176470588238,0.60392156862745094,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="209"
 #! />
@@ -2441,7 +2426,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.45882352941176469,0.53725490196078429,0.21176470588235294,0.78431372549019607"
+#!   COLOUR="0.85098039215686272,0.92941176470588238,0.60392156862745094,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="218"
 #! />
@@ -2456,7 +2441,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.45882352941176469,0.53725490196078429,0.21176470588235294,0.78431372549019607"
+#!   COLOUR="0.85098039215686272,0.92941176470588238,0.60392156862745094,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="229"
 #! />
@@ -2471,9 +2456,24 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,0.78431372549019607"
+#!   COLOUR="0.59215686274509804,0.8901960784313725,0.90980392156862744,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="239"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="244"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Helvetica Neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Read Point Cloud&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-6083.7483851761599 -600"
+#!   TOP_LEFT="-6083.7483851761599 -600"
+#!   BOTTOM_RIGHT="1459.2516148238401 -601"
+#!   BOUNDING_RECT="-6083.7483851761599 -600 7543 1"
+#!   ORDER="500000000000212.13"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="1,1,0.95686274509803926,0.78431372549019607"
+#!   SIZE_POLICY="8"
+#!   ANCHORED_NODE="243"
 #! />
 #! </COMMENTS>
 #! <CONSTANTS>
@@ -2490,7 +2490,7 @@
 #!   BOUNDING_RECT="3995.8434154079528 -2922.8280758883866 1157.1400000000001 296"
 #!   STICKY="true"
 #!   COLOUR="0.42352941176470588,0.23529411764705882,0.13333333333333333,0.39215686274509803"
-#!   CONTENTS="115 116 136 "
+#!   CONTENTS="136 116 115 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2503,8 +2503,8 @@
 #!   BOTTOM_RIGHT="1779.796956009588 -894.9669328626062"
 #!   BOUNDING_RECT="-5174.4490343427815 433.00730879493972 6954.2459903523695 1327.9742416575459"
 #!   STICKY="true"
-#!   COLOUR="0.60784313725490191,0.46274509803921571,0.20784313725490197,1"
-#!   CONTENTS="231 218 236 232 10 209 67 75 229 18 74 14 22 16 66 237 235 83 163 238 161 149 230 78 86 60 158 17 177 176 234 33 79 72 76 11 165 "
+#!   COLOUR="1,0.85490196078431369,0.59999999999999998,1"
+#!   CONTENTS="209 231 66 75 83 86 165 229 14 76 237 16 230 74 218 238 234 72 149 163 18 177 78 60 79 11 67 176 17 235 10 161 232 158 33 22 236 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2517,8 +2517,8 @@
 #!   BOTTOM_RIGHT="5834.5121266338701 -3938.0891204343375"
 #!   BOUNDING_RECT="-5159.0665032490306 -1050 10993.578629882901 2888.0891204343375"
 #!   STICKY="true"
-#!   COLOUR="0.45882352941176469,0.53725490196078429,0.21176470588235294,1"
-#!   CONTENTS="170 108 186 152 128 25 15 130 113 187 212 145 125 196 198 182 123 147 105 202 172 233 215 146 121 110 65 140 156 64 129 210 168 157 117 136 70 138 103 154 143 112 135 61 104 192 84 109 102 133 151 214 115 131 69 150 190 217 205 200 127 207 148 206 173 124 114 116 107 189 106 111 204 141 118 171 211 132 167 179 122 166 87 139 153 191 188 180 155 160 216 137 73 144 120 169 197 208 134 77 142 199 101 213 "
+#!   COLOUR="0.85098039215686272,0.92941176470588238,0.60392156862745094,1"
+#!   CONTENTS="135 73 141 132 118 111 139 155 215 151 107 202 133 146 160 65 145 70 210 101 112 169 15 199 136 124 87 173 196 170 105 171 147 130 190 69 186 120 25 114 179 104 123 153 197 106 214 128 61 84 77 142 166 140 121 168 137 213 152 134 207 117 167 157 154 188 200 108 102 217 64 180 187 109 206 144 182 212 150 198 103 211 131 125 191 205 115 113 172 148 216 189 129 127 156 110 143 116 208 122 233 204 192 138 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2531,8 +2531,8 @@
 #!   BOTTOM_RIGHT="-5504.7013698112678 -3533.307082107106"
 #!   BOUNDING_RECT="-6150 -2700 645.2986301887322 833.307082107106"
 #!   STICKY="true"
-#!   COLOUR="0.21568627450980393,0.52549019607843139,0.33333333333333331,1"
-#!   CONTENTS="88 20 8 89 "
+#!   COLOUR="0.59607843137254901,0.91764705882352937,0.72549019607843135,1"
+#!   CONTENTS="8 89 88 20 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2545,8 +2545,8 @@
 #!   BOTTOM_RIGHT="-5455.6367846329631 -2631.0263102631025"
 #!   BOUNDING_RECT="-6219.6116743818602 421.74334786826131 763.97488974889711 3052.7696581313639"
 #!   STICKY="true"
-#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,1"
-#!   CONTENTS="193 201 59 4 184 194 203 97 195 5 82 "
+#!   COLOUR="0.59215686274509804,0.8901960784313725,0.90980392156862744,1"
+#!   CONTENTS="195 243 194 193 203 4 201 184 97 59 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2561,8 +2561,8 @@
 #!   BOTTOM_RIGHT="4128.5250926255994 -2280.3286201020614"
 #!   BOUNDING_RECT="-2646.474907374401 -2075.3286201020614 6775 205"
 #!   STICKY="true"
-#!   COLOUR="0.20000000000000001,0.36078431372549019,0.51764705882352946,1"
-#!   CONTENTS="170 108 152 128 130 113 145 125 196 182 123 147 105 172 146 121 110 65 140 156 129 168 157 117 136 70 138 103 154 143 112 135 104 84 109 102 133 151 115 131 69 150 200 127 148 173 124 114 116 107 106 111 141 118 171 132 167 179 122 166 87 139 155 180 137 73 144 120 169 134 77 142 101 "
+#!   COLOUR="0.59215686274509804,0.75294117647058822,0.90980392156862744,1"
+#!   CONTENTS="135 73 141 132 118 111 139 155 151 107 133 146 65 145 70 101 112 169 136 124 87 173 196 170 105 171 147 130 69 120 114 179 104 123 106 128 84 77 142 166 140 168 121 137 152 134 117 167 157 154 200 108 102 180 109 144 182 150 103 131 125 115 113 172 148 129 127 156 110 143 116 122 138 "
 #! >
 #!     <BOOKMARK_FEAT NAME="Deaggregator" SOURCE_NODE="157" SOURCE_PORT_DESC="fi 0 "/>
 #!     <BOOKMARK_FEAT NAME="Junction_7 : Output" SOURCE_NODE="179" SOURCE_PORT_DESC="fo 0 Output"/>
@@ -2572,34 +2572,29 @@
 #!   NAME="Surface Drape"
 #!   DESCRIPTION=""
 #!   TOP_LEFT="-4140.5461239486358 -2075.3286201020614"
-#!   ORDER="500000000000188.13"
+#!   ORDER="500000000000190.63"
 #!   PALETTE_COLOR="Color2"
-#!   COLLAPSED="true"
-#!   UNCOLLAPSED_SIZE="1446.845468454685 1780.9355002640937"
-#!   BOTTOM_RIGHT="-2694.5461239486358 -2370.3286201020614"
-#!   BOUNDING_RECT="-4140.5461239486358 -2075.3286201020614 1446 295"
+#!   BOTTOM_RIGHT="-2693.7006554939508 -3856.2641203661551"
+#!   BOUNDING_RECT="-4140.5461239486358 -2075.3286201020614 1446.845468454685 1780.9355002640937"
 #!   STICKY="true"
-#!   COLOUR="0.24313725490196078,0.40784313725490196,0.20784313725490197,1"
-#!   CONTENTS="190 212 187 198 153 197 211 192 199 210 213 205 191 "
+#!   COLOUR="0.63529411764705879,0.80000000000000004,0.59999999999999998,1"
+#!   CONTENTS="213 205 187 210 191 199 197 212 192 198 153 190 211 "
 #! >
-#!     <BOOKMARK_FEAT NAME="SurfaceModeller : Points/Lines" SOURCE_NODE="153" SOURCE_PORT_DESC="fi 0 POINTS&lt;solidus&gt;LINES"/>
-#!     <BOOKMARK_FEAT NAME="SurfaceModeller : DrapeFeatures" SOURCE_NODE="153" SOURCE_PORT_DESC="fi 2 DRAPE_FEATURES"/>
-#!     <BOOKMARK_FEAT NAME="Aggregator_2 : Aggregate" SOURCE_NODE="199" SOURCE_PORT_DESC="fo 0 AGGREGATE"/>
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="206"
 #!   NAME="Draped/Takashi Base"
 #!   DESCRIPTION=""
 #!   TOP_LEFT="-4190.5461239486358 -1965.3286201020614"
-#!   ORDER="500000000000190.38"
+#!   ORDER="500000000000213.13"
 #!   PALETTE_COLOR="Color3"
 #!   COLLAPSED="true"
-#!   UNCOLLAPSED_SIZE="8368.7891878918781 440"
+#!   UNCOLLAPSED_SIZE="8368.7891878918781 1890.9355002640937"
 #!   BOTTOM_RIGHT="4177.4538760513642 -2260.3286201020614"
 #!   BOUNDING_RECT="-4190.5461239486358 -1965.3286201020614 8368 295"
 #!   STICKY="true"
-#!   COLOUR="0.60784313725490191,0.46274509803921571,0.20784313725490197,1"
-#!   CONTENTS="170 108 186 152 128 130 113 187 212 145 125 196 198 182 123 147 105 202 172 146 121 110 65 140 156 129 210 168 157 117 136 70 138 103 154 143 112 135 192 104 84 109 102 133 151 115 131 69 190 150 205 200 127 148 173 124 114 116 107 106 204 111 141 118 171 211 167 179 132 122 166 87 153 139 191 180 155 137 73 144 120 197 169 134 77 142 199 101 213 "
+#!   COLOUR="1,0.85490196078431369,0.59999999999999998,1"
+#!   CONTENTS="135 73 141 118 132 111 139 155 151 107 202 133 146 65 145 70 210 101 112 169 199 136 124 87 173 170 196 105 171 147 130 190 69 186 120 114 179 104 123 153 197 106 128 84 77 142 166 140 121 168 213 137 152 134 117 167 157 154 200 108 102 180 109 187 144 212 182 150 198 103 211 131 125 191 205 115 113 172 148 129 127 156 110 143 116 122 204 138 192 "
 #! >
 #!     <BOOKMARK_FEAT NAME="SurfaceModeller : Points/Lines" SOURCE_NODE="153" SOURCE_PORT_DESC="fi 0 POINTS&lt;solidus&gt;LINES"/>
 #!     <BOOKMARK_FEAT NAME="SurfaceModeller : DrapeFeatures" SOURCE_NODE="153" SOURCE_PORT_DESC="fi 2 DRAPE_FEATURES"/>
@@ -2615,8 +2610,8 @@
 #!   BOTTOM_RIGHT="1589.5160829811525 -173.00072000720007"
 #!   BOUNDING_RECT="-150 300 1739.5160829811525 473.00072000720007"
 #!   STICKY="true"
-#!   COLOUR="0.45882352941176469,0.53725490196078429,0.21176470588235294,1"
-#!   CONTENTS="230 231 218 235 234 229 232 209 "
+#!   COLOUR="0.85098039215686272,0.92941176470588238,0.60392156862745094,1"
+#!   CONTENTS="209 231 218 230 235 229 232 234 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2631,8 +2626,8 @@
 #!   BOTTOM_RIGHT="790 -505"
 #!   BOUNDING_RECT="-150 -300 940 205"
 #!   STICKY="true"
-#!   COLOUR="0.21568627450980393,0.52549019607843139,0.33333333333333331,1"
-#!   CONTENTS="158 86 10 72 11 176 177 33 "
+#!   COLOUR="0.59607843137254901,0.91764705882352937,0.72549019607843135,1"
+#!   CONTENTS="33 176 10 86 72 158 177 11 "
 #! >
 #!     <BOOKMARK_FEAT NAME="3DForcer" SOURCE_NODE="10" SOURCE_PORT_DESC="fi 0 "/>
 #!     <BOOKMARK_FEAT NAME="Junction_6 : Output" SOURCE_NODE="176" SOURCE_PORT_DESC="fo 0 Output"/>
@@ -2647,8 +2642,8 @@
 #!   BOTTOM_RIGHT="-6353.3002348152886 -4044.0002400024"
 #!   BOUNDING_RECT="-7350 -2700 996.6997651847114 1344.0002400024"
 #!   STICKY="true"
-#!   COLOUR="0.20000000000000001,0.49803921568627452,0.51764705882352946,1"
-#!   CONTENTS="240 220 221 223 219 228 224 162 222 239 119 226 "
+#!   COLOUR="0.59215686274509804,0.8901960784313725,0.90980392156862744,1"
+#!   CONTENTS="228 240 223 239 226 219 162 119 222 224 221 220 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -4091,6 +4086,7 @@
 #! >
 #!     <OUTPUT_FEAT NAME="Output"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="__ssc.id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.elevation" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SurfaceModel.aspect" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4106,7 +4102,6 @@
 #!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.zmax" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.zmin" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="__ssc.id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.part_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.type" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Bottom_2"/>
@@ -4155,6 +4150,7 @@
 #! >
 #!     <OUTPUT_FEAT NAME="Output"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="__ssc.id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.elevation" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SurfaceModel.aspect" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4170,7 +4166,6 @@
 #!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.zmax" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.zmin" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="__ssc.id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.part_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.type" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Top_2"/>
@@ -4357,6 +4352,7 @@
 #! >
 #!     <OUTPUT_FEAT NAME="AGGREGATE"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="__ssc.id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.elevation" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SurfaceModel.aspect" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4372,7 +4368,6 @@
 #!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.zmax" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.zmin" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="__ssc.id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.part_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.type" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ACCUM_ATTRS_NAME" PARM_VALUE="Use Attributes From One Feature"/>
@@ -4418,6 +4413,7 @@
 #! >
 #!     <OUTPUT_FEAT NAME="COERCED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="__ssc.id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.elevation" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SurfaceModel.aspect" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4433,11 +4429,11 @@
 #!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.zmax" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.zmin" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="__ssc.id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.part_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.type" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="UNTOUCHED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="__ssc.id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.elevation" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.flag" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SurfaceModel.aspect" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -4453,7 +4449,6 @@
 #!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.zmax" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.zmin" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="__ssc.id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.part_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.type" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="GQUERY" PARM_VALUE="for&lt;space&gt;&lt;dollar&gt;geom&lt;space&gt;in&lt;space&gt;&lt;solidus&gt;&lt;solidus&gt;geometry&lt;lf&gt;where&lt;space&gt;&lt;dollar&gt;geom&lt;solidus&gt;count&lt;openparen&gt;parent::geometry&lt;closeparen&gt;&lt;space&gt;=&lt;space&gt;0&lt;lf&gt;return&lt;space&gt;number&lt;openparen&gt;&lt;dollar&gt;geom&lt;solidus&gt;&lt;at&gt;fme_id&lt;closeparen&gt;"/>
@@ -4744,6 +4739,7 @@
 #! >
 #!     <OUTPUT_FEAT NAME="Output"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="__ssc.id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.elevation" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SurfaceModel.aspect" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4759,7 +4755,6 @@
 #!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.zmax" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.zmin" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="__ssc.id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.part_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.type" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Junction_7"/>
@@ -5132,6 +5127,7 @@
 #! >
 #!     <OUTPUT_FEAT NAME="Output"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="__ssc.id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.elevation" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SurfaceModel.aspect" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -5147,7 +5143,6 @@
 #!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.zmax" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.zmin" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="__ssc.id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.part_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="__ssc.type" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Junction_9"/>
@@ -5354,9 +5349,9 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="30"
-#!   SOURCE_NODE="5"
-#!   TARGET_NODE="15"
+#!   IDENTIFIER="96"
+#!   SOURCE_NODE="195"
+#!   TARGET_NODE="25"
 #!   SOURCE_PORT_DESC="-1"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -5365,9 +5360,9 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="96"
-#!   SOURCE_NODE="195"
-#!   TARGET_NODE="25"
+#!   IDENTIFIER="30"
+#!   SOURCE_NODE="243"
+#!   TARGET_NODE="15"
 #!   SOURCE_PORT_DESC="-1"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -6124,11 +6119,9 @@
 #! </WORKSPACE>
 
 FME_PYTHON_VERSION 37
-GUI IGNORE SourceDataset_FILEGDB_1,FILEGDB_IN_FME_CONNECTION_GROUP_FILEGDB_1,FILEGDB_IN_ADVANCED_FILEGDB_1,FILEGDB_IN_BEGIN_SQL_FILEGDB_1,FILEGDB_IN_END_SQL_FILEGDB_1,FILEGDB_IN_STRIP_GUID_GLOBALID_BRACES_FILEGDB_1,FILEGDB_IN_GEOMETRY_FILEGDB_1,FILEGDB_IN_SIMPLE_DONUT_GEOMETRY_FILEGDB_1,FILEGDB_IN_USE_SEARCH_ENVELOPE_FILEGDB_1,FILEGDB_IN_SEARCH_ENVELOPE_MINX_FILEGDB_1,FILEGDB_IN_SEARCH_ENVELOPE_MINY_FILEGDB_1,FILEGDB_IN_SEARCH_ENVELOPE_MAXX_FILEGDB_1,FILEGDB_IN_SEARCH_ENVELOPE_MAXY_FILEGDB_1,FILEGDB_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_FILEGDB_1,FILEGDB_IN_CLIP_TO_ENVELOPE_FILEGDB_1,FILEGDB_IN_NETWORK_AUTHENTICATION_FILEGDB_1,SourceDataset_LAS_1,LAS_IN_USE_SEARCH_ENVELOPE_LAS_1,LAS_IN_SEARCH_ENVELOPE_MINX_LAS_1,LAS_IN_SEARCH_ENVELOPE_MINY_LAS_1,LAS_IN_SEARCH_ENVELOPE_MAXX_LAS_1,LAS_IN_SEARCH_ENVELOPE_MAXY_LAS_1,LAS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_LAS_1,LAS_IN_CLIP_TO_ENVELOPE_LAS_1,LAS_IN_NETWORK_AUTHENTICATION_LAS_1,SourceDataset_ESRISHAPE_1,ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_1,ESRISHAPE_IN_ENCODING_ESRISHAPE_1,ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_1,ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_1,ESRISHAPE_IN_ADVANCED_ESRISHAPE_1,ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_1,ESRISHAPE_IN_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_1,ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_1,ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_1,SourceDataset_ESRISHAPE_2,ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_2,ESRISHAPE_IN_ENCODING_ESRISHAPE_2,ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_2,ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_2,ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_2,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_2,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_2,ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_2,ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_2,ESRISHAPE_IN_ADVANCED_ESRISHAPE_2,ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_2,ESRISHAPE_IN_GEOMETRY_ESRISHAPE_2,ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_2,ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_2,ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_2,ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_2,ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_2,SourceDataset_ESRISHAPE_3,ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_3,ESRISHAPE_IN_ENCODING_ESRISHAPE_3,ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_3,ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_3,ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_3,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_3,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_3,ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_3,ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_3,ESRISHAPE_IN_ADVANCED_ESRISHAPE_3,ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_3,ESRISHAPE_IN_GEOMETRY_ESRISHAPE_3,ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_3,ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_3,ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_3,ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_3,ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_3,SourceDataset_ESRISHAPE_4,ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_4,ESRISHAPE_IN_ENCODING_ESRISHAPE_4,ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_4,ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_4,ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_4,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_4,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_4,ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_4,ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_4,ESRISHAPE_IN_ADVANCED_ESRISHAPE_4,ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_4,ESRISHAPE_IN_GEOMETRY_ESRISHAPE_4,ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_4,ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_4,ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_4,ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_4,ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_4,SourceDataset_ESRISHAPE_5,ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_5,ESRISHAPE_IN_ENCODING_ESRISHAPE_5,ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_5,ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_5,ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_5,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_5,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_5,ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_5,ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_5,ESRISHAPE_IN_ADVANCED_ESRISHAPE_5,ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_5,ESRISHAPE_IN_GEOMETRY_ESRISHAPE_5,ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_5,ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_5,ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_5,ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_5,ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_5,SourceDataset_ESRISHAPE_6,ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_6,ESRISHAPE_IN_ENCODING_ESRISHAPE_6,ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_6,ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_6,ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_6,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_6,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_6,ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_6,ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_6,ESRISHAPE_IN_ADVANCED_ESRISHAPE_6,ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_6,ESRISHAPE_IN_GEOMETRY_ESRISHAPE_6,ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_6,ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_6,ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_6,ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_6,ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_6,DestDataset_STL_1,STL_OUT_FME_GROUP_NAMED1_STL_1,STL_OUT_FILE_TYPE_STL_1,STL_OUT_FME_GROUP_NAMED2_STL_1,STL_OUT_MOVE_TO_LOCAL_COORDSYS_STL_1
+GUI IGNORE SourceDataset_FILEGDB_1,FILEGDB_IN_FME_CONNECTION_GROUP_FILEGDB_1,FILEGDB_IN_ADVANCED_FILEGDB_1,FILEGDB_IN_BEGIN_SQL_FILEGDB_1,FILEGDB_IN_END_SQL_FILEGDB_1,FILEGDB_IN_STRIP_GUID_GLOBALID_BRACES_FILEGDB_1,FILEGDB_IN_GEOMETRY_FILEGDB_1,FILEGDB_IN_SIMPLE_DONUT_GEOMETRY_FILEGDB_1,FILEGDB_IN_USE_SEARCH_ENVELOPE_FILEGDB_1,FILEGDB_IN_SEARCH_ENVELOPE_MINX_FILEGDB_1,FILEGDB_IN_SEARCH_ENVELOPE_MINY_FILEGDB_1,FILEGDB_IN_SEARCH_ENVELOPE_MAXX_FILEGDB_1,FILEGDB_IN_SEARCH_ENVELOPE_MAXY_FILEGDB_1,FILEGDB_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_FILEGDB_1,FILEGDB_IN_CLIP_TO_ENVELOPE_FILEGDB_1,FILEGDB_IN_NETWORK_AUTHENTICATION_FILEGDB_1,SourceDataset_ESRISHAPE_1,ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_1,ESRISHAPE_IN_ENCODING_ESRISHAPE_1,ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_1,ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_1,ESRISHAPE_IN_ADVANCED_ESRISHAPE_1,ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_1,ESRISHAPE_IN_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_1,ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_1,ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_1,SourceDataset_ESRISHAPE_2,ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_2,ESRISHAPE_IN_ENCODING_ESRISHAPE_2,ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_2,ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_2,ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_2,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_2,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_2,ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_2,ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_2,ESRISHAPE_IN_ADVANCED_ESRISHAPE_2,ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_2,ESRISHAPE_IN_GEOMETRY_ESRISHAPE_2,ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_2,ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_2,ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_2,ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_2,ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_2,SourceDataset_ESRISHAPE_3,ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_3,ESRISHAPE_IN_ENCODING_ESRISHAPE_3,ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_3,ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_3,ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_3,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_3,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_3,ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_3,ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_3,ESRISHAPE_IN_ADVANCED_ESRISHAPE_3,ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_3,ESRISHAPE_IN_GEOMETRY_ESRISHAPE_3,ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_3,ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_3,ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_3,ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_3,ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_3,SourceDataset_ESRISHAPE_4,ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_4,ESRISHAPE_IN_ENCODING_ESRISHAPE_4,ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_4,ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_4,ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_4,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_4,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_4,ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_4,ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_4,ESRISHAPE_IN_ADVANCED_ESRISHAPE_4,ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_4,ESRISHAPE_IN_GEOMETRY_ESRISHAPE_4,ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_4,ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_4,ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_4,ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_4,ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_4,SourceDataset_ESRISHAPE_5,ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_5,ESRISHAPE_IN_ENCODING_ESRISHAPE_5,ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_5,ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_5,ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_5,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_5,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_5,ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_5,ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_5,ESRISHAPE_IN_ADVANCED_ESRISHAPE_5,ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_5,ESRISHAPE_IN_GEOMETRY_ESRISHAPE_5,ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_5,ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_5,ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_5,ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_5,ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_5,SourceDataset_ESRISHAPE_6,ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_6,ESRISHAPE_IN_ENCODING_ESRISHAPE_6,ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_6,ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_6,ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_6,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_6,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_6,ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_6,ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_6,ESRISHAPE_IN_ADVANCED_ESRISHAPE_6,ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_6,ESRISHAPE_IN_GEOMETRY_ESRISHAPE_6,ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_6,ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_6,ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_6,ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_6,ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_6,SourceDataset_LAS_2,LAS_IN_USE_SEARCH_ENVELOPE_LAS_2,LAS_IN_SEARCH_ENVELOPE_MINX_LAS_2,LAS_IN_SEARCH_ENVELOPE_MINY_LAS_2,LAS_IN_SEARCH_ENVELOPE_MAXX_LAS_2,LAS_IN_SEARCH_ENVELOPE_MAXY_LAS_2,LAS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_LAS_2,LAS_IN_CLIP_TO_ENVELOPE_LAS_2,LAS_IN_NETWORK_AUTHENTICATION_LAS_2,DestDataset_STL_1,STL_OUT_FME_GROUP_NAMED1_STL_1,STL_OUT_FILE_TYPE_STL_1,STL_OUT_FME_GROUP_NAMED2_STL_1,STL_OUT_MOVE_TO_LOCAL_COORDSYS_STL_1
 DEFAULT_MACRO SourceDataset_FILEGDB_3 $(FME_MF_DIR)LiDAR_Footprints/DublinBuildingGrangeGormantoDocks.gdb
 GUI SOURCE_GEODATABASE SourceDataset_FILEGDB_3 File Geodatabase:
-DEFAULT_MACRO SourceDataset_LAS $(FME_MF_DIR)LiDAR_Footprints/docklands_lidar_2009_dsm.las
-GUI MULTIFILE SourceDataset_LAS LAS_Files(*.las;*.laz;*.zlas;*.lasd)|*.las;*.laz;*.zlas;*.lasd|LAS_Files(*.las)|*.las|Compressed_LAS_Files(*.laz)|*.laz|Esri_Optimized_LAS_Files(*.zlas)|*.zlas|Esri_LAS_Dataset_Files(*.lasd)|*.lasd|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_files(*)|* Source ASPRS LAS File(s):
 DEFAULT_MACRO DestDataset_STL_3 /Users/mlinnane/Documents/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Output/Prototypes
 GUI DIRNAME DestDataset_STL_3 Destination STL Folder:
 DEFAULT_MACRO SourceDataset_ESRISHAPE_9 /Users/mlinnane/Documents/GitHub local copy/BCD-Architectural-Models/Grids/0.4/Tiles v0.4.shp
@@ -6145,8 +6138,9 @@ DEFAULT_MACRO SourceDataset_ESRISHAPE_8 /Users/mlinnane/Documents/github/BCD-Int
 GUI MULTIFILE SourceDataset_ESRISHAPE_8 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files(*)|* Source Esri Shapefile(s):
 DEFAULT_MACRO SourceDataset_ESRISHAPE_12 /Users/mlinnane/Documents/github/BCD-Interactive-Architectural-City-Models/Grids/Grid 1km2/Grid 1km2.shp
 GUI MULTIFILE SourceDataset_ESRISHAPE_12 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files(*)|* Source Esri Shapefile(s):
+DEFAULT_MACRO SourceDataset_LAS_3 ""$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/a_FCIR_20170408_110916.las" "$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/a_FCIR_20170408_112657.las" "$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/a_FCIR_20170408_141111.las" "$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/a_FCIR_20170408_142635.las" "$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/a_FCIR_20170408_144524.las" "$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/b_FCIR_20170408_110916.las" "$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/b_FCIR_20170408_112657.las" "$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/b_FCIR_20170408_141111.las" "$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/b_FCIR_20170408_142635.las" "$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/b_FCIR_20170408_144524.las" "$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/c_FCIR_20170408_110916.las" "$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/c_FCIR_20170408_112657.las" "$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/c_FCIR_20170408_141111.las" "$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/c_FCIR_20170408_142635.las" "$(FME_MF_DIR)LiDAR_Footprints/Dublin_Clipped_PointCloud/c_FCIR_20170408_144524.las""
+GUI MULTIFILE SourceDataset_LAS_3 LAS_Files(*.las;*.laz;*.zlas;*.lasd)|*.las;*.laz;*.zlas;*.lasd|LAS_Files(*.las)|*.las|Compressed_LAS_Files(*.laz)|*.laz|Esri_Optimized_LAS_Files(*.zlas)|*.zlas|Esri_LAS_Dataset_Files(*.lasd)|*.lasd|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_files(*)|* Source ASPRS LAS File(s):
 INCLUDE [ if {{$(SourceDataset_FILEGDB_3)} == {}} { puts_real {Parameter 'SourceDataset_FILEGDB_3' must be given a value.}; exit 1; }; ]
-INCLUDE [ if {{$(SourceDataset_LAS)} == {}} { puts_real {Parameter 'SourceDataset_LAS' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(DestDataset_STL_3)} == {}} { puts_real {Parameter 'DestDataset_STL_3' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(SourceDataset_ESRISHAPE_9)} == {}} { puts_real {Parameter 'SourceDataset_ESRISHAPE_9' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(ELEVATION)} == {}} { puts_real {Parameter 'ELEVATION' must be given a value.}; exit 1; }; ]
@@ -6155,33 +6149,34 @@ INCLUDE [ if {{$(SourceDataset_ESRISHAPE_13)} == {}} { puts_real {Parameter 'Sou
 INCLUDE [ if {{$(SourceDataset_ESRISHAPE_11)} == {}} { puts_real {Parameter 'SourceDataset_ESRISHAPE_11' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(SourceDataset_ESRISHAPE_8)} == {}} { puts_real {Parameter 'SourceDataset_ESRISHAPE_8' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(SourceDataset_ESRISHAPE_12)} == {}} { puts_real {Parameter 'SourceDataset_ESRISHAPE_12' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(SourceDataset_LAS_3)} == {}} { puts_real {Parameter 'SourceDataset_LAS_3' must be given a value.}; exit 1; }; ]
 #! START_HEADER
 #! START_WB_HEADER
 READER_TYPE MULTI_READER
 MULTI_READER_TYPE{0} FILEGDB
 MULTI_READER_KEYWORD{0} FILEGDB_1
 MULTI_READER_GEN_DIRECTIVES{0} GEOMETRY,,ADVANCED,,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,SEARCH_ENVELOPE_MAXX,0,END_SQL,,FILEGDB_EXPOSE_FORMAT_ATTRS,,UPDATE_FEATURE_TYPES,no,SEARCH_ENVELOPE_MINY,0,SEARCH_ENVELOPE_MINX,0,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,CLIP_TO_ENVELOPE,NO,EXPOSE_ATTRS_GROUP,,_MERGE_SCHEMAS,YES,BEGIN_SQL,,TABLELIST,BuildingFootprints,SEARCH_ENVELOPE_MAXY,0,USE_SEARCH_ENVELOPE,NO,SIMPLE_DONUT_GEOMETRY,simple,STRIP_GUID_GLOBALID_BRACES,yes
-MULTI_READER_TYPE{1} LAS
-MULTI_READER_KEYWORD{1} LAS_1
-MULTI_READER_GEN_DIRECTIVES{1} READER_META_ATTRIBUTES,fme_dataset,SEARCH_ENVELOPE_MAXX,0,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,EXPOSE_ATTRS_GROUP,,LAS_EXPOSE_FORMAT_ATTRS,,USE_SEARCH_ENVELOPE,NO,_MERGE_SCHEMAS,YES,SEARCH_ENVELOPE_MINX,0,UPDATE_FEATURE_TYPES,no,SEARCH_ENVELOPE_MAXY,0,CLIP_TO_ENVELOPE,NO,GROUP_BY_DATASET,No,SEARCH_ENVELOPE_MINY,0
+MULTI_READER_TYPE{1} ESRISHAPE
+MULTI_READER_KEYWORD{1} ESRISHAPE_1
+MULTI_READER_GEN_DIRECTIVES{1} EXPOSE_ATTRS_GROUP,,ESRISHAPE_EXPOSE_FORMAT_ATTRS,,SEARCH_ENVELOPE_MAXY,0,ADVANCED,,NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,ENCODING,fme-source-encoding,SEARCH_ENVELOPE_MINX,0,TRIM_PRECEDING_SPACES,yes,MEASURES_AS_Z,no,SEARCH_ENVELOPE_MAXX,0,CHECK_NUMERIC_FIELDS,yes,USE_SEARCH_ENVELOPE,NO,SEARCH_ENVELOPE_MINY,0,CLIP_TO_ENVELOPE,NO,GEOMETRY,,_MERGE_SCHEMAS,YES,REPORT_BAD_GEOMETRY,no,DISSOLVE_HOLES,no,UPPER_CASE_ATTR_NAMES,No,SIMPLE_DONUT_GEOMETRY,simple,SEARCH_ENVELOPE_COORDINATE_SYSTEM,
 MULTI_READER_TYPE{2} ESRISHAPE
-MULTI_READER_KEYWORD{2} ESRISHAPE_1
-MULTI_READER_GEN_DIRECTIVES{2} EXPOSE_ATTRS_GROUP,,ESRISHAPE_EXPOSE_FORMAT_ATTRS,,SEARCH_ENVELOPE_MAXY,0,ADVANCED,,NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,ENCODING,fme-source-encoding,SEARCH_ENVELOPE_MINX,0,TRIM_PRECEDING_SPACES,yes,MEASURES_AS_Z,no,SEARCH_ENVELOPE_MAXX,0,CHECK_NUMERIC_FIELDS,yes,USE_SEARCH_ENVELOPE,NO,SEARCH_ENVELOPE_MINY,0,CLIP_TO_ENVELOPE,NO,GEOMETRY,,_MERGE_SCHEMAS,YES,REPORT_BAD_GEOMETRY,no,DISSOLVE_HOLES,no,UPPER_CASE_ATTR_NAMES,No,SIMPLE_DONUT_GEOMETRY,simple,SEARCH_ENVELOPE_COORDINATE_SYSTEM,
+MULTI_READER_KEYWORD{2} ESRISHAPE_2
+MULTI_READER_GEN_DIRECTIVES{2} SEARCH_ENVELOPE_COORDINATE_SYSTEM,,TRIM_PRECEDING_SPACES,yes,UPPER_CASE_ATTR_NAMES,No,GEOMETRY,,_MERGE_SCHEMAS,YES,MEASURES_AS_Z,no,ENCODING,fme-source-encoding,SEARCH_ENVELOPE_MINX,0,ESRISHAPE_EXPOSE_FORMAT_ATTRS,,DISSOLVE_HOLES,no,SEARCH_ENVELOPE_MAXX,0,CLIP_TO_ENVELOPE,NO,NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,SEARCH_ENVELOPE_MINY,0,SIMPLE_DONUT_GEOMETRY,simple,EXPOSE_ATTRS_GROUP,,USE_SEARCH_ENVELOPE,NO,ADVANCED,,SEARCH_ENVELOPE_MAXY,0,CHECK_NUMERIC_FIELDS,yes,REPORT_BAD_GEOMETRY,no
 MULTI_READER_TYPE{3} ESRISHAPE
-MULTI_READER_KEYWORD{3} ESRISHAPE_2
-MULTI_READER_GEN_DIRECTIVES{3} SEARCH_ENVELOPE_COORDINATE_SYSTEM,,TRIM_PRECEDING_SPACES,yes,UPPER_CASE_ATTR_NAMES,No,GEOMETRY,,_MERGE_SCHEMAS,YES,MEASURES_AS_Z,no,ENCODING,fme-source-encoding,SEARCH_ENVELOPE_MINX,0,ESRISHAPE_EXPOSE_FORMAT_ATTRS,,DISSOLVE_HOLES,no,SEARCH_ENVELOPE_MAXX,0,CLIP_TO_ENVELOPE,NO,NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,SEARCH_ENVELOPE_MINY,0,SIMPLE_DONUT_GEOMETRY,simple,EXPOSE_ATTRS_GROUP,,USE_SEARCH_ENVELOPE,NO,ADVANCED,,SEARCH_ENVELOPE_MAXY,0,CHECK_NUMERIC_FIELDS,yes,REPORT_BAD_GEOMETRY,no
+MULTI_READER_KEYWORD{3} ESRISHAPE_3
+MULTI_READER_GEN_DIRECTIVES{3} SIMPLE_DONUT_GEOMETRY,simple,SEARCH_ENVELOPE_MAXY,0,SEARCH_ENVELOPE_MINX,0,ESRISHAPE_EXPOSE_FORMAT_ATTRS,,EXPOSE_ATTRS_GROUP,,ENCODING,fme-source-encoding,CLIP_TO_ENVELOPE,NO,SEARCH_ENVELOPE_MINY,0,REPORT_BAD_GEOMETRY,no,USE_SEARCH_ENVELOPE,NO,UPPER_CASE_ATTR_NAMES,No,DISSOLVE_HOLES,no,_MERGE_SCHEMAS,YES,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,TRIM_PRECEDING_SPACES,yes,MEASURES_AS_Z,no,CHECK_NUMERIC_FIELDS,yes,SEARCH_ENVELOPE_MAXX,0,NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,ADVANCED,,GEOMETRY,
 MULTI_READER_TYPE{4} ESRISHAPE
-MULTI_READER_KEYWORD{4} ESRISHAPE_3
-MULTI_READER_GEN_DIRECTIVES{4} SIMPLE_DONUT_GEOMETRY,simple,SEARCH_ENVELOPE_MAXY,0,SEARCH_ENVELOPE_MINX,0,ESRISHAPE_EXPOSE_FORMAT_ATTRS,,EXPOSE_ATTRS_GROUP,,ENCODING,fme-source-encoding,CLIP_TO_ENVELOPE,NO,SEARCH_ENVELOPE_MINY,0,REPORT_BAD_GEOMETRY,no,USE_SEARCH_ENVELOPE,NO,UPPER_CASE_ATTR_NAMES,No,DISSOLVE_HOLES,no,_MERGE_SCHEMAS,YES,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,TRIM_PRECEDING_SPACES,yes,MEASURES_AS_Z,no,CHECK_NUMERIC_FIELDS,yes,SEARCH_ENVELOPE_MAXX,0,NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,ADVANCED,,GEOMETRY,
+MULTI_READER_KEYWORD{4} ESRISHAPE_4
+MULTI_READER_GEN_DIRECTIVES{4} SEARCH_ENVELOPE_COORDINATE_SYSTEM,,SEARCH_ENVELOPE_MINX,0,MEASURES_AS_Z,no,CLIP_TO_ENVELOPE,NO,ENCODING,fme-source-encoding,REPORT_BAD_GEOMETRY,no,NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,ADVANCED,,ESRISHAPE_EXPOSE_FORMAT_ATTRS,,DISSOLVE_HOLES,no,TRIM_PRECEDING_SPACES,yes,USE_SEARCH_ENVELOPE,NO,SEARCH_ENVELOPE_MINY,0,SEARCH_ENVELOPE_MAXX,0,GEOMETRY,,UPPER_CASE_ATTR_NAMES,No,CHECK_NUMERIC_FIELDS,yes,SEARCH_ENVELOPE_MAXY,0,EXPOSE_ATTRS_GROUP,,SIMPLE_DONUT_GEOMETRY,simple,_MERGE_SCHEMAS,YES
 MULTI_READER_TYPE{5} ESRISHAPE
-MULTI_READER_KEYWORD{5} ESRISHAPE_4
-MULTI_READER_GEN_DIRECTIVES{5} SEARCH_ENVELOPE_COORDINATE_SYSTEM,,SEARCH_ENVELOPE_MINX,0,MEASURES_AS_Z,no,CLIP_TO_ENVELOPE,NO,ENCODING,fme-source-encoding,REPORT_BAD_GEOMETRY,no,NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,ADVANCED,,ESRISHAPE_EXPOSE_FORMAT_ATTRS,,DISSOLVE_HOLES,no,TRIM_PRECEDING_SPACES,yes,USE_SEARCH_ENVELOPE,NO,SEARCH_ENVELOPE_MINY,0,SEARCH_ENVELOPE_MAXX,0,GEOMETRY,,UPPER_CASE_ATTR_NAMES,No,CHECK_NUMERIC_FIELDS,yes,SEARCH_ENVELOPE_MAXY,0,EXPOSE_ATTRS_GROUP,,SIMPLE_DONUT_GEOMETRY,simple,_MERGE_SCHEMAS,YES
+MULTI_READER_KEYWORD{5} ESRISHAPE_5
+MULTI_READER_GEN_DIRECTIVES{5} ENCODING,fme-source-encoding,MEASURES_AS_Z,no,EXPOSE_ATTRS_GROUP,,SEARCH_ENVELOPE_MINX,0,CHECK_NUMERIC_FIELDS,yes,TRIM_PRECEDING_SPACES,yes,SEARCH_ENVELOPE_MAXX,0,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,GEOMETRY,,_MERGE_SCHEMAS,YES,SIMPLE_DONUT_GEOMETRY,simple,NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,CLIP_TO_ENVELOPE,NO,SEARCH_ENVELOPE_MAXY,0,REPORT_BAD_GEOMETRY,no,USE_SEARCH_ENVELOPE,NO,DISSOLVE_HOLES,no,SEARCH_ENVELOPE_MINY,0,ESRISHAPE_EXPOSE_FORMAT_ATTRS,,UPPER_CASE_ATTR_NAMES,No,ADVANCED,
 MULTI_READER_TYPE{6} ESRISHAPE
-MULTI_READER_KEYWORD{6} ESRISHAPE_5
-MULTI_READER_GEN_DIRECTIVES{6} ENCODING,fme-source-encoding,MEASURES_AS_Z,no,EXPOSE_ATTRS_GROUP,,SEARCH_ENVELOPE_MINX,0,CHECK_NUMERIC_FIELDS,yes,TRIM_PRECEDING_SPACES,yes,SEARCH_ENVELOPE_MAXX,0,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,GEOMETRY,,_MERGE_SCHEMAS,YES,SIMPLE_DONUT_GEOMETRY,simple,NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,CLIP_TO_ENVELOPE,NO,SEARCH_ENVELOPE_MAXY,0,REPORT_BAD_GEOMETRY,no,USE_SEARCH_ENVELOPE,NO,DISSOLVE_HOLES,no,SEARCH_ENVELOPE_MINY,0,ESRISHAPE_EXPOSE_FORMAT_ATTRS,,UPPER_CASE_ATTR_NAMES,No,ADVANCED,
-MULTI_READER_TYPE{7} ESRISHAPE
-MULTI_READER_KEYWORD{7} ESRISHAPE_6
-MULTI_READER_GEN_DIRECTIVES{7} TRIM_PRECEDING_SPACES,yes,GEOMETRY,,NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,CHECK_NUMERIC_FIELDS,yes,SEARCH_ENVELOPE_MINY,0,ADVANCED,,MEASURES_AS_Z,no,EXPOSE_ATTRS_GROUP,,UPPER_CASE_ATTR_NAMES,No,SEARCH_ENVELOPE_MAXX,0,ENCODING,fme-source-encoding,USE_SEARCH_ENVELOPE,NO,REPORT_BAD_GEOMETRY,no,SEARCH_ENVELOPE_MINX,0,ESRISHAPE_EXPOSE_FORMAT_ATTRS,,SIMPLE_DONUT_GEOMETRY,simple,SEARCH_ENVELOPE_MAXY,0,DISSOLVE_HOLES,no,_MERGE_SCHEMAS,YES,CLIP_TO_ENVELOPE,NO
+MULTI_READER_KEYWORD{6} ESRISHAPE_6
+MULTI_READER_GEN_DIRECTIVES{6} TRIM_PRECEDING_SPACES,yes,GEOMETRY,,NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,CHECK_NUMERIC_FIELDS,yes,SEARCH_ENVELOPE_MINY,0,ADVANCED,,MEASURES_AS_Z,no,EXPOSE_ATTRS_GROUP,,UPPER_CASE_ATTR_NAMES,No,SEARCH_ENVELOPE_MAXX,0,ENCODING,fme-source-encoding,USE_SEARCH_ENVELOPE,NO,REPORT_BAD_GEOMETRY,no,SEARCH_ENVELOPE_MINX,0,ESRISHAPE_EXPOSE_FORMAT_ATTRS,,SIMPLE_DONUT_GEOMETRY,simple,SEARCH_ENVELOPE_MAXY,0,DISSOLVE_HOLES,no,_MERGE_SCHEMAS,YES,CLIP_TO_ENVELOPE,NO
+MULTI_READER_TYPE{7} LAS
+MULTI_READER_KEYWORD{7} LAS_2
+MULTI_READER_GEN_DIRECTIVES{7} SEARCH_ENVELOPE_MINY,0,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,SEARCH_ENVELOPE_MAXY,0,READER_META_ATTRIBUTES,fme_dataset,_EXTRA_DATASETS,<solidus>Users<solidus>mlinnane<solidus>Documents<solidus>repos<solidus>BCD-Interactive-City-Scale-Models<solidus>Dublin<solidus>Fabrication<solidus>Sources<solidus>LiDAR_Footprints<solidus>Dublin_Clipped_PointCloud<solidus>a_FCIR_20170408_112657.las<comma><solidus>Users<solidus>mlinnane<solidus>Documents<solidus>repos<solidus>BCD-Interactive-City-Scale-Models<solidus>Dublin<solidus>Fabrication<solidus>Sources<solidus>LiDAR_Footprints<solidus>Dublin_Clipped_PointCloud<solidus>a_FCIR_20170408_141111.las<comma><solidus>Users<solidus>mlinnane<solidus>Documents<solidus>repos<solidus>BCD-Interactive-City-Scale-Models<solidus>Dublin<solidus>Fabrication<solidus>Sources<solidus>LiDAR_Footprints<solidus>Dublin_Clipped_PointCloud<solidus>a_FCIR_20170408_142635.las<comma><solidus>Users<solidus>mlinnane<solidus>Documents<solidus>repos<solidus>BCD-Interactive-City-Scale-Models<solidus>Dublin<solidus>Fabrication<solidus>Sources<solidus>LiDAR_Footprints<solidus>Dublin_Clipped_PointCloud<solidus>a_FCIR_20170408_144524.las<comma><solidus>Users<solidus>mlinnane<solidus>Documents<solidus>repos<solidus>BCD-Interactive-City-Scale-Models<solidus>Dublin<solidus>Fabrication<solidus>Sources<solidus>LiDAR_Footprints<solidus>Dublin_Clipped_PointCloud<solidus>b_FCIR_20170408_110916.las<comma><solidus>Users<solidus>mlinnane<solidus>Documents<solidus>repos<solidus>BCD-Interactive-City-Scale-Models<solidus>Dublin<solidus>Fabrication<solidus>Sources<solidus>LiDAR_Footprints<solidus>Dublin_Clipped_PointCloud<solidus>b_FCIR_20170408_112657.las<comma><solidus>Users<solidus>mlinnane<solidus>Documents<solidus>repos<solidus>BCD-Interactive-City-Scale-Models<solidus>Dublin<solidus>Fabrication<solidus>Sources<solidus>LiDAR_Footprints<solidus>Dublin_Clipped_PointCloud<solidus>b_FCIR_20170408_141111.las<comma><solidus>Users<solidus>mlinnane<solidus>Documents<solidus>repos<solidus>BCD-Interactive-City-Scale-Models<solidus>Dublin<solidus>Fabrication<solidus>Sources<solidus>LiDAR_Footprints<solidus>Dublin_Clipped_PointCloud<solidus>b_FCIR_20170408_142635.las<comma><solidus>Users<solidus>mlinnane<solidus>Documents<solidus>repos<solidus>BCD-Interactive-City-Scale-Models<solidus>Dublin<solidus>Fabrication<solidus>Sources<solidus>LiDAR_Footprints<solidus>Dublin_Clipped_PointCloud<solidus>b_FCIR_20170408_144524.las<comma><solidus>Users<solidus>mlinnane<solidus>Documents<solidus>repos<solidus>BCD-Interactive-City-Scale-Models<solidus>Dublin<solidus>Fabrication<solidus>Sources<solidus>LiDAR_Footprints<solidus>Dublin_Clipped_PointCloud<solidus>c_FCIR_20170408_110916.las<comma><solidus>Users<solidus>mlinnane<solidus>Documents<solidus>repos<solidus>BCD-Interactive-City-Scale-Models<solidus>Dublin<solidus>Fabrication<solidus>Sources<solidus>LiDAR_Footprints<solidus>Dublin_Clipped_PointCloud<solidus>c_FCIR_20170408_112657.las<comma><solidus>Users<solidus>mlinnane<solidus>Documents<solidus>repos<solidus>BCD-Interactive-City-Scale-Models<solidus>Dublin<solidus>Fabrication<solidus>Sources<solidus>LiDAR_Footprints<solidus>Dublin_Clipped_PointCloud<solidus>c_FCIR_20170408_141111.las<comma><solidus>Users<solidus>mlinnane<solidus>Documents<solidus>repos<solidus>BCD-Interactive-City-Scale-Models<solidus>Dublin<solidus>Fabrication<solidus>Sources<solidus>LiDAR_Footprints<solidus>Dublin_Clipped_PointCloud<solidus>c_FCIR_20170408_142635.las<comma><solidus>Users<solidus>mlinnane<solidus>Documents<solidus>repos<solidus>BCD-Interactive-City-Scale-Models<solidus>Dublin<solidus>Fabrication<solidus>Sources<solidus>LiDAR_Footprints<solidus>Dublin_Clipped_PointCloud<solidus>c_FCIR_20170408_144524.las,USE_SEARCH_ENVELOPE,NO,EXPOSE_ATTRS_GROUP,,CLIP_TO_ENVELOPE,NO,LAS_EXPOSE_FORMAT_ATTRS,,SEARCH_ENVELOPE_MAXX,0,GROUP_BY_DATASET,No,SEARCH_ENVELOPE_MINX,0,_MERGE_SCHEMAS,YES
 WRITER_TYPE MULTI_WRITER
 MULTI_WRITER_DATASET_ORDER BY_ID
 MULTI_WRITER_FIRST_WRITER_ID 0
@@ -6275,80 +6270,6 @@ FILEGDB_1_ATTRIBUTE_READING "$(FILEGDB_IN_ATTRIBUTE_READING_FILEGDB_1)"
 # ============================================================================ 
 FILEGDB_1_GENERATE_FME_BUILD_NUM 19253
 FILEGDB_1_DATASET "$(SourceDataset_FILEGDB_1)"
-#! END_SOURCE_HEADER
-#! START_WB_HEADER
-MACRO WB_KEYWORD "LAS_1"
-#! END_WB_HEADER
-#! START_SOURCE_HEADER LAS LAS_1
-# =======================================================================
-# The following GUI line prompts for a file to be used as the source LAS file.
-# The user input is stored in a macro, which is then used to define
-# the dataset to be read.
-# The dataset this mapping file was generated from was:
-#! END_SOURCE_HEADER
-#! START_WB_HEADER
-DEFAULT_MACRO SourceDataset
-INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
- puts {DEFAULT_MACRO SourceDataset_LAS_1 $(SourceDataset)}     \
- } ]
-#! END_WB_HEADER
-#! START_SOURCE_HEADER LAS LAS_1
-DEFAULT_MACRO SourceDataset_LAS_1 $(SourceDataset_LAS)
-GUI MULTIFILE SourceDataset_LAS_1 LAS_Files(*.las;*.laz;*.zlas;*.lasd)|*.las;*.laz;*.zlas;*.lasd|LAS_Files(*.las)|*.las|Compressed_LAS_Files(*.laz)|*.laz|Esri_Optimized_LAS_Files(*.zlas)|*.zlas|Esri_LAS_Dataset_Files(*.lasd)|*.lasd|All_files(*)|* Source ASPRS LAS File(s):
-DEFAULT_MACRO LAS_IN_READER_META_ATTRIBUTES_LAS_1 fme_dataset
-LAS_1_READER_META_ATTRIBUTES "$(LAS_IN_READER_META_ATTRIBUTES_LAS_1)"
-DEFAULT_MACRO LAS_IN_GROUP_BY_DATASET_LAS_1 No
-LAS_1_GROUP_BY_DATASET "$(LAS_IN_GROUP_BY_DATASET_LAS_1)"
-DEFAULT_MACRO LAS_IN_EXPOSE_ATTRS_GROUP_LAS_1 
-LAS_1_EXPOSE_ATTRS_GROUP "$(LAS_IN_EXPOSE_ATTRS_GROUP_LAS_1)"
-# Include this file in source setting section to add external search envelope processing
-# Zero as a default means we don't do any search -- this makes workbench happier
-DEFAULT_MACRO LAS_IN_USE_SEARCH_ENVELOPE_LAS_1 NO
-LAS_1_USE_SEARCH_ENVELOPE "$(LAS_IN_USE_SEARCH_ENVELOPE_LAS_1)"
-GUI ACTIVEDISCLOSUREGROUP LAS_IN_USE_SEARCH_ENVELOPE_LAS_1 LAS_IN_SEARCH_ENVELOPE_MINX_LAS_1%LAS_IN_SEARCH_ENVELOPE_MINY_LAS_1%LAS_IN_SEARCH_ENVELOPE_MAXX_LAS_1%LAS_IN_SEARCH_ENVELOPE_MAXY_LAS_1%LAS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_LAS_1%LAS_IN_CLIP_TO_ENVELOPE_LAS_1%LAS_IN_SEARCH_METHOD%LAS_IN_SEARCH_METHOD_FILTER%LAS_IN_SEARCH_ORDER%LAS_IN_SEARCH_FEATURE%LAS_IN_DUMMY_SEARCH_ENVELOPE_PARAMETER Use Search Envelope
-# ===========================================================================
-GUI LOOKUP LAS_IN_SEARCH_ENVELOPE_MINX_LAS_1 <Unused>,0 
-DEFAULT_MACRO LAS_IN_SEARCH_ENVELOPE_MINX_LAS_1 0
-LAS_1_SEARCH_ENVELOPE "$(LAS_IN_SEARCH_ENVELOPE_MINX_LAS_1)"
-GUI OPTIONAL FLOAT LAS_IN_SEARCH_ENVELOPE_MINX_LAS_1 Minimum X:
-# ===========================================================================
-GUI LOOKUP LAS_IN_SEARCH_ENVELOPE_MINY_LAS_1 <Unused>,0 
-DEFAULT_MACRO LAS_IN_SEARCH_ENVELOPE_MINY_LAS_1 0
-LAS_1_SEARCH_ENVELOPE "$(LAS_IN_SEARCH_ENVELOPE_MINY_LAS_1)"
-GUI OPTIONAL FLOAT LAS_IN_SEARCH_ENVELOPE_MINY_LAS_1 Minimum Y:
-# ===========================================================================
-GUI LOOKUP LAS_IN_SEARCH_ENVELOPE_MAXX_LAS_1 <Unused>,0 
-DEFAULT_MACRO LAS_IN_SEARCH_ENVELOPE_MAXX_LAS_1 0
-LAS_1_SEARCH_ENVELOPE "$(LAS_IN_SEARCH_ENVELOPE_MAXX_LAS_1)"
-GUI OPTIONAL FLOAT LAS_IN_SEARCH_ENVELOPE_MAXX_LAS_1 Maximum X:
-# ===========================================================================
-GUI LOOKUP LAS_IN_SEARCH_ENVELOPE_MAXY_LAS_1 <Unused>,0 
-DEFAULT_MACRO LAS_IN_SEARCH_ENVELOPE_MAXY_LAS_1 0
-LAS_1_SEARCH_ENVELOPE "$(LAS_IN_SEARCH_ENVELOPE_MAXY_LAS_1)"
-GUI OPTIONAL FLOAT LAS_IN_SEARCH_ENVELOPE_MAXY_LAS_1 Maximum Y:
-# ===========================================================================
-GUI LOOKUP LAS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_LAS_1 <Unused>, 
-DEFAULT_MACRO LAS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_LAS_1 
-LAS_1_SEARCH_ENVELOPE "$(LAS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_LAS_1)"
-GUI OPTIONAL COORDSYS LAS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_LAS_1 Search Envelope Coordinate System:
-# ===========================================================================
-# BUG18999: We now have a soft clip to fall back on like native spatial index
-# thus we are reintroducing the clip to envelop as an option for users.
-# Defualt to soft clip as per the existing database readers we are emulating
-GUI LOOKUP LAS_IN_CLIP_TO_ENVELOPE_LAS_1 <Unused>,NO 
-DEFAULT_MACRO LAS_IN_CLIP_TO_ENVELOPE_LAS_1 NO
-LAS_1_CLIP_TO_ENVELOPE "$(LAS_IN_CLIP_TO_ENVELOPE_LAS_1)"
-GUI OPTIONAL CHECKBOX LAS_IN_CLIP_TO_ENVELOPE_LAS_1 YES%NO Clip to Search Envelope
-# ===========================================================================
-DEFAULT_MACRO LAS_IN_NETWORK_AUTHENTICATION_LAS_1 
-LAS_1_NETWORK_AUTHENTICATION "$(LAS_IN_NETWORK_AUTHENTICATION_LAS_1)"
-GUI OPTIONAL AUTHENTICATOR LAS_IN_NETWORK_AUTHENTICATION_LAS_1 CONTAINER%GROUP%CONTAINER_TITLE%"Network Authentication"%PROMPT_TYPE%NETWORK Network Authentication
-# ============================================================================ 
-DEFAULT_MACRO LAS_IN_ATTRIBUTE_READING_LAS_1 ALL
-LAS_1_ATTRIBUTE_READING "$(LAS_IN_ATTRIBUTE_READING_LAS_1)"
-# ============================================================================ 
-LAS_1_GENERATE_FME_BUILD_NUM 19253
-LAS_1_DATASET "$(SourceDataset_LAS_1)"
 #! END_SOURCE_HEADER
 #! START_WB_HEADER
 MACRO WB_KEYWORD "ESRISHAPE_1"
@@ -7113,6 +7034,80 @@ ESRISHAPE_6_GENERATE_FME_BUILD_NUM 19253
 ESRISHAPE_6_DATASET "$(SourceDataset_ESRISHAPE_6)"
 #! END_SOURCE_HEADER
 #! START_WB_HEADER
+MACRO WB_KEYWORD "LAS_2"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER LAS LAS_2
+# =======================================================================
+# The following GUI line prompts for a file to be used as the source LAS file.
+# The user input is stored in a macro, which is then used to define
+# the dataset to be read.
+# The dataset this mapping file was generated from was:
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_LAS_2 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER LAS LAS_2
+DEFAULT_MACRO SourceDataset_LAS_2 $(SourceDataset_LAS_3)
+GUI MULTIFILE SourceDataset_LAS_2 LAS_Files(*.las;*.laz;*.zlas;*.lasd)|*.las;*.laz;*.zlas;*.lasd|LAS_Files(*.las)|*.las|Compressed_LAS_Files(*.laz)|*.laz|Esri_Optimized_LAS_Files(*.zlas)|*.zlas|Esri_LAS_Dataset_Files(*.lasd)|*.lasd|All_files(*)|* Source ASPRS LAS File(s):
+DEFAULT_MACRO LAS_IN_READER_META_ATTRIBUTES_LAS_2 fme_dataset
+LAS_2_READER_META_ATTRIBUTES "$(LAS_IN_READER_META_ATTRIBUTES_LAS_2)"
+DEFAULT_MACRO LAS_IN_GROUP_BY_DATASET_LAS_2 No
+LAS_2_GROUP_BY_DATASET "$(LAS_IN_GROUP_BY_DATASET_LAS_2)"
+DEFAULT_MACRO LAS_IN_EXPOSE_ATTRS_GROUP_LAS_2 
+LAS_2_EXPOSE_ATTRS_GROUP "$(LAS_IN_EXPOSE_ATTRS_GROUP_LAS_2)"
+# Include this file in source setting section to add external search envelope processing
+# Zero as a default means we don't do any search -- this makes workbench happier
+DEFAULT_MACRO LAS_IN_USE_SEARCH_ENVELOPE_LAS_2 NO
+LAS_2_USE_SEARCH_ENVELOPE "$(LAS_IN_USE_SEARCH_ENVELOPE_LAS_2)"
+GUI ACTIVEDISCLOSUREGROUP LAS_IN_USE_SEARCH_ENVELOPE_LAS_2 LAS_IN_SEARCH_ENVELOPE_MINX_LAS_2%LAS_IN_SEARCH_ENVELOPE_MINY_LAS_2%LAS_IN_SEARCH_ENVELOPE_MAXX_LAS_2%LAS_IN_SEARCH_ENVELOPE_MAXY_LAS_2%LAS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_LAS_2%LAS_IN_CLIP_TO_ENVELOPE_LAS_2%LAS_IN_SEARCH_METHOD%LAS_IN_SEARCH_METHOD_FILTER%LAS_IN_SEARCH_ORDER%LAS_IN_SEARCH_FEATURE%LAS_IN_DUMMY_SEARCH_ENVELOPE_PARAMETER Use Search Envelope
+# ===========================================================================
+GUI LOOKUP LAS_IN_SEARCH_ENVELOPE_MINX_LAS_2 <Unused>,0 
+DEFAULT_MACRO LAS_IN_SEARCH_ENVELOPE_MINX_LAS_2 0
+LAS_2_SEARCH_ENVELOPE "$(LAS_IN_SEARCH_ENVELOPE_MINX_LAS_2)"
+GUI OPTIONAL FLOAT LAS_IN_SEARCH_ENVELOPE_MINX_LAS_2 Minimum X:
+# ===========================================================================
+GUI LOOKUP LAS_IN_SEARCH_ENVELOPE_MINY_LAS_2 <Unused>,0 
+DEFAULT_MACRO LAS_IN_SEARCH_ENVELOPE_MINY_LAS_2 0
+LAS_2_SEARCH_ENVELOPE "$(LAS_IN_SEARCH_ENVELOPE_MINY_LAS_2)"
+GUI OPTIONAL FLOAT LAS_IN_SEARCH_ENVELOPE_MINY_LAS_2 Minimum Y:
+# ===========================================================================
+GUI LOOKUP LAS_IN_SEARCH_ENVELOPE_MAXX_LAS_2 <Unused>,0 
+DEFAULT_MACRO LAS_IN_SEARCH_ENVELOPE_MAXX_LAS_2 0
+LAS_2_SEARCH_ENVELOPE "$(LAS_IN_SEARCH_ENVELOPE_MAXX_LAS_2)"
+GUI OPTIONAL FLOAT LAS_IN_SEARCH_ENVELOPE_MAXX_LAS_2 Maximum X:
+# ===========================================================================
+GUI LOOKUP LAS_IN_SEARCH_ENVELOPE_MAXY_LAS_2 <Unused>,0 
+DEFAULT_MACRO LAS_IN_SEARCH_ENVELOPE_MAXY_LAS_2 0
+LAS_2_SEARCH_ENVELOPE "$(LAS_IN_SEARCH_ENVELOPE_MAXY_LAS_2)"
+GUI OPTIONAL FLOAT LAS_IN_SEARCH_ENVELOPE_MAXY_LAS_2 Maximum Y:
+# ===========================================================================
+GUI LOOKUP LAS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_LAS_2 <Unused>, 
+DEFAULT_MACRO LAS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_LAS_2 
+LAS_2_SEARCH_ENVELOPE "$(LAS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_LAS_2)"
+GUI OPTIONAL COORDSYS LAS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_LAS_2 Search Envelope Coordinate System:
+# ===========================================================================
+# BUG18999: We now have a soft clip to fall back on like native spatial index
+# thus we are reintroducing the clip to envelop as an option for users.
+# Defualt to soft clip as per the existing database readers we are emulating
+GUI LOOKUP LAS_IN_CLIP_TO_ENVELOPE_LAS_2 <Unused>,NO 
+DEFAULT_MACRO LAS_IN_CLIP_TO_ENVELOPE_LAS_2 NO
+LAS_2_CLIP_TO_ENVELOPE "$(LAS_IN_CLIP_TO_ENVELOPE_LAS_2)"
+GUI OPTIONAL CHECKBOX LAS_IN_CLIP_TO_ENVELOPE_LAS_2 YES%NO Clip to Search Envelope
+# ===========================================================================
+DEFAULT_MACRO LAS_IN_NETWORK_AUTHENTICATION_LAS_2 
+LAS_2_NETWORK_AUTHENTICATION "$(LAS_IN_NETWORK_AUTHENTICATION_LAS_2)"
+GUI OPTIONAL AUTHENTICATOR LAS_IN_NETWORK_AUTHENTICATION_LAS_2 CONTAINER%GROUP%CONTAINER_TITLE%"Network Authentication"%PROMPT_TYPE%NETWORK Network Authentication
+# ============================================================================ 
+DEFAULT_MACRO LAS_IN_ATTRIBUTE_READING_LAS_2 ALL
+LAS_2_ATTRIBUTE_READING "$(LAS_IN_ATTRIBUTE_READING_LAS_2)"
+# ============================================================================ 
+LAS_2_GENERATE_FME_BUILD_NUM 19253
+LAS_2_DATASET "$(SourceDataset_LAS_2)"
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
 MACRO WB_KEYWORD "STL_1"
 #! END_WB_HEADER
 #! START_DEST_HEADER STL STL_1
@@ -7159,21 +7154,17 @@ FME_GEOMETRY_HANDLING Enhanced
 FME_STROKE_MAX_DEVIATION 0
 MAPPING_FILE_ID OSiDataTo3D
 DEFAULT_MACRO DATASET_KEYWORD_FILEGDB_1 FILEGDB_1
-DEFAULT_MACRO DATASET_KEYWORD_LAS_1 LAS_1
 DEFAULT_MACRO DATASET_KEYWORD_ESRISHAPE_1 ESRISHAPE_1
 DEFAULT_MACRO DATASET_KEYWORD_ESRISHAPE_2 ESRISHAPE_2
 DEFAULT_MACRO DATASET_KEYWORD_ESRISHAPE_3 ESRISHAPE_3
 DEFAULT_MACRO DATASET_KEYWORD_ESRISHAPE_4 ESRISHAPE_4
 DEFAULT_MACRO DATASET_KEYWORD_ESRISHAPE_5 ESRISHAPE_5
 DEFAULT_MACRO DATASET_KEYWORD_ESRISHAPE_6 ESRISHAPE_6
+DEFAULT_MACRO DATASET_KEYWORD_LAS_2 LAS_2
 DEFAULT_MACRO DATASET_KEYWORD_STL_1 STL_1
 # -------------------------------------------------------------------------
 
 FILEGDB_1_READER_META_ATTRIBUTES fme_feature_type
-
-# -------------------------------------------------------------------------
-
-LAS_1_READER_META_ATTRIBUTES fme_basename fme_feature_type
 
 # -------------------------------------------------------------------------
 
@@ -7201,7 +7192,10 @@ ESRISHAPE_6_READER_META_ATTRIBUTES fme_feature_type
 
 # -------------------------------------------------------------------------
 
-LAS_1_COORDINATE_SYSTEM EPSG:2157
+LAS_2_READER_META_ATTRIBUTES fme_basename fme_feature_type
+
+# -------------------------------------------------------------------------
+
 MULTI_READER_CONTINUE_ON_READER_FAILURE No
 
 # -------------------------------------------------------------------------
@@ -7215,8 +7209,6 @@ MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/inspector.ffs
 MACRO VISUALIZER_SCHEMA_FILE $(WORKSPACE_TEMP_DIR)/inspector.fsc
 MACRO VISUALIZER_CREATE_SPATIAL_INDEX YES
 # -------------------------------------------------------------------------
-LAS_1_DEF LAS
-# -------------------------------------------------------------------------
 ESRISHAPE_1_DEF "Tiles v0.4"   SHAPE_GEOMETRY               shape_polygon   left                         double   top                          double   right                        double   bottom                       double   id                           long
 # -------------------------------------------------------------------------
 ESRISHAPE_2_DEF "Tiles 240m2"   SHAPE_GEOMETRY               shape_polygon   left                         double   top                          double   right                        double   bottom                       double   id                           long
@@ -7229,41 +7221,51 @@ ESRISHAPE_5_DEF "Grid 400m2"   SHAPE_GEOMETRY               shape_polygon   left
 # -------------------------------------------------------------------------
 ESRISHAPE_6_DEF "Grid 1km2"   SHAPE_GEOMETRY               shape_polygon   left                         double   top                          double   right                        double   bottom                       double   id                           long
 # -------------------------------------------------------------------------
+LAS_2_DEF LAS
+# -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FILEGDB FILEGDB_1::BuildingFootprints multi_reader_keyword,$(DATASET_KEYWORD_FILEGDB_1) TO FME_GENERIC ::BuildingFootprints ALIAS_GEOMETRY    ROUTE LAS LAS_1::LAS multi_reader_keyword,$(DATASET_KEYWORD_LAS_1) TO FME_GENERIC ::LAS ALIAS_GEOMETRY    ROUTE ESRISHAPE "ESRISHAPE_1::Tiles v0.4" multi_reader_keyword,$(DATASET_KEYWORD_ESRISHAPE_1) TO FME_GENERIC "::Tiles v0.4" ALIAS_GEOMETRY    ROUTE ESRISHAPE "ESRISHAPE_2::Tiles 240m2" multi_reader_keyword,$(DATASET_KEYWORD_ESRISHAPE_2) TO FME_GENERIC "::Tiles 240m2" ALIAS_GEOMETRY    ROUTE ESRISHAPE "ESRISHAPE_3::Tiles 120m2" multi_reader_keyword,$(DATASET_KEYWORD_ESRISHAPE_3) TO FME_GENERIC "::Tiles 120m2" ALIAS_GEOMETRY    ROUTE ESRISHAPE "ESRISHAPE_4::Grid 500m2" multi_reader_keyword,$(DATASET_KEYWORD_ESRISHAPE_4) TO FME_GENERIC "::Grid 500m2" ALIAS_GEOMETRY    ROUTE ESRISHAPE "ESRISHAPE_5::Grid 400m2" multi_reader_keyword,$(DATASET_KEYWORD_ESRISHAPE_5) TO FME_GENERIC "::Grid 400m2" ALIAS_GEOMETRY    ROUTE ESRISHAPE "ESRISHAPE_6::Grid 1km2" multi_reader_keyword,$(DATASET_KEYWORD_ESRISHAPE_6) TO FME_GENERIC "::Grid 1km2" ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FILEGDB FILEGDB_1::BuildingFootprints multi_reader_keyword,$(DATASET_KEYWORD_FILEGDB_1) TO FME_GENERIC ::BuildingFootprints ALIAS_GEOMETRY    ROUTE ESRISHAPE "ESRISHAPE_1::Tiles v0.4" multi_reader_keyword,$(DATASET_KEYWORD_ESRISHAPE_1) TO FME_GENERIC "::Tiles v0.4" ALIAS_GEOMETRY    ROUTE ESRISHAPE "ESRISHAPE_2::Tiles 240m2" multi_reader_keyword,$(DATASET_KEYWORD_ESRISHAPE_2) TO FME_GENERIC "::Tiles 240m2" ALIAS_GEOMETRY    ROUTE ESRISHAPE "ESRISHAPE_3::Tiles 120m2" multi_reader_keyword,$(DATASET_KEYWORD_ESRISHAPE_3) TO FME_GENERIC "::Tiles 120m2" ALIAS_GEOMETRY    ROUTE ESRISHAPE "ESRISHAPE_4::Grid 500m2" multi_reader_keyword,$(DATASET_KEYWORD_ESRISHAPE_4) TO FME_GENERIC "::Grid 500m2" ALIAS_GEOMETRY    ROUTE ESRISHAPE "ESRISHAPE_5::Grid 400m2" multi_reader_keyword,$(DATASET_KEYWORD_ESRISHAPE_5) TO FME_GENERIC "::Grid 400m2" ALIAS_GEOMETRY    ROUTE ESRISHAPE "ESRISHAPE_6::Grid 1km2" multi_reader_keyword,$(DATASET_KEYWORD_ESRISHAPE_6) TO FME_GENERIC "::Grid 1km2" ALIAS_GEOMETRY    ROUTE LAS LAS_2::LAS multi_reader_keyword,$(DATASET_KEYWORD_LAS_2) TO FME_GENERIC ::LAS ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
 FILEGDB_1_MERGE_DEF FILEGDB_1::BuildingFootprints EXACT BuildingFootprints DEFLINE filegdb_type,geodb_polygon,filegdb_where_wwjd,,fme_attribute_reading,defined,GUID,text<openparen>114<closeparen>,FORM_VALUE,text<openparen>120<closeparen>,FUNC_VALUE,text<openparen>240<closeparen>,POLY_GEOM_CAPTURE_DATE,date,POLY_GEOM_CHANGE_DATE,date,WAY_SEG_VALUE,text<openparen>114<closeparen>,STATUS_VALUE,text<openparen>120<closeparen>,Z_ORDER_VALUE,double,OBJECTID,objectid
-LAS_1_MERGE_DEF LAS_1::LAS EXACT LAS
 ESRISHAPE_1_MERGE_DEF "ESRISHAPE_1::Tiles v0.4" EXACT Tiles<space>v0.4
 ESRISHAPE_2_MERGE_DEF "ESRISHAPE_2::Tiles 240m2" EXACT Tiles<space>240m2
 ESRISHAPE_3_MERGE_DEF "ESRISHAPE_3::Tiles 120m2" EXACT Tiles<space>120m2
 ESRISHAPE_4_MERGE_DEF "ESRISHAPE_4::Grid 500m2" EXACT Grid<space>500m2
 ESRISHAPE_5_MERGE_DEF "ESRISHAPE_5::Grid 400m2" EXACT Grid<space>400m2
 ESRISHAPE_6_MERGE_DEF "ESRISHAPE_6::Grid 1km2" EXACT Grid<space>1km2
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME "Grid 400m2 (ESRISHAPE_5) Splitter"    INPUT FEATURE_TYPE "Grid 400m2"
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME "Grid 500m2 (ESRISHAPE_4) Splitter"    INPUT FEATURE_TYPE "Grid 500m2"    OUTPUT FEATURE_TYPE "Grid 500m2_ESRISHAPE_4"
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME "Tiles 120m2 (ESRISHAPE_3) Splitter"    INPUT FEATURE_TYPE "Tiles 120m2"
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME "BuildingFootprints (FILEGDB_1) Splitter"    INPUT FEATURE_TYPE BuildingFootprints    OUTPUT FEATURE_TYPE BuildingFootprints_FILEGDB_1
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME "Grid 1km2 (ESRISHAPE_6) Splitter"    INPUT FEATURE_TYPE "Grid 1km2"
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME "LAS (LAS_1) Splitter"    INPUT FEATURE_TYPE LAS    OUTPUT FEATURE_TYPE LAS_LAS_1
+LAS_2_MERGE_DEF LAS_2::LAS EXACT LAS
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME "Tiles v0.4 (ESRISHAPE_1) Splitter"    INPUT FEATURE_TYPE "Tiles v0.4"
 # -------------------------------------------------------------------------
 
+FACTORY_DEF * TeeFactory    FACTORY_NAME "Grid 400m2 (ESRISHAPE_5) Splitter"    INPUT FEATURE_TYPE "Grid 400m2"
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "LAS (LAS_2) Splitter"    INPUT FEATURE_TYPE LAS    OUTPUT FEATURE_TYPE LAS_LAS_2
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "BuildingFootprints (FILEGDB_1) Splitter"    INPUT FEATURE_TYPE BuildingFootprints    OUTPUT FEATURE_TYPE BuildingFootprints_FILEGDB_1
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "Tiles 120m2 (ESRISHAPE_3) Splitter"    INPUT FEATURE_TYPE "Tiles 120m2"
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "Grid 500m2 (ESRISHAPE_4) Splitter"    INPUT FEATURE_TYPE "Grid 500m2"    OUTPUT FEATURE_TYPE "Grid 500m2_ESRISHAPE_4"
+# -------------------------------------------------------------------------
+
 FACTORY_DEF * TeeFactory    FACTORY_NAME "Tiles 240m2 (ESRISHAPE_2) Splitter"    INPUT FEATURE_TYPE "Tiles 240m2"
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "Grid 1km2 (ESRISHAPE_6) Splitter"    INPUT FEATURE_TYPE "Grid 1km2"
 DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+FACTORY_DEF * PointCloudEvaluationFactory    FACTORY_NAME PointCloudFilter    INPUT  FEATURE_TYPE LAS_LAS_2    MODE FILTER    REJECT_INVALID_FEATURES YES    FORCE_FLOAT_DIVISION yes    EXPRESSION_LIST <at>Component<openparen>classification<closeparen>==1 ; <at>Component<openparen>classification<closeparen>==2 FILTER_ATTRIBUTE __pc_internal_filter_attribute__ FILTER_ATTRIBUTE_VALUES_LIST Feature ; Ground    OUTPUT_UNFILTERED_POINTS "Yes"    OUTPUT RESULT FEATURE_TYPE PointCloudFilter_POINTCLOUDFILTERINPUTLINE_0    OUTPUT <REJECTED> FEATURE_TYPE PointCloudFilter_<REJECTED>
+FACTORY_DEF * TestFactory FACTORY_NAME PointCloudFilter_TestFactory_0 INPUT FEATURE_TYPE PointCloudFilter_POINTCLOUDFILTERINPUTLINE_0 STRING_TEST @Value(__pc_internal_filter_attribute__) = Feature OUTPUT PASSED FEATURE_TYPE PointCloudFilter_Feature    @RemoveAttributes(__pc_internal_filter_attribute__) OUTPUT FAILED FEATURE_TYPE PointCloudFilter_POINTCLOUDFILTERINPUTLINE_1
+FACTORY_DEF * TestFactory FACTORY_NAME PointCloudFilter_TestFactory_1 INPUT FEATURE_TYPE PointCloudFilter_POINTCLOUDFILTERINPUTLINE_1 STRING_TEST @Value(__pc_internal_filter_attribute__) = Ground OUTPUT PASSED FEATURE_TYPE PointCloudFilter_Ground    @RemoveAttributes(__pc_internal_filter_attribute__) OUTPUT FAILED FEATURE_TYPE PointCloudFilter_POINTCLOUDFILTERINPUTLINE_2
+FACTORY_DEF * TeeFactory FACTORY_NAME PointCloudFilter_UNFILTERED INPUT FEATURE_TYPE PointCloudFilter_POINTCLOUDFILTERINPUTLINE_2 OUTPUT FEATURE_TYPE PointCloudFilter_<UNFILTERED>    @RemoveAttributes(__pc_internal_filter_attribute__)
+FACTORY_DEF * TeeFactory   FACTORY_NAME "PointCloudFilter <UNFILTERED> Transformer Output Nuker"   INPUT FEATURE_TYPE PointCloudFilter_<UNFILTERED>
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME PointCloudFilter_<Rejected> INPUT FEATURE_TYPE PointCloudFilter_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, PointCloudFilter<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME 406    INPUT  FEATURE_TYPE "Grid 500m2_ESRISHAPE_4"    OUTPUT FEATURE_TYPE 406_FILTER
 FACTORY_DEF * AttributeFilterFactory FACTORY_NAME 406_Filter COMMAND_PARM_EVALUATION SINGLE_PASS INPUT FEATURE_TYPE 406_FILTER FILTER_ATTRIBUTE id FILTER_VALUES 148 149 161 162 194 195 207 208 213 214 215 229 230 231 245 246 247 406 1582 2575 3390 3391 3392 3520 3521 3522 3650 3651 3652 <lt>EMPTY<gt> <lt>MISSING<gt> <lt>NULL<gt> <lt>UNFILTERED<gt> OUTPUT 148 FEATURE_TYPE 406_148 OUTPUT 149 FEATURE_TYPE 406_149 OUTPUT 161 FEATURE_TYPE 406_161 OUTPUT 162 FEATURE_TYPE 406_162 OUTPUT 194 FEATURE_TYPE 406_194 OUTPUT 195 FEATURE_TYPE 406_195 OUTPUT 207 FEATURE_TYPE 406_207 OUTPUT 208 FEATURE_TYPE 406_208 OUTPUT 213 FEATURE_TYPE 406_213 OUTPUT 214 FEATURE_TYPE 406_214 OUTPUT 215 FEATURE_TYPE 406_215 OUTPUT 229 FEATURE_TYPE 406_229 OUTPUT 230 FEATURE_TYPE 406_230 OUTPUT 231 FEATURE_TYPE 406_231 OUTPUT 245 FEATURE_TYPE 406_245 OUTPUT 246 FEATURE_TYPE 406_246 OUTPUT 247 FEATURE_TYPE 406_247 OUTPUT 406 FEATURE_TYPE 406_406 OUTPUT 1582 FEATURE_TYPE 406_1582 OUTPUT 2575 FEATURE_TYPE 406_2575 OUTPUT 3390 FEATURE_TYPE 406_3390 OUTPUT 3391 FEATURE_TYPE 406_3391 OUTPUT 3392 FEATURE_TYPE 406_3392 OUTPUT 3520 FEATURE_TYPE 406_3520 OUTPUT 3521 FEATURE_TYPE 406_3521 OUTPUT 3522 FEATURE_TYPE 406_3522 OUTPUT 3650 FEATURE_TYPE 406_3650 OUTPUT 3651 FEATURE_TYPE 406_3651 OUTPUT 3652 FEATURE_TYPE 406_3652 OUTPUT <lt>EMPTY<gt> FEATURE_TYPE 406_<lt>EMPTY<gt> OUTPUT <lt>MISSING<gt> FEATURE_TYPE 406_<lt>MISSING<gt> OUTPUT <lt>NULL<gt> FEATURE_TYPE 406_<lt>NULL<gt> OUTPUT <lt>UNFILTERED<gt> FEATURE_TYPE 406_<lt>UNFILTERED<gt>
@@ -7316,16 +7318,6 @@ FACTORY_DEF * TeeFactory FACTORY_NAME Extruder_2_<Rejected> INPUT FEATURE_TYPE E
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME Junction_8    INPUT  FEATURE_TYPE Extruder_2_EXTRUDED    OUTPUT FEATURE_TYPE Junction_8_Output
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME Junction_4    INPUT  FEATURE_TYPE Junction_2_Output_0_tvGfyYWUJeA=    OUTPUT FEATURE_TYPE Junction_4_Output
-# -------------------------------------------------------------------------
-FACTORY_DEF * PointCloudEvaluationFactory    FACTORY_NAME PointCloudFilter    INPUT  FEATURE_TYPE LAS_LAS_1    MODE FILTER    REJECT_INVALID_FEATURES YES    FORCE_FLOAT_DIVISION yes    EXPRESSION_LIST <at>Component<openparen>classification<closeparen>==1 ; <at>Component<openparen>classification<closeparen>==2 FILTER_ATTRIBUTE __pc_internal_filter_attribute__ FILTER_ATTRIBUTE_VALUES_LIST Feature ; Ground    OUTPUT_UNFILTERED_POINTS "Yes"    OUTPUT RESULT FEATURE_TYPE PointCloudFilter_POINTCLOUDFILTERINPUTLINE_0    OUTPUT <REJECTED> FEATURE_TYPE PointCloudFilter_<REJECTED>
-FACTORY_DEF * TestFactory FACTORY_NAME PointCloudFilter_TestFactory_0 INPUT FEATURE_TYPE PointCloudFilter_POINTCLOUDFILTERINPUTLINE_0 STRING_TEST @Value(__pc_internal_filter_attribute__) = Feature OUTPUT PASSED FEATURE_TYPE PointCloudFilter_Feature    @RemoveAttributes(__pc_internal_filter_attribute__) OUTPUT FAILED FEATURE_TYPE PointCloudFilter_POINTCLOUDFILTERINPUTLINE_1
-FACTORY_DEF * TestFactory FACTORY_NAME PointCloudFilter_TestFactory_1 INPUT FEATURE_TYPE PointCloudFilter_POINTCLOUDFILTERINPUTLINE_1 STRING_TEST @Value(__pc_internal_filter_attribute__) = Ground OUTPUT PASSED FEATURE_TYPE PointCloudFilter_Ground    @RemoveAttributes(__pc_internal_filter_attribute__) OUTPUT FAILED FEATURE_TYPE PointCloudFilter_POINTCLOUDFILTERINPUTLINE_2
-FACTORY_DEF * TeeFactory FACTORY_NAME PointCloudFilter_UNFILTERED INPUT FEATURE_TYPE PointCloudFilter_POINTCLOUDFILTERINPUTLINE_2 OUTPUT FEATURE_TYPE PointCloudFilter_<UNFILTERED>    @RemoveAttributes(__pc_internal_filter_attribute__)
-FACTORY_DEF * TeeFactory   FACTORY_NAME "PointCloudFilter <UNFILTERED> Transformer Output Nuker"   INPUT FEATURE_TYPE PointCloudFilter_<UNFILTERED>
-DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TeeFactory FACTORY_NAME PointCloudFilter_<Rejected> INPUT FEATURE_TYPE PointCloudFilter_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, PointCloudFilter<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
-# -------------------------------------------------------------------------
 FACTORY_DEF {*} SurfaceModelFactory    FACTORY_NAME SurfaceModeller    INPUT DRAPE_FEATURES FEATURE_TYPE Junction_2_Output_1_8yJTK7wdGRQ=    INPUT POINTS FEATURE_TYPE PointCloudFilter_Ground    TOLERANCE 0.165    SAMPLE_SPACING 100.0 100.0    NODATA_VALUE -32767.0    DRAPE_TYPE VERTEX    INTERPOLATION_TYPE AUTO    CONTOUR_DIMENSION 3    CONTOUR_INTERVAL 100.0    PERTURB_CONTOURS YES    OUTPUT DRAPED_FEATURES FEATURE_TYPE SurfaceModeller_DRAPED_FEATURES    OUTPUT TRIANGLES FEATURE_TYPE SurfaceModeller_TRIANGLES
 # -------------------------------------------------------------------------
 INCLUDE [    if {($(FME_BUILD_NUM) < 5669) || [FME_ComponentIsLicensed -factory RasterClippingFactory]} {       puts "MACRO RASTER_CLIPPER_IN *";    } else {       puts "MACRO RASTER_CLIPPER_IN NOT_THIS_TIME";    } ]
@@ -7358,8 +7350,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_InputPassThrough    INPU
 FACTORY_DEF $(INSTANCE_FILTERING) TestFactory    FACTORY_NAME GeometryFilter_InstanceTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST @Geometry(IS_GEOMETRY_INSTANCE) == 1    OUTPUT PASSED FEATURE_TYPE $(OUTPUT_INSTANCE_FTYPE)    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Input___
 FACTORY_DEF $(COLLECTION_HANDLING) TestFactory    FACTORY_NAME GeometryFilter_CollectionTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST &fme_type == "fme_collection"    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Not_Collection___    OUTPUT PASSED FEATURE_TYPE GeometryFilter___Collection___
 FACTORY_DEF $(COLLECTION_HANDLING) DeaggregateFactory    FACTORY_NAME GeometryFilter_Deagg    INPUT FEATURE_TYPE GeometryFilter___Collection___    HOMOGENIZE_COLLECTIONS YES    RECURSIVE YES    SET_FME_TYPE YES    INSTANTIATE_GEOMETRY_INSTANCES_NEW <Unused>    OUTPUT POINT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT LINE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT POLYGON FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT DONUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT AGGREGATE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___
-FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_9a917008_c4ba_4359_9929_718f40a3ca8316_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
-FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_9a917008_c4ba_4359_9929_718f40a3ca8316_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_9a917008_c4ba_4359_9929_718f40a3ca8316_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_9a917008_c4ba_4359_9929_718f40a3ca8316_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_9a917008_c4ba_4359_9929_718f40a3ca8316_targetFeatureType)
+FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_a0d21131_c41b_4819_ae4d_6360e4303fa90_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
+FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_a0d21131_c41b_4819_ae4d_6360e4303fa90_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_a0d21131_c41b_4819_ae4d_6360e4303fa90_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_a0d21131_c41b_4819_ae4d_6360e4303fa90_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_a0d21131_c41b_4819_ae4d_6360e4303fa90_targetFeatureType)
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME BoundsExtractor    INPUT  FEATURE_TYPE GeometryFilter_SURFACE    OUTPUT FEATURE_TYPE BoundsExtractor_OUTPUT         @Bounds(fme_encoded,,,,,__ssc.zmin,__ssc.zmax,GEOMETRIC)
 # -------------------------------------------------------------------------
@@ -7455,6 +7447,8 @@ DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
 # it reads on WIN32, so we will correspondingly limit the number of
 # features we record here using the MAX_FEATURES_TO_RECORD directive.
 FACTORY_DEF * RecorderFactory    FACTORY_NAME Inspector_2_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA _rejected_reason,varchar<openparen>255<closeparen>,__ssc.elevation,varchar<openparen>255<closeparen>,__ssc.flag,varchar<openparen>255<closeparen>,SurfaceModel.aspect,varchar<openparen>255<closeparen>,SurfaceModel.percentageSlope,varchar<openparen>255<closeparen>,SurfaceModel.slope,varchar<openparen>255<closeparen>,SurfaceModel.vertex1_id,varchar<openparen>255<closeparen>,SurfaceModel.vertex2_id,varchar<openparen>255<closeparen>,SurfaceModel.vertex3_id,varchar<openparen>255<closeparen>,_geometry_name,varchar<openparen>255<closeparen>,_hierarchy_id,varchar<openparen>255<closeparen>,_hierarchy_parent_id,varchar<openparen>255<closeparen>,_part_number,varchar<openparen>255<closeparen>,__ssc.zmax,varchar<openparen>255<closeparen>,__ssc.zmin,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory    FACTORY_NAME Junction_4    INPUT  FEATURE_TYPE Junction_2_Output_0_tvGfyYWUJeA=    OUTPUT FEATURE_TYPE Junction_4_Output
 # -------------------------------------------------------------------------
 # First determine which function we are going to be using -- we can do
 # this statically at parse time for efficiency sake
