@@ -5,8 +5,7 @@
 
 # Proprietary data #
 ######################
-Dublin/Fabrication/Sources/LiDAR_Footprints/docklands_lidar_2009_dsm.las
-Dublin/Fabrication/Sources/LiDAR_Footprints/DublinBuildingGrangeGormantoDocks.gdb
+Dublin/Fabrication/Sources/LiDAR_Footprints/*
 
 # Fabrication Manager Log files #
 ######################
