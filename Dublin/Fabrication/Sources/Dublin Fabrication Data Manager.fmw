@@ -46,7 +46,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2019.0.1.0 (20190506 - Build 19253 - macosx)"
-#!   LAST_SAVE_DATE="2019-12-16T13:05:00"
+#!   LAST_SAVE_DATE="2019-12-16T14:47:11"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -65,7 +65,7 @@
 #!   TITLE="OSiDataTo3D"
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-2471.67 376.123"
+#!   VIEW_POSITION="-2735.85 107.464"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="67"
@@ -8614,6 +8614,38 @@
 #!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeFilter_2"/>
 #! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="285"
+#!   TYPE="3DForcer"
+#!   VERSION="2"
+#!   POSITION="-2400 -2012.6871940361195"
+#!   BOUNDING_RECT="-2400 -2012.6871940361195 454 71"
+#!   ORDER="500000000000440.25"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="19253"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="KEEPZVAL" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="3DForcer_6"/>
+#!     <XFORM_PARM PARM_NAME="ZVALATTR" PARM_VALUE="$(ELEVATION)"/>
+#! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
@@ -8941,9 +8973,9 @@
 #!   TARGET_NODE="52"
 #!   SOURCE_PORT_DESC="fo 0 Output"
 #!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
+#!   ENABLED="false"
 #!   EXECUTION_IDX="0"
-#!   HIDDEN="true"
+#!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -8965,7 +8997,7 @@
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
-#!   HIDDEN="true"
+#!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -9106,7 +9138,7 @@
 #!   TARGET_NODE="58"
 #!   SOURCE_PORT_DESC="fo 0 Output"
 #!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
+#!   ENABLED="false"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
@@ -9343,14 +9375,14 @@
 #!   EXTRA_POINTS="-7269 -2188 -6457 -2254"
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="332"
+#!   IDENTIFIER="337"
 #!   SOURCE_NODE="101"
-#!   TARGET_NODE="330"
+#!   TARGET_NODE="285"
 #!   SOURCE_PORT_DESC="fo 0 Output"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="3"
-#!   HIDDEN="true"
+#!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -9475,6 +9507,17 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
+#!   IDENTIFIER="338"
+#!   SOURCE_NODE="285"
+#!   TARGET_NODE="330"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
 #!   IDENTIFIER="310"
 #!   SOURCE_NODE="286"
 #!   TARGET_NODE="309"
@@ -9590,7 +9633,7 @@
 #!   TARGET_NODE="49"
 #!   SOURCE_PORT_DESC="fo 1 FAILED"
 #!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
+#!   ENABLED="false"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
@@ -12189,7 +12232,10 @@ FACTORY_DEF {*} ClippingFactory    FACTORY_NAME Tile_out_DTM_Vector    INPUT CLI
 FACTORY_DEF * SolidIntersectionFactory    FACTORY_NAME Tile_out_DTM_Solid    INPUT CLIPPER FEATURE_TYPE Tile_out_DTM___ClippersForSolid___    INPUT CLIPPEE FEATURE_TYPE Tile_out_DTM___ClippeeForSolid___    MULTICLIP YES    CLIPPEE_ON_BOUNDARY INSIDE    MERGE_CLIPPER_ATTRIBUTES NO    ATTR_ACCUM_MODE "<Unused>"    ATTR_CONFLICT_RES "<Unused>"    CLIPPER_PREFIX "<Unused>"    OUTPUT_NO_CLIPPERS_AS_OUTSIDE    OUTSIDE_NO_CLIPPERS_ATTR _fme_no_clipper    FLUSH_WHEN_GROUPS_CHANGE No    OUTPUT INSIDE FEATURE_TYPE Tile_out_DTM_INSIDE        "_clipped" no    OUTPUT CLIPPED_INSIDE FEATURE_TYPE Tile_out_DTM_INSIDE        "_clipped" yes    OUTPUT EXTRA_CLIPPER   FEATURE_TYPE Tile_out_DTM__delete__ @Tcl2("FME_LogMessage fme_warn 917351 Tile_out_DTM")
 FACTORY_DEF * TeeFactory    FACTORY_NAME Tile_out_DTM_Nuker    INPUT FEATURE_TYPE Tile_out_DTM__delete__       @Log("Offending feature was:")
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME Junction_17    INPUT  FEATURE_TYPE Junction_15_Output_3_1T2xvo8FBjI=    OUTPUT FEATURE_TYPE Junction_17_Output
+FACTORY_DEF * TeeFactory    FACTORY_NAME 3DForcer_6    INPUT  FEATURE_TYPE Junction_15_Output_3_1T2xvo8FBjI=    OUTPUT FEATURE_TYPE ___TOREJECTOR___         @ZValue("@EvaluateExpression(FDIV,FLOAT,$(ELEVATION$encode),3DForcer_6)", "No", ___fme_rejection_code___)
+FACTORY_DEF * TestFactory    FACTORY_NAME 3DForcer_6_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(___fme_rejection_code___) != ""    OUTPUT FAILED FEATURE_TYPE 3DForcer_6_OUTPUT
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory    FACTORY_NAME Junction_17    INPUT  FEATURE_TYPE 3DForcer_6_OUTPUT    OUTPUT FEATURE_TYPE Junction_17_Output
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeFilter_3    INPUT  FEATURE_TYPE DLM_CORE_WATER_POLY_FILEGDB_1    OUTPUT FEATURE_TYPE AttributeFilter_3_FILTER
 FACTORY_DEF * AttributeFilterFactory FACTORY_NAME AttributeFilter_3_Filter COMMAND_PARM_EVALUATION SINGLE_PASS INPUT FEATURE_TYPE AttributeFilter_3_FILTER FILTER_ATTRIBUTE Z_ORDER_VALUE FILTER_VALUES <lt>EMPTY<gt> <lt>MISSING<gt> <lt>NULL<gt> <lt>UNFILTERED<gt> -1 OUTPUT <lt>EMPTY<gt> FEATURE_TYPE AttributeFilter_3_<lt>EMPTY<gt> OUTPUT <lt>MISSING<gt> FEATURE_TYPE AttributeFilter_3_<lt>MISSING<gt> OUTPUT <lt>NULL<gt> FEATURE_TYPE AttributeFilter_3_<lt>NULL<gt> OUTPUT <lt>UNFILTERED<gt> FEATURE_TYPE AttributeFilter_3_<lt>UNFILTERED<gt> OUTPUT -1 FEATURE_TYPE AttributeFilter_3_-1
@@ -12246,8 +12292,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_InputPassThrough    INPU
 FACTORY_DEF $(INSTANCE_FILTERING) TestFactory    FACTORY_NAME GeometryFilter_InstanceTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST @Geometry(IS_GEOMETRY_INSTANCE) == 1    OUTPUT PASSED FEATURE_TYPE $(OUTPUT_INSTANCE_FTYPE)    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Input___
 FACTORY_DEF $(COLLECTION_HANDLING) TestFactory    FACTORY_NAME GeometryFilter_CollectionTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST &fme_type == "fme_collection"    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Not_Collection___    OUTPUT PASSED FEATURE_TYPE GeometryFilter___Collection___
 FACTORY_DEF $(COLLECTION_HANDLING) DeaggregateFactory    FACTORY_NAME GeometryFilter_Deagg    INPUT FEATURE_TYPE GeometryFilter___Collection___    HOMOGENIZE_COLLECTIONS YES    RECURSIVE YES    SET_FME_TYPE YES    INSTANTIATE_GEOMETRY_INSTANCES_NEW <Unused>    OUTPUT POINT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT LINE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT POLYGON FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT DONUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT AGGREGATE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___
-FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_335a5dd5_c767_43e8_91ea_f4f7f76551cc59_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
-FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_335a5dd5_c767_43e8_91ea_f4f7f76551cc59_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_335a5dd5_c767_43e8_91ea_f4f7f76551cc59_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_335a5dd5_c767_43e8_91ea_f4f7f76551cc59_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_335a5dd5_c767_43e8_91ea_f4f7f76551cc59_targetFeatureType)
+FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_335a5dd5_c767_43e8_91ea_f4f7f76551cc63_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
+FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_335a5dd5_c767_43e8_91ea_f4f7f76551cc63_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_335a5dd5_c767_43e8_91ea_f4f7f76551cc63_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_335a5dd5_c767_43e8_91ea_f4f7f76551cc63_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_335a5dd5_c767_43e8_91ea_f4f7f76551cc63_targetFeatureType)
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME BoundsExtractor    INPUT  FEATURE_TYPE GeometryFilter_SURFACE    OUTPUT FEATURE_TYPE BoundsExtractor_OUTPUT         @Bounds(fme_encoded,,,,,__ssc.zmin,__ssc.zmax,GEOMETRIC)
 # -------------------------------------------------------------------------
@@ -12272,6 +12318,7 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME Orientor    INPUT  FEATURE_TYPE Tester_
 FACTORY_DEF * TestFactory    FACTORY_NAME Orientor_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) != ""    OUTPUT FAILED FEATURE_TYPE Orientor_ORIENTED       @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME Tester_3_FAILED    INPUT  FEATURE_TYPE Orientor_ORIENTED    OUTPUT FEATURE_TYPE Tester_3_FAILED_Output
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Tester_3_FAILED_Output Disabled Nuker -1 134"   INPUT FEATURE_TYPE Tester_3_FAILED_Output
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME Tester_3_PASSED    INPUT  FEATURE_TYPE Tester_2_PASSED    OUTPUT FEATURE_TYPE Tester_3_PASSED_Output
 # -------------------------------------------------------------------------
@@ -12293,6 +12340,7 @@ FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_2    INPUT  FEATURE_TYPE PathSplitter_OUTPUT    SYMBOL_NAME BRepSolidBoundaryCreator    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE <lf>#<space>2016-09-16:<space>Takashi<space>Iijima<comma><space>Original<space>Implementation<lf><lf>import<space>fme<lf>import<space>fmeobjects<lf>class<space>BRepSolidBoundaryCreator<openparen>object<closeparen>:<lf><space><space><space><space>def<space>__init__<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space><space>self.wallFaces<space>=<space><opencurly><closecurly><lf><space><space><space><space><space><space><space><space>self.planarBoundaries<space>=<space><opencurly><closecurly><lf><space><space><space><space><space><space><space><space>self.prevId<space>=<space>None<lf><space><space><space><space><space><space><space><space>self.feature<space>=<space>None<lf><space><space><space><space><space><space><space><space><lf><space><space><space><space>def<space>input<openparen>self<comma><space>feature<closeparen>:<lf><space><space><space><space><space><space><space><space>id<space>=<space>feature.getAttribute<openparen><apos>__ssc.id<apos><closeparen><lf><space><space><space><space><space><space><space><space>if<space>id<space>!=<space>self.prevId:<lf><space><space><space><space><space><space><space><space><space><space><space><space>self.outputSurface<openparen><closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>self.wallFaces<space>=<space><opencurly><closecurly><lf><space><space><space><space><space><space><space><space><space><space><space><space>self.planarBoundaries<space>=<space><opencurly><closecurly><lf><space><space><space><space><space><space><space><space><space><space><space><space>self.prevId<space>=<space>id<lf><space><space><space><space><space><space><space><space>partId<space>=<space>feature.getAttribute<openparen><apos>__ssc.part_id<apos><closeparen><lf><space><space><space><space><space><space><space><space>if<space>partId<space>not<space>in<space>self.wallFaces:<lf><space><space><space><space><space><space><space><space><space><space><space><space>self.wallFaces<openbracket>partId<closebracket><space>=<space><openbracket><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space>self.planarBoundaries<openbracket>partId<closebracket><space>=<space><openbracket><closebracket><lf><space><space><space><space><space><space><space><space>v0<space>=<space>feature.getCoordinate<openparen>0<closeparen><lf><space><space><space><space><space><space><space><space>v1<space>=<space>feature.getCoordinate<openparen>1<closeparen><lf><space><space><space><space><space><space><space><space>if<space>v0<openbracket>0<closebracket><space>!=<space>v1<openbracket>0<closebracket><space>or<space>v0<openbracket>1<closebracket><space>!=<space>v1<openbracket>1<closebracket>:<lf><space><space><space><space><space><space><space><space><space><space><space><space>z<space>=<space>float<openparen>feature.getAttribute<openparen><apos>__ssc.elevation<apos><closeparen><closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>v2<space>=<space><openparen>v1<openbracket>0<closebracket><comma><space>v1<openbracket>1<closebracket><comma><space>z<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>v3<space>=<space><openparen>v0<openbracket>0<closebracket><comma><space>v0<openbracket>1<closebracket><comma><space>z<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>boundary<space>=<space>fmeobjects.FMELine<openparen><openbracket>v0<comma><space>v1<comma><space>v2<comma><space>v3<comma><space>v0<closebracket><closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>self.wallFaces<openbracket>partId<closebracket>.append<openparen>fmeobjects.FMEFace<openparen>boundary<comma><space>fmeobjects.FME_CLOSE_3D_AVERAGE_MODE<closeparen><closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>self.planarBoundaries<openbracket>partId<closebracket>.append<openparen>v2<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>self.feature<space>=<space>feature<lf><space><space><space><space><space><space><space><space><lf><space><space><space><space>def<space>close<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space><space>self.outputSurface<openparen><closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space>def<space>outputSurface<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space><space>for<space>partId<space>in<space>sorted<openparen>self.wallFaces.keys<openparen><closeparen><closeparen>:<lf><space><space><space><space><space><space><space><space><space><space><space><space>wallFaces<space>=<space>self.wallFaces<openbracket>partId<closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space>planarBoundaries<space>=<space>self.planarBoundaries<openbracket>partId<closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space>if<space>wallFaces:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>sidewall<space>=<space>fmeobjects.FMECompositeSurface<openparen><closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>for<space>face<space>in<space>wallFaces:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>sidewall.appendPart<openparen>face<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>self.feature.setGeometry<openparen>sidewall<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>self.feature.setAttribute<openparen><apos>__ssc.type<apos><comma><space><apos>side<apos><closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>self.pyoutput<openparen>self.feature<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>planarBoundaries.append<openparen>planarBoundaries<openbracket>0<closebracket><closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>planar<space>=<space>fmeobjects.FMEPolygon<openparen>fmeobjects.FMELine<openparen>planarBoundaries<closeparen><closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>self.feature.setGeometry<openparen>planar<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>self.feature.setAttribute<openparen><apos>__ssc.type<apos><comma><space><apos>planar<apos><closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>self.pyoutput<openparen>self.feature<closeparen>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_2_OUTPUT
 # -------------------------------------------------------------------------
 FACTORY_DEF * TestFactory    FACTORY_NAME Tester_3    INPUT  FEATURE_TYPE PythonCaller_2_OUTPUT    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>__ssc.type<closeparen>,Tester_3) = side ENCODED    BOOLEAN_OPERATOR OR    COMPOSITE_TEST_EXPR "<Unused>"    OUTPUT PASSED FEATURE_TYPE Tester_3_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_3_FAILED
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Tester_3_FAILED Disabled Nuker -1 186"   INPUT FEATURE_TYPE Tester_3_FAILED
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} TransformFact:8:DonutBuilder    FACTORY_NAME DonutBuilder    FACTORY_META_PARAMS    TRANSFORMER_NAME:DonutBuilder    TRANSFORMER_PARAMS:XFORMER_NAME,DonutBuilder,TRANSFORMER_GROUP,,PARAMETERS_GROUP,,GROUP_BY,__ssc.id,CONNECT_Z_MODE,First<space>Wins,DROP,yes,FLAG_ATTR,<lt>Unused<gt>,ALLOW_CYCLES,No,ATTR_ACCUM_SUPER_GROUP,FME_DISCLOSURE_OPEN,ATTR_ACCUM_GROUP,NO,ATTR_ACCUM_MODE,<lt>Unused<gt>,ATTR_CONFLICT_RES,<lt>Unused<gt>,ATTR_PREFIX,<lt>Unused<gt>,GENERATE_LIST_GROUP,NO,HOLE_LIST_NAME,<lt>Unused<gt>    PROCESS_GROUP_BY { __ssc.id }     GROUPS_ARE_ORDERED { Yes }     MULTI_PROCESS { NO_PARALLELISM }  INPUT  FEATURE_TYPE Tester_3_FAILED    OUTPUT AREA FEATURE_TYPE DonutBuilder_AREA
 # -------------------------------------------------------------------------
@@ -12307,6 +12355,7 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME Bottom_2    INPUT  FEATURE_TYPE Tester_
 FACTORY_DEF * TeeFactory    FACTORY_NAME Top_2    INPUT  FEATURE_TYPE Tester_3_PASSED_Output    INPUT  FEATURE_TYPE Tester_4_PASSED    OUTPUT FEATURE_TYPE Top_2_Output
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME Junction_5    INPUT  FEATURE_TYPE Tester_3_PASSED    OUTPUT FEATURE_TYPE Junction_5_Output
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Junction_5_Output Disabled Nuker -1 152"   INPUT FEATURE_TYPE Junction_5_Output
 # -------------------------------------------------------------------------
 DEFAULT_MACRO Aggregator_BREAK_ATTR
 FACTORY_DEF {*} AggregateFactory    FACTORY_NAME Aggregator    INPUT  FEATURE_TYPE Bottom_2_Output    INPUT  FEATURE_TYPE Top_2_Output    INPUT  FEATURE_TYPE Junction_5_Output    MODE ONE_LEVEL    $(Aggregator_BREAK_ATTR)    REMOVE_GEOMETRY NO    ACCUMULATE_ATTRIBUTES One    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    SEPARATOR <comma>    PRODUCE_MULTIS YES    OUTPUT AGGREGATE FEATURE_TYPE Aggregator_AGGREGATE
