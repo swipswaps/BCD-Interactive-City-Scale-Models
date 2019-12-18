@@ -8,6 +8,8 @@
 Dublin/Fabrication/Sources/LiDAR_Footprints/*
 Cork/Fabrication/Sources/LiDAR_Footprints/*
 Dublin/Fabrication/Output/Validation/Validation_Tiles/*
+Dublin/Fabrication/Sources/Validation/Validation_Tiles/*
+Dublin/Fabrication/Sources/Validation/Validation Dublin.qgz
 
 # Fabrication Manager Log files #
 ######################
