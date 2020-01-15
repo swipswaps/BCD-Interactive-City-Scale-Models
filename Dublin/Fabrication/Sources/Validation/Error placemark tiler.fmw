@@ -1,0 +1,1923 @@
+#! <?xml version="1.0" encoding="UTF-8" ?>
+#! <WORKSPACE
+#    Command-line to run this workspace:
+#        /Library/FME/2019.0/fme "/Users/mlinnane/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/Validation/Error placemark tiler.fmw"
+#              --SourceDataset_ESRISHAPE "/Users/mlinnane/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/Grids_Extents/Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile/Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile.shp"
+#              --DestDataset_OGCKML "/Users/mlinnane/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/Validation/Issue Placemarks/Tiled/Placemarks D2.kml"
+#              --SourceDataset_OGCKML "/Users/mlinnane/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/Validation/Issue Placemarks/Raw/D2-D3-D4_1st Pass.kmz"
+#    
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   BEGIN_PYTHON=""
+#!   BEGIN_TCL=""
+#!   CATEGORY=""
+#!   DESCRIPTION=""
+#!   DESTINATION="NONE"
+#!   DESTINATION_ROUTING_FILE=""
+#!   DOC_EXTENTS="4654 925.998"
+#!   DOC_TOP_LEFT="-3450 -925.998"
+#!   END_PYTHON=""
+#!   END_TCL=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   FME_BUILD_NUM="19253"
+#!   FME_DOCUMENT_GUID="5cf5dec4-fdb0-487c-b755-d0ccf3e78ece"
+#!   FME_DOCUMENT_PRIORGUID="e70bdbed-75ab-4f26-a99e-b61135ebd6b7,814c5783-f8d4-4491-87d3-7fe9c70cd724,ec0c68db-4d53-4678-a12b-977daacd2f53,3ce7c520-3c9a-4c53-81db-96bafa7d42c2,cdf666c7-fe3b-4fdf-b587-a7260ba5f1f0,b62e66af-b780-471f-9199-d80989e824e0,1f074930-2923-4600-a8ea-2616595fea2e"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   FME_SERVER_SERVICES=""
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   HISTORY=""
+#!   IGNORE_READER_FAILURE="No"
+#!   LAST_SAVE_BUILD="FME(R) 2019.0.1.0 (20190506 - Build 19253 - macosx)"
+#!   LAST_SAVE_DATE="2020-01-15T11:09:37"
+#!   LOG_FILE=""
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   MARKDOWN_DESCRIPTION=""
+#!   MARKDOWN_USAGE=""
+#!   MAX_LOG_FEATURES="200"
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   PASSWORD=""
+#!   PYTHON_COMPATIBILITY="37"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   SAVE_ON_PROMPT_AND_RUN="Yes"
+#!   SHOW_ANNOTATIONS="true"
+#!   SHOW_INFO_NODES="true"
+#!   SOURCE="NONE"
+#!   SOURCE_ROUTING_FILE=""
+#!   TERMINATE_REJECTED="YES"
+#!   TITLE=""
+#!   USAGE=""
+#!   USE_MARKDOWN=""
+#!   VIEW_POSITION="-1995.02 315.003"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   WORKSPACE_VERSION="1"
+#!   ZOOM_SCALE="100"
+#! >
+#! <DATASETS>
+#! <DATASET
+#!   IS_SOURCE="true"
+#!   ROLE="READER"
+#!   FORMAT="ESRISHAPE"
+#!   DATASET="$(SourceDataset_ESRISHAPE)"
+#!   KEYWORD="ESRISHAPE_1"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="0"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY}"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_basename char(50) multi_reader_full_id long multi_reader_id long fme_color char(50) fme_fill_color char(50) fme_sweep_angle double multi_reader_keyword char(50) multi_reader_type char(50) fme_text_size double fme_text_string char(50) fme_feature_type char(50) fme_secondary_axis double fme_rotation double fme_dataset char(50) fme_type char(50) SHAPE_GEOMETRY char(50) fme_start_angle double fme_primary_axis double fme_geometry char(50) shape_geometry_error{} char(254) shape_measures char(254)"
+#!   DEFLINE_PARMS=""
+#!   ATTR_INDEX_TYPES="Indexed"
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILEDIR"
+#!   GENERATE_FME_BUILD_NUM="19253"
+#!   COORDSYS=""
+#!   FEATURE_TYPES=""
+#!   MAX_FEATURES=""
+#!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   MIN_FEATURES=""
+#!   START_FEATURE=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="ESRISHAPE_IN_ENCODING ESRISHAPE_IN_TRIM_PRECEDING_SPACES ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY ESRISHAPE_IN_MEASURES_AS_Z ESRISHAPE_IN_DISSOLVE_HOLES ESRISHAPE_IN_REPORT_BAD_GEOMETRY ESRISHAPE_OUT_STRICT_COMPATIBILITY ESRISHAPE_OUT_PRESERVE_RING_VERTEX_ORDER ESRISHAPE_OUT_SURFACE_AND_SOLID_STORAGE ESRISHAPE_OUT_MEASURES_AS_Z"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="shp file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DEFAULT_GEOMETRY_TYPE"
+#!   VALUE="shape_first_feature"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Shapefile1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Shapefile"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the Esri Shapefile(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a folder for the Esri Shapefile"
+#! />
+#! </DATASET>
+#! <DATASET
+#!   IS_SOURCE="true"
+#!   ROLE="READER"
+#!   FORMAT="OGCKML"
+#!   DATASET="$(SourceDataset_OGCKML)"
+#!   KEYWORD="OGCKML_1"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="0"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE=""
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="kml_link_http_query kml_buffer kml_gx_timespan_begin kml_datetime kml_gx_lookat_altitude_mode kml_char(50) kml_balloonstyle_raw_text kml_buffer kml_description kml_buffer kml_lookat_range kml_real64 kml_document_path kml_buffer kml_tour kml_buffer kml_latlonaltbox_max_altitude kml_real64 kml_lookat_gx_timespan_begin kml_datetime kml_tour_stop_flyto_duration kml_int16 kml_latlonbox_east kml_real64 kml_style_url_normal kml_buffer kml_scale_y kml_real64 kml_tour_stop_display_balloon kml_char(3) kml_id kml_buffer kml_tour_stop_delay_type kml_char(10) kml_hotspot_xunits kml_char(20) kml_camera_gx_timespan_end kml_datetime kml_expires kml_datetime kml_link_href kml_buffer kml_liststyle_item_icon{}.href kml_buffer kml_viewvolume_rightfov kml_int16 kml_size_x kml_real64 kml_balloon_text_color kml_char(10) kml_lookat_latitude kml_real64 kml_tour_stop_tour_duration kml_int16 kml_balloon_opacity kml_real64 kml_altitude kml_real64 kml_camera_heading kml_real64 kml_icon_color kml_char(50) fme_pen_opacity kml_real64 kml_lookat_altitude_mode kml_char(20) kml_address kml_buffer kml_icon_href kml_buffer kml_iconstyle_scale kml_real64 kml_icon kml_buffer kml_timestamp_when kml_datetime kml_atom_link_href kml_buffer kml_target_href kml_buffer kml_viewvolume_leftfov kml_int16 kml_orientation_roll kml_real64 multi_reader_keyword kml_char(50) kml_timespan_end kml_datetime fme_color kml_char(50) kml_camera_gx_timestamp_when kml_datetime kml_message kml_buffer kml_shape kml_buffer kml_balloonstyle_bgcolor kml_char(10) kml_polystyle_color_mode kml_char(20) kml_extended_data_xmlns_url kml_buffer kml_extended_data_xmlns_prefix kml_buffer kml_linestyle_color kml_char(10) kml_liststyle_item_icon kml_buffer kml_href kml_buffer kml_atom_author_email kml_buffer kml_lod_min_fade_extent kml_real64 kml_link_description kml_buffer kml_snippet kml_buffer kml_gx_altitude_mode kml_char(50) kml_scale_z kml_real64 kml_iconstyle_color kml_char(10) kml_polystyle_color kml_char(10) kml_schema_url kml_buffer kml_phone_number kml_buffer fme_secondary_axis kml_real64 kml_open kml_int16 kml_lookat_altitude kml_real64 multi_reader_type kml_char(50) kml_data{}.value kml_buffer kml_name kml_buffer kml_schema_data{}.name kml_buffer kml_linestyle_physical_width kml_real64 kml_cookie kml_buffer kml_max_session_length kml_real64 kml_common_style kml_buffer kml_description_text kml_buffer kml_camera_tilt kml_real64 kml_camera_roll kml_real64 kml_orientation_heading kml_real64 kml_color kml_char(8) kml_label_color kml_char(50) kml_rotationxy_x kml_real64 kml_liststyle_list_item_type kml_char(50) kml_camera_altitude kml_real64 kml_imagepyramid_gridorigin kml_buffer kml_liststyle_bgcolor kml_char(50) kml_location_altitude kml_real64 kml_screenxy_yunits kml_char(20) kml_gx_latlonaltbox_altitude_mode kml_char(50) kml_lod_max_fade_extent kml_real64 kml_extrude kml_int16 kml_lookat_tilt kml_real64 kml_overlayxy_xunits kml_char(20) kml_location_latitude kml_real64 fme_text_string kml_char(50) kml_hotspot_x kml_int16 kml_altitude_mode kml_char(50) kml_link_refresh_interval kml_real64 kml_size_yunits kml_char(20) kml_lookat_longitude kml_real64 kml_data{}.display_name kml_buffer kml_roll kml_real64 kml_size_xunits kml_char(20) fme_primary_axis kml_real64 kml_tessellate kml_int16 kml_iconstyle_heading kml_real64 kml_extended_data_xml kml_buffer kml_target_style_normal kml_buffer kml_link_view_bound_scale kml_real64 kml_target_style_highlight kml_buffer kml_icon_view_refresh_time kml_int16 kml_labelstyle_scale kml_real64 kml_icon_temp_file_location kml_buffer kml_icon_refresh_mode kml_char(50) kml_style_id kml_buffer kml_parent kml_buffer kml_style_url kml_buffer kml_imagepyramid_maxheight kml_int16 kml_liststyle_item_icon{}.state kml_char(50) kml_latlonaltbox_south kml_real64 kml_style_url_highlight kml_buffer kml_viewvolume_topfov kml_int16 kml_screenxy_x kml_real64 kml_gx_flyto_mode kml_char(10) kml_link_view_format kml_buffer kml_tour_stop_view_range kml_char(25) kml_tour_stop_tour_name kml_buffer kml_icon_view_format kml_buffer kml_lookat_gx_timespan_end kml_datetime kml_screenxy_xunits kml_char(20) kml_balloon_text_opacity kml_real64 kml_rotation kml_real64 kml_label_opacity kml_real64 kml_hotspot_y kml_int16 kml_linestyle_label_visibility kml_boolean fme_feature_type kml_char(50) kml_labelstyle_color kml_char(10) kml_gx_play_mode kml_char(20) kml_latlonaltbox_east kml_char(255) fme_basename kml_char(50) kml_balloonstyle_text_color kml_char(10) kml_iconstyle_color_mode kml_char(20) kml_tour_stop_flyto_mode kml_char(20) kml_labelstyle_color_mode kml_char(20) kml_timespan_begin kml_datetime kml_draw_order kml_int16 kml_overlayxy_yunits kml_char(20) kml_gx_duration kml_int16 kml_atom_link_rel kml_buffer kml_icon_refresh_interval kml_int16 kml_data{}.display_name_raw_text kml_buffer kml_link_view_refresh_time kml_int16 kml_polystyle_outline kml_int16 fme_text_size kml_real64 kml_gx_timestamp_when kml_datetime kml_hotspot_yunits kml_char(20) kml_tour_stop_view_perspective kml_char(15) kml_create_info_point kml_char(3) kml_document kml_buffer kml_visibility kml_int16 kml_description_raw_text kml_buffer kml_attribute_table_title kml_buffer kml_viewvolume_near kml_int16 kml_min_refresh_period kml_real64 kml_schema_data{}.value kml_buffer kml_screenxy_y kml_real64 kml_camera_altitude_mode kml_char(50) kml_snippet_raw_text kml_buffer kml_tour_stop_view_tilt kml_char(25) fme_geometry kml_char(50) kml_latlonaltbox_north kml_real64 kml_animated_update kml_buffer kml_lod_max_lod_pixels kml_real64 kml_refresh_visibility kml_int16 kml_lookat_gx_timestamp_when kml_datetime fme_fill_color kml_char(50) kml_icon_view_refresh_mode kml_char(50) kml_overlayxy_x kml_real64 kml_linestyle_width kml_real64 kml_link_refresh_mode kml_char(50) kml_polystyle_fill kml_real64 kml_viewvolume_bottomfov kml_int16 kml_latlonbox_south kml_real64 kml_balloonstyle_text kml_buffer kml_overlayxy_y kml_real64 fme_rotation kml_real64 kml_atom_author_name kml_buffer kml_lookat_heading kml_real64 kml_orientation_tilt kml_real64 kml_link_snippet_max_lines kml_int16 kml_latlonaltbox_min_altitude kml_real64 kml_link_view_refresh_mode kml_char(50) kml_latlonbox_rotation kml_real64 kml_raw_text kml_buffer kml_data{}.name kml_buffer kml_link_snippet kml_buffer kml_tour_stop_view_heading kml_char(25) kml_link_name kml_buffer kml_location_longitude kml_real64 multi_reader_id kml_int32 kml_camera_latitude kml_real64 fme_start_angle kml_real64 fme_fill_opacity kml_real64 kml_lod_min_lod_pixels kml_real64 kml_sort_value kml_buffer kml_gx_balloon_visibility kml_int16 kml_camera_longitude kml_real64 kml_update_mode kml_char(10) kml_latlonbox_west kml_real64 kml_rotationxy_y kml_real64 kml_latlonaltbox_west kml_real64 kml_icon_http_query kml_buffer kml_scale_x kml_real64 kml_imagepyramid_maxwidth kml_int16 kml_icon_opacity kml_real64 kml_balloon_color kml_char(10) kml_imagepyramid_tilesize kml_real64 kml_icon_view_bound_scale kml_real64 kml_latlonbox_north kml_real64 fme_sweep_angle kml_real64 kml_gx_timespan_end kml_datetime kml_rotationxy_xunits kml_char(20) kml_target_style kml_buffer kml_document_href kml_buffer kml_rotationxy_yunits kml_char(20) kml_fly_to_view kml_int16 fme_type kml_char(50) kml_size_y kml_real64 kml_camera_gx_timespan_begin kml_datetime kml_gx_camera_altitude_mode kml_char(50) kml_latlonaltbox_altitude_mode kml_char(50) kml_linestyle_color_mode kml_char(20) fme_opacity kml_real64 kml_tour_stop_delay_duration kml_int16 fme_dataset kml_char(50) multi_reader_full_id kml_int32"
+#!   DEFLINE_PARMS=""
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILE_OR_URL"
+#!   GENERATE_FME_BUILD_NUM="19253"
+#!   COORDSYS=""
+#!   FEATURE_TYPES=""
+#!   MAX_FEATURES=""
+#!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   MIN_FEATURES=""
+#!   START_FEATURE=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="KML21_RASTER_COMPRESSION_LEVEL OGCKML_IN_KML21_APPLY_MODEL_TRANSFORMS"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="kml file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="MIME_TYPE"
+#!   VALUE=".kml application/vnd.google-earth.kml+xml .kmz application/vnd.google-earth.kmz ADD_DISPOSITION"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_AUTHENTICATION"
+#!   VALUE="ALWAYS"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_PROXY"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the Google Earth KML file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="SUPPORTS_ESTABLISHED_CACHE"
+#!   VALUE="YES"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a name for the Google Earth KML File"
+#! />
+#! </DATASET>
+#! <DATASET
+#!   IS_SOURCE="false"
+#!   ROLE="WRITER"
+#!   FORMAT="OGCKML"
+#!   DATASET="$(DestDataset_OGCKML)"
+#!   KEYWORD="OGCKML_2"
+#!   MULTI_GEOM_ALLOWED="true"
+#!   ATTR_MAX_LENGTH="99999"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="KML21_INFORMATION_POINT_ICON &quot;&quot; KML21_OPACITY &quot;&quot; KML21_FILL_OPACITY &quot;&quot; KML21_PEN_OPACITY &quot;&quot; KML21_ICON_COLOR &quot;&quot; KML21_FILL_COLOR &quot;&quot; KML21_PEN_COLOR &quot;&quot; KML21_SORT_BY_ATTRIBUTE &quot;&quot; KML21_ATTR_IN_DESCRIPTION &quot;&quot; KML21_HTML_DESCRIPTIONS &quot;&quot; KML21_DOCUMENT_FILENAME &quot;&quot; KML21_CREATE_FOLDER_FOR_FEATURE_TYPE &quot;&quot;"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="kml_link_http_query kml_buffer kml_gx_timespan_begin kml_datetime kml_gx_lookat_altitude_mode kml_char(50) kml_balloonstyle_raw_text kml_buffer kml_description kml_buffer kml_lookat_range kml_real64 kml_document_path kml_buffer kml_tour kml_buffer kml_latlonaltbox_max_altitude kml_real64 kml_lookat_gx_timespan_begin kml_datetime kml_tour_stop_flyto_duration kml_int16 kml_latlonbox_east kml_real64 kml_style_url_normal kml_buffer kml_scale_y kml_real64 kml_tour_stop_display_balloon kml_char(3) kml_id kml_buffer kml_tour_stop_delay_type kml_char(10) kml_hotspot_xunits kml_char(20) kml_camera_gx_timespan_end kml_datetime kml_expires kml_datetime kml_link_href kml_buffer kml_liststyle_item_icon{}.href kml_buffer kml_viewvolume_rightfov kml_int16 kml_size_x kml_real64 kml_balloon_text_color kml_char(10) kml_lookat_latitude kml_real64 kml_tour_stop_tour_duration kml_int16 kml_balloon_opacity kml_real64 kml_altitude kml_real64 kml_camera_heading kml_real64 kml_icon_color kml_char(50) fme_pen_opacity kml_real64 kml_lookat_altitude_mode kml_char(20) kml_address kml_buffer kml_icon_href kml_buffer kml_iconstyle_scale kml_real64 kml_icon kml_buffer kml_timestamp_when kml_datetime kml_atom_link_href kml_buffer kml_target_href kml_buffer kml_viewvolume_leftfov kml_int16 kml_orientation_roll kml_real64 kml_timespan_end kml_datetime fme_color kml_char(50) kml_camera_gx_timestamp_when kml_datetime kml_message kml_buffer kml_shape kml_buffer kml_balloonstyle_bgcolor kml_char(10) kml_polystyle_color_mode kml_char(20) kml_extended_data_xmlns_url kml_buffer kml_extended_data_xmlns_prefix kml_buffer kml_linestyle_color kml_char(10) kml_liststyle_item_icon kml_buffer kml_href kml_buffer kml_atom_author_email kml_buffer kml_lod_min_fade_extent kml_real64 kml_link_description kml_buffer kml_snippet kml_buffer kml_gx_altitude_mode kml_char(50) kml_scale_z kml_real64 kml_iconstyle_color kml_char(10) kml_polystyle_color kml_char(10) kml_schema_url kml_buffer kml_phone_number kml_buffer fme_secondary_axis kml_real64 kml_open kml_int16 kml_lookat_altitude kml_real64 kml_data{}.value kml_buffer kml_name kml_buffer kml_schema_data{}.name kml_buffer kml_linestyle_physical_width kml_real64 kml_cookie kml_buffer kml_max_session_length kml_real64 kml_common_style kml_buffer kml_description_text kml_buffer kml_camera_tilt kml_real64 kml_camera_roll kml_real64 kml_orientation_heading kml_real64 kml_color kml_char(8) kml_label_color kml_char(50) kml_rotationxy_x kml_real64 kml_liststyle_list_item_type kml_char(50) kml_camera_altitude kml_real64 kml_imagepyramid_gridorigin kml_buffer kml_liststyle_bgcolor kml_char(50) kml_location_altitude kml_real64 kml_screenxy_yunits kml_char(20) kml_gx_latlonaltbox_altitude_mode kml_char(50) kml_lod_max_fade_extent kml_real64 kml_extrude kml_int16 kml_lookat_tilt kml_real64 kml_overlayxy_xunits kml_char(20) kml_location_latitude kml_real64 fme_text_string kml_char(50) kml_hotspot_x kml_int16 kml_altitude_mode kml_char(50) kml_link_refresh_interval kml_real64 kml_size_yunits kml_char(20) kml_lookat_longitude kml_real64 kml_data{}.display_name kml_buffer kml_roll kml_real64 kml_size_xunits kml_char(20) fme_primary_axis kml_real64 kml_tessellate kml_int16 kml_iconstyle_heading kml_real64 kml_extended_data_xml kml_buffer kml_target_style_normal kml_buffer kml_link_view_bound_scale kml_real64 kml_target_style_highlight kml_buffer kml_icon_view_refresh_time kml_int16 kml_labelstyle_scale kml_real64 kml_icon_temp_file_location kml_buffer kml_icon_refresh_mode kml_char(50) kml_style_id kml_buffer kml_parent kml_buffer kml_style_url kml_buffer kml_imagepyramid_maxheight kml_int16 kml_liststyle_item_icon{}.state kml_char(50) kml_latlonaltbox_south kml_real64 kml_style_url_highlight kml_buffer kml_viewvolume_topfov kml_int16 kml_screenxy_x kml_real64 kml_gx_flyto_mode kml_char(10) kml_link_view_format kml_buffer kml_tour_stop_view_range kml_char(25) kml_tour_stop_tour_name kml_buffer kml_icon_view_format kml_buffer kml_lookat_gx_timespan_end kml_datetime kml_screenxy_xunits kml_char(20) kml_balloon_text_opacity kml_real64 kml_rotation kml_real64 kml_label_opacity kml_real64 kml_hotspot_y kml_int16 kml_linestyle_label_visibility kml_boolean fme_feature_type kml_char(50) kml_labelstyle_color kml_char(10) kml_gx_play_mode kml_char(20) kml_latlonaltbox_east kml_char(255) fme_basename kml_char(50) kml_balloonstyle_text_color kml_char(10) kml_iconstyle_color_mode kml_char(20) kml_tour_stop_flyto_mode kml_char(20) kml_labelstyle_color_mode kml_char(20) kml_timespan_begin kml_datetime kml_draw_order kml_int16 kml_overlayxy_yunits kml_char(20) kml_gx_duration kml_int16 kml_atom_link_rel kml_buffer kml_icon_refresh_interval kml_int16 kml_data{}.display_name_raw_text kml_buffer kml_link_view_refresh_time kml_int16 kml_polystyle_outline kml_int16 fme_text_size kml_real64 kml_gx_timestamp_when kml_datetime kml_hotspot_yunits kml_char(20) kml_tour_stop_view_perspective kml_char(15) kml_create_info_point kml_char(3) kml_document kml_buffer kml_visibility kml_int16 kml_description_raw_text kml_buffer kml_attribute_table_title kml_buffer kml_viewvolume_near kml_int16 kml_min_refresh_period kml_real64 kml_schema_data{}.value kml_buffer kml_screenxy_y kml_real64 kml_camera_altitude_mode kml_char(50) kml_snippet_raw_text kml_buffer kml_tour_stop_view_tilt kml_char(25) fme_geometry kml_char(50) kml_latlonaltbox_north kml_real64 kml_animated_update kml_buffer kml_lod_max_lod_pixels kml_real64 kml_refresh_visibility kml_int16 kml_lookat_gx_timestamp_when kml_datetime fme_fill_color kml_char(50) kml_icon_view_refresh_mode kml_char(50) kml_overlayxy_x kml_real64 kml_linestyle_width kml_real64 kml_link_refresh_mode kml_char(50) kml_polystyle_fill kml_real64 kml_viewvolume_bottomfov kml_int16 kml_latlonbox_south kml_real64 kml_balloonstyle_text kml_buffer kml_overlayxy_y kml_real64 fme_rotation kml_real64 kml_atom_author_name kml_buffer kml_lookat_heading kml_real64 kml_orientation_tilt kml_real64 kml_link_snippet_max_lines kml_int16 kml_latlonaltbox_min_altitude kml_real64 kml_link_view_refresh_mode kml_char(50) kml_latlonbox_rotation kml_real64 kml_raw_text kml_buffer kml_data{}.name kml_buffer kml_link_snippet kml_buffer kml_tour_stop_view_heading kml_char(25) kml_link_name kml_buffer kml_location_longitude kml_real64 kml_camera_latitude kml_real64 fme_start_angle kml_real64 fme_fill_opacity kml_real64 kml_lod_min_lod_pixels kml_real64 kml_sort_value kml_buffer kml_gx_balloon_visibility kml_int16 kml_camera_longitude kml_real64 kml_update_mode kml_char(10) kml_latlonbox_west kml_real64 kml_rotationxy_y kml_real64 kml_latlonaltbox_west kml_real64 kml_icon_http_query kml_buffer kml_scale_x kml_real64 kml_imagepyramid_maxwidth kml_int16 kml_icon_opacity kml_real64 kml_balloon_color kml_char(10) kml_imagepyramid_tilesize kml_real64 kml_icon_view_bound_scale kml_real64 kml_latlonbox_north kml_real64 fme_sweep_angle kml_real64 kml_gx_timespan_end kml_datetime kml_rotationxy_xunits kml_char(20) kml_target_style kml_buffer kml_document_href kml_buffer kml_rotationxy_yunits kml_char(20) kml_fly_to_view kml_int16 fme_type kml_char(50) kml_size_y kml_real64 kml_camera_gx_timespan_begin kml_datetime kml_gx_camera_altitude_mode kml_char(50) kml_latlonaltbox_altitude_mode kml_char(50) kml_linestyle_color_mode kml_char(20) fme_opacity kml_real64 kml_tour_stop_delay_duration kml_int16 fme_dataset kml_char(50)"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP ogc_layer_group ogc_appearance_group%ogc_advanced_group Feature Type&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP ogc_appearance_group KML21_FILL_COLOR%KML21_FILL_OPACITY%KML21_PEN_COLOR%KML21_PEN_OPACITY%KML21_SORT_BY_ATTRIBUTE%KML21_INFORMATION_POINT_ICON%KML21_ICON_COLOR Appearance&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP ogc_advanced_group KML21_ATTR_IN_DESCRIPTION%KML21_DOCUMENT_FILENAME%KML21_CREATE_FOLDER_FOR_FEATURE_TYPE%KML21_HTML_DESCRIPTIONS Advanced&quot; &quot;&quot; &quot;GUI OPTIONAL ICONPICK KML21_INFORMATION_POINT_ICON icons Information Point Icon&quot; &quot;&quot; &quot;GUI OPTIONAL COLOR_PICK KML21_ICON_COLOR Icon Color&quot; &quot;&quot; &quot;GUI OPTIONAL COLOR_PICK KML21_FILL_COLOR Fill Color&quot; &quot;&quot; &quot;GUI OPTIONAL FLOAT KML21_FILL_OPACITY Fill Opacity&quot; &quot;&quot; &quot;GUI OPTIONAL COLOR_PICK KML21_PEN_COLOR Pen Color&quot; &quot;&quot; &quot;GUI OPTIONAL FLOAT KML21_PEN_OPACITY Pen Opacity&quot; &quot;&quot; &quot;GUI OPTIONAL ATTR KML21_SORT_BY_ATTRIBUTE \&quot; \&quot; _ Sort By Attribute&quot; &quot;&quot; &quot;GUI OPTIONAL CHOICE KML21_HTML_DESCRIPTIONS yes%no Use HTML in Description Balloon&quot; &quot;&quot; &quot;GUI OPTIONAL CHOICE KML21_ATTR_IN_DESCRIPTION yes%no Create Attribute Table in Description Balloon&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT KML21_DOCUMENT_FILENAME Parent Document File Name&quot; &quot;&quot; &quot;GUI CHOICE KML21_CREATE_FOLDER_FOR_FEATURE_TYPE yes%no Create Folder for Feature Type&quot; yes "
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILE_OR_URL"
+#!   GENERATE_FME_BUILD_NUM="19253"
+#!   COORDSYS=""
+#!   FANOUT_EXPRESSION="&lt;Unused&gt;"
+#!   FANOUT_GROUP="NO"
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="OGCKML_OUT_OUTPUT_SCHEMA OGCKML_OUT_AUTO_CREATE_NETWORK_LINKS OGCKML_OUT_LOG_VERBOSE OGCKML_OUT_ORIENTATION OGCKML_OUT_DATASET_HINT OGCKML_OUT_STYLE_DOC OGCKML_OUT_SCHEMA_DOC OGCKML_OUT_DETECT_RASTERS OGCKML_OUT_RASTER_MODE OGCKML_OUT_RASTER_FORMAT OGCKML_OUT_TEXTURE_FORMAT OGCKML_OUT_COPY_ICON OGCKML_OUT_REGIONATE_DATA OGCKML_OUT_EXEC_GO_PIPELINE OGCKML_OUT_EXEC_PO_PIPELINE OGCKML_OUT_OMIT_DOCUMENT_ELEMENT OGCKML_OUT_CREATE_EMPTY_FOLDERS OGCKML_OUT_KML21_TARGET_HREF OGCKML_OUT_KML21_FANOUT_TYPE OGCKML_OUT_MOVE_TO_KML_LOCAL_COORDSYS OGCKML_OUT_WRITE_3D_GEOM_AS_POLYGONS OGCKML_OUT_WRITE_TEXTURES_TXT_FILE KML21_INFORMATION_POINT_ICON KML21_REGIONATOR_PIPELINE KML21_GO_PYRAMIDER_PIPELINE KML21_PO_PYRAMIDER_PIPELINE"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="kml file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="MIME_TYPE"
+#!   VALUE=".kml application/vnd.google-earth.kml+xml .kmz application/vnd.google-earth.kmz ADD_DISPOSITION"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_AUTHENTICATION"
+#!   VALUE="ALWAYS"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_PROXY"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the Google Earth KML file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="SUPPORTS_ESTABLISHED_CACHE"
+#!   VALUE="YES"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a name for the Google Earth KML File"
+#! />
+#! </DATASET>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(20)"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(12)"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(31,15)"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(11,0)"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(15,7)"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="logical"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="short"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(6,0)"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="short"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(4,0)"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="short"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(4,0)"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="long"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(11,0)"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="long"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(6,0)"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_char(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_char(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_char(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_char(255)"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_char(255)"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_char(255)"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_char(255)"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_buffer"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_datetime"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_time"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_int16"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_int16"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_int16"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_int32"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_int32"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_real32"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_real64"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_real64"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_real64"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_char(20)"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_char(20)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_boolean"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_char(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_char(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_char(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_char(255)"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_char(255)"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_char(255)"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_char(255)"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_buffer"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_datetime"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_time"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_int16"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_int16"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_int16"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_int32"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_int32"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_real32"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_real64"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_real64"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_real64"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_char(20)"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_char(20)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_boolean"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="OGCKML"
+#! />
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_multipoint"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_polyline"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_polygon"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_point"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_polygon"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_polyline"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_multipatch"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_multipatch"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_polygon"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_polygon"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_null"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_first_feature"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_polygon"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_polygon"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_null"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_null"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_no_geom"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_aggregate"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_point"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_line"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_area"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_area"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_area"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_raster"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_surface"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_solid"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_area"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_line"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_area"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_no_geom"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_no_geom"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_aggregate"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_point"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_line"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_area"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_area"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_area"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_raster"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_surface"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_solid"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_area"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_line"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_area"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_no_geom"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="OGCKML"
+#! />
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="2"
+#!   FEAT_GEOMTYPE="shape_polygon"
+#!   POSITION="-3450 0"
+#!   BOUNDING_RECT="-3450 0 1096.4229432577295 71"
+#!   ORDER="500000000000000"
+#!   COLLAPSED="true"
+#!   KEYWORD="ESRISHAPE_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="true"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="left" ATTR_TYPE="double" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="top" ATTR_TYPE="double" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="right" ATTR_TYPE="double" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="bottom" ATTR_TYPE="double" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="id" ATTR_TYPE="long" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="Placemarks D2"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="16"
+#!   FEAT_GEOMTYPE="All"
+#!   POSITION="750 -450"
+#!   BOUNDING_RECT="750 -450 454 71"
+#!   ORDER="500000000000015"
+#!   COLLAPSED="true"
+#!   KEYWORD="OGCKML_2"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#!     <DEFLINE_PARM PARM_NAME="KML21_ATTR_IN_DESCRIPTION" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="KML21_CREATE_FOLDER_FOR_FEATURE_TYPE" PARM_VALUE="yes"/>
+#!     <DEFLINE_PARM PARM_NAME="KML21_DOCUMENT_FILENAME" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="KML21_FILL_COLOR" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="KML21_FILL_OPACITY" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="KML21_HTML_DESCRIPTIONS" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="KML21_ICON_COLOR" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="KML21_INFORMATION_POINT_ICON" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="KML21_PEN_COLOR" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="KML21_PEN_OPACITY" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="KML21_SORT_BY_ATTRIBUTE" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="ogc_advanced_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="ogc_appearance_group" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <DEFLINE_PARM PARM_NAME="ogc_layer_group" PARM_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="Placemark"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="21"
+#!   FEAT_GEOMTYPE="kml_no_geom kml_point kml_line kml_area kml_aggregate kml_surface kml_solid"
+#!   POSITION="-2801.0236702367029 -600"
+#!   BOUNDING_RECT="-2801.0236702367029 -600 454 71"
+#!   ORDER="500000000000000"
+#!   COLLAPSED="true"
+#!   KEYWORD="OGCKML_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="false"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kml_id" ATTR_TYPE="kml_buffer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! <READER_DATASETS>
+#! <DATASET 
+#!   NAME="OGCKML_1"
+#!   OVERRIDE="-OGCKML_1_DATASET"
+#!   DATASET="OGCKML_1/D2-D3-D4_1st Pass.kmz"
+#! />
+#! <DATASET 
+#!   NAME="ESRISHAPE_1"
+#!   OVERRIDE="-ESRISHAPE_1_DATASET"
+#!   DATASET="ESRISHAPE_1/Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile.shp"
+#! />
+#! </READER_DATASETS>
+#! <WRITER_DATASETS>
+#! <DATASET 
+#!   NAME="OGCKML_2"
+#!   OVERRIDE="-OGCKML_2_DATASET"
+#!   DATASET="OGCKML_2/Placemarks D2.kml"
+#! />
+#! </WRITER_DATASETS>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI MULTIFILE SourceDataset_ESRISHAPE Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files(*)|* Source Esri Shapefile(s):"
+#!   DEFAULT_VALUE="/Users/mlinnane/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/Grids_Extents/Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile/Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile.shp"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI FILENAME DestDataset_OGCKML KML_Files(*.kml;*.kmz)|*.kml;*.kmz|All_Files(*)|* Destination Google KML File:"
+#!   DEFAULT_VALUE="$(FME_MF_DIR)Issue Placemarks/Tiled/Placemarks D2.kml"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI FILE_OR_URL SourceDataset_OGCKML KML_Files(*.kml;*.kmz)|*.kml;*.kmz|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files(*)|* Source Google KML File or URL:"
+#!   DEFAULT_VALUE="$(FME_MF_DIR)Issue Placemarks/Raw/D2-D3-D4_1st Pass.kmz"
+#!   IS_STAND_ALONE="false"
+#! />
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#!   IDENTIFIER="4"
+#!   TYPE="Clipper"
+#!   VERSION="13"
+#!   POSITION="-750 -150"
+#!   BOUNDING_RECT="-750 -150 430 71"
+#!   ORDER="500000000000011"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="19253"
+#! >
+#!     <OUTPUT_FEAT NAME="INSIDE"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="OUTSIDE"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="kml_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_fme_no_clipper" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Clipper"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Clippee"/>
+#!     <XFORM_PARM PARM_NAME="BOUNDARY_CASES" PARM_VALUE="Treat as Inside"/>
+#!     <XFORM_PARM PARM_NAME="CLEANING_TOLERANCE" PARM_VALUE="Automatic"/>
+#!     <XFORM_PARM PARM_NAME="CLIPPED_ATTR" PARM_VALUE="_clipped"/>
+#!     <XFORM_PARM PARM_NAME="CLIPPER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="CLIP_TYPE" PARM_VALUE="Multiple Clippers"/>
+#!     <XFORM_PARM PARM_NAME="CONNECT_Z_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY_MODE" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="LINES_AS_SEGMENTS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="MEASURE_TYPE" PARM_VALUE="Continuous"/>
+#!     <XFORM_PARM PARM_NAME="MISSING_VAL_MODE" PARM_VALUE="Compute"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PRESERVE_CLIPPEE_EXTENTS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="VAL_SOURCE" PARM_VALUE="Clippee Only"/>
+#!     <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Clipper"/>
+#!     <XFORM_PARM PARM_NAME="Z_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="7"
+#!   TYPE="TestFilter"
+#!   VERSION="1"
+#!   POSITION="-1650 -65.999909999099984"
+#!   BOUNDING_RECT="-1650 -65.999909999099984 454 71"
+#!   ORDER="500000000000012"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="19253"
+#! >
+#!     <OUTPUT_FEAT NAME="&lt;at&gt;Value&lt;openparen&gt;id&lt;closeparen&gt;&lt;space&gt;=&lt;space&gt;14"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="DEFAULT_VALUE" PARM_VALUE="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TESTLISTGRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE="&quot;BOOL_OP,OR,COMPOSITE_TEST,&quot;&quot;&quot;&quot;&quot;&quot;1&quot;&quot;&quot;&quot;&quot;&quot;,TEST_CLAUSE,TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;id&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;14&quot;,&lt;at&gt;Value&lt;openparen&gt;id&lt;closeparen&gt;&lt;space&gt;=&lt;space&gt;14"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TestFilter"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="10"
+#!   TYPE="Reprojector"
+#!   VERSION="4"
+#!   POSITION="-1555.0001800018001 -502.49977499775002"
+#!   BOUNDING_RECT="-1555.0001800018001 -502.49977499775002 454 71"
+#!   ORDER="500000000000013"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="19253"
+#! >
+#!     <OUTPUT_FEAT NAME="REPROJECTED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="kml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:2157"/>
+#!     <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_TOLERANCE" PARM_VALUE="0.0"/>
+#!     <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="13"
+#!   TYPE="Inspector"
+#!   VERSION="5"
+#!   POSITION="81.000810008100075 0"
+#!   BOUNDING_RECT="81.000810008100075 0 454 71"
+#!   ORDER="500000000000014"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="19253"
+#! >
+#!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
+#!     <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Inspector"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="18"
+#!   TYPE="AttributeRenamer"
+#!   VERSION="4"
+#!   POSITION="0 -450"
+#!   BOUNDING_RECT="0 -450 454 71"
+#!   ORDER="500000000000016"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="19253"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="22"
+#!   TYPE="AttributeManager"
+#!   VERSION="2"
+#!   POSITION="0 -854.99804998049967"
+#!   BOUNDING_RECT="0 -854.99804998049967 454 71"
+#!   ORDER="500000000000017"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="19253"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="left" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="top" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="right" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="bottom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="left left  NO_OP top top  NO_OP right right  NO_OP bottom bottom  NO_OP id id  NO_OP kml_id kml_id &lt;at&gt;ReplaceString&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;kml_id&lt;closeparen&gt;&lt;comma&gt;&lt;lt&gt;kml_id&lt;gt&gt;&lt;comma&gt;&lt;lt&gt;test&lt;gt&gt;&lt;closeparen&gt;&lt;at&gt;Value&lt;openparen&gt;kml_id&lt;closeparen&gt; SET_TO _clipped _clipped  NO_OP"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager"/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#!   IDENTIFIER="8"
+#!   SOURCE_NODE="2"
+#!   TARGET_NODE="7"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="15"
+#!   SOURCE_NODE="2"
+#!   TARGET_NODE="13"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="1"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="20"
+#!   SOURCE_NODE="21"
+#!   TARGET_NODE="10"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="14"
+#!   SOURCE_NODE="4"
+#!   TARGET_NODE="13"
+#!   SOURCE_PORT_DESC="fo 0 INSIDE"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="17"
+#!   SOURCE_NODE="4"
+#!   TARGET_NODE="18"
+#!   SOURCE_PORT_DESC="fo 0 INSIDE"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="1"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="23"
+#!   SOURCE_NODE="4"
+#!   TARGET_NODE="22"
+#!   SOURCE_PORT_DESC="fo 0 INSIDE"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="2"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="12"
+#!   SOURCE_NODE="10"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="fo 0 REPROJECTED"
+#!   TARGET_PORT_DESC="fi 1 CLIPPEE"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="19"
+#!   SOURCE_NODE="18"
+#!   TARGET_NODE="16"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="9"
+#!   SOURCE_NODE="7"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="fo 0 &lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;id&lt;lt&gt;closeparen&lt;gt&gt;&lt;lt&gt;space&lt;gt&gt;=&lt;lt&gt;space&lt;gt&gt;14"
+#!   TARGET_PORT_DESC="fi 0 CLIPPER"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+
+FME_PYTHON_VERSION 37
+GUI IGNORE SourceDataset_ESRISHAPE_1,ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_1,ESRISHAPE_IN_ENCODING_ESRISHAPE_1,ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_1,ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_1,ESRISHAPE_IN_ADVANCED_ESRISHAPE_1,ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_1,ESRISHAPE_IN_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_1,ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_1,ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_1,SourceDataset_OGCKML_1,OGCKML_IN_FME_GROUP_NAMED1_OGCKML_1,OGCKML_IN_KML21_LOG_VERBOSE_OGCKML_1,OGCKML_IN_KML21_RASTER_READ_MODE_OGCKML_1,OGCKML_IN_KML21_SCAN_SCHEMA_OGCKML_1,OGCKML_IN_KML21_FAIL_ON_NETWORK_ERROR_OGCKML_1,OGCKML_IN_KML21_DELETE_DOWNLOADED_FILES_OGCKML_1,OGCKML_IN_KML21_TRAVERSE_NETWORKLINKS_OGCKML_1,OGCKML_IN_KML21_MAX_NETWORKLINK_TRAVERSAL_DEPTH_OGCKML_1,OGCKML_IN_KML21_DATASET_ENCODING_OGCKML_1,OGCKML_IN_KML21_MOVE_TO_KML_WORLD_COORDSYS_OGCKML_1,OGCKML_IN_KML21_APPLY_MODEL_TRANSFORMS_OGCKML_1,OGCKML_IN_USE_SEARCH_ENVELOPE_OGCKML_1,OGCKML_IN_SEARCH_ENVELOPE_MINX_OGCKML_1,OGCKML_IN_SEARCH_ENVELOPE_MINY_OGCKML_1,OGCKML_IN_SEARCH_ENVELOPE_MAXX_OGCKML_1,OGCKML_IN_SEARCH_ENVELOPE_MAXY_OGCKML_1,OGCKML_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_OGCKML_1,OGCKML_IN_CLIP_TO_ENVELOPE_OGCKML_1,OGCKML_IN_NETWORK_AUTHENTICATION_OGCKML_1,DestDataset_OGCKML_2,OGCKML_OUT_DOCUMENT_NAME_OGCKML_2,OGCKML_OUT_DOCUMENT_DESC_OGCKML_2,OGCKML_OUT_DOCUMENT_VISIBILITY_OGCKML_2,OGCKML_OUT_ATOM_AUTHOR_NAME_OGCKML_2,OGCKML_OUT_ATOM_AUTHOR_EMAIL_OGCKML_2,OGCKML_OUT_ATOM_LINK_HREF_OGCKML_2,OGCKML_OUT_WATERMARK_NAME_OGCKML_2,OGCKML_OUT_WATERMARK_SNIPPET_OGCKML_2,OGCKML_OUT_WATERMARK_ICON_OGCKML_2,OGCKML_OUT_ATTR_IN_DESCRIPTION_OGCKML_2,OGCKML_OUT_HTML_DESCRIPTIONS_OGCKML_2,OGCKML_OUT_KML_WRT_ADV_PARA_OGCKML_2,OGCKML_OUT_DATASET_HINT_OGCKML_2,OGCKML_OUT_STYLE_DOC_OGCKML_2,OGCKML_OUT_SCHEMA_DOC_OGCKML_2,OGCKML_OUT_DETECT_RASTERS_OGCKML_2,OGCKML_OUT_EXEC_GO_PIPELINE_OGCKML_2,OGCKML_OUT_RASTER_MODE_OGCKML_2,OGCKML_OUT_RASTER_FORMAT_OGCKML_2,OGCKML_OUT_TEXTURE_FORMAT_OGCKML_2,OGCKML_OUT_COPY_ICON_OGCKML_2,OGCKML_OUT_OUTPUT_SCHEMA_OGCKML_2,OGCKML_OUT_AUTO_CREATE_NETWORK_LINKS_OGCKML_2,OGCKML_OUT_ORIENTATION_OGCKML_2,OGCKML_OUT_LOG_VERBOSE_OGCKML_2,OGCKML_OUT_OMIT_DOCUMENT_ELEMENT_OGCKML_2,OGCKML_OUT_REGIONATE_DATA_OGCKML_2,OGCKML_OUT_EXEC_PO_PIPELINE_OGCKML_2,OGCKML_OUT_CREATE_EMPTY_FOLDERS_OGCKML_2,OGCKML_OUT_KML21_TARGET_HREF_OGCKML_2,OGCKML_OUT_MOVE_TO_KML_LOCAL_COORDSYS_OGCKML_2,OGCKML_OUT_WRITE_3D_GEOM_AS_POLYGONS_OGCKML_2,OGCKML_OUT_WRITE_TEXTURES_TXT_FILE_OGCKML_2,OGCKML_OUT_KML21_FANOUT_TYPE_OGCKML_2
+DEFAULT_MACRO SourceDataset_ESRISHAPE /Users/mlinnane/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/Grids_Extents/Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile/Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile.shp
+GUI MULTIFILE SourceDataset_ESRISHAPE Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files(*)|* Source Esri Shapefile(s):
+DEFAULT_MACRO DestDataset_OGCKML $(FME_MF_DIR)Issue Placemarks/Tiled/Placemarks D2.kml
+GUI FILENAME DestDataset_OGCKML KML_Files(*.kml;*.kmz)|*.kml;*.kmz|All_Files(*)|* Destination Google KML File:
+DEFAULT_MACRO SourceDataset_OGCKML $(FME_MF_DIR)Issue Placemarks/Raw/D2-D3-D4_1st Pass.kmz
+GUI FILE_OR_URL SourceDataset_OGCKML KML_Files(*.kml;*.kmz)|*.kml;*.kmz|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files(*)|* Source Google KML File or URL:
+INCLUDE [ if {{$(SourceDataset_ESRISHAPE)} == {}} { puts_real {Parameter 'SourceDataset_ESRISHAPE' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(DestDataset_OGCKML)} == {}} { puts_real {Parameter 'DestDataset_OGCKML' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(SourceDataset_OGCKML)} == {}} { puts_real {Parameter 'SourceDataset_OGCKML' must be given a value.}; exit 1; }; ]
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE MULTI_READER
+MULTI_READER_TYPE{0} ESRISHAPE
+MULTI_READER_KEYWORD{0} ESRISHAPE_1
+MULTI_READER_GEN_DIRECTIVES{0} NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,ENCODING,fme-source-encoding,SEARCH_ENVELOPE_MINX,0,GEOMETRY,,USE_SEARCH_ENVELOPE,NO,UPPER_CASE_ATTR_NAMES,No,SEARCH_ENVELOPE_MAXX,0,_MERGE_SCHEMAS,YES,DISSOLVE_HOLES,no,ADVANCED,,SEARCH_ENVELOPE_MAXY,0,ESRISHAPE_EXPOSE_FORMAT_ATTRS,,CHECK_NUMERIC_FIELDS,yes,SEARCH_ENVELOPE_MINY,0,MEASURES_AS_Z,no,EXPOSE_ATTRS_GROUP,,TRIM_PRECEDING_SPACES,yes,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,REPORT_BAD_GEOMETRY,no,CLIP_TO_ENVELOPE,NO,SIMPLE_DONUT_GEOMETRY,simple
+MULTI_READER_TYPE{1} OGCKML
+MULTI_READER_KEYWORD{1} OGCKML_1
+MULTI_READER_GEN_DIRECTIVES{1} SEARCH_ENVELOPE_MINX,0,KML21_SCAN_SCHEMA,Yes,USE_SEARCH_ENVELOPE,NO,KML21_FAIL_ON_NETWORK_ERROR,No,KML21_DATASET_ENCODING,,SEARCH_ENVELOPE_MAXX,0,KML21_MOVE_TO_KML_WORLD_COORDSYS,Yes,KML21_RASTER_READ_MODE,GroundOverlay,NETWORK_AUTHENTICATION,,_MERGE_SCHEMAS,YES,OGCKML_EXPOSE_FORMAT_ATTRS,kml_id<comma>kml_buffer,SEARCH_ENVELOPE_MAXY,0,KML21_DELETE_DOWNLOADED_FILES,Yes,KML21_LOG_VERBOSE,No,SEARCH_ENVELOPE_MINY,0,KML21_MAX_NETWORKLINK_TRAVERSAL_DEPTH,5,KML21_TRAVERSE_NETWORKLINKS,All,EXPOSE_ATTRS_GROUP,FME_DISCLOSURE_OPEN,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,KML21_APPLY_MODEL_TRANSFORMS,No,CLIP_TO_ENVELOPE,NO
+WRITER_TYPE MULTI_WRITER
+MULTI_WRITER_DATASET_ORDER BY_ID
+MULTI_WRITER_FIRST_WRITER_ID 0
+MULTI_WRITER_TYPE{0} OGCKML
+MULTI_WRITER_KEYWORD{0} OGCKML_2
+#! END_WB_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "ESRISHAPE_1"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER ESRISHAPE ESRISHAPE_1
+# ============================================================================
+# The following GUI line prompts for the source shapefiles
+# The dataset this mapping file was generated from was:
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_ESRISHAPE_1 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER ESRISHAPE ESRISHAPE_1
+DEFAULT_MACRO SourceDataset_ESRISHAPE_1 $(SourceDataset_ESRISHAPE)
+GUI MULTIFILE SourceDataset_ESRISHAPE_1 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|All_Files(*)|* Source Esri Shapefile(s):
+# =====================================================================
+# Provide some control over what attributes have the user-selected
+# encoding applied. Normally all attributes are updated after being
+# read, but the following lines exclude from this treatment all
+# attributes whose names start with fme_ or shape_.
+ESRISHAPE_1_UNENCODED_ATTR_PREFIX fme_ shape_
+#Added default value for dissolve holes so that default for DI is consistent with workbench
+DEFAULT_MACRO ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_1 no
+ESRISHAPE_1_DISSOLVE_HOLES "$(ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_1)"
+DEFAULT_MACRO ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_1 
+GUI OPTIONAL DISCLOSUREGROUP ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_1 ESRISHAPE_IN_UPPER_CASE_ATTR_NAMES%ESRISHAPE_IN_ENCODING_ESRISHAPE_1%ESRISHAPE_IN_NUMERIC_TYPE_ATTRIBUTE_HANDLING Reader Parameters
+# ============================================================================
+# Determines whether the attribute names should be uppercased, or whether they
+# should stay as specified in the shapefile. Once the mapping file/workspace
+# has been generated, the value for this keyword should not be changed.
+DEFAULT_MACRO ESRISHAPE_IN_UPPER_CASE_ATTR_NAMES_ESRISHAPE_1 No
+ESRISHAPE_1_UPPER_CASE_ATTR_NAMES "$(ESRISHAPE_IN_UPPER_CASE_ATTR_NAMES_ESRISHAPE_1)"
+# ============================================================================
+# The following keyword allows the user to choose what encoding to
+# use for reading the shapefile, overrides dbf file LDID or .cpg
+# file if present.
+DEFAULT_MACRO ESRISHAPE_IN_ENCODING_ESRISHAPE_1 fme-source-encoding
+ESRISHAPE_1_ENCODING "$(ESRISHAPE_IN_ENCODING_ESRISHAPE_1)"
+GUI STRING_OR_ENCODING ESRISHAPE_IN_ENCODING_ESRISHAPE_1 fme-source-encoding%* Character Encoding
+# ============================================================================
+# Determines whether numeric attributes should be interpreted as binary or as
+# bound number fields (ActualDBFrepresentation)
+DEFAULT_MACRO ESRISHAPE_IN_NUMERIC_TYPE_ATTRIBUTE_HANDLING_ESRISHAPE_1 STANDARD_TYPES
+ESRISHAPE_1_NUMERIC_TYPE_ATTRIBUTE_HANDLING "$(ESRISHAPE_IN_NUMERIC_TYPE_ATTRIBUTE_HANDLING_ESRISHAPE_1)"
+#Note: Using the search envelope requires the shape index files (.sbnand.sbx)
+DEFAULT_MACRO ESRISHAPE_IN_EXPOSE_ATTRS_GROUP_ESRISHAPE_1 
+ESRISHAPE_1_EXPOSE_ATTRS_GROUP "$(ESRISHAPE_IN_EXPOSE_ATTRS_GROUP_ESRISHAPE_1)"
+# Include this file in source setting section to add native search envelope processing
+# Zero as a default means we don't do any search -- this makes workbench happier
+DEFAULT_MACRO ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_1 NO
+ESRISHAPE_1_USE_SEARCH_ENVELOPE "$(ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_1)"
+GUI ACTIVEDISCLOSUREGROUP ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_1 ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_1%ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_1%ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_1%ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_1%ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_1%ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_1%ESRISHAPE_IN_SEARCH_METHOD%ESRISHAPE_IN_SEARCH_METHOD_FILTER%ESRISHAPE_IN_SEARCH_ORDER%ESRISHAPE_IN_SEARCH_FEATURE%ESRISHAPE_IN_DUMMY_SEARCH_ENVELOPE_PARAMETER Use Search Envelope
+# ===========================================================================
+GUI LOOKUP ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_1 <Unused>,0 
+DEFAULT_MACRO ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_1 0
+ESRISHAPE_1_SEARCH_ENVELOPE "$(ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_1)"
+GUI OPTIONAL FLOAT ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_1 Minimum X:
+# ===========================================================================
+GUI LOOKUP ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_1 <Unused>,0 
+DEFAULT_MACRO ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_1 0
+ESRISHAPE_1_SEARCH_ENVELOPE "$(ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_1)"
+GUI OPTIONAL FLOAT ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_1 Minimum Y:
+# ===========================================================================
+GUI LOOKUP ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_1 <Unused>,0 
+DEFAULT_MACRO ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_1 0
+ESRISHAPE_1_SEARCH_ENVELOPE "$(ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_1)"
+GUI OPTIONAL FLOAT ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_1 Maximum X:
+# ===========================================================================
+GUI LOOKUP ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_1 <Unused>,0 
+DEFAULT_MACRO ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_1 0
+ESRISHAPE_1_SEARCH_ENVELOPE "$(ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_1)"
+GUI OPTIONAL FLOAT ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_1 Maximum Y:
+# ===========================================================================
+GUI LOOKUP ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_1 <Unused>, 
+DEFAULT_MACRO ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_1 
+ESRISHAPE_1_SEARCH_ENVELOPE "$(ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_1)"
+GUI OPTIONAL COORDSYS ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_1 Search Envelope Coordinate System:
+# ===========================================================================
+GUI LOOKUP ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_1 <Unused>,NO 
+DEFAULT_MACRO ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_1 NO
+ESRISHAPE_1_CLIP_TO_ENVELOPE "$(ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_1)"
+GUI OPTIONAL CHECKBOX ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_1 YES%NO Clip to Search Envelope
+DEFAULT_MACRO ESRISHAPE_IN_CHECK_NUMERIC_FIELDS_ESRISHAPE_1 yes
+ESRISHAPE_1_CHECK_NUMERIC_FIELDS "$(ESRISHAPE_IN_CHECK_NUMERIC_FIELDS_ESRISHAPE_1)"
+DEFAULT_MACRO ESRISHAPE_IN_ADVANCED_ESRISHAPE_1 
+GUI OPTIONAL DISCLOSUREGROUP ESRISHAPE_IN_ADVANCED_ESRISHAPE_1 ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_1%ESRISHAPE_IN_GEOMETRY_ESRISHAPE_1 Advanced
+DEFAULT_MACRO ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_1 yes
+ESRISHAPE_1_TRIM_PRECEDING_SPACES "$(ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_1)"
+GUI CHOICE ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_1 yes%no Trim Preceding Spaces
+DEFAULT_MACRO ESRISHAPE_IN_GEOMETRY_ESRISHAPE_1 
+GUI OPTIONAL DISCLOSUREGROUP ESRISHAPE_IN_GEOMETRY_ESRISHAPE_1 ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_1%ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_1%ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_1%ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_1 Geometry
+# ============================================================================
+# Option to use simple donut geometry creation, which is faster than the
+# original creation method, but less meticulous at detecting and correcting
+# geometric anomalies (i.e.holeswithinholes)
+DEFAULT_MACRO ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_1 simple
+ESRISHAPE_1_SIMPLE_DONUT_GEOMETRY "$(ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_1)"
+GUI LOOKUP_CHOICE ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_1 "\"Orientation Only\",simple"%"\"Orientation and Spatial Relationship\",complex" Donut Geometry Detection
+# ============================================================================
+# The following GUI line sets whether measure values in the shapefiles should
+# be treated as elevations.
+DEFAULT_MACRO ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_1 no
+ESRISHAPE_1_MEASURES_AS_Z "$(ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_1)"
+GUI CHOICE ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_1 yes%no Treat Measures as Elevation
+# ============================================================================
+# The following keyword sets whether the reader dissolves holes in donuts.
+ESRISHAPE_1_DISSOLVE_HOLES "$(ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_1)"
+GUI CHOICE ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_1 yes%no Dissolve Adjacent Holes
+# ============================================================================
+# The following keyword sets whether bad geometry should be reported via
+# the shape_geometry_error{} list attribute.
+DEFAULT_MACRO ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_1 no
+ESRISHAPE_1_REPORT_BAD_GEOMETRY "$(ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_1)"
+GUI CHOICE ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_1 yes%no Report Geometry Anomalies
+# ===========================================================================
+DEFAULT_MACRO ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_1 
+ESRISHAPE_1_NETWORK_AUTHENTICATION "$(ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_1)"
+GUI OPTIONAL AUTHENTICATOR ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_1 CONTAINER%GROUP%CONTAINER_TITLE%"Network Authentication"%PROMPT_TYPE%NETWORK Network Authentication
+# ============================================================================ 
+DEFAULT_MACRO ESRISHAPE_IN_ATTRIBUTE_READING_ESRISHAPE_1 ALL
+ESRISHAPE_1_ATTRIBUTE_READING "$(ESRISHAPE_IN_ATTRIBUTE_READING_ESRISHAPE_1)"
+# ============================================================================ 
+ESRISHAPE_1_GENERATE_FME_BUILD_NUM 19253
+ESRISHAPE_1_DATASET "$(SourceDataset_ESRISHAPE_1)"
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "OGCKML_1"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER OGCKML OGCKML_1
+# The dataset this mapping file was generated from was:
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_OGCKML_1 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER OGCKML OGCKML_1
+DEFAULT_MACRO SourceDataset_OGCKML_1 $(SourceDataset_OGCKML)
+GUI FILE_OR_URL SourceDataset_OGCKML_1 KML_Files(*.kml;*.kmz)|*.kml;*.kmz|All_Files(*)|* Source Google KML File or URL:
+DEFAULT_MACRO OGCKML_IN_FME_GROUP_NAMED1_OGCKML_1 
+GUI OPTIONAL DISCLOSUREGROUP OGCKML_IN_FME_GROUP_NAMED1_OGCKML_1 OGCKML_IN_KML21_LOG_VERBOSE_OGCKML_1%OGCKML_IN_KML21_RASTER_READ_MODE_OGCKML_1%OGCKML_IN_KML21_SCAN_SCHEMA_OGCKML_1%OGCKML_IN_KML21_FAIL_ON_NETWORK_ERROR_OGCKML_1%OGCKML_IN_KML21_DELETE_DOWNLOADED_FILES_OGCKML_1%OGCKML_IN_KML21_TRAVERSE_NETWORKLINKS_OGCKML_1%OGCKML_IN_KML21_MOVE_TO_KML_WORLD_COORDSYS_OGCKML_1%OGCKML_IN_KML21_APPLY_MODEL_TRANSFORMS_OGCKML_1%OGCKML_IN_KML21_MAX_NETWORKLINK_TRAVERSAL_DEPTH_OGCKML_1%OGCKML_IN_KML21_DATASET_ENCODING_OGCKML_1 General
+DEFAULT_MACRO OGCKML_IN_KML21_LOG_VERBOSE_OGCKML_1 No
+OGCKML_1_KML21_LOG_VERBOSE "$(OGCKML_IN_KML21_LOG_VERBOSE_OGCKML_1)"
+GUI CHOICE OGCKML_IN_KML21_LOG_VERBOSE_OGCKML_1 Yes%No Verbose Logging:
+DEFAULT_MACRO OGCKML_IN_KML21_RASTER_READ_MODE_OGCKML_1 GroundOverlay
+OGCKML_1_KML21_RASTER_READ_MODE "$(OGCKML_IN_KML21_RASTER_READ_MODE_OGCKML_1)"
+GUI OPTIONAL LOOKUP_CHOICE OGCKML_IN_KML21_RASTER_READ_MODE_OGCKML_1 All%"\"Ground Overlay\",GroundOverlay"%None Read Overlays as Rasters:
+DEFAULT_MACRO OGCKML_IN_KML21_SCAN_SCHEMA_OGCKML_1 Yes
+OGCKML_1_KML21_SCAN_SCHEMA "$(OGCKML_IN_KML21_SCAN_SCHEMA_OGCKML_1)"
+GUI CHOICE OGCKML_IN_KML21_SCAN_SCHEMA_OGCKML_1 Yes%No Scan Schema:
+DEFAULT_MACRO OGCKML_IN_KML21_FAIL_ON_NETWORK_ERROR_OGCKML_1 No
+OGCKML_1_KML21_FAIL_ON_NETWORK_ERROR "$(OGCKML_IN_KML21_FAIL_ON_NETWORK_ERROR_OGCKML_1)"
+GUI CHOICE OGCKML_IN_KML21_FAIL_ON_NETWORK_ERROR_OGCKML_1 Yes%No Fail on Network Errors:
+DEFAULT_MACRO OGCKML_IN_KML21_DELETE_DOWNLOADED_FILES_OGCKML_1 Yes
+OGCKML_1_KML21_DELETE_DOWNLOADED_FILES "$(OGCKML_IN_KML21_DELETE_DOWNLOADED_FILES_OGCKML_1)"
+GUI CHOICE OGCKML_IN_KML21_DELETE_DOWNLOADED_FILES_OGCKML_1 Yes%No Delete Downloaded Files:
+DEFAULT_MACRO OGCKML_IN_KML21_TRAVERSE_NETWORKLINKS_OGCKML_1 All
+OGCKML_1_KML21_TRAVERSE_NETWORKLINKS "$(OGCKML_IN_KML21_TRAVERSE_NETWORKLINKS_OGCKML_1)"
+GUI OPTIONAL CHOICE OGCKML_IN_KML21_TRAVERSE_NETWORKLINKS_OGCKML_1 No%Local%All Traverse NetworkLinks:
+DEFAULT_MACRO OGCKML_IN_KML21_MAX_NETWORKLINK_TRAVERSAL_DEPTH_OGCKML_1 5
+OGCKML_1_KML21_MAX_NETWORKLINK_TRAVERSAL_DEPTH "$(OGCKML_IN_KML21_MAX_NETWORKLINK_TRAVERSAL_DEPTH_OGCKML_1)"
+GUI OPTIONAL INTEGER OGCKML_IN_KML21_MAX_NETWORKLINK_TRAVERSAL_DEPTH_OGCKML_1 Maximum NetworkLinks Traversal Depth:
+DEFAULT_MACRO OGCKML_IN_KML21_DATASET_ENCODING_OGCKML_1 
+OGCKML_1_KML21_DATASET_ENCODING "$(OGCKML_IN_KML21_DATASET_ENCODING_OGCKML_1)"
+GUI OPTIONAL ENCODING OGCKML_IN_KML21_DATASET_ENCODING_OGCKML_1 * Force Dataset Encoding:
+DEFAULT_MACRO OGCKML_IN_KML21_MOVE_TO_KML_WORLD_COORDSYS_OGCKML_1 Yes
+OGCKML_1_KML21_MOVE_TO_KML_WORLD_COORDSYS "$(OGCKML_IN_KML21_MOVE_TO_KML_WORLD_COORDSYS_OGCKML_1)"
+GUI CHOICE OGCKML_IN_KML21_MOVE_TO_KML_WORLD_COORDSYS_OGCKML_1 Yes%No Move To World Coordinate System:
+DEFAULT_MACRO OGCKML_IN_KML21_APPLY_MODEL_TRANSFORMS_OGCKML_1 No
+OGCKML_1_KML21_APPLY_MODEL_TRANSFORMS "$(OGCKML_IN_KML21_APPLY_MODEL_TRANSFORMS_OGCKML_1)"
+GUI CHOICE OGCKML_IN_KML21_APPLY_MODEL_TRANSFORMS_OGCKML_1 Yes%No Apply Transformations To Models:
+DEFAULT_MACRO OGCKML_IN_EXPOSE_ATTRS_GROUP_OGCKML_1 FME_DISCLOSURE_OPEN
+OGCKML_1_EXPOSE_ATTRS_GROUP "$(OGCKML_IN_EXPOSE_ATTRS_GROUP_OGCKML_1)"
+# Include this file in source setting section to add external search envelope processing
+# Zero as a default means we don't do any search -- this makes workbench happier
+DEFAULT_MACRO OGCKML_IN_USE_SEARCH_ENVELOPE_OGCKML_1 NO
+OGCKML_1_USE_SEARCH_ENVELOPE "$(OGCKML_IN_USE_SEARCH_ENVELOPE_OGCKML_1)"
+GUI ACTIVEDISCLOSUREGROUP OGCKML_IN_USE_SEARCH_ENVELOPE_OGCKML_1 OGCKML_IN_SEARCH_ENVELOPE_MINX_OGCKML_1%OGCKML_IN_SEARCH_ENVELOPE_MINY_OGCKML_1%OGCKML_IN_SEARCH_ENVELOPE_MAXX_OGCKML_1%OGCKML_IN_SEARCH_ENVELOPE_MAXY_OGCKML_1%OGCKML_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_OGCKML_1%OGCKML_IN_CLIP_TO_ENVELOPE_OGCKML_1%OGCKML_IN_SEARCH_METHOD%OGCKML_IN_SEARCH_METHOD_FILTER%OGCKML_IN_SEARCH_ORDER%OGCKML_IN_SEARCH_FEATURE%OGCKML_IN_DUMMY_SEARCH_ENVELOPE_PARAMETER Use Search Envelope
+# ===========================================================================
+GUI LOOKUP OGCKML_IN_SEARCH_ENVELOPE_MINX_OGCKML_1 <Unused>,0 
+DEFAULT_MACRO OGCKML_IN_SEARCH_ENVELOPE_MINX_OGCKML_1 0
+OGCKML_1_SEARCH_ENVELOPE "$(OGCKML_IN_SEARCH_ENVELOPE_MINX_OGCKML_1)"
+GUI OPTIONAL FLOAT OGCKML_IN_SEARCH_ENVELOPE_MINX_OGCKML_1 Minimum X:
+# ===========================================================================
+GUI LOOKUP OGCKML_IN_SEARCH_ENVELOPE_MINY_OGCKML_1 <Unused>,0 
+DEFAULT_MACRO OGCKML_IN_SEARCH_ENVELOPE_MINY_OGCKML_1 0
+OGCKML_1_SEARCH_ENVELOPE "$(OGCKML_IN_SEARCH_ENVELOPE_MINY_OGCKML_1)"
+GUI OPTIONAL FLOAT OGCKML_IN_SEARCH_ENVELOPE_MINY_OGCKML_1 Minimum Y:
+# ===========================================================================
+GUI LOOKUP OGCKML_IN_SEARCH_ENVELOPE_MAXX_OGCKML_1 <Unused>,0 
+DEFAULT_MACRO OGCKML_IN_SEARCH_ENVELOPE_MAXX_OGCKML_1 0
+OGCKML_1_SEARCH_ENVELOPE "$(OGCKML_IN_SEARCH_ENVELOPE_MAXX_OGCKML_1)"
+GUI OPTIONAL FLOAT OGCKML_IN_SEARCH_ENVELOPE_MAXX_OGCKML_1 Maximum X:
+# ===========================================================================
+GUI LOOKUP OGCKML_IN_SEARCH_ENVELOPE_MAXY_OGCKML_1 <Unused>,0 
+DEFAULT_MACRO OGCKML_IN_SEARCH_ENVELOPE_MAXY_OGCKML_1 0
+OGCKML_1_SEARCH_ENVELOPE "$(OGCKML_IN_SEARCH_ENVELOPE_MAXY_OGCKML_1)"
+GUI OPTIONAL FLOAT OGCKML_IN_SEARCH_ENVELOPE_MAXY_OGCKML_1 Maximum Y:
+# ===========================================================================
+GUI LOOKUP OGCKML_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_OGCKML_1 <Unused>, 
+DEFAULT_MACRO OGCKML_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_OGCKML_1 
+OGCKML_1_SEARCH_ENVELOPE "$(OGCKML_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_OGCKML_1)"
+GUI OPTIONAL COORDSYS OGCKML_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_OGCKML_1 Search Envelope Coordinate System:
+# ===========================================================================
+# BUG18999: We now have a soft clip to fall back on like native spatial index
+# thus we are reintroducing the clip to envelop as an option for users.
+# Defualt to soft clip as per the existing database readers we are emulating
+GUI LOOKUP OGCKML_IN_CLIP_TO_ENVELOPE_OGCKML_1 <Unused>,NO 
+DEFAULT_MACRO OGCKML_IN_CLIP_TO_ENVELOPE_OGCKML_1 NO
+OGCKML_1_CLIP_TO_ENVELOPE "$(OGCKML_IN_CLIP_TO_ENVELOPE_OGCKML_1)"
+GUI OPTIONAL CHECKBOX OGCKML_IN_CLIP_TO_ENVELOPE_OGCKML_1 YES%NO Clip to Search Envelope
+# ===========================================================================
+DEFAULT_MACRO OGCKML_IN_NETWORK_AUTHENTICATION_OGCKML_1 
+OGCKML_1_NETWORK_AUTHENTICATION "$(OGCKML_IN_NETWORK_AUTHENTICATION_OGCKML_1)"
+GUI OPTIONAL AUTHENTICATOR OGCKML_IN_NETWORK_AUTHENTICATION_OGCKML_1 CONTAINER%GROUP%CONTAINER_TITLE%"Network Authentication"%PROMPT_TYPE%NETWORK Network Authentication
+# ============================================================================ 
+DEFAULT_MACRO OGCKML_IN_ATTRIBUTE_READING_OGCKML_1 ALL
+OGCKML_1_ATTRIBUTE_READING "$(OGCKML_IN_ATTRIBUTE_READING_OGCKML_1)"
+# ============================================================================ 
+OGCKML_1_GENERATE_FME_BUILD_NUM 19253
+OGCKML_1_DATASET "$(SourceDataset_OGCKML_1)"
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "OGCKML_2"
+#! END_WB_HEADER
+#! START_DEST_HEADER OGCKML OGCKML_2
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_OGCKML_2 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER OGCKML OGCKML_2
+DEFAULT_MACRO DestDataset_OGCKML_2 $(DestDataset_OGCKML)
+GUI FILENAME DestDataset_OGCKML_2 KML_Files(*.kml;*.kmz)|*.kml;*.kmz|All_Files(*)|* Destination Google KML File:
+OGCKML_2_WRITE_3D_GEOM_AS_POLYGONS no
+DEFAULT_MACRO OGCKML_OUT_DOCUMENT_NAME_OGCKML_2 
+OGCKML_2_DOCUMENT_NAME "$(OGCKML_OUT_DOCUMENT_NAME_OGCKML_2)"
+GUI OPTIONAL TEXT_ENCODED OGCKML_OUT_DOCUMENT_NAME_OGCKML_2 Root Document name:
+DEFAULT_MACRO OGCKML_OUT_DOCUMENT_DESC_OGCKML_2 
+OGCKML_2_DOCUMENT_DESC "$(OGCKML_OUT_DOCUMENT_DESC_OGCKML_2)"
+GUI OPTIONAL TEXT_ENCODED OGCKML_OUT_DOCUMENT_DESC_OGCKML_2 Document description:
+DEFAULT_MACRO OGCKML_OUT_DOCUMENT_VISIBILITY_OGCKML_2 yes
+OGCKML_2_DOCUMENT_VISIBILITY "$(OGCKML_OUT_DOCUMENT_VISIBILITY_OGCKML_2)"
+GUI CHOICE OGCKML_OUT_DOCUMENT_VISIBILITY_OGCKML_2 yes%no Document visible on load:
+DEFAULT_MACRO OGCKML_OUT_ATOM_AUTHOR_NAME_OGCKML_2 
+OGCKML_2_ATOM_AUTHOR_NAME "$(OGCKML_OUT_ATOM_AUTHOR_NAME_OGCKML_2)"
+GUI OPTIONAL TEXT_ENCODED OGCKML_OUT_ATOM_AUTHOR_NAME_OGCKML_2 Author Name:
+DEFAULT_MACRO OGCKML_OUT_ATOM_AUTHOR_EMAIL_OGCKML_2 
+OGCKML_2_ATOM_AUTHOR_EMAIL "$(OGCKML_OUT_ATOM_AUTHOR_EMAIL_OGCKML_2)"
+GUI OPTIONAL TEXT_ENCODED OGCKML_OUT_ATOM_AUTHOR_EMAIL_OGCKML_2 Author Email:
+DEFAULT_MACRO OGCKML_OUT_ATOM_LINK_HREF_OGCKML_2 
+OGCKML_2_ATOM_LINK_HREF "$(OGCKML_OUT_ATOM_LINK_HREF_OGCKML_2)"
+GUI OPTIONAL TEXT_ENCODED OGCKML_OUT_ATOM_LINK_HREF_OGCKML_2 Author URL:
+DEFAULT_MACRO OGCKML_OUT_WATERMARK_NAME_OGCKML_2 
+OGCKML_2_WATERMARK_NAME "$(OGCKML_OUT_WATERMARK_NAME_OGCKML_2)"
+GUI OPTIONAL TEXT_ENCODED OGCKML_OUT_WATERMARK_NAME_OGCKML_2 Watermark Name:
+DEFAULT_MACRO OGCKML_OUT_WATERMARK_SNIPPET_OGCKML_2 
+OGCKML_2_WATERMARK_SNIPPET "$(OGCKML_OUT_WATERMARK_SNIPPET_OGCKML_2)"
+GUI OPTIONAL TEXT_ENCODED OGCKML_OUT_WATERMARK_SNIPPET_OGCKML_2 Watermark Snippet Text:
+DEFAULT_MACRO OGCKML_OUT_WATERMARK_ICON_OGCKML_2 
+OGCKML_2_WATERMARK_ICON "$(OGCKML_OUT_WATERMARK_ICON_OGCKML_2)"
+GUI OPTIONAL TEXT OGCKML_OUT_WATERMARK_ICON_OGCKML_2 Watermark Overlay Icon:
+DEFAULT_MACRO OGCKML_OUT_ATTR_IN_DESCRIPTION_OGCKML_2 yes
+OGCKML_2_ATTR_IN_DESCRIPTION "$(OGCKML_OUT_ATTR_IN_DESCRIPTION_OGCKML_2)"
+GUI CHOICE OGCKML_OUT_ATTR_IN_DESCRIPTION_OGCKML_2 yes%no Create Attribute Table in Description Balloon:
+DEFAULT_MACRO OGCKML_OUT_HTML_DESCRIPTIONS_OGCKML_2 yes
+OGCKML_2_HTML_DESCRIPTIONS "$(OGCKML_OUT_HTML_DESCRIPTIONS_OGCKML_2)"
+GUI CHOICE OGCKML_OUT_HTML_DESCRIPTIONS_OGCKML_2 yes%no Use HTML in Description Balloon:
+DEFAULT_MACRO OGCKML_OUT_KML_WRT_ADV_PARA_OGCKML_2 FME_DISCLOSURE_OPEN
+GUI OPTIONAL DISCLOSUREGROUP OGCKML_OUT_KML_WRT_ADV_PARA_OGCKML_2 OGCKML_OUT_DATASET_HINT_OGCKML_2%OGCKML_OUT_STYLE_DOC_OGCKML_2%OGCKML_OUT_SCHEMA_DOC_OGCKML_2%OGCKML_OUT_DETECT_RASTERS_OGCKML_2%OGCKML_OUT_EXEC_GO_PIPELINE_OGCKML_2%OGCKML_OUT_RASTER_MODE_OGCKML_2%OGCKML_OUT_RASTER_FORMAT_OGCKML_2%OGCKML_OUT_TEXTURE_FORMAT_OGCKML_2%OGCKML_OUT_COPY_ICON_OGCKML_2%OGCKML_OUT_OUTPUT_SCHEMA_OGCKML_2%OGCKML_OUT_AUTO_CREATE_NETWORK_LINKS_OGCKML_2%OGCKML_OUT_ORIENTATION_OGCKML_2%OGCKML_OUT_LOG_VERBOSE_OGCKML_2%OGCKML_OUT_OMIT_DOCUMENT_ELEMENT_OGCKML_2%OGCKML_OUT_REGIONATE_DATA_OGCKML_2%OGCKML_OUT_EXEC_PO_PIPELINE_OGCKML_2%OGCKML_OUT_CREATE_EMPTY_FOLDERS_OGCKML_2%OGCKML_OUT_KML21_TARGET_HREF_OGCKML_2%OGCKML_OUT_MOVE_TO_KML_LOCAL_COORDSYS_OGCKML_2%OGCKML_OUT_WRITE_3D_GEOM_AS_POLYGONS_OGCKML_2%OGCKML_OUT_WRITE_TEXTURES_TXT_FILE_OGCKML_2%OGCKML_OUT_KML21_FANOUT_TYPE_OGCKML_2 Advanced
+DEFAULT_MACRO OGCKML_OUT_DATASET_HINT_OGCKML_2 
+OGCKML_2_DATASET_HINT "$(OGCKML_OUT_DATASET_HINT_OGCKML_2)"
+GUI OPTIONAL TEXT OGCKML_OUT_DATASET_HINT_OGCKML_2 KML hint attribute:
+DEFAULT_MACRO OGCKML_OUT_STYLE_DOC_OGCKML_2 
+OGCKML_2_STYLE_DOC "$(OGCKML_OUT_STYLE_DOC_OGCKML_2)"
+GUI OPTIONAL TEXT OGCKML_OUT_STYLE_DOC_OGCKML_2 External Style Document:
+DEFAULT_MACRO OGCKML_OUT_SCHEMA_DOC_OGCKML_2 
+OGCKML_2_SCHEMA_DOC "$(OGCKML_OUT_SCHEMA_DOC_OGCKML_2)"
+GUI OPTIONAL TEXT OGCKML_OUT_SCHEMA_DOC_OGCKML_2 External Schema Document:
+DEFAULT_MACRO OGCKML_OUT_DETECT_RASTERS_OGCKML_2 yes
+OGCKML_2_DETECT_RASTERS "$(OGCKML_OUT_DETECT_RASTERS_OGCKML_2)"
+GUI CHOICE OGCKML_OUT_DETECT_RASTERS_OGCKML_2 yes%no Generate Raster Ground Overlays:
+DEFAULT_MACRO OGCKML_OUT_EXEC_GO_PIPELINE_OGCKML_2 no
+OGCKML_2_EXEC_GO_PIPELINE "$(OGCKML_OUT_EXEC_GO_PIPELINE_OGCKML_2)"
+GUI CHOICE OGCKML_OUT_EXEC_GO_PIPELINE_OGCKML_2 yes%no Generate Super-Overlays:
+DEFAULT_MACRO OGCKML_OUT_RASTER_MODE_OGCKML_2 write
+OGCKML_2_RASTER_MODE "$(OGCKML_OUT_RASTER_MODE_OGCKML_2)"
+GUI LOOKUP_CHOICE OGCKML_OUT_RASTER_MODE_OGCKML_2 Write,write%Copy,copy%Relative,relative Raster Handling Mode:
+DEFAULT_MACRO OGCKML_OUT_RASTER_FORMAT_OGCKML_2 tiff
+OGCKML_2_RASTER_FORMAT "$(OGCKML_OUT_RASTER_FORMAT_OGCKML_2)"
+GUI OPTIONAL CHOICE OGCKML_OUT_RASTER_FORMAT_OGCKML_2 jpeg%tiff%png%gif Raster Output Format:
+DEFAULT_MACRO OGCKML_OUT_TEXTURE_FORMAT_OGCKML_2 NONE
+OGCKML_2_TEXTURE_FORMAT "$(OGCKML_OUT_TEXTURE_FORMAT_OGCKML_2)"
+GUI LOOKUP_CHOICE OGCKML_OUT_TEXTURE_FORMAT_OGCKML_2 Auto,NONE%PNG,PNGRASTER%JPEG%GIF,GIFRASTER%BMP%TIFF Preferred Texture Format:
+DEFAULT_MACRO OGCKML_OUT_COPY_ICON_OGCKML_2 yes
+OGCKML_2_COPY_ICON "$(OGCKML_OUT_COPY_ICON_OGCKML_2)"
+GUI CHOICE OGCKML_OUT_COPY_ICON_OGCKML_2 yes%no Copy icons to destination dataset:
+DEFAULT_MACRO OGCKML_OUT_OUTPUT_SCHEMA_OGCKML_2 yes
+OGCKML_2_OUTPUT_SCHEMA "$(OGCKML_OUT_OUTPUT_SCHEMA_OGCKML_2)"
+GUI CHOICE OGCKML_OUT_OUTPUT_SCHEMA_OGCKML_2 yes%no Create KML Schema Elements:
+DEFAULT_MACRO OGCKML_OUT_AUTO_CREATE_NETWORK_LINKS_OGCKML_2 no
+OGCKML_2_AUTO_CREATE_NETWORK_LINKS "$(OGCKML_OUT_AUTO_CREATE_NETWORK_LINKS_OGCKML_2)"
+GUI CHOICE OGCKML_OUT_AUTO_CREATE_NETWORK_LINKS_OGCKML_2 yes%no Create Network Links for Referenced Documents:
+DEFAULT_MACRO OGCKML_OUT_ORIENTATION_OGCKML_2 none
+OGCKML_2_ORIENTATION "$(OGCKML_OUT_ORIENTATION_OGCKML_2)"
+GUI LOOKUP_CHOICE OGCKML_OUT_ORIENTATION_OGCKML_2 None,none%Left,left%Right,right Force Geometry Orientation:
+DEFAULT_MACRO OGCKML_OUT_LOG_VERBOSE_OGCKML_2 no
+OGCKML_2_LOG_VERBOSE "$(OGCKML_OUT_LOG_VERBOSE_OGCKML_2)"
+GUI CHOICE OGCKML_OUT_LOG_VERBOSE_OGCKML_2 yes%no Verbose Logging:
+DEFAULT_MACRO OGCKML_OUT_OMIT_DOCUMENT_ELEMENT_OGCKML_2 no
+OGCKML_2_OMIT_DOCUMENT_ELEMENT "$(OGCKML_OUT_OMIT_DOCUMENT_ELEMENT_OGCKML_2)"
+GUI CHOICE OGCKML_OUT_OMIT_DOCUMENT_ELEMENT_OGCKML_2 yes%no Omit Document Element:
+DEFAULT_MACRO OGCKML_OUT_REGIONATE_DATA_OGCKML_2 no
+OGCKML_2_REGIONATE_DATA "$(OGCKML_OUT_REGIONATE_DATA_OGCKML_2)"
+GUI CHOICE OGCKML_OUT_REGIONATE_DATA_OGCKML_2 yes%no Regionate Vectors (Beta):
+DEFAULT_MACRO OGCKML_OUT_EXEC_PO_PIPELINE_OGCKML_2 no
+OGCKML_2_EXEC_PO_PIPELINE "$(OGCKML_OUT_EXEC_PO_PIPELINE_OGCKML_2)"
+GUI CHOICE OGCKML_OUT_EXEC_PO_PIPELINE_OGCKML_2 yes%no Pyramid PhotoOverlays (Beta):
+DEFAULT_MACRO OGCKML_OUT_CREATE_EMPTY_FOLDERS_OGCKML_2 no
+OGCKML_2_CREATE_EMPTY_FOLDERS "$(OGCKML_OUT_CREATE_EMPTY_FOLDERS_OGCKML_2)"
+GUI CHOICE OGCKML_OUT_CREATE_EMPTY_FOLDERS_OGCKML_2 yes%no Create Empty Folders:
+DEFAULT_MACRO OGCKML_OUT_KML21_TARGET_HREF_OGCKML_2 
+OGCKML_2_KML21_TARGET_HREF "$(OGCKML_OUT_KML21_TARGET_HREF_OGCKML_2)"
+GUI OPTIONAL TEXT OGCKML_OUT_KML21_TARGET_HREF_OGCKML_2 Update Target HREF (NetworkLinkControl):
+DEFAULT_MACRO OGCKML_OUT_MOVE_TO_KML_LOCAL_COORDSYS_OGCKML_2 yes
+OGCKML_2_MOVE_TO_KML_LOCAL_COORDSYS "$(OGCKML_OUT_MOVE_TO_KML_LOCAL_COORDSYS_OGCKML_2)"
+GUI CHOICE OGCKML_OUT_MOVE_TO_KML_LOCAL_COORDSYS_OGCKML_2 yes%no Move To Local Coordinate System:
+DEFAULT_MACRO OGCKML_OUT_WRITE_3D_GEOM_AS_POLYGONS_OGCKML_2 no
+OGCKML_2_WRITE_3D_GEOM_AS_POLYGONS "$(OGCKML_OUT_WRITE_3D_GEOM_AS_POLYGONS_OGCKML_2)"
+GUI CHOICE OGCKML_OUT_WRITE_3D_GEOM_AS_POLYGONS_OGCKML_2 yes%no Write 3D Geometry As Polygons:
+DEFAULT_MACRO OGCKML_OUT_WRITE_TEXTURES_TXT_FILE_OGCKML_2 no
+OGCKML_2_WRITE_TEXTURES_TXT_FILE "$(OGCKML_OUT_WRITE_TEXTURES_TXT_FILE_OGCKML_2)"
+GUI CHOICE OGCKML_OUT_WRITE_TEXTURES_TXT_FILE_OGCKML_2 yes%no Write texture list to textures.txt:
+DEFAULT_MACRO OGCKML_OUT_KML21_FANOUT_TYPE_OGCKML_2 folder
+OGCKML_2_KML21_FANOUT_TYPE "$(OGCKML_OUT_KML21_FANOUT_TYPE_OGCKML_2)"
+GUI LOOKUP_CHOICE OGCKML_OUT_KML21_FANOUT_TYPE_OGCKML_2 Folder,folder%Subfolder,subfolder Feature Type Fanout Mode:
+# ============================================================================
+# Opt in for destination dataset type vs format type validation
+DEFAULT_MACRO OGCKML_OUT_DESTINATION_DATASETTYPE_VALIDATION_OGCKML_2 Yes
+OGCKML_2_DESTINATION_DATASETTYPE_VALIDATION "$(OGCKML_OUT_DESTINATION_DATASETTYPE_VALIDATION_OGCKML_2)"
+DEFAULT_MACRO OGCKML_OUT_COORDINATE_SYSTEM_GRANULARITY_OGCKML_2 FEATURE
+OGCKML_2_COORDINATE_SYSTEM_GRANULARITY "$(OGCKML_OUT_COORDINATE_SYSTEM_GRANULARITY_OGCKML_2)"
+# ============================================================================ 
+OGCKML_2_GENERATE_FME_BUILD_NUM 19253
+OGCKML_2_DATASET "$(DestDataset_OGCKML_2)"
+#! END_DEST_HEADER
+#! START_WB_HEADER
+#! END_WB_HEADER
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)Error placemark tiler.log"
+LOG_APPEND NO
+LOG_FILTER_MASK -1
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+DEFAULT_MACRO DATASET_KEYWORD_ESRISHAPE_1 ESRISHAPE_1
+DEFAULT_MACRO DATASET_KEYWORD_OGCKML_1 OGCKML_1
+DEFAULT_MACRO DATASET_KEYWORD_OGCKML_2 OGCKML_2
+# -------------------------------------------------------------------------
+
+ESRISHAPE_1_READER_META_ATTRIBUTES fme_feature_type
+
+# -------------------------------------------------------------------------
+
+OGCKML_1_READER_META_ATTRIBUTES fme_feature_type
+
+# -------------------------------------------------------------------------
+
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME Error placemark tiler
+MACRO FME_VIEWER_APP fmedatainspector
+# -------------------------------------------------------------------------
+
+INCLUDE [ if {[info exists env(FME_TEMP)] && [file isdirectory $env(FME_TEMP)]} {set gVisualizerTemp $env(FME_TEMP)}  elseif {[info exists env(TEMP)] && [file isdirectory $env(TEMP)]}  {set gVisualizerTemp $env(TEMP)}  elseif { $tcl_platform(platform) == "unix" } {set gVisualizerTemp "/tmp"} else {set gVisualizerTemp c:};  regsub -all {[ ,&]} {$(WORKSPACE_NAME)} {_} wsname; set gVisualizerTemp $gVisualizerTemp/${wsname}_[clock format [clock seconds] -format %H%M%S];  puts "MACRO WORKSPACE_TEMP_DIR $gVisualizerTemp"; 
+MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/inspector.ffs
+MACRO VISUALIZER_SCHEMA_FILE $(WORKSPACE_TEMP_DIR)/inspector.fsc
+MACRO VISUALIZER_CREATE_SPATIAL_INDEX YES
+# -------------------------------------------------------------------------
+ESRISHAPE_1_DEF "Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile"   SHAPE_GEOMETRY               shape_polygon   left                         double   top                          double   right                        double   bottom                       double   id                           long
+# -------------------------------------------------------------------------
+OGCKML_1_DEF Placemark
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE ESRISHAPE "ESRISHAPE_1::Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile" multi_reader_keyword,$(DATASET_KEYWORD_ESRISHAPE_1) TO FME_GENERIC "::Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile" ALIAS_GEOMETRY    ROUTE OGCKML OGCKML_1::Placemark multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::Placemark ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+ESRISHAPE_1_MERGE_DEF "ESRISHAPE_1::Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile" EXACT Print<space>Tiles<space>Dublin<space>Boundary<space>7x4km<space>1-2000<space>1km<space>Tile
+OGCKML_1_MERGE_DEF OGCKML_1::Placemark EXACT Placemark
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile (ESRISHAPE_1) Splitter"    INPUT FEATURE_TYPE "Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile"    OUTPUT FEATURE_TYPE "Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile_ESRISHAPE_1_0_gX7eqScZIvc="    OUTPUT FEATURE_TYPE "Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile_ESRISHAPE_1_1_uGhDr2anT+k="
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "Placemark (OGCKML_1) Splitter"    INPUT FEATURE_TYPE Placemark    OUTPUT FEATURE_TYPE Placemark_OGCKML_1
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+# Wipe out the source setting if it was untouched from the default setting
+DEFAULT_MACRO Reprojector_SOURCE "Read from feature"
+INCLUDE [if { {Read from feature} == {Read from feature} } {             puts {MACRO Reprojector_SOURCE}          }         ]
+FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector    INPUT  FEATURE_TYPE Placemark_OGCKML_1    OUTPUT FEATURE_TYPE Reprojector_REPROJECTED         @Reproject($(Reprojector_SOURCE),"EPSG:2157",NearestNeighbor,PreserveCells,Reprojector,"COORD_SYS_WARNING",RASTER_TOLERANCE,0.0)
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory    FACTORY_NAME TestFilter    INPUT  FEATURE_TYPE "Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile_ESRISHAPE_1_0_gX7eqScZIvc="    OUTPUT FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_0
+FACTORY_DEF * TestFactory FACTORY_NAME TestFilter_Condition_1 INPUT FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_0 TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>id<closeparen>,TestFilter) = 14 ENCODED BOOLEAN_OPERATOR OR COMPOSITE_TEST_EXPR "1" OUTPUT PASSED FEATURE_TYPE TestFilter_<at>Value<openparen>id<closeparen><space>=<space>14 OUTPUT FAILED FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_1
+FACTORY_DEF * TeeFactory FACTORY_NAME TestFilter_<lt>UNFILTERED<gt> INPUT FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_1 OUTPUT FEATURE_TYPE TestFilter_<lt>UNFILTERED<gt>
+FACTORY_DEF * TeeFactory   FACTORY_NAME "TestFilter <lt>UNFILTERED<gt> Transformer Output Nuker"   INPUT FEATURE_TYPE TestFilter_<lt>UNFILTERED<gt>
+# -------------------------------------------------------------------------
+INCLUDE [    if {($(FME_BUILD_NUM) < 5669) || [FME_ComponentIsLicensed -factory RasterClippingFactory]} {       puts "MACRO RASTER_CLIPPER_IN *";    } else {       puts "MACRO RASTER_CLIPPER_IN NOT_THIS_TIME";    } ]
+# The dummy input feature type Clipper___ClipperMakeSureWeDontGetAllFeatures___
+# makes sure that if INPUT  FEATURE_TYPE TestFilter_<at>Value<openparen>id<closeparen><space>=<space>14  is emtpy, we don't get every feature
+# sent into this factory.
+FACTORY_DEF * TeeFactory    FACTORY_NAME Clipper_ClipperCloner    INPUT  FEATURE_TYPE TestFilter_<at>Value<openparen>id<closeparen><space>=<space>14    INPUT FEATURE_TYPE Clipper___ClipperMakeSureWeDontGetAllFeatures___    OUTPUT FEATURE_TYPE Clipper___ClippersForSolidOrVector___    OUTPUT FEATURE_TYPE Clipper___ClippersForRaster___
+FACTORY_DEF * TestFactory    FACTORY_NAME Clipper_SolidClipperFilter    INPUT FEATURE_TYPE Clipper___ClippersForSolidOrVector___    TEST &fme_type == "fme_solid"    OUTPUT FAILED FEATURE_TYPE Clipper___ClippersForVector___    OUTPUT PASSED FEATURE_TYPE Clipper___ClippersForSolid___
+# The dummy input feature type Clipper___ClippeeMakeSureWeDontGetAllFeatures___
+# makes sure that if INPUT  FEATURE_TYPE Reprojector_REPROJECTED  is emtpy, we don't get every feature
+# sent into this factory.
+FACTORY_DEF * TestFactory    FACTORY_NAME Clipper_ClippeeFilter    INPUT  FEATURE_TYPE Reprojector_REPROJECTED    INPUT FEATURE_TYPE Clipper___ClippeeMakeSureWeDontGetAllFeatures___    TEST &fme_type == "fme_raster"    OUTPUT FAILED FEATURE_TYPE Clipper___VectorOrSolidClippees___    OUTPUT PASSED FEATURE_TYPE Clipper___RasterClippees___
+FACTORY_DEF {$(RASTER_CLIPPER_IN)} RasterClippingFactory    FACTORY_NAME Clipper_Raster    INPUT CLIPPER FEATURE_TYPE Clipper___ClippersForRaster___    INPUT CLIPPEE FEATURE_TYPE Clipper___RasterClippees___    MULTICLIP YES    MERGE_CLIPPER_ATTRIBUTES YES    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "CLIPPEE_IF_CONFLICT"    CLIPPER_PREFIX "<Unused>"    PRESERVE_CLIPPEE_EXTENTS NO    FLUSH_WHEN_GROUPS_CHANGE No    OUTPUT_NO_CLIPPERS_AS_OUTSIDE    OUTSIDE_NO_CLIPPERS_ATTR _fme_no_clipper    OUTPUT INSIDE FEATURE_TYPE Clipper_INSIDE        "_clipped" no    OUTPUT CLIPPED_INSIDE FEATURE_TYPE Clipper_INSIDE        "_clipped" yes    OUTPUT EXTRA_CLIPPER FEATURE_TYPE Clipper__delete__ @Tcl2("FME_LogMessage fme_warn 917351 Clipper")    OUTPUT REJECTED FEATURE_TYPE Clipper_<REJECTED>
+FACTORY_DEF {*} ClippingFactory    FACTORY_NAME Clipper_Vector    INPUT CLIPPER FEATURE_TYPE Clipper___ClippersForVector___    INPUT CLIPPEE FEATURE_TYPE Clipper___VectorOrSolidClippees___    INPUT CLIPPEE FEATURE_TYPE Clipper___RasterClippees___    MULTICLIP YES    CONNECT_Z_MODE <Unused>    MISSING_VAL_MODE COMPUTE_NANS    COMPUTE_MEASURES_MODE CONTINUOUS    MEASURES_AND_Z_FROM CLIPPEE    CLIPPEE_ON_BOUNDARY INSIDE    MERGE_CLIPPER_ATTRIBUTES YES    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "CLIPPEE_IF_CONFLICT"    CLIPPER_PREFIX "<Unused>"    OUTPUT_NO_CLIPPERS_AS_OUTSIDE    OUTSIDE_NO_CLIPPERS_ATTR _fme_no_clipper    LINES_AS_SEGMENTS    NO    FLUSH_WHEN_GROUPS_CHANGE No    MODE COMPLETE    CLEANING_TOLERANCE AUTO    OUTPUT INSIDE FEATURE_TYPE Clipper_INSIDE        "_clipped" no    OUTPUT CLIPPED_INSIDE FEATURE_TYPE Clipper_INSIDE        "_clipped" yes    OUTPUT OUTSIDE_NO_CLIPPER FEATURE_TYPE Clipper___ClippeeForSolid___    OUTPUT EXTRA_CLIPPER   FEATURE_TYPE Clipper__delete__ @Tcl2("FME_LogMessage fme_warn 917351 Clipper")    OUTPUT NONPOLY_CLIPPER FEATURE_TYPE Clipper__delete__ @Tcl2("FME_LogMessage fme_warn 917352 Clipper")    OUTPUT REJECTED FEATURE_TYPE Clipper_<REJECTED>
+FACTORY_DEF * SolidIntersectionFactory    FACTORY_NAME Clipper_Solid    INPUT CLIPPER FEATURE_TYPE Clipper___ClippersForSolid___    INPUT CLIPPEE FEATURE_TYPE Clipper___ClippeeForSolid___    MULTICLIP YES    CLIPPEE_ON_BOUNDARY INSIDE    MERGE_CLIPPER_ATTRIBUTES YES    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "CLIPPEE_IF_CONFLICT"    CLIPPER_PREFIX "<Unused>"    OUTPUT_NO_CLIPPERS_AS_OUTSIDE    OUTSIDE_NO_CLIPPERS_ATTR _fme_no_clipper    FLUSH_WHEN_GROUPS_CHANGE No    OUTPUT INSIDE FEATURE_TYPE Clipper_INSIDE        "_clipped" no    OUTPUT CLIPPED_INSIDE FEATURE_TYPE Clipper_INSIDE        "_clipped" yes    OUTPUT EXTRA_CLIPPER   FEATURE_TYPE Clipper__delete__ @Tcl2("FME_LogMessage fme_warn 917351 Clipper")    OUTPUT REJECTED FEATURE_TYPE Clipper_<REJECTED>
+FACTORY_DEF * TeeFactory    FACTORY_NAME Clipper_Nuker    INPUT FEATURE_TYPE Clipper__delete__       @Log("Offending feature was:")
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Clipper INSIDE Splitter"   INPUT FEATURE_TYPE Clipper_INSIDE   OUTPUT FEATURE_TYPE Clipper_INSIDE_0_PMBiwD96aMs=   OUTPUT FEATURE_TYPE Clipper_INSIDE_1_WdTwwzY43qU=   OUTPUT FEATURE_TYPE Clipper_INSIDE_2_IyMIZl22Qtw=
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME Clipper_<Rejected> INPUT FEATURE_TYPE Clipper_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, Clipper<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeManager    INPUT  FEATURE_TYPE Clipper_INSIDE_2_IyMIZl22Qtw=    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "kml_id" "kml_id" "<at>ReplaceString<openparen><at>Value<openparen>kml_id<closeparen><comma><lt>kml_id<gt><comma><lt>test<gt><closeparen><at>Value<openparen>kml_id<closeparen>" "SET_TO" }
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeRenamer    INPUT  FEATURE_TYPE Clipper_INSIDE_1_WdTwwzY43qU= 	 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    OUTPUT OUTPUT FEATURE_TYPE AttributeRenamer_OUTPUT
+# -------------------------------------------------------------------------
+# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
+DEFAULT_MACRO WORKSPACE_TEMP_DIR
+INCLUDE [    set safeName "[regsub -all {[^a-zA-Z0-9]} {Inspector} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";    puts "MACRO SAFE_FFS_NAME $safeName"; ]
+FACTORY_DEF {*} InspectorFactory    FACTORY_NAME Inspector_Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE Clipper_INSIDE_0_PMBiwD96aMs=    INPUT  FEATURE_TYPE "Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile_ESRISHAPE_1_1_uGhDr2anT+k="    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY {  }    GROUP_ATTRIBUTE_PREFIX { Inspector }    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
+# Now route all the features into the recorder, changing their
+# feature type to the transformer name so that they view nicely
+DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
+DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
+# [PR#45549] The Data Inspector will limit the maximum number of features
+# it reads on WIN32, so we will correspondingly limit the number of
+# features we record here using the MAX_FEATURES_TO_RECORD directive.
+FACTORY_DEF * RecorderFactory    FACTORY_NAME Inspector_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA left,varchar<openparen>255<closeparen>,top,varchar<openparen>255<closeparen>,right,varchar<openparen>255<closeparen>,bottom,varchar<openparen>255<closeparen>,id,varchar<openparen>255<closeparen>,kml_id,varchar<openparen>255<closeparen>,_clipped,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeRenamer_OUTPUT TO OGCKML __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Placemarks<lt>space<gt>D2<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
+# -------------------------------------------------------------------------
+
+DEFAULT_MACRO FME_LAUNCH_VIEWER_APP NO
+FACTORY_DEF * CreationFactory    FACTORY_NAME VisualizerProcessor   CREATE_AT_END   OUTPUT FEATURE_TYPE __NUKEME__   @TCL("if {{$(FME_LAUNCH_VIEWER_APP)} == {YES}} {  if [file exists {$(WORKSPACE_TEMP_DIR)}] {set files [glob -nocomplain -directory  {$(WORKSPACE_TEMP_DIR)} -tails *.ffs];   if {[llength $files] == 1} {    set theFile {$(WORKSPACE_TEMP_DIR)/};   append theFile [lindex $files 0];   eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -f FFS \042$theFile\042 & \175;  } elseif { [llength $files] == 0 } {  catch { file delete -force {$(WORKSPACE_TEMP_DIR)} };  } else {  set filesNoExt {}; set lastfile {}; foreach {fileName} [lsort $files] { set fileNoExt [string trimright $fileName {.ffs}]; if [regexp {(.*)_[0-9]*$} $fileNoExt wholething fileNoExtBase] {  if { $fileNoExtBase == $lastfile } { continue } }; set lastfile $fileNoExt; lappend filesNoExt $fileNoExt };  eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -d {$(WORKSPACE_TEMP_DIR)} -a ffs -f FFS $filesNoExt & \175; }; }; }; ")
+FACTORY_DEF * TeeFactory    FACTORY_NAME VisualizerCleaner   INPUT FEATURE_TYPE __NUKEME__
+# -------------------------------------------------------------------------
+OGCKML_2_DEF "Placemarks D2"   KML21_INFORMATION_POINT_ICON ""   KML21_OPACITY                ""   KML21_FILL_OPACITY           ""   KML21_PEN_OPACITY            ""   KML21_ICON_COLOR             ""   KML21_FILL_COLOR             ""   KML21_PEN_COLOR              ""   KML21_SORT_BY_ATTRIBUTE      ""   KML21_ATTR_IN_DESCRIPTION    ""   KML21_HTML_DESCRIPTIONS      ""   KML21_DOCUMENT_FILENAME      ""   KML21_CREATE_FOLDER_FOR_FEATURE_TYPE yes

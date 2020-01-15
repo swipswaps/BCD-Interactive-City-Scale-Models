@@ -1,0 +1,77 @@
+repair_id2,repair_id,OBJECT ID,Notes
+,B3.1,51287,Delete OBJECT
+,B3.2,51360,Delete and redraw
+,,51367,
+,B3.3,,Draw new
+,B3.4,51397,Delete OBJECT
+,,51396,
+,,51395,
+,B3.5,51409,Delete OBJECT
+,,51408,
+,B3.6,,Add tank
+,B3.7A,51427,Fix for height
+,B3.7B,,
+,B3.8,,Ignore
+,B3.9,,Ignore
+,B3.10,,Ignore
+,B3.11,51398,Fix shape
+,B312A,63974,Delete and redraw
+,B312B,63977,
+,,64121,
+,B313B,,Draw new
+,B313A,,
+,B3.14,,ignore
+,B135A,51574,Fix height
+,B135B,,
+,B3.16,51394,Fix height
+,B3.17,,Exclude from render
+,B3.18,51368,Height
+,D3.2,30079,
+,D3.4,29702,
+,D3.5,30071,
+,D310A,30037,Fix height on south
+,D310B,,
+,D3.12,29732,Fix height on North
+D3.13A,D3.13,29783,Fix height on East
+D3.13B,,,
+D3.15A,,29752,Fix height on South
+D3.15B,,,
+D3.18A,,29768,
+D3.18A,,29758,
+,,112926,
+D3.21A,,112794,
+D3.21B,,112615,
+D3.21C,,,
+D3.22,,112631,
+D3.24,,,
+D3.25,,112337,
+,,112335,
+,,112635,
+D3.26,,112372,
+,,112369,
+,,112367,
+,,112366,
+D3.27,,111792,
+D3.29,,111839,Fix height on OBJECT ID
+D3.30,,111919,
+,,111915,
+D3.32,,111938,Fix height on OBJECT ID
+D3.33,,112965,
+D3.34,,33611,
+D3.35,,33876,
+,,33875,
+,,33872,
+,,33867,
+,,33869,
+,,33870,
+,,33873,
+D3.36,,30258,
+D3.37,,31447,
+D3.38A,,112630,
+D3.38B,,,
+,,31458,
+,,37568,
+,,37555,
+,,37576,
+,,42441,
+,,43778,
