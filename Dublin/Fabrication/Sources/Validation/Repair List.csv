@@ -37,12 +37,13 @@ D3.13B,,,
 D3.15A,,29752,Fix height on South
 D3.15B,,,
 D3.18A,,29768,
-D3.18A,,29758,
+D3.18B,,29758,
 ,,112926,
 D3.21A,,112794,
 D3.21B,,112615,
 D3.21C,,,
-D3.22,,112631,
+D3.22A,,112631,
+D3.22B,,,
 D3.24,,,
 D3.25,,112337,
 ,,112335,
@@ -52,12 +53,12 @@ D3.26,,112372,
 ,,112367,
 ,,112366,
 D3.27,,111792,
-D3.29,,111839,Fix height on OBJECT ID
+D3.29,,,Fix height on OBJECT ID
 D3.30,,111919,
 ,,111915,
-D3.32,,111938,Fix height on OBJECT ID
+D3.32,,,Fix height on OBJECT ID
 D3.33,,112965,
-D3.34,,33611,
+D3.34,,,
 D3.35,,33876,
 ,,33875,
 ,,33872,
@@ -75,3 +76,39 @@ D3.38B,,,
 ,,37576,
 ,,42441,
 ,,43778,
+D2.1,,112682,"New shape, manually extrude old problem façade"
+D2.2,,112764,
+D2.3,,,Ignore
+D2.4,,,Ignore
+D2.5,,,Ignore
+D2.6,,,Ignore
+D2.7,,,Ignore
+D2.8,,,Ignore
+D2.9,,,Ignore
+D2.10,,,Ignore
+D2.11,,,Ignore
+D2.12,,30848,
+D2.13,,30851,
+D2.14,,,Ignore
+D2.15,,,Ignore
+D2.16,,31025,
+D2.17,,,Ignore
+D2.18,,,Ignore
+D2.19,,,Ignore
+D2.20,,,Ignore
+D2.21,,,Ignore
+D2.22,,36166,
+D2.23,,36175,
+D2.24,,,
+D2.25,,,
+D2.26,,,Ignore
+D2.27,,,Ignore
+D2.28,,,
+D2.29,,,Ignore
+D2.30,,,Ignore
+D2.31,,,Ignore
+D2.32,,,Ignore
+D2.33,,,Ignore
+D2.34,,,Ignore
+D2.35,,,Ignore
+D2.36,,,
