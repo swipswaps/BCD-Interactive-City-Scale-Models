@@ -99,11 +99,11 @@ D2.20,,,Ignore
 D2.21,,,Ignore
 D2.22,,36166,
 D2.23,,36175,
-D2.24,,,
-D2.25,,,
+D2.24,,30681,
+D2.25,,,Fix extrusion on existing
 D2.26,,,Ignore
 D2.27,,,Ignore
-D2.28,,,
+D2.28,,36176,
 D2.29,,,Ignore
 D2.30,,,Ignore
 D2.31,,,Ignore
@@ -111,4 +111,28 @@ D2.32,,,Ignore
 D2.33,,,Ignore
 D2.34,,,Ignore
 D2.35,,,Ignore
-D2.36,,,
+D2.36,,112676,
+E2.1,,112263,
+,,112262,
+,,97486,
+E2.2,,,Ignore
+E2.3,,99191,
+E2.4,,99040,Review adjacent
+E2.5,,98938,Review adjacent
+E2.6,,99471,
+E2.7,,99171,Review adjacent
+E2.8,,99241,
+E2.9,,,Ignore
+E2.10,,,Ignore
+E2.11,,97229,
+E2.12,,,
+E2.13,,,
+E2.14,,,Ignore
+E2.15,,,Ignore
+E2.16,,,
+E2.17,,,
+E2.18,,,Ignore
+E2.19,,,
+E2.20,,,Ignore
+E2.21,,,
+E2.22,,,Ignore
