@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Placemarks F1.2</name>
+<visibility>1</visibility>
+<Folder id="kml_id_doc_1.1.6">
+<name>kml_id_doc_1.1.6</name>
+<Placemark id="F1.2">
+<name>F1.2</name>
+<visibility>1</visibility>
+<LookAt>
+<longitude>-6.232238779095706</longitude>
+<latitude>53.36452967522982</latitude>
+<altitude>2.053177311200223</altitude>
+<range>117.262386638787</range>
+<tilt>71.98109922771729</tilt>
+<heading>-0.000937918508434717</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<extrude>0</extrude>
+<coordinates>-6.23201710922798,53.3642695114213,0.0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+</Document></kml>
