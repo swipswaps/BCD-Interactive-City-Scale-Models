@@ -52,7 +52,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2019.0.1.0 (20190506 - Build 19253 - macosx)"
-#!   LAST_SAVE_DATE="2020-01-24T16:41:32"
+#!   LAST_SAVE_DATE="2020-01-24T17:06:22"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -71,7 +71,7 @@
 #!   TITLE="OSiDataTo3D"
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-4433.77 -83.7218"
+#!   VIEW_POSITION="4238.41 244.188"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="86"
@@ -4368,7 +4368,7 @@
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="false"
-#!   NODE_NAME="Dublin Tile F3 2"
+#!   NODE_NAME="Dublin Tile F2"
 #!   FEATURE_TYPE_NAME=""
 #!   FEATURE_TYPE_NAME_QUALIFIER=""
 #!   IS_EDITABLE="true"
@@ -13598,7 +13598,7 @@
 #!   TARGET_NODE="81"
 #!   SOURCE_PORT_DESC="fo 0 Output"
 #!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="false"
+#!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
@@ -13961,7 +13961,7 @@
 #!   TARGET_NODE="81"
 #!   SOURCE_PORT_DESC="fo 0 Output"
 #!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="false"
+#!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
@@ -14929,7 +14929,7 @@
 #!   TARGET_NODE="283"
 #!   SOURCE_PORT_DESC="fo 16 19"
 #!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
+#!   ENABLED="false"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
@@ -14951,7 +14951,7 @@
 #!   TARGET_NODE="283"
 #!   SOURCE_PORT_DESC="fo 20 22"
 #!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="false"
+#!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
@@ -18260,8 +18260,8 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter_11 Disabled Nuker -1 31
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter_14 Disabled Nuker -1 459"   INPUT FEATURE_TYPE AttributeFilter_14
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter_15 Disabled Nuker -1 317"   INPUT FEATURE_TYPE AttributeFilter_15
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter_18 Disabled Nuker -1 461"   INPUT FEATURE_TYPE AttributeFilter_18
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter_19 Disabled Nuker -1 520"   INPUT FEATURE_TYPE AttributeFilter_19
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter_20 Disabled Nuker -1 542"   INPUT FEATURE_TYPE AttributeFilter_20
-FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter_22 Disabled Nuker -1 465"   INPUT FEATURE_TYPE AttributeFilter_22
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter_23 Disabled Nuker -1 290"   INPUT FEATURE_TYPE AttributeFilter_23
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter_24 Disabled Nuker -1 543"   INPUT FEATURE_TYPE AttributeFilter_24
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter_27 Disabled Nuker -1 318"   INPUT FEATURE_TYPE AttributeFilter_27
@@ -18306,7 +18306,6 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME Extruder_4    INPUT  FEATURE_TYPE 3DFor
 FACTORY_DEF * TestFactory    FACTORY_NAME Extruder_4_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) == ""    OUTPUT PASSED FEATURE_TYPE Extruder_4_EXTRUDED       @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME Junction_17    INPUT  FEATURE_TYPE Extruder_4_EXTRUDED    OUTPUT FEATURE_TYPE Junction_17_Output
-FACTORY_DEF * TeeFactory   FACTORY_NAME "Junction_17_Output Disabled Nuker -1 333"   INPUT FEATURE_TYPE Junction_17_Output
 # -------------------------------------------------------------------------
 INCLUDE [if { {ATTRIBUTES} == {ATTRIBUTES} } {                puts "MACRO FeatureMerger_2_REFERENCE_INFO ATTRIBUTES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_AND_ATTR_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_AND_ATTR_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} } {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} } {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          else {}; ]
 FACTORY_DEF {*} ReferenceFactory    FACTORY_NAME FeatureMerger_2    FLUSH_WHEN_GROUPS_CHANGE No    INPUT REFERENCER FEATURE_TYPE DLM_CORE_WATER_POLY_FILEGDB_1    INPUT REFERENCEE FEATURE_TYPE CSV_CSV2_2    REFERENCE_INFO $(FeatureMerger_2_REFERENCE_INFO)    REFERENCE_TABLE @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>OBJECTID<closeparen>,FeatureMerger_2) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>OBJECTID<closeparen>,FeatureMerger_2) AUTO    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "REQUESTOR_IF_CONFLICT"    IGNORE_NULLS "No"    HANDLE_NULL_MISSING_KEYS_LIKE_FME2013 No    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    MERGE_ATTRIBUTES Yes    MANAGE_FME_TYPE Yes    MODE COMPLETE    PROCESS_DUPLICATE_REFERENCEES NO    REFERENCEES_FIRST No    REJECT_INVALID_GEOM YES    CLEANING_TOLERANCE <Unused>    OUTPUT INCOMPLETE FEATURE_TYPE FeatureMerger_2_UNMERGED_REQUESTOR
@@ -18348,12 +18347,12 @@ FACTORY_DEF * TestFactory    FACTORY_NAME GeometryExtractor_3_Rejector    INPUT 
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME BoundsExtractor_2    INPUT  FEATURE_TYPE GeometryExtractor_3_OUTPUT    OUTPUT FEATURE_TYPE BoundsExtractor_2_OUTPUT         @Bounds(fme_encoded,_xmin,_xmax,_ymin,_ymax,_zmin,_zmax,GEOMETRIC)
 # -------------------------------------------------------------------------
-DEFAULT_MACRO __StatisticsCalculator_f4a50d0d_75ed_4213_ae25_697ca7b3881713_GROUP_BY
-MACRO StatisticsCalculator_f4a50d0d_75ed_4213_ae25_697ca7b3881713_PORT_SPECIFIED no
-INCLUDE [puts_real {$(StatisticsCalculator_f4a50d0d_75ed_4213_ae25_697ca7b3881713_PORT_SPECIFIED)}
+DEFAULT_MACRO __StatisticsCalculator_f4a50d0d_75ed_4213_ae25_697ca7b3881717_GROUP_BY
+MACRO StatisticsCalculator_f4a50d0d_75ed_4213_ae25_697ca7b3881717_PORT_SPECIFIED no
+INCLUDE [puts_real {$(StatisticsCalculator_f4a50d0d_75ed_4213_ae25_697ca7b3881717_PORT_SPECIFIED)}
 DYNAMIC_FUNCTION_CONFIGURATION Python FMEOBJECTS
 DYNAMIC_FUNCTION_CONFIGURATION Python import StatisticsCalculator
-DYNAMIC_FUNCTION_CONFIGURATION Python "StatisticsCalculator.connectTransformer(    'StatisticsCalculator',{     'GROUP_BY_MACRO':'__StatisticsCalculator_f4a50d0d_75ed_4213_ae25_697ca7b3881713_GROUP_BY',     'STATS_ATTRS':'_zmin',     'MIN_ATTR':'_min',     'MAX_ATTR':'_max',     'COUNT_ATTR':'_count',     'SUM_ATTR':'_sum',     'MEAN_ATTR':'_mean',     'COMPUTE_HISTOGRAM':'NO',     'HISTO_ATTR':'<Unused>',     'PREPEND_ATTR_NAME':'No',     'encoded_result_attrs':True,     'cumulative_mode':'$(StatisticsCalculator_f4a50d0d_75ed_4213_ae25_697ca7b3881713_PORT_SPECIFIED)',     None:None})"
+DYNAMIC_FUNCTION_CONFIGURATION Python "StatisticsCalculator.connectTransformer(    'StatisticsCalculator',{     'GROUP_BY_MACRO':'__StatisticsCalculator_f4a50d0d_75ed_4213_ae25_697ca7b3881717_GROUP_BY',     'STATS_ATTRS':'_zmin',     'MIN_ATTR':'_min',     'MAX_ATTR':'_max',     'COUNT_ATTR':'_count',     'SUM_ATTR':'_sum',     'MEAN_ATTR':'_mean',     'COMPUTE_HISTOGRAM':'NO',     'HISTO_ATTR':'<Unused>',     'PREPEND_ATTR_NAME':'No',     'encoded_result_attrs':True,     'cumulative_mode':'$(StatisticsCalculator_f4a50d0d_75ed_4213_ae25_697ca7b3881717_PORT_SPECIFIED)',     None:None})"
 FACTORY_DEF * TeeFactory    FACTORY_NAME StatisticsCalculator_InputProcessor    INPUT  FEATURE_TYPE BoundsExtractor_2_OUTPUT    OUTPUT FEATURE_TYPE __ORIGINAL__       @Python(StatisticsCalculator.recordFeature,StatisticsCalculator)
 FACTORY_DEF * TeeFactory    FACTORY_NAME StatisticsCalculator_UnneededInputNuker    INPUT FEATURE_TYPE __ORIGINAL__    OUTPUT FEATURE_TYPE StatisticsCalculator_COMPLETE
 FACTORY_DEF * SortFactory    FACTORY_NAME StatisticsCalculator_CompleteOutputter    INPUT FEATURE_TYPE __UNUSED_INPUT_TO_GUARANTEE_FACTORY_DOESNT_CONSUME_EVERYTHING__    INPUT FEATURE_TYPE StatisticsCalculator_COMPLETE    OUTPUT SORTED FEATURE_TYPE StatisticsCalculator_COMPLETE       @Python(StatisticsCalculator.summarizeStatistics,StatisticsCalculator,__ORIGINAL__)
@@ -18412,8 +18411,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_InputPassThrough    INPU
 FACTORY_DEF $(INSTANCE_FILTERING) TestFactory    FACTORY_NAME GeometryFilter_InstanceTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST @Geometry(IS_GEOMETRY_INSTANCE) == 1    OUTPUT PASSED FEATURE_TYPE $(OUTPUT_INSTANCE_FTYPE)    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Input___
 FACTORY_DEF $(COLLECTION_HANDLING) TestFactory    FACTORY_NAME GeometryFilter_CollectionTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST &fme_type == "fme_collection"    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Not_Collection___    OUTPUT PASSED FEATURE_TYPE GeometryFilter___Collection___
 FACTORY_DEF $(COLLECTION_HANDLING) DeaggregateFactory    FACTORY_NAME GeometryFilter_Deagg    INPUT FEATURE_TYPE GeometryFilter___Collection___    HOMOGENIZE_COLLECTIONS YES    RECURSIVE YES    SET_FME_TYPE YES    INSTANTIATE_GEOMETRY_INSTANCES_NEW <Unused>    OUTPUT POINT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT LINE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT POLYGON FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT DONUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT AGGREGATE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___
-FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_a63017e4_b3b9_4609_8b6e_01a79f2f209313_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
-FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_a63017e4_b3b9_4609_8b6e_01a79f2f209313_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_a63017e4_b3b9_4609_8b6e_01a79f2f209313_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_a63017e4_b3b9_4609_8b6e_01a79f2f209313_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_a63017e4_b3b9_4609_8b6e_01a79f2f209313_targetFeatureType)
+FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_a63017e4_b3b9_4609_8b6e_01a79f2f209317_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
+FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_a63017e4_b3b9_4609_8b6e_01a79f2f209317_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_a63017e4_b3b9_4609_8b6e_01a79f2f209317_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_a63017e4_b3b9_4609_8b6e_01a79f2f209317_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_a63017e4_b3b9_4609_8b6e_01a79f2f209317_targetFeatureType)
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME BoundsExtractor    INPUT  FEATURE_TYPE GeometryFilter_SURFACE    OUTPUT FEATURE_TYPE BoundsExtractor_OUTPUT         @Bounds(fme_encoded,,,,,__ssc.zmin,__ssc.zmax,GEOMETRIC)
 # -------------------------------------------------------------------------
@@ -18585,7 +18584,6 @@ FACTORY_DEF * TestFactory    FACTORY_NAME Extruder_6_Rejector    INPUT FEATURE_T
 FACTORY_DEF * TeeFactory    FACTORY_NAME Junction_2    INPUT  FEATURE_TYPE Extruder_2_EXTRUDED    INPUT  FEATURE_TYPE Extruder_6_EXTRUDED    INPUT  FEATURE_TYPE Extruder_8_EXTRUDED    INPUT  FEATURE_TYPE Extruder_18_EXTRUDED    INPUT  FEATURE_TYPE Extruder_9_EXTRUDED    INPUT  FEATURE_TYPE Extruder_19_EXTRUDED    INPUT  FEATURE_TYPE Extruder_20_EXTRUDED    OUTPUT FEATURE_TYPE Junction_2_Output
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME Junction_8    INPUT  FEATURE_TYPE Junction_2_Output    OUTPUT FEATURE_TYPE Junction_8_Output
-FACTORY_DEF * TeeFactory   FACTORY_NAME "Junction_8_Output Disabled Nuker -1 275"   INPUT FEATURE_TYPE Junction_8_Output
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME Junction_10    INPUT  FEATURE_TYPE Junction_8_Output    INPUT  FEATURE_TYPE Junction_9_Output    INPUT  FEATURE_TYPE Junction_17_Output    OUTPUT FEATURE_TYPE Junction_10_Output
 # -------------------------------------------------------------------------
@@ -18782,7 +18780,7 @@ Tcl2 proc KMLPropertySetter_set_vector_props { geomtype altitude_mode draw_order
 FACTORY_DEF * TeeFactory    FACTORY_NAME KMLPropertySetter    INPUT  FEATURE_TYPE 3DForcer_4_OUTPUT
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC 3DRotator_ROTATED_0_GbHGXOn2D60= TO OBJ __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,3,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Dublin<lt>space<gt>Tile<lt>space<gt>F3<lt>space<gt>2<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC 3DRotator_ROTATED_0_GbHGXOn2D60= TO OBJ __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,3,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Dublin<lt>space<gt>Tile<lt>space<gt>F2<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
@@ -18797,4 +18795,4 @@ STL_1_DEF "Print 0.6.2 Tile 14 DTM Unthinned Surface Tolerance 0.165 Aggregate N
 # -------------------------------------------------------------------------
 OGCKML_1_DEF KML   KML21_INFORMATION_POINT_ICON ""   KML21_OPACITY                ""   KML21_FILL_OPACITY           ""   KML21_PEN_OPACITY            ""   KML21_ICON_COLOR             ""   KML21_FILL_COLOR             ""   KML21_PEN_COLOR              ""   KML21_SORT_BY_ATTRIBUTE      ""   KML21_ATTR_IN_DESCRIPTION    ""   KML21_HTML_DESCRIPTIONS      ""   KML21_DOCUMENT_FILENAME      ""   KML21_CREATE_FOLDER_FOR_FEATURE_TYPE yes
 # -------------------------------------------------------------------------
-OBJ_1_DEF "Dublin Tile F3 2"
+OBJ_1_DEF "Dublin Tile F2"
