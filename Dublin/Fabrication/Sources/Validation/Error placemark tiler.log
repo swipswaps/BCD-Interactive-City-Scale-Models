@@ -1,119 +1,613 @@
-2020-01-21 11:59:24|   0.0|  0.0|INFORM|FME 2019.0.1.0 (20190506 - Build 19253 - macosx)
-2020-01-21 11:59:24|   0.0|  0.0|INFORM|FME_HOME is '/Library/FME/2019.0/'
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|FME Home Edition (node locked-crc)
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|Serial Number: 0
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|Temporary License: 131 days left.
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|Machine host name is: Marks-MacBook-Pro.local
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|START - ProcessID: 5410, peak process memory usage: 68816 kB, current process memory usage: 68816 kB
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|FME Configuration: Command line arguments are `/Library/FME/2019.0//bin/fme' `/Users/mlinnane/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/Validation/wb-xlate-1579607963599_3214' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{0934dca8-9ffd-4dfe-b585-1aad8d456904}'
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|FME Configuration: Connection Storage: '/Users/mlinnane/Library/Caches/Safe Software/FME/'
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|Shared folders for formats are : /Library/FME/2019.0/datasources;/Users/mlinnane/Library/Application Support/FME/Formats
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|Shared folders for transformers are : /Users/mlinnane/Library/Caches/Safe Software/FME/Packages/19253-macosx/transformers;/Library/FME/2019.0/transformers;/Users/mlinnane/Library/Caches/Safe Software/FME/FME Store/Transformers
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|Shared folders for coordinate systems are : /Users/mlinnane/Library/Application Support/FME/CoordinateSystems
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|Shared folders for coordinate system exceptions are : /Users/mlinnane/Library/Application Support/FME/CoordinateSystemExceptions
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|Shared folders for coordinate system grid overrides are : /Users/mlinnane/Library/Application Support/FME/CoordinateSystemGridOverrides
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : /Users/mlinnane/Library/Application Support/FME/CsmapTransformationExceptions
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|Shared folders for transformer categories are : /Users/mlinnane/Library/Application Support/FME/TransformerCategories
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|FME Configuration: No destination coordinate system set
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|FME Configuration: Current working folder is `/Users/mlinnane/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/Validation'
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|FME Configuration: Temporary folder is in the system location `/private/tmp'
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|FME Configuration: FME_HOME is `/Library/FME/2019.0/'
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|FME Configuration: FME_MF_DIR is '/Users/mlinnane/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/Validation/'
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'Error placemark tiler.fmw'
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2019.0.1.0'
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|System Status: 6.90 TB of disk space available in the FME temporary folder (/private/tmp)
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|System Status: 16.00 GB of virtual memory available
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|Operating System: Mac OS X Version 10.14.6 (Build 18G2022)
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|FME Platform: macosx
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|Locale: en_GB
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|FME Configuration: Process limit is 16.00 GB of physical memory
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 14.83 GB of virtual memory
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 11.12 GB of virtual memory
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|Creating writer for format: 
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|Creating reader for format: 
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
-2020-01-21 11:59:24|   0.1|  0.0|INFORM|DYLD_LIBRARY_PATH is not set
-2020-01-21 11:59:24|   0.2|  0.0|INFORM|Loaded module 'LogCount_func' from file '/Library/FME/2019.0//plugins/logcount_func.so'
-2020-01-21 11:59:24|   0.2|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20181030)
-2020-01-21 11:59:24|   0.2|  0.0|INFORM|Emptying factory pipeline
-2020-01-21 11:59:24|   0.2|  0.0|STATS |Router and Unexpected Input Remover (RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
-2020-01-21 11:59:24|   0.2|  0.0|STATS |Unexpected Input Remover Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2020-01-21 11:59:24|   0.2|  0.0|STATS |Placemark (OGCKML_6) Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2020-01-21 11:59:24|   0.2|  0.0|STATS |Placemark (OGCKML_9) Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2020-01-21 11:59:24|   0.2|  0.0|STATS |Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile (ESRISHAPE_1) Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2020-01-21 11:59:24|   0.2|  0.0|STATS |Placemark (OGCKML_1) Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2020-01-21 11:59:24|   0.2|  0.0|STATS |Placemark (OGCKML_3) Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2020-01-21 11:59:24|   0.2|  0.0|STATS |Placemark (OGCKML_10) Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2020-01-21 11:59:24|   0.2|  0.0|STATS |Placemark (OGCKML_7) Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2020-01-21 11:59:24|   0.2|  0.0|STATS |Placemark (OGCKML_2) Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2020-01-21 11:59:24|   0.2|  0.0|STATS |Placemark (OGCKML_4) Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2020-01-21 11:59:24|   0.2|  0.0|STATS |Placemark (OGCKML_5) Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2020-01-21 11:59:24|   0.2|  0.0|STATS |Placemark (OGCKML_8) Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2020-01-21 11:59:24|   0.2|  0.0|STATS |Placemark (OGCKML_11) Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2020-01-21 11:59:24|   0.3|  0.1|STATS |Restoring 284 feature(s) from FME feature store file `/private/tmp/wb-cache-Error placemark tiler-TqLYBE/Main_KMLPropertySetter -1 33 fo 0 OUTPUT  0  198bbc238c0e94f29a4f6f2b7fcdda48fd7b1fd2.ffs'
-2020-01-21 11:59:24|   0.3|  0.0|INFORM|KMLPropertySetter_OUTPUT_-1_39_Player (RecorderFactory): Played back 284 feature(s) from file `/private/tmp/wb-cache-Error placemark tiler-TqLYBE/Main_KMLPropertySetter -1 33 fo 0 OUTPUT  0  198bbc238c0e94f29a4f6f2b7fcdda48fd7b1fd2.ffs'
-2020-01-21 11:59:24|   0.3|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 284 input feature(s), wrote 284 output feature(s): 0 matched merge filters, 284 were routed to output, 0 could not be routed.
-2020-01-21 11:59:24|   0.3|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2020-01-21 11:59:24|   0.3|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': Started outputting features
-2020-01-21 11:59:24|   0.4|  0.0|INFORM|Creating writer for format: CSV (Comma Separated Value)
-2020-01-21 11:59:24|   0.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `CSV2'
-2020-01-21 11:59:24|   0.4|  0.0|INFORM|Loaded module 'CSV2' from file '/Library/FME/2019.0//plugins/csv2.so'
-2020-01-21 11:59:24|   0.4|  0.0|INFORM|FME API version of module 'CSV2' matches current internal version (3.8 20181030)
-2020-01-21 11:59:24|   0.4|  0.0|INFORM|FME Configuration: No destination coordinate system set
-2020-01-21 11:59:24|   0.4|  0.0|INFORM|FME API version of module 'CSV2' matches current internal version (3.8 20181030)
-2020-01-21 11:59:24|   0.4|  0.0|INFORM|Writer `CSV2_1' of type `CSV2' using group definition keyword `CSV2_1_DEF'
-2020-01-21 11:59:24|   0.4|  0.0|INFORM|FME API version of module 'CSV2' matches current internal version (3.8 20181030)
-2020-01-21 11:59:24|   0.4|  0.0|INFORM|CSV writer: Directive '_EXTENSION' has the value 'csv'
-2020-01-21 11:59:24|   0.4|  0.0|INFORM|CSV writer: Directive '_DELIMITER' has the value ','
-2020-01-21 11:59:24|   0.4|  0.0|INFORM|CSV writer: Directive '_ENCODING' has the value 'UTF-8'
-2020-01-21 11:59:24|   0.4|  0.0|INFORM|CSV writer: Directive '_WRITE_BOM_FOR_UNICODE' has the value 'Yes'
-2020-01-21 11:59:24|   0.4|  0.0|INFORM|CSV writer: Directive '_QUALIFY_FIELD_NAMES' has the value 'if_needed'
-2020-01-21 11:59:24|   0.4|  0.0|INFORM|CSV writer: Directive '_QUALIFY_FIELD_VALUES' has the value 'if_needed'
-2020-01-21 11:59:24|   0.4|  0.0|INFORM|CSV writer: Directive '_FIELD_QUALIFIER_CHARACTER' has the value '"'
-2020-01-21 11:59:24|   0.4|  0.0|INFORM|CSV writer: Directive '_FIELD_QUALIFIER_ESCAPE_CHARACTER' has the value '"'
-2020-01-21 11:59:24|   0.4|  0.0|INFORM|CSV writer: Directive '_ROW_TERMINATION' has the value 'System'
-2020-01-21 11:59:24|   0.4|  0.0|INFORM|CSV writer: Directive '_WRITE_SCHEMA_FILE' has the value 'NO'
-2020-01-21 11:59:24|   0.4|  0.0|INFORM|CSV writer: Opening dataset '/Users/mlinnane/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/Validation/Issue Placemarks/Lists/test/Placemark.csv'
-2020-01-21 11:59:24|   0.4|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-01-21 11:59:24|   0.4|  0.0|INFORM|Feature output statistics for `CSV2' writer using keyword `CSV2_1':
-2020-01-21 11:59:24|   0.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-01-21 11:59:24|   0.4|  0.0|STATS |                               Features Written
-2020-01-21 11:59:24|   0.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-01-21 11:59:24|   0.4|  0.0|STATS |Placemark                                                                  284
-2020-01-21 11:59:24|   0.4|  0.0|STATS |==============================================================================
-2020-01-21 11:59:24|   0.4|  0.0|STATS |Total Features Written                                                     284
-2020-01-21 11:59:24|   0.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-01-21 11:59:24|   0.4|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': done writing 284 feature(s) 
-2020-01-21 11:59:24|   0.4|  0.0|INFORM|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-2020-01-21 11:59:24|   0.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-01-21 11:59:24|   0.4|  0.0|STATS |                            Features Read Summary
-2020-01-21 11:59:24|   0.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-01-21 11:59:24|   0.4|  0.0|STATS |==============================================================================
-2020-01-21 11:59:24|   0.4|  0.0|STATS |Total Features Read                                                          0
-2020-01-21 11:59:24|   0.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-01-21 11:59:24|   0.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-01-21 11:59:24|   0.4|  0.0|STATS |                           Features Written Summary
-2020-01-21 11:59:24|   0.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-01-21 11:59:24|   0.4|  0.0|STATS |Placemark                                                                  284
-2020-01-21 11:59:24|   0.4|  0.0|STATS |==============================================================================
-2020-01-21 11:59:24|   0.4|  0.0|STATS |Total Features Written                                                     284
-2020-01-21 11:59:24|   0.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-01-21 11:59:24|   0.4|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
-2020-01-21 11:59:24|   0.4|  0.0|WARN  |-~                                                                             ~-
-2020-01-21 11:59:24|   0.4|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
-2020-01-21 11:59:24|   0.4|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
-2020-01-21 11:59:24|   0.4|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
-2020-01-21 11:59:24|   0.4|  0.0|WARN  |-~                                                                             ~-
-2020-01-21 11:59:24|   0.4|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
-2020-01-21 11:59:24|   0.4|  0.0|INFORM|Translation was SUCCESSFUL with 7 warning(s) (284 feature(s) output)
-2020-01-21 11:59:24|   0.4|  0.0|INFORM|FME Session Duration: 0.6 seconds. (CPU: 0.3s user, 0.1s system)
-2020-01-21 11:59:24|   0.4|  0.0|INFORM|END - ProcessID: 5410, peak process memory usage: 113008 kB, current process memory usage: 113008 kB
+2020-02-12 15:20:07|   0.1|  0.1|INFORM|FME 2019.0.1.0 (20190506 - Build 19253 - macosx)
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|FME_HOME is '/Library/FME/2019.0/'
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|FME Home Edition (node locked-crc)
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|Serial Number: 0
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|Temporary License: 109 days left.
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|Machine host name is: Marks-MacBook-Pro.local
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|START - ProcessID: 7679, peak process memory usage: 68888 kB, current process memory usage: 68888 kB
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|FME Configuration: Command line arguments are `/Library/FME/2019.0//bin/fme' `/Users/mlinnane/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/Validation/wb-xlate-1581520806618_7561' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{a261e46b-f146-4c25-b20e-ab0f7c683aff}'
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|FME Configuration: Connection Storage: '/Users/mlinnane/Library/Caches/Safe Software/FME/'
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|Shared folders for formats are : /Library/FME/2019.0/datasources;/Users/mlinnane/Library/Application Support/FME/Formats
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|Shared folders for transformers are : /Users/mlinnane/Library/Caches/Safe Software/FME/Packages/19253-macosx/transformers;/Library/FME/2019.0/transformers;/Users/mlinnane/Library/Caches/Safe Software/FME/FME Store/Transformers
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|Shared folders for coordinate systems are : /Users/mlinnane/Library/Application Support/FME/CoordinateSystems
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|Shared folders for coordinate system exceptions are : /Users/mlinnane/Library/Application Support/FME/CoordinateSystemExceptions
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|Shared folders for coordinate system grid overrides are : /Users/mlinnane/Library/Application Support/FME/CoordinateSystemGridOverrides
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : /Users/mlinnane/Library/Application Support/FME/CsmapTransformationExceptions
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|Shared folders for transformer categories are : /Users/mlinnane/Library/Application Support/FME/TransformerCategories
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|FME Configuration: Current working folder is `/Users/mlinnane/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/Validation'
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|FME Configuration: Temporary folder is in the system location `/private/tmp'
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|FME Configuration: FME_HOME is `/Library/FME/2019.0/'
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|FME Configuration: FME_MF_DIR is '/Users/mlinnane/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/Validation/'
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'Error placemark tiler.fmw'
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2019.0.1.0'
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|System Status: 13.30 TB of disk space available in the FME temporary folder (/private/tmp)
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|System Status: 17.00 GB of virtual memory available
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|Operating System: Mac OS X Version 10.14.6 (Build 18G2022)
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|FME Platform: macosx
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|Locale: en_GB
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|FME Configuration: Process limit is 16.00 GB of physical memory
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 15.83 GB of virtual memory
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 11.87 GB of virtual memory
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|Creating writer for format: 
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|Creating reader for format: 
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding ESRISHAPE Reader with keyword ESRISHAPE_1
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding OGCKML Reader with keyword OGCKML_1
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding OGCKML Reader with keyword OGCKML_2
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding OGCKML Reader with keyword OGCKML_3
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding OGCKML Reader with keyword OGCKML_4
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding OGCKML Reader with keyword OGCKML_5
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding OGCKML Reader with keyword OGCKML_6
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding OGCKML Reader with keyword OGCKML_7
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding OGCKML Reader with keyword OGCKML_8
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding OGCKML Reader with keyword OGCKML_9
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding OGCKML Reader with keyword OGCKML_10
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding OGCKML Reader with keyword OGCKML_11
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding OGCKML Reader with keyword OGCKML_13
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|Creating reader for format: Esri Shapefile
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|Using Shape Reader to read shape files from folder `/Users/mlinnane/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/Grids_Extents/Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile/'
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|ESRISHAPE_1 Reader: Using enhanced geometry
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|Shape Reader: Using simple donut geometry detection
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|Shape Reader: Handling numeric types with standard integer and floating point types
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|Shape Reader: Allowing attribute names with mixed case
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|Opened Shape File '/Users/mlinnane/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/Grids_Extents/Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile/Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile.shp' for input
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|Opened DBF File '/Users/mlinnane/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/Grids_Extents/Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile/Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile.dbf' for input
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|DBF Reader: Detected character encoding `UTF-8'
+2020-02-12 15:20:07|   0.1|  0.0|INFORM|DBF File '/Users/mlinnane/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/Grids_Extents/Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile/Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile.dbf' has fields: left double, top double, right double, bottom double, id long
+2020-02-12 15:20:07|   0.3|  0.1|INFORM|Predefined coordinate system `IRENET95.IrishTM' (IRENET95 / Irish Transverse Mercator) matches dataset coordinate system 
+2020-02-12 15:20:07|   0.3|  0.0|INFORM|The OGC definition of the FME coordinate system '_IRENET95.IrishTM_0' is 'PROJCS["IRENET95_Irish_Transverse_Mercator",GEOGCS["GCS_IRENET95",DATUM["D_IRENET95",SPHEROID["GRS_1980",6378137,298.257222101]],PRIMEM["Greenwich",0],UNIT["Degree",0.017453292519943295]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",53.5],PARAMETER["central_meridian",-8],PARAMETER["scale_factor",0.99982],PARAMETER["false_easting",600000],PARAMETER["false_northing",750000],UNIT["Meter",1]]'
+2020-02-12 15:20:07|   0.3|  0.0|INFORM|FME Configuration: Source coordinate system for reader ESRISHAPE_1[ESRISHAPE] set to `_IRENET95.IrishTM_0' as read from input data
+2020-02-12 15:20:07|   0.3|  0.0|INFORM|Coordinate System `_IRENET95.IrishTM_0' parameters: CS_NAME=`_IRENET95.IrishTM_0' DESC_NM=`IRENET95 / Irish Transverse Mercator' DT_NAME=`IRENET95' ESRI_WKT=`PROJCS["IRENET95_Irish_Transverse_Mercator",GEOGCS["GCS_IRENET95",DATUM["D_IRENET95",SPHEROID["GRS_1980",6378137,298.257222101]],PRIMEM["Greenwich",0],UNIT["Degree",0.017453292519943295]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",53.5],PARAMETER["central_meridian",-8],PARAMETER["scale_factor",0.99982],PARAMETER["false_easting",600000],PARAMETER["false_northing",750000],UNIT["Meter",1]]' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`55.8' MAX_LNG=`-4.666666666666667' MIN_LAT=`50.916666666666664' MIN_LNG=`-11.266666666666667' ORG_LAT=`53.5' PARM1=`-8' PROJ=`TM' QUAD=`1' SCL_RED=`0.99982' SOURCE=`EPSG, V6.3, 2157 [Large and medium scale topographic mappi]' UNIT=`Meter' X_OFF=`600000' Y_OFF=`750000' ZERO_X=`0.0001' ZERO_Y=`0.0001' 
+2020-02-12 15:20:07|   0.3|  0.0|INFORM|Shape Reader: Bounding box of shapefile `/Users/mlinnane/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/Grids_Extents/Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile/PRINT TILES DUBLIN BOUNDARY 7X4KM 1-2000 1KM TILE' is: (712375,732375),(719375,736375)
+2020-02-12 15:20:07|   0.3|  0.0|INFORM|Shape Reader: Bounding box of shapefile(s) selected from folder `/Users/mlinnane/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/Grids_Extents/Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile/' is: (712375,732375),(719375,736375)
+2020-02-12 15:20:07|   0.3|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2020-02-12 15:20:07|   0.3|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2020-02-12 15:20:07|   0.3|  0.0|INFORM|DYLD_LIBRARY_PATH is not set
+2020-02-12 15:20:07|   0.3|  0.0|INFORM|Loaded module 'LogCount_func' from file '/Library/FME/2019.0//plugins/logcount_func.so'
+2020-02-12 15:20:07|   0.3|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20181030)
+2020-02-12 15:20:07|   0.3|  0.0|INFORM|FME Configuration: Using FME Reprojection Engine
+2020-02-12 15:20:07|   0.3|  0.0|INFORM|Loaded module 'RasterClippingFactory' from file '/Library/FME/2019.0//plugins/rasterclippingfactory.so'
+2020-02-12 15:20:07|   0.3|  0.0|INFORM|FME API version of module 'RasterClippingFactory' matches current internal version (3.8 20181030)
+2020-02-12 15:20:07|   0.4|  0.0|INFORM|Loaded module 'SolidIntersectionFactory' from file '/Library/FME/2019.0//plugins/solidintersectionfactory.so'
+2020-02-12 15:20:07|   0.4|  0.0|INFORM|FME API version of module 'SolidIntersectionFactory' matches current internal version (3.8 20181030)
+2020-02-12 15:20:07|   0.4|  0.0|INFORM|Creating reader for format: Google KML
+2020-02-12 15:20:07|   0.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `OGCKML'
+2020-02-12 15:20:07|   0.5|  0.0|INFORM|Loaded module 'OGCKML' from file '/Library/FME/2019.0//plugins/kml21.so'
+2020-02-12 15:20:07|   0.5|  0.0|INFORM|FME API version of module 'OGCKML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:07|   0.5|  0.0|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2020-02-12 15:20:07|   0.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2020-02-12 15:20:07|   0.6|  0.0|INFORM|Loaded module 'XML' from file '/Library/FME/2019.0//plugins/xml.so'
+2020-02-12 15:20:07|   0.6|  0.0|INFORM|FME API version of module 'XML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:07|   0.6|  0.0|INFORM|Opening the XML reader with source dataset '/private/tmp/FME_OGCKML_KMZ_1581520807570_7679/doc.kml'
+2020-02-12 15:20:07|   0.6|  0.0|INFORM|The XML Reader is using xfMap '/Library/FME/2019.0/plugins/kml21/kml21_Schema_elements.xmp'
+2020-02-12 15:20:07|   0.6|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_inspire.xml' is being used to map from URI to URI
+2020-02-12 15:20:07|   0.6|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_sosi.xml' is being used to map from URI to URI
+2020-02-12 15:20:07|   0.6|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_citygml.xml' is being used to map from URI to URI
+2020-02-12 15:20:07|   0.6|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_aixm.xml' is being used to map from URI to URI
+2020-02-12 15:20:07|   0.6|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_urimap.xml' is being used to map from URI to URI
+2020-02-12 15:20:07|   0.6|  0.0|INFORM|Parsing XML document '/private/tmp/FME_OGCKML_KMZ_1581520807570_7679/doc.kml'
+2020-02-12 15:20:07|   0.6|  0.0|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2020-02-12 15:20:07|   0.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2020-02-12 15:20:07|   0.6|  0.0|INFORM|FME API version of module 'XML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:07|   0.6|  0.0|INFORM|XML Reader CONTINUE_ON_GEOM_ERROR is set to YES, the reader will continue upon encountering features with geometry error, these features will be output and tagged with a xml_geom_error boolean attribute
+2020-02-12 15:20:07|   0.6|  0.0|INFORM|Opening the XML reader with source dataset '/private/tmp/FME_OGCKML_KMZ_1581520807570_7679/doc.kml'
+2020-02-12 15:20:07|   0.6|  0.0|INFORM|Pre-processing xfMap '/private/tmp/KML21_structure_1581520807713_7679.xmp' with macro stylesheet '/Library/FME/2019.0/xfmap/xfmap_macro.xslt' into '/private/tmp/NOMACRO_XFMAP_1581520807722_7679.xml'
+2020-02-12 15:20:07|   0.6|  0.0|INFORM|The XML Reader is using xfMap '/private/tmp/NOMACRO_XFMAP_1581520807722_7679.xml'
+2020-02-12 15:20:07|   0.6|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_inspire.xml' is being used to map from URI to URI
+2020-02-12 15:20:07|   0.6|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_sosi.xml' is being used to map from URI to URI
+2020-02-12 15:20:07|   0.6|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_citygml.xml' is being used to map from URI to URI
+2020-02-12 15:20:07|   0.6|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_aixm.xml' is being used to map from URI to URI
+2020-02-12 15:20:07|   0.6|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_urimap.xml' is being used to map from URI to URI
+2020-02-12 15:20:07|   0.6|  0.0|INFORM|Parsing XML document '/private/tmp/FME_OGCKML_KMZ_1581520807570_7679/doc.kml'
+2020-02-12 15:20:07|   0.6|  0.0|INFORM|FME Configuration: Source coordinate system for reader OGCKML_1[OGCKML] set to `LL84' as read from input data
+2020-02-12 15:20:07|   0.6|  0.0|INFORM|Coordinate System `LL84' parameters: CS_NAME=`LL84' DESC_NM=`WGS84 datum, Latitude-Longitude; Degrees' DT_NAME=`WGS84' GROUP=`LL' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`182' MIN_LAT=`-90' MIN_LNG=`-182' PROJ=`LL' QUAD=`1' SCL_RED=`1' SOURCE=`Mentor Software' UNIT=`DEGREE' 
+2020-02-12 15:20:07|   0.6|  0.0|INFORM|CS-MAP Reprojector: Transformation will be automatically selected for 'LL84' -> 'EPSG:2157', and is not guaranteed to remain the same in future releases of FME
+2020-02-12 15:20:07|   0.6|  0.0|INFORM|Reprojector: Using transformation `IRENET95_to_WGS84,Inverse(Geocentric,EPSG:1678)' when reprojecting from LL84 to EPSG:2157
+2020-02-12 15:20:07|   0.7|  0.0|WARN  |Coordinate system of reader identified by keyword `OGCKML_1' has changed from `LL84' to `'
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|Creating reader for format: Google KML
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `OGCKML'
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|FME API version of module 'OGCKML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|FME API version of module 'XML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|Opening the XML reader with source dataset '/private/tmp/FME_OGCKML_KMZ_1581520807823_7679/doc.kml'
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|The XML Reader is using xfMap '/Library/FME/2019.0/plugins/kml21/kml21_Schema_elements.xmp'
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_inspire.xml' is being used to map from URI to URI
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_sosi.xml' is being used to map from URI to URI
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_citygml.xml' is being used to map from URI to URI
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_aixm.xml' is being used to map from URI to URI
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_urimap.xml' is being used to map from URI to URI
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|Parsing XML document '/private/tmp/FME_OGCKML_KMZ_1581520807823_7679/doc.kml'
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|FME API version of module 'XML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|XML Reader CONTINUE_ON_GEOM_ERROR is set to YES, the reader will continue upon encountering features with geometry error, these features will be output and tagged with a xml_geom_error boolean attribute
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|Opening the XML reader with source dataset '/private/tmp/FME_OGCKML_KMZ_1581520807823_7679/doc.kml'
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|Pre-processing xfMap '/private/tmp/KML21_structure_1581520807873_7679.xmp' with macro stylesheet '/Library/FME/2019.0/xfmap/xfmap_macro.xslt' into '/private/tmp/NOMACRO_XFMAP_1581520807883_7679.xml'
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|The XML Reader is using xfMap '/private/tmp/NOMACRO_XFMAP_1581520807883_7679.xml'
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_inspire.xml' is being used to map from URI to URI
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_sosi.xml' is being used to map from URI to URI
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_citygml.xml' is being used to map from URI to URI
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_aixm.xml' is being used to map from URI to URI
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_urimap.xml' is being used to map from URI to URI
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|Parsing XML document '/private/tmp/FME_OGCKML_KMZ_1581520807823_7679/doc.kml'
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|FME Configuration: Source coordinate system for reader OGCKML_2[OGCKML] set to `LL84' as read from input data
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|Coordinate System `LL84' parameters: CS_NAME=`LL84' DESC_NM=`WGS84 datum, Latitude-Longitude; Degrees' DT_NAME=`WGS84' GROUP=`LL' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`182' MIN_LAT=`-90' MIN_LNG=`-182' PROJ=`LL' QUAD=`1' SCL_RED=`1' SOURCE=`Mentor Software' UNIT=`DEGREE' 
+2020-02-12 15:20:07|   0.7|  0.0|WARN  |Coordinate system of reader identified by keyword `OGCKML_2' has changed from `LL84' to `'
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|FME Configuration: Source coordinate system for reader OGCKML_2[OGCKML] set to `LL84' as read from input data
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|Coordinate System `LL84' parameters: CS_NAME=`LL84' DESC_NM=`WGS84 datum, Latitude-Longitude; Degrees' DT_NAME=`WGS84' GROUP=`LL' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`182' MIN_LAT=`-90' MIN_LNG=`-182' PROJ=`LL' QUAD=`1' SCL_RED=`1' SOURCE=`Mentor Software' UNIT=`DEGREE' 
+2020-02-12 15:20:07|   0.7|  0.0|WARN  |Coordinate system of reader identified by keyword `OGCKML_2' has changed from `LL84' to `'
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|FME Configuration: Source coordinate system for reader OGCKML_2[OGCKML] set to `LL84' as read from input data
+2020-02-12 15:20:07|   0.7|  0.0|INFORM|Coordinate System `LL84' parameters: CS_NAME=`LL84' DESC_NM=`WGS84 datum, Latitude-Longitude; Degrees' DT_NAME=`WGS84' GROUP=`LL' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`182' MIN_LAT=`-90' MIN_LNG=`-182' PROJ=`LL' QUAD=`1' SCL_RED=`1' SOURCE=`Mentor Software' UNIT=`DEGREE' 
+2020-02-12 15:20:07|   0.7|  0.0|WARN  |Coordinate system of reader identified by keyword `OGCKML_2' has changed from `LL84' to `'
+2020-02-12 15:20:07|   0.8|  0.0|INFORM|Creating reader for format: Google KML
+2020-02-12 15:20:07|   0.8|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `OGCKML'
+2020-02-12 15:20:07|   0.8|  0.0|INFORM|FME API version of module 'OGCKML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:07|   0.8|  0.0|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2020-02-12 15:20:07|   0.8|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2020-02-12 15:20:07|   0.8|  0.0|INFORM|FME API version of module 'XML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:07|   0.8|  0.0|INFORM|Opening the XML reader with source dataset '/private/tmp/FME_OGCKML_KMZ_1581520807949_7679/doc.kml'
+2020-02-12 15:20:07|   0.8|  0.0|INFORM|The XML Reader is using xfMap '/Library/FME/2019.0/plugins/kml21/kml21_Schema_elements.xmp'
+2020-02-12 15:20:07|   0.8|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_inspire.xml' is being used to map from URI to URI
+2020-02-12 15:20:07|   0.8|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_sosi.xml' is being used to map from URI to URI
+2020-02-12 15:20:07|   0.8|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_citygml.xml' is being used to map from URI to URI
+2020-02-12 15:20:07|   0.8|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_aixm.xml' is being used to map from URI to URI
+2020-02-12 15:20:07|   0.8|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_urimap.xml' is being used to map from URI to URI
+2020-02-12 15:20:07|   0.8|  0.0|INFORM|Parsing XML document '/private/tmp/FME_OGCKML_KMZ_1581520807949_7679/doc.kml'
+2020-02-12 15:20:08|   0.8|  0.0|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2020-02-12 15:20:08|   0.8|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2020-02-12 15:20:08|   0.8|  0.0|INFORM|FME API version of module 'XML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:08|   0.8|  0.0|INFORM|XML Reader CONTINUE_ON_GEOM_ERROR is set to YES, the reader will continue upon encountering features with geometry error, these features will be output and tagged with a xml_geom_error boolean attribute
+2020-02-12 15:20:08|   0.8|  0.0|INFORM|Opening the XML reader with source dataset '/private/tmp/FME_OGCKML_KMZ_1581520807949_7679/doc.kml'
+2020-02-12 15:20:08|   0.8|  0.0|INFORM|Pre-processing xfMap '/private/tmp/KML21_structure_1581520807999_7679.xmp' with macro stylesheet '/Library/FME/2019.0/xfmap/xfmap_macro.xslt' into '/private/tmp/NOMACRO_XFMAP_158152080810_7679.xml'
+2020-02-12 15:20:08|   0.8|  0.0|INFORM|The XML Reader is using xfMap '/private/tmp/NOMACRO_XFMAP_158152080810_7679.xml'
+2020-02-12 15:20:08|   0.8|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_inspire.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   0.8|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_sosi.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   0.8|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_citygml.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   0.8|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_aixm.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   0.8|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_urimap.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   0.8|  0.0|INFORM|Parsing XML document '/private/tmp/FME_OGCKML_KMZ_1581520807949_7679/doc.kml'
+2020-02-12 15:20:08|   0.8|  0.0|INFORM|FME Configuration: Source coordinate system for reader OGCKML_3[OGCKML] set to `LL84' as read from input data
+2020-02-12 15:20:08|   0.8|  0.0|INFORM|Coordinate System `LL84' parameters: CS_NAME=`LL84' DESC_NM=`WGS84 datum, Latitude-Longitude; Degrees' DT_NAME=`WGS84' GROUP=`LL' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`182' MIN_LAT=`-90' MIN_LNG=`-182' PROJ=`LL' QUAD=`1' SCL_RED=`1' SOURCE=`Mentor Software' UNIT=`DEGREE' 
+2020-02-12 15:20:08|   0.8|  0.0|WARN  |Coordinate system of reader identified by keyword `OGCKML_3' has changed from `LL84' to `'
+2020-02-12 15:20:08|   0.8|  0.0|INFORM|FME Configuration: Source coordinate system for reader OGCKML_3[OGCKML] set to `LL84' as read from input data
+2020-02-12 15:20:08|   0.8|  0.0|INFORM|Coordinate System `LL84' parameters: CS_NAME=`LL84' DESC_NM=`WGS84 datum, Latitude-Longitude; Degrees' DT_NAME=`WGS84' GROUP=`LL' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`182' MIN_LAT=`-90' MIN_LNG=`-182' PROJ=`LL' QUAD=`1' SCL_RED=`1' SOURCE=`Mentor Software' UNIT=`DEGREE' 
+2020-02-12 15:20:08|   0.8|  0.0|WARN  |Coordinate system of reader identified by keyword `OGCKML_3' has changed from `LL84' to `'
+2020-02-12 15:20:08|   0.8|  0.0|INFORM|Creating reader for format: Google KML
+2020-02-12 15:20:08|   0.8|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `OGCKML'
+2020-02-12 15:20:08|   0.8|  0.0|INFORM|FME API version of module 'OGCKML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|FME API version of module 'XML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|Opening the XML reader with source dataset '/private/tmp/FME_OGCKML_KMZ_158152080873_7679/doc.kml'
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|The XML Reader is using xfMap '/Library/FME/2019.0/plugins/kml21/kml21_Schema_elements.xmp'
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_inspire.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_sosi.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_citygml.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_aixm.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_urimap.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|Parsing XML document '/private/tmp/FME_OGCKML_KMZ_158152080873_7679/doc.kml'
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|FME API version of module 'XML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|XML Reader CONTINUE_ON_GEOM_ERROR is set to YES, the reader will continue upon encountering features with geometry error, these features will be output and tagged with a xml_geom_error boolean attribute
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|Opening the XML reader with source dataset '/private/tmp/FME_OGCKML_KMZ_158152080873_7679/doc.kml'
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|Pre-processing xfMap '/private/tmp/KML21_structure_1581520808121_7679.xmp' with macro stylesheet '/Library/FME/2019.0/xfmap/xfmap_macro.xslt' into '/private/tmp/NOMACRO_XFMAP_1581520808131_7679.xml'
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|The XML Reader is using xfMap '/private/tmp/NOMACRO_XFMAP_1581520808131_7679.xml'
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_inspire.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_sosi.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_citygml.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_aixm.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_urimap.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|Parsing XML document '/private/tmp/FME_OGCKML_KMZ_158152080873_7679/doc.kml'
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|FME Configuration: Source coordinate system for reader OGCKML_4[OGCKML] set to `LL84' as read from input data
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|Coordinate System `LL84' parameters: CS_NAME=`LL84' DESC_NM=`WGS84 datum, Latitude-Longitude; Degrees' DT_NAME=`WGS84' GROUP=`LL' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`182' MIN_LAT=`-90' MIN_LNG=`-182' PROJ=`LL' QUAD=`1' SCL_RED=`1' SOURCE=`Mentor Software' UNIT=`DEGREE' 
+2020-02-12 15:20:08|   0.9|  0.0|WARN  |Coordinate system of reader identified by keyword `OGCKML_4' has changed from `LL84' to `'
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|Creating reader for format: Google KML
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `OGCKML'
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|FME API version of module 'OGCKML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|FME API version of module 'XML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|Opening the XML reader with source dataset '/private/tmp/FME_OGCKML_KMZ_1581520808165_7679/doc.kml'
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|The XML Reader is using xfMap '/Library/FME/2019.0/plugins/kml21/kml21_Schema_elements.xmp'
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_inspire.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_sosi.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_citygml.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_aixm.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_urimap.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|Parsing XML document '/private/tmp/FME_OGCKML_KMZ_1581520808165_7679/doc.kml'
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|FME API version of module 'XML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|XML Reader CONTINUE_ON_GEOM_ERROR is set to YES, the reader will continue upon encountering features with geometry error, these features will be output and tagged with a xml_geom_error boolean attribute
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|Opening the XML reader with source dataset '/private/tmp/FME_OGCKML_KMZ_1581520808165_7679/doc.kml'
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|Pre-processing xfMap '/private/tmp/KML21_structure_1581520808214_7679.xmp' with macro stylesheet '/Library/FME/2019.0/xfmap/xfmap_macro.xslt' into '/private/tmp/NOMACRO_XFMAP_1581520808224_7679.xml'
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|The XML Reader is using xfMap '/private/tmp/NOMACRO_XFMAP_1581520808224_7679.xml'
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_inspire.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_sosi.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_citygml.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_aixm.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_urimap.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|Parsing XML document '/private/tmp/FME_OGCKML_KMZ_1581520808165_7679/doc.kml'
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|FME Configuration: Source coordinate system for reader OGCKML_5[OGCKML] set to `LL84' as read from input data
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|Coordinate System `LL84' parameters: CS_NAME=`LL84' DESC_NM=`WGS84 datum, Latitude-Longitude; Degrees' DT_NAME=`WGS84' GROUP=`LL' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`182' MIN_LAT=`-90' MIN_LNG=`-182' PROJ=`LL' QUAD=`1' SCL_RED=`1' SOURCE=`Mentor Software' UNIT=`DEGREE' 
+2020-02-12 15:20:08|   0.9|  0.0|WARN  |Coordinate system of reader identified by keyword `OGCKML_5' has changed from `LL84' to `'
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|Creating reader for format: Google KML
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `OGCKML'
+2020-02-12 15:20:08|   0.9|  0.0|INFORM|FME API version of module 'OGCKML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|FME API version of module 'XML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|Opening the XML reader with source dataset '/private/tmp/FME_OGCKML_KMZ_1581520808259_7679/doc.kml'
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|The XML Reader is using xfMap '/Library/FME/2019.0/plugins/kml21/kml21_Schema_elements.xmp'
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_inspire.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_sosi.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_citygml.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_aixm.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_urimap.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|Parsing XML document '/private/tmp/FME_OGCKML_KMZ_1581520808259_7679/doc.kml'
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|FME API version of module 'XML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|XML Reader CONTINUE_ON_GEOM_ERROR is set to YES, the reader will continue upon encountering features with geometry error, these features will be output and tagged with a xml_geom_error boolean attribute
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|Opening the XML reader with source dataset '/private/tmp/FME_OGCKML_KMZ_1581520808259_7679/doc.kml'
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|Pre-processing xfMap '/private/tmp/KML21_structure_1581520808311_7679.xmp' with macro stylesheet '/Library/FME/2019.0/xfmap/xfmap_macro.xslt' into '/private/tmp/NOMACRO_XFMAP_1581520808321_7679.xml'
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|The XML Reader is using xfMap '/private/tmp/NOMACRO_XFMAP_1581520808321_7679.xml'
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_inspire.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_sosi.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_citygml.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_aixm.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_urimap.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|Parsing XML document '/private/tmp/FME_OGCKML_KMZ_1581520808259_7679/doc.kml'
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|FME Configuration: Source coordinate system for reader OGCKML_6[OGCKML] set to `LL84' as read from input data
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|Coordinate System `LL84' parameters: CS_NAME=`LL84' DESC_NM=`WGS84 datum, Latitude-Longitude; Degrees' DT_NAME=`WGS84' GROUP=`LL' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`182' MIN_LAT=`-90' MIN_LNG=`-182' PROJ=`LL' QUAD=`1' SCL_RED=`1' SOURCE=`Mentor Software' UNIT=`DEGREE' 
+2020-02-12 15:20:08|   1.0|  0.0|WARN  |Coordinate system of reader identified by keyword `OGCKML_6' has changed from `LL84' to `'
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|Creating reader for format: Google KML
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `OGCKML'
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|FME API version of module 'OGCKML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|FME API version of module 'XML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|Opening the XML reader with source dataset '/private/tmp/FME_OGCKML_KMZ_1581520808374_7679/doc.kml'
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|The XML Reader is using xfMap '/Library/FME/2019.0/plugins/kml21/kml21_Schema_elements.xmp'
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_inspire.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_sosi.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_citygml.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_aixm.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_urimap.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.0|  0.0|INFORM|Parsing XML document '/private/tmp/FME_OGCKML_KMZ_1581520808374_7679/doc.kml'
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|FME API version of module 'XML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|XML Reader CONTINUE_ON_GEOM_ERROR is set to YES, the reader will continue upon encountering features with geometry error, these features will be output and tagged with a xml_geom_error boolean attribute
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|Opening the XML reader with source dataset '/private/tmp/FME_OGCKML_KMZ_1581520808374_7679/doc.kml'
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|Pre-processing xfMap '/private/tmp/KML21_structure_1581520808426_7679.xmp' with macro stylesheet '/Library/FME/2019.0/xfmap/xfmap_macro.xslt' into '/private/tmp/NOMACRO_XFMAP_1581520808436_7679.xml'
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|The XML Reader is using xfMap '/private/tmp/NOMACRO_XFMAP_1581520808436_7679.xml'
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_inspire.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_sosi.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_citygml.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_aixm.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_urimap.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|Parsing XML document '/private/tmp/FME_OGCKML_KMZ_1581520808374_7679/doc.kml'
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|FME Configuration: Source coordinate system for reader OGCKML_7[OGCKML] set to `LL84' as read from input data
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|Coordinate System `LL84' parameters: CS_NAME=`LL84' DESC_NM=`WGS84 datum, Latitude-Longitude; Degrees' DT_NAME=`WGS84' GROUP=`LL' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`182' MIN_LAT=`-90' MIN_LNG=`-182' PROJ=`LL' QUAD=`1' SCL_RED=`1' SOURCE=`Mentor Software' UNIT=`DEGREE' 
+2020-02-12 15:20:08|   1.1|  0.0|WARN  |Coordinate system of reader identified by keyword `OGCKML_7' has changed from `LL84' to `'
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|FME Configuration: Source coordinate system for reader OGCKML_7[OGCKML] set to `LL84' as read from input data
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|Coordinate System `LL84' parameters: CS_NAME=`LL84' DESC_NM=`WGS84 datum, Latitude-Longitude; Degrees' DT_NAME=`WGS84' GROUP=`LL' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`182' MIN_LAT=`-90' MIN_LNG=`-182' PROJ=`LL' QUAD=`1' SCL_RED=`1' SOURCE=`Mentor Software' UNIT=`DEGREE' 
+2020-02-12 15:20:08|   1.1|  0.0|WARN  |Coordinate system of reader identified by keyword `OGCKML_7' has changed from `LL84' to `'
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|Creating reader for format: Google KML
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `OGCKML'
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|FME API version of module 'OGCKML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|FME API version of module 'XML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|Opening the XML reader with source dataset '/private/tmp/FME_OGCKML_KMZ_1581520808501_7679/doc.kml'
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|The XML Reader is using xfMap '/Library/FME/2019.0/plugins/kml21/kml21_Schema_elements.xmp'
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_inspire.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_sosi.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_citygml.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_aixm.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_urimap.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|Parsing XML document '/private/tmp/FME_OGCKML_KMZ_1581520808501_7679/doc.kml'
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|FME API version of module 'XML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|XML Reader CONTINUE_ON_GEOM_ERROR is set to YES, the reader will continue upon encountering features with geometry error, these features will be output and tagged with a xml_geom_error boolean attribute
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|Opening the XML reader with source dataset '/private/tmp/FME_OGCKML_KMZ_1581520808501_7679/doc.kml'
+2020-02-12 15:20:08|   1.1|  0.0|INFORM|Pre-processing xfMap '/private/tmp/KML21_structure_1581520808549_7679.xmp' with macro stylesheet '/Library/FME/2019.0/xfmap/xfmap_macro.xslt' into '/private/tmp/NOMACRO_XFMAP_1581520808559_7679.xml'
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|The XML Reader is using xfMap '/private/tmp/NOMACRO_XFMAP_1581520808559_7679.xml'
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_inspire.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_sosi.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_citygml.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_aixm.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_urimap.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|Parsing XML document '/private/tmp/FME_OGCKML_KMZ_1581520808501_7679/doc.kml'
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|FME Configuration: Source coordinate system for reader OGCKML_8[OGCKML] set to `LL84' as read from input data
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|Coordinate System `LL84' parameters: CS_NAME=`LL84' DESC_NM=`WGS84 datum, Latitude-Longitude; Degrees' DT_NAME=`WGS84' GROUP=`LL' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`182' MIN_LAT=`-90' MIN_LNG=`-182' PROJ=`LL' QUAD=`1' SCL_RED=`1' SOURCE=`Mentor Software' UNIT=`DEGREE' 
+2020-02-12 15:20:08|   1.2|  0.0|WARN  |Coordinate system of reader identified by keyword `OGCKML_8' has changed from `LL84' to `'
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|FME Configuration: Source coordinate system for reader OGCKML_8[OGCKML] set to `LL84' as read from input data
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|Coordinate System `LL84' parameters: CS_NAME=`LL84' DESC_NM=`WGS84 datum, Latitude-Longitude; Degrees' DT_NAME=`WGS84' GROUP=`LL' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`182' MIN_LAT=`-90' MIN_LNG=`-182' PROJ=`LL' QUAD=`1' SCL_RED=`1' SOURCE=`Mentor Software' UNIT=`DEGREE' 
+2020-02-12 15:20:08|   1.2|  0.0|WARN  |Coordinate system of reader identified by keyword `OGCKML_8' has changed from `LL84' to `'
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|Creating reader for format: Google KML
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `OGCKML'
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|FME API version of module 'OGCKML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|FME API version of module 'XML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|Opening the XML reader with source dataset '/private/tmp/FME_OGCKML_KMZ_1581520808615_7679/doc.kml'
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|The XML Reader is using xfMap '/Library/FME/2019.0/plugins/kml21/kml21_Schema_elements.xmp'
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_inspire.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_sosi.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_citygml.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_aixm.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_urimap.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|Parsing XML document '/private/tmp/FME_OGCKML_KMZ_1581520808615_7679/doc.kml'
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|FME API version of module 'XML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|XML Reader CONTINUE_ON_GEOM_ERROR is set to YES, the reader will continue upon encountering features with geometry error, these features will be output and tagged with a xml_geom_error boolean attribute
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|Opening the XML reader with source dataset '/private/tmp/FME_OGCKML_KMZ_1581520808615_7679/doc.kml'
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|Pre-processing xfMap '/private/tmp/KML21_structure_1581520808665_7679.xmp' with macro stylesheet '/Library/FME/2019.0/xfmap/xfmap_macro.xslt' into '/private/tmp/NOMACRO_XFMAP_1581520808675_7679.xml'
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|The XML Reader is using xfMap '/private/tmp/NOMACRO_XFMAP_1581520808675_7679.xml'
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_inspire.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_sosi.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_citygml.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_aixm.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_urimap.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|Parsing XML document '/private/tmp/FME_OGCKML_KMZ_1581520808615_7679/doc.kml'
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|FME Configuration: Source coordinate system for reader OGCKML_9[OGCKML] set to `LL84' as read from input data
+2020-02-12 15:20:08|   1.2|  0.0|INFORM|Coordinate System `LL84' parameters: CS_NAME=`LL84' DESC_NM=`WGS84 datum, Latitude-Longitude; Degrees' DT_NAME=`WGS84' GROUP=`LL' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`182' MIN_LAT=`-90' MIN_LNG=`-182' PROJ=`LL' QUAD=`1' SCL_RED=`1' SOURCE=`Mentor Software' UNIT=`DEGREE' 
+2020-02-12 15:20:08|   1.2|  0.0|WARN  |Coordinate system of reader identified by keyword `OGCKML_9' has changed from `LL84' to `'
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|FME Configuration: Source coordinate system for reader OGCKML_9[OGCKML] set to `LL84' as read from input data
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|Coordinate System `LL84' parameters: CS_NAME=`LL84' DESC_NM=`WGS84 datum, Latitude-Longitude; Degrees' DT_NAME=`WGS84' GROUP=`LL' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`182' MIN_LAT=`-90' MIN_LNG=`-182' PROJ=`LL' QUAD=`1' SCL_RED=`1' SOURCE=`Mentor Software' UNIT=`DEGREE' 
+2020-02-12 15:20:08|   1.3|  0.0|WARN  |Coordinate system of reader identified by keyword `OGCKML_9' has changed from `LL84' to `'
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|Creating reader for format: Google KML
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `OGCKML'
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|FME API version of module 'OGCKML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|FME API version of module 'XML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|Opening the XML reader with source dataset '/private/tmp/FME_OGCKML_KMZ_1581520808732_7679/doc.kml'
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|The XML Reader is using xfMap '/Library/FME/2019.0/plugins/kml21/kml21_Schema_elements.xmp'
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_inspire.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_sosi.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_citygml.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_aixm.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_urimap.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|Parsing XML document '/private/tmp/FME_OGCKML_KMZ_1581520808732_7679/doc.kml'
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|FME API version of module 'XML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|XML Reader CONTINUE_ON_GEOM_ERROR is set to YES, the reader will continue upon encountering features with geometry error, these features will be output and tagged with a xml_geom_error boolean attribute
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|Opening the XML reader with source dataset '/private/tmp/FME_OGCKML_KMZ_1581520808732_7679/doc.kml'
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|Pre-processing xfMap '/private/tmp/KML21_structure_1581520808779_7679.xmp' with macro stylesheet '/Library/FME/2019.0/xfmap/xfmap_macro.xslt' into '/private/tmp/NOMACRO_XFMAP_1581520808789_7679.xml'
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|The XML Reader is using xfMap '/private/tmp/NOMACRO_XFMAP_1581520808789_7679.xml'
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_inspire.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_sosi.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_citygml.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_aixm.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_urimap.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|Parsing XML document '/private/tmp/FME_OGCKML_KMZ_1581520808732_7679/doc.kml'
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|FME Configuration: Source coordinate system for reader OGCKML_10[OGCKML] set to `LL84' as read from input data
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|Coordinate System `LL84' parameters: CS_NAME=`LL84' DESC_NM=`WGS84 datum, Latitude-Longitude; Degrees' DT_NAME=`WGS84' GROUP=`LL' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`182' MIN_LAT=`-90' MIN_LNG=`-182' PROJ=`LL' QUAD=`1' SCL_RED=`1' SOURCE=`Mentor Software' UNIT=`DEGREE' 
+2020-02-12 15:20:08|   1.3|  0.0|WARN  |Coordinate system of reader identified by keyword `OGCKML_10' has changed from `LL84' to `'
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|FME Configuration: Source coordinate system for reader OGCKML_10[OGCKML] set to `LL84' as read from input data
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|Coordinate System `LL84' parameters: CS_NAME=`LL84' DESC_NM=`WGS84 datum, Latitude-Longitude; Degrees' DT_NAME=`WGS84' GROUP=`LL' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`182' MIN_LAT=`-90' MIN_LNG=`-182' PROJ=`LL' QUAD=`1' SCL_RED=`1' SOURCE=`Mentor Software' UNIT=`DEGREE' 
+2020-02-12 15:20:08|   1.3|  0.0|WARN  |Coordinate system of reader identified by keyword `OGCKML_10' has changed from `LL84' to `'
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|FME Configuration: Source coordinate system for reader OGCKML_10[OGCKML] set to `LL84' as read from input data
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|Coordinate System `LL84' parameters: CS_NAME=`LL84' DESC_NM=`WGS84 datum, Latitude-Longitude; Degrees' DT_NAME=`WGS84' GROUP=`LL' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`182' MIN_LAT=`-90' MIN_LNG=`-182' PROJ=`LL' QUAD=`1' SCL_RED=`1' SOURCE=`Mentor Software' UNIT=`DEGREE' 
+2020-02-12 15:20:08|   1.3|  0.0|WARN  |Coordinate system of reader identified by keyword `OGCKML_10' has changed from `LL84' to `'
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|Creating reader for format: Google KML
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `OGCKML'
+2020-02-12 15:20:08|   1.3|  0.0|INFORM|FME API version of module 'OGCKML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|FME API version of module 'XML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|Opening the XML reader with source dataset '/private/tmp/FME_OGCKML_KMZ_1581520808847_7679/doc.kml'
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|The XML Reader is using xfMap '/Library/FME/2019.0/plugins/kml21/kml21_Schema_elements.xmp'
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_inspire.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_sosi.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_citygml.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_aixm.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_urimap.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|Parsing XML document '/private/tmp/FME_OGCKML_KMZ_1581520808847_7679/doc.kml'
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|FME API version of module 'XML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|XML Reader CONTINUE_ON_GEOM_ERROR is set to YES, the reader will continue upon encountering features with geometry error, these features will be output and tagged with a xml_geom_error boolean attribute
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|Opening the XML reader with source dataset '/private/tmp/FME_OGCKML_KMZ_1581520808847_7679/doc.kml'
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|Pre-processing xfMap '/private/tmp/KML21_structure_1581520808897_7679.xmp' with macro stylesheet '/Library/FME/2019.0/xfmap/xfmap_macro.xslt' into '/private/tmp/NOMACRO_XFMAP_1581520808907_7679.xml'
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|The XML Reader is using xfMap '/private/tmp/NOMACRO_XFMAP_1581520808907_7679.xml'
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_inspire.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_sosi.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_citygml.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_aixm.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_urimap.xml' is being used to map from URI to URI
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|Parsing XML document '/private/tmp/FME_OGCKML_KMZ_1581520808847_7679/doc.kml'
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|FME Configuration: Source coordinate system for reader OGCKML_11[OGCKML] set to `LL84' as read from input data
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|Coordinate System `LL84' parameters: CS_NAME=`LL84' DESC_NM=`WGS84 datum, Latitude-Longitude; Degrees' DT_NAME=`WGS84' GROUP=`LL' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`182' MIN_LAT=`-90' MIN_LNG=`-182' PROJ=`LL' QUAD=`1' SCL_RED=`1' SOURCE=`Mentor Software' UNIT=`DEGREE' 
+2020-02-12 15:20:08|   1.4|  0.0|WARN  |Coordinate system of reader identified by keyword `OGCKML_11' has changed from `LL84' to `'
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|FME Configuration: Source coordinate system for reader OGCKML_11[OGCKML] set to `LL84' as read from input data
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|Coordinate System `LL84' parameters: CS_NAME=`LL84' DESC_NM=`WGS84 datum, Latitude-Longitude; Degrees' DT_NAME=`WGS84' GROUP=`LL' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`182' MIN_LAT=`-90' MIN_LNG=`-182' PROJ=`LL' QUAD=`1' SCL_RED=`1' SOURCE=`Mentor Software' UNIT=`DEGREE' 
+2020-02-12 15:20:08|   1.4|  0.0|WARN  |Coordinate system of reader identified by keyword `OGCKML_11' has changed from `LL84' to `'
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|Creating reader for format: Google KML
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `OGCKML'
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|FME API version of module 'OGCKML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|FME API version of module 'XML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:08|   1.4|  0.0|INFORM|Opening the XML reader with source dataset '/Users/mlinnane/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/Validation/Issue Placemarks/Raw/My Places.kml'
+2020-02-12 15:20:09|   1.4|  0.0|INFORM|The XML Reader is using xfMap '/Library/FME/2019.0/plugins/kml21/kml21_Schema_elements.xmp'
+2020-02-12 15:20:09|   1.4|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_inspire.xml' is being used to map from URI to URI
+2020-02-12 15:20:09|   1.5|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_sosi.xml' is being used to map from URI to URI
+2020-02-12 15:20:09|   1.5|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_citygml.xml' is being used to map from URI to URI
+2020-02-12 15:20:09|   1.5|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_aixm.xml' is being used to map from URI to URI
+2020-02-12 15:20:09|   1.5|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_urimap.xml' is being used to map from URI to URI
+2020-02-12 15:20:09|   1.5|  0.0|INFORM|Parsing XML document '/Users/mlinnane/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/Validation/Issue Placemarks/Raw/My Places.kml'
+2020-02-12 15:20:09|   1.5|  0.0|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2020-02-12 15:20:09|   1.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2020-02-12 15:20:09|   1.5|  0.0|INFORM|FME API version of module 'XML' matches current internal version (3.8 20181030)
+2020-02-12 15:20:09|   1.5|  0.0|INFORM|XML Reader CONTINUE_ON_GEOM_ERROR is set to YES, the reader will continue upon encountering features with geometry error, these features will be output and tagged with a xml_geom_error boolean attribute
+2020-02-12 15:20:09|   1.5|  0.0|INFORM|Opening the XML reader with source dataset '/Users/mlinnane/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/Validation/Issue Placemarks/Raw/My Places.kml'
+2020-02-12 15:20:09|   1.5|  0.0|INFORM|Pre-processing xfMap '/private/tmp/KML21_structure_15815208098_7679.xmp' with macro stylesheet '/Library/FME/2019.0/xfmap/xfmap_macro.xslt' into '/private/tmp/NOMACRO_XFMAP_158152080918_7679.xml'
+2020-02-12 15:20:09|   1.5|  0.0|INFORM|The XML Reader is using xfMap '/private/tmp/NOMACRO_XFMAP_158152080918_7679.xml'
+2020-02-12 15:20:09|   1.5|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_inspire.xml' is being used to map from URI to URI
+2020-02-12 15:20:09|   1.5|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_sosi.xml' is being used to map from URI to URI
+2020-02-12 15:20:09|   1.5|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_citygml.xml' is being used to map from URI to URI
+2020-02-12 15:20:09|   1.5|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_aixm.xml' is being used to map from URI to URI
+2020-02-12 15:20:09|   1.5|  0.0|INFORM|The uri-map document '/Library/FME/2019.0/xml/urimap/gml_urimap.xml' is being used to map from URI to URI
+2020-02-12 15:20:09|   1.5|  0.0|INFORM|Parsing XML document '/Users/mlinnane/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/Validation/Issue Placemarks/Raw/My Places.kml'
+2020-02-12 15:20:09|   1.5|  0.0|INFORM|FME Configuration: Source coordinate system for reader OGCKML_13[OGCKML] set to `LL84' as read from input data
+2020-02-12 15:20:09|   1.5|  0.0|INFORM|Coordinate System `LL84' parameters: CS_NAME=`LL84' DESC_NM=`WGS84 datum, Latitude-Longitude; Degrees' DT_NAME=`WGS84' GROUP=`LL' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`182' MIN_LAT=`-90' MIN_LNG=`-182' PROJ=`LL' QUAD=`1' SCL_RED=`1' SOURCE=`Mentor Software' UNIT=`DEGREE' 
+2020-02-12 15:20:09|   1.5|  0.0|WARN  |Coordinate system of reader identified by keyword `OGCKML_13' has changed from `LL84' to `'
+2020-02-12 15:20:09|   1.5|  0.0|INFORM|MULTI_READER(MULTI_READER): Done reading 997 features from 13 readers
+2020-02-12 15:20:09|   1.5|  0.0|INFORM|Emptying factory pipeline
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Router and Unexpected Input Remover (RoutingFactory): Tested 997 input feature(s), wrote 997 output feature(s): 391 matched merge filters, 391 were routed to output, 606 could not be routed.
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Unexpected Input Remover Nuker (TeeFactory): Cloned 606 input feature(s) into 0 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Placemark (OGCKML_7) Splitter (TeeFactory): Cloned 43 input feature(s) into 43 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Placemark_OGCKML_7 Feature Counter -1 51 (TeeFactory): Cloned 43 input feature(s) into 43 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Placemark (OGCKML_6) Splitter (TeeFactory): Cloned 41 input feature(s) into 41 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Placemark_OGCKML_6 Feature Counter -1 50 (TeeFactory): Cloned 41 input feature(s) into 41 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Placemark (OGCKML_13) Splitter (TeeFactory): Cloned 5 input feature(s) into 5 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Placemark_OGCKML_13 Feature Counter -1 56 (TeeFactory): Cloned 5 input feature(s) into 5 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Placemark (OGCKML_4) Splitter (TeeFactory): Cloned 7 input feature(s) into 7 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Placemark_OGCKML_4 Feature Counter -1 48 (TeeFactory): Cloned 7 input feature(s) into 7 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Placemark (OGCKML_10) Splitter (TeeFactory): Cloned 15 input feature(s) into 15 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Placemark_OGCKML_10 Feature Counter -1 54 (TeeFactory): Cloned 15 input feature(s) into 15 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Placemark (OGCKML_1) Splitter (TeeFactory): Cloned 108 input feature(s) into 108 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Placemark_OGCKML_1 Feature Counter -1 20 (TeeFactory): Cloned 108 input feature(s) into 108 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile (ESRISHAPE_1) Splitter (TeeFactory): Cloned 28 input feature(s) into 28 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile_ESRISHAPE_1 Feature Counter -1 30 (TeeFactory): Cloned 28 input feature(s) into 28 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Placemark (OGCKML_11) Splitter (TeeFactory): Cloned 32 input feature(s) into 32 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Placemark_OGCKML_11 Feature Counter -1 55 (TeeFactory): Cloned 32 input feature(s) into 32 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Placemark (OGCKML_3) Splitter (TeeFactory): Cloned 28 input feature(s) into 28 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Placemark_OGCKML_3 Feature Counter -1 47 (TeeFactory): Cloned 28 input feature(s) into 28 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Placemark (OGCKML_5) Splitter (TeeFactory): Cloned 10 input feature(s) into 10 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Placemark_OGCKML_5 Feature Counter -1 49 (TeeFactory): Cloned 10 input feature(s) into 10 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Placemark (OGCKML_9) Splitter (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Placemark_OGCKML_9 Feature Counter -1 53 (TeeFactory): Cloned 24 input feature(s) into 24 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Placemark (OGCKML_8) Splitter (TeeFactory): Cloned 16 input feature(s) into 16 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Placemark_OGCKML_8 Feature Counter -1 52 (TeeFactory): Cloned 16 input feature(s) into 16 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Placemark (OGCKML_2) Splitter (TeeFactory): Cloned 34 input feature(s) into 34 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Placemark_OGCKML_2 Feature Counter -1 38 (TeeFactory): Cloned 34 input feature(s) into 34 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Reprojector (TeeFactory): Cloned 363 input feature(s) into 363 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Reprojector_REPROJECTED Feature Counter -1 12 (TeeFactory): Cloned 363 input feature(s) into 363 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |AttributeManager_2_OUTPUT Feature Counter -1 62 (TeeFactory): Cloned 28 input feature(s) into 28 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Clipper_ClipperCloner (TeeFactory): Cloned 28 input feature(s) into 56 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Clipper_SolidClipperFilter (TestFactory): Tested 28 input feature(s) -- 0 feature(s) passed and 28 feature(s) failed
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Clipper_ClippeeFilter (TestFactory): Tested 363 input feature(s) -- 0 feature(s) passed and 363 feature(s) failed
+2020-02-12 15:20:09|   1.5|  0.0|INFORM|Clipper_Vector (ClippingFactory): Clipping with an automatic tolerance of 1.472750000000004e-9
+2020-02-12 15:20:09|   1.5|  0.1|STATS |Clipper_Vector (ClippingFactory): Group '' had 363 input feature(s): 0 feature(s) were clipped, 289 feature(s) were totally inside and 74 feature(s) were totally outside
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Clipper_Vector (ClippingFactory): Processed 363 input feature(s), of which 0 feature(s) were clipped, 289 feature(s) were totally inside and 74 feature(s) were totally outside
+2020-02-12 15:20:09|   1.5|  0.0|WARN  |Clipper_Solid (SolidIntersectionFactory): No clipper supplied, all clipees will be treated as OUTSIDE
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Clipper_Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Clipper_INSIDE Feature Counter -1 27 (TeeFactory): Cloned 289 input feature(s) into 289 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Clipper_<REJECTED> Feature Counter -1 2147745796 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Clipper_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_Rejector (ExecuteFunctionFactory): Executed FME Functions on 289 input feature(s) -- 289 feature(s) completed and 0 feature(s) rejected
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_OUTPUT Feature Counter -1 23 (TeeFactory): Cloned 289 input feature(s) into 289 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_<REJECTED> Feature Counter -1 2147680282 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |AttributeManager_OUTPUT Feature Counter -1 34 (TeeFactory): Cloned 289 input feature(s) into 289 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |KMLPropertySetter (TeeFactory): Cloned 289 input feature(s) into 289 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |KMLPropertySetter_OUTPUT Feature Counter -1 39 (TeeFactory): Cloned 289 input feature(s) into 289 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 289 input feature(s), wrote 289 output feature(s): 0 matched merge filters, 289 were routed to output, 0 could not be routed.
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-02-12 15:20:09|   1.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-02-12 15:20:09|   1.5|  0.0|STATS |                            `Count' Domain Summary
+2020-02-12 15:20:09|   1.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_A1                                                                   1
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_A2                                                                   1
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_A3                                                                   3
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_A4                                                                  24
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_B1                                                                   1
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_B2                                                                   3
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_B3                                                                  14
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_C2                                                                   5
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_C3                                                                   7
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_C4                                                                   3
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_D1                                                                   1
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_D2                                                                  37
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_D3                                                                  39
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_D4                                                                  33
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_E1                                                                   7
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_E2                                                                  22
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_E3                                                                  12
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_E4                                                                  33
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_F1                                                                   4
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_F2                                                                  14
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_F3                                                                   2
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_F4                                                                   3
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_G1                                                                   4
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_G2                                                                  10
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_G3                                                                   5
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Counter_G4                                                                   1
+2020-02-12 15:20:09|   1.5|  0.0|STATS |==============================================================================
+2020-02-12 15:20:09|   1.5|  0.0|STATS |Total `@Count' Invocations:                                                289
+2020-02-12 15:20:09|   1.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-02-12 15:20:09|   1.5|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': Started outputting features
+2020-02-12 15:20:09|   1.6|  0.0|INFORM|Creating writer for format: CSV (Comma Separated Value)
+2020-02-12 15:20:09|   1.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `CSV2'
+2020-02-12 15:20:09|   1.6|  0.0|INFORM|Loaded module 'CSV2' from file '/Library/FME/2019.0//plugins/csv2.so'
+2020-02-12 15:20:09|   1.6|  0.0|INFORM|FME API version of module 'CSV2' matches current internal version (3.8 20181030)
+2020-02-12 15:20:09|   1.6|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2020-02-12 15:20:09|   1.6|  0.0|INFORM|FME API version of module 'CSV2' matches current internal version (3.8 20181030)
+2020-02-12 15:20:09|   1.6|  0.0|INFORM|Writer `CSV2_1' of type `CSV2' using group definition keyword `CSV2_1_DEF'
+2020-02-12 15:20:09|   1.6|  0.0|INFORM|FME API version of module 'CSV2' matches current internal version (3.8 20181030)
+2020-02-12 15:20:09|   1.6|  0.0|INFORM|CSV writer: Directive '_EXTENSION' has the value 'csv'
+2020-02-12 15:20:09|   1.6|  0.0|INFORM|CSV writer: Directive '_DELIMITER' has the value ','
+2020-02-12 15:20:09|   1.6|  0.0|INFORM|CSV writer: Directive '_ENCODING' has the value 'UTF-8'
+2020-02-12 15:20:09|   1.6|  0.0|INFORM|CSV writer: Directive '_WRITE_BOM_FOR_UNICODE' has the value 'Yes'
+2020-02-12 15:20:09|   1.6|  0.0|INFORM|CSV writer: Directive '_QUALIFY_FIELD_NAMES' has the value 'if_needed'
+2020-02-12 15:20:09|   1.6|  0.0|INFORM|CSV writer: Directive '_QUALIFY_FIELD_VALUES' has the value 'if_needed'
+2020-02-12 15:20:09|   1.6|  0.0|INFORM|CSV writer: Directive '_FIELD_QUALIFIER_CHARACTER' has the value '"'
+2020-02-12 15:20:09|   1.6|  0.0|INFORM|CSV writer: Directive '_FIELD_QUALIFIER_ESCAPE_CHARACTER' has the value '"'
+2020-02-12 15:20:09|   1.6|  0.0|INFORM|CSV writer: Directive '_ROW_TERMINATION' has the value 'System'
+2020-02-12 15:20:09|   1.6|  0.0|INFORM|CSV writer: Directive '_WRITE_SCHEMA_FILE' has the value 'NO'
+2020-02-12 15:20:09|   1.6|  0.0|INFORM|CSV writer: Opening dataset '/Users/mlinnane/repos/BCD-Interactive-City-Scale-Models/Dublin/Fabrication/Sources/Validation/Issue Placemarks/Lists/test/Placemark.csv'
+2020-02-12 15:20:09|   1.6|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-02-12 15:20:09|   1.6|  0.0|INFORM|Feature output statistics for `CSV2' writer using keyword `CSV2_1':
+2020-02-12 15:20:09|   1.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-02-12 15:20:09|   1.6|  0.0|STATS |                               Features Written
+2020-02-12 15:20:09|   1.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-02-12 15:20:09|   1.6|  0.0|STATS |Placemark                                                                  289
+2020-02-12 15:20:09|   1.6|  0.0|STATS |==============================================================================
+2020-02-12 15:20:09|   1.6|  0.0|STATS |Total Features Written                                                     289
+2020-02-12 15:20:09|   1.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-02-12 15:20:09|   1.6|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': done writing 289 feature(s) 
+2020-02-12 15:20:09|   1.6|  0.0|INFORM|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020-02-12 15:20:09|   1.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-02-12 15:20:09|   1.6|  0.0|STATS |                            Features Read Summary
+2020-02-12 15:20:09|   1.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-02-12 15:20:09|   1.6|  0.0|STATS |Document                                                                    12
+2020-02-12 15:20:09|   1.6|  0.0|STATS |FlyTo                                                                      273
+2020-02-12 15:20:09|   1.6|  0.0|STATS |Folder                                                                      19
+2020-02-12 15:20:09|   1.6|  0.0|STATS |Placemark                                                                  363
+2020-02-12 15:20:09|   1.6|  0.0|STATS |Print Tiles Dublin Boundary 7x4km 1-2000 1km Tile                           28
+2020-02-12 15:20:09|   1.6|  0.0|STATS |Style                                                                       65
+2020-02-12 15:20:09|   1.6|  0.0|STATS |StyleMap                                                                    20
+2020-02-12 15:20:09|   1.6|  0.0|STATS |Tour                                                                         7
+2020-02-12 15:20:09|   1.6|  0.0|STATS |TourControl                                                                 70
+2020-02-12 15:20:09|   1.6|  0.0|STATS |Wait                                                                       140
+2020-02-12 15:20:09|   1.6|  0.0|STATS |==============================================================================
+2020-02-12 15:20:09|   1.6|  0.0|STATS |Total Features Read                                                        997
+2020-02-12 15:20:09|   1.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-02-12 15:20:09|   1.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-02-12 15:20:09|   1.6|  0.0|STATS |                           Features Written Summary
+2020-02-12 15:20:09|   1.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-02-12 15:20:09|   1.6|  0.0|STATS |Placemark                                                                  289
+2020-02-12 15:20:09|   1.6|  0.0|STATS |==============================================================================
+2020-02-12 15:20:09|   1.6|  0.0|STATS |Total Features Written                                                     289
+2020-02-12 15:20:09|   1.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-02-12 15:20:09|   1.6|  0.0|INFORM|Translation was SUCCESSFUL with 22 warning(s) (289 feature(s) output)
+2020-02-12 15:20:09|   1.6|  0.0|INFORM|FME Session Duration: 2.2 seconds. (CPU: 1.4s user, 0.2s system)
+2020-02-12 15:20:09|   1.6|  0.0|INFORM|END - ProcessID: 7679, peak process memory usage: 136172 kB, current process memory usage: 136172 kB
