@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Placemarks C2</name>
+<visibility>1</visibility>
+<Folder id="kml_id_doc_1.1.11">
+<name>kml_id_doc_1.1.11</name>
+<Placemark id="C2.1">
+<name>C2.1</name>
+<visibility>1</visibility>
+<LookAt>
+<longitude>-6.277568346927476</longitude>
+<latitude>53.34822979195052</latitude>
+<altitude>10.30279287525523</altitude>
+<range>169.0620852331419</range>
+<tilt>60.00131522023284</tilt>
+<heading>34.84454877695381</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<extrude>0</extrude>
+<coordinates>-6.2766121483618,53.3477662499161,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="C2.2">
+<name>C2.2</name>
+<visibility>1</visibility>
+<LookAt>
+<longitude>-6.282129189508638</longitude>
+<latitude>53.34929488352338</latitude>
+<altitude>6.934207363190255</altitude>
+<range>305.0383933420915</range>
+<tilt>60.00237305910184</tilt>
+<heading>34.8396301349943</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_ylw-pushpin0</styleUrl>
+<Point>
+<extrude>0</extrude>
+<coordinates>-6.28182146896956,53.351153812476,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="C2.3">
+<name>C2.3</name>
+<visibility>1</visibility>
+<LookAt>
+<longitude>-6.281804823575985</longitude>
+<latitude>53.34926571799277</latitude>
+<altitude>0</altitude>
+<range>96.0155595267955</range>
+<tilt>60.00074700463076</tilt>
+<heading>34.83989900242734</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_ylw-pushpin0</styleUrl>
+<Point>
+<extrude>0</extrude>
+<coordinates>-6.28194811828883,53.3495394787955,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="C2.4">
+<name>C2.4</name>
+<visibility>1</visibility>
+<LookAt>
+<longitude>-6.27948440407457</longitude>
+<latitude>53.350737374233</latitude>
+<altitude>10.12113430788747</altitude>
+<range>270.7118922646155</range>
+<tilt>60.0021060865848</tilt>
+<heading>57.00361376133529</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_ylw-pushpin0</styleUrl>
+<Point>
+<extrude>0</extrude>
+<coordinates>-6.27900028420122,53.3513904719295,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="C2.5">
+<name>C2.5</name>
+<visibility>1</visibility>
+<LookAt>
+<longitude>-6.275573398015791</longitude>
+<latitude>53.34716767037372</latitude>
+<altitude>13.69045913358449</altitude>
+<range>192.3530058710884</range>
+<tilt>59.12993865744731</tilt>
+<heading>57.00668060520144</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_ylw-pushpin</styleUrl>
+<Point>
+<extrude>0</extrude>
+<coordinates>-6.27432358647307,53.3475363819517,0.0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+</Document></kml>
