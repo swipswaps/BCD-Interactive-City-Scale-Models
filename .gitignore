@@ -4,13 +4,17 @@
 .DS_Store?
 
 # Proprietary data #
-######################
-Dublin/Fabrication/Sources/LiDAR_Footprints/docklands_lidar_2009_dsm.las
-Dublin/Fabrication/Sources/LiDAR_Footprints/DublinBuildingGrangeGormantoDocks.gdb
+#######################
+Dublin/Fabrication/LiDAR_Footprints/*
+Cork/Fabrication/Sources/LiDAR_Footprints/*
+Dublin/Fabrication/Validation/Validation_Tiles/*
+Dublin/Fabrication/Validation/Validation Dublin.qgz
 
 # Fabrication Manager Log files #
 ######################
 Dublin Fabrication Data Manager.log
+Dublin Visualisation Data Manager.log
+Cork Fabrication Data Manager.log
 
 # Recovery files #
 ######################

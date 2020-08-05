@@ -1,3 +1,0 @@
-﻿route_id,agency_id,route_short_name,route_long_name,route_type
-"93-GRN-y11-10","10000","","Green Line","0"
-"93-RED-y11-5","10000","","Red Line","0"
