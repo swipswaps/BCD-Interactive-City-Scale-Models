@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Placemarks B2</name>
+<visibility>1</visibility>
+<Folder id="kml_id_doc_1.1.6">
+<name>kml_id_doc_1.1.6</name>
+<Placemark id="B2.1">
+<name>B2.1</name>
+<visibility>1</visibility>
+<LookAt>
+<longitude>-6.289133681099673</longitude>
+<latitude>53.35056844289597</latitude>
+<altitude>4.049718765141426</altitude>
+<range>158.0973320543944</range>
+<tilt>59.88059353557234</tilt>
+<heading>0.001092239157540499</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<extrude>0</extrude>
+<coordinates>-6.28868494923084,53.3506243265893,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="B2.2">
+<name>B2.2</name>
+<visibility>1</visibility>
+<LookAt>
+<longitude>-6.290296275075333</longitude>
+<latitude>53.35385420409357</latitude>
+<altitude>9.096100712251214</altitude>
+<range>175.9412615873092</range>
+<tilt>60.00136848830612</tilt>
+<heading>-0.0005454286952336358</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<extrude>0</extrude>
+<coordinates>-6.2907785389988,53.3535766516327,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="B2.3">
+<name>B2.3</name>
+<visibility>1</visibility>
+<LookAt>
+<longitude>-6.289577203514848</longitude>
+<latitude>53.35424347739205</latitude>
+<altitude>0</altitude>
+<range>129.9583969818819</range>
+<tilt>60.00101193143947</tilt>
+<heading>3.124648495147118e-05</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<extrude>0</extrude>
+<coordinates>-6.29015883652197,53.3540026742287,0.0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+</Document></kml>

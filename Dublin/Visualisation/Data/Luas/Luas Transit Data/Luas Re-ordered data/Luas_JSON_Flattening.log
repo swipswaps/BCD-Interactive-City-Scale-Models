@@ -1,0 +1,413 @@
+2020-05-15 16:05:31|   0.0|  0.0|INFORM|FME 2019.0.1.0 (20190506 - Build 19253 - macosx)
+2020-05-15 16:05:31|   0.0|  0.0|INFORM|FME_HOME is '/Library/FME/2019.0/'
+2020-05-15 16:05:31|   0.0|  0.0|INFORM|FME Home Edition (node locked-crc)
+2020-05-15 16:05:31|   0.0|  0.0|INFORM|Serial Number: 0
+2020-05-15 16:05:31|   0.0|  0.0|INFORM|Temporary License: 16 days left.
+2020-05-15 16:05:31|   0.0|  0.0|INFORM|Machine host name is: Marks-MacBook-Pro.local
+2020-05-15 16:05:31|   0.0|  0.0|INFORM|START - ProcessID: 12386, peak process memory usage: 68164 kB, current process memory usage: 68164 kB
+2020-05-15 16:05:31|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `/Library/FME/2019.0//bin/fme' `/Users/mlinnane/repos/BCD-Interactive-City-Scale-Models/Dublin/Visualisation/Data/Luas/Luas Transit Data/Luas Re-ordered data/wb-xlate-1589555128675_12361' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{540235b1-0d6c-44c0-99bf-659d14fc54f7}'
+2020-05-15 16:05:31|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: '/Users/mlinnane/Library/Caches/Safe Software/FME/'
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|Shared folders for formats are : /Library/FME/2019.0/datasources;/Users/mlinnane/Library/Application Support/FME/Formats
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|Shared folders for transformers are : /Users/mlinnane/Library/Caches/Safe Software/FME/Packages/19253-macosx/transformers;/Library/FME/2019.0/transformers
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|Shared folders for coordinate systems are : /Users/mlinnane/Library/Application Support/FME/CoordinateSystems
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|Shared folders for coordinate system exceptions are : /Users/mlinnane/Library/Application Support/FME/CoordinateSystemExceptions
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|Shared folders for coordinate system grid overrides are : /Users/mlinnane/Library/Application Support/FME/CoordinateSystemGridOverrides
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : /Users/mlinnane/Library/Application Support/FME/CsmapTransformationExceptions
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|Shared folders for transformer categories are : /Users/mlinnane/Library/Application Support/FME/TransformerCategories
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|FME Configuration: Current working folder is `/Users/mlinnane/repos/BCD-Interactive-City-Scale-Models/Dublin/Visualisation/Data/Luas/Luas Transit Data/Luas Re-ordered data'
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|FME Configuration: Temporary folder is in the system location `/private/tmp'
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|FME Configuration: FME_HOME is `/Library/FME/2019.0/'
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|FME Configuration: FME_MF_DIR is '/Users/mlinnane/repos/BCD-Interactive-City-Scale-Models/Dublin/Visualisation/Data/Luas/Luas Transit Data/Luas Re-ordered data/'
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'Luas_JSON_Flattening.fmw'
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2019.0.1.0'
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|System Status: 25.52 TB of disk space available in the FME temporary folder (/private/tmp)
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|System Status: 16.00 GB of virtual memory available
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|Operating System: Mac OS X Version 10.14.6 (Build 18G4032)
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|FME Platform: macosx
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|Locale: en_GB
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|FME Configuration: Process limit is 16.00 GB of physical memory
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 14.83 GB of virtual memory
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 11.12 GB of virtual memory
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|Creating writer for format: 
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|Creating reader for format: 
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding JSON Reader with keyword JSON_1
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|FME Configuration: Reading 60 dataset(s) with JSON reader identified by JSON_1
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|MULTI_READER(JSON_1): Will continue past member reader failures
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|MULTI_READER(JSON_1): Adding JSON Reader with keyword JSON_1
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|Using Multi Reader with keyword `JSON_1' to read multiple datasets
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.1|  0.0|INFORM|DYLD_LIBRARY_PATH is not set
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Loaded module 'JSON' from file '/Library/FME/2019.0//plugins/json.so'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571245200008.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571245200008.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571245260007.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571245260007.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571245320009.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571245320009.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571245380009.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571245380009.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571245440009.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571245440009.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571245500006.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571245500006.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571245560011.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571245560011.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571245620002.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571245620002.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571245680012.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571245680012.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571245740006.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571245740006.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571245800007.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571245800007.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571245860006.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571245860006.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571245920007.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571245920007.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571245980002.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571245980002.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246040007.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246040007.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246100009.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246100009.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246160009.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246160009.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246220011.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246220011.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246280007.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246280007.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246340008.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246340008.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246400008.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246400008.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246460009.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246460009.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246520008.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246520008.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246580009.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246580009.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246640010.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246640010.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246700009.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246700009.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246760006.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246760006.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246820002.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246820002.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246880010.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246880010.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246940007.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571246940007.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247000002.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247000002.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247060002.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247060002.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247120002.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247120002.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247180010.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247180010.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247240010.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247240010.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247300002.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247300002.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247360010.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247360010.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247420010.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247420010.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247480010.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247480010.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247540004.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247540004.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247600007.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247600007.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247660008.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247660008.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247720008.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247720008.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247780009.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247780009.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247840003.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247840003.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247900011.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247900011.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247960010.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571247960010.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571248020005.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571248020005.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571248080004.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571248080004.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571248140010.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571248140010.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571248200010.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571248200010.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571248260004.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571248260004.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571248320012.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571248320012.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571248380008.json'
+2020-05-15 16:05:31|   0.2|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571248380008.json' does not exist
+2020-05-15 16:05:31|   0.2|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.2|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.3|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571248440009.json'
+2020-05-15 16:05:31|   0.3|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571248440009.json' does not exist
+2020-05-15 16:05:31|   0.3|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.3|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.3|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.3|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571248500003.json'
+2020-05-15 16:05:31|   0.3|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571248500003.json' does not exist
+2020-05-15 16:05:31|   0.3|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.3|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.3|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.3|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571248560001.json'
+2020-05-15 16:05:31|   0.3|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571248560001.json' does not exist
+2020-05-15 16:05:31|   0.3|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.3|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.3|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.3|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571248620010.json'
+2020-05-15 16:05:31|   0.3|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571248620010.json' does not exist
+2020-05-15 16:05:31|   0.3|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.3|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.3|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.3|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571248680001.json'
+2020-05-15 16:05:31|   0.3|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571248680001.json' does not exist
+2020-05-15 16:05:31|   0.3|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.3|  0.0|INFORM|Creating reader for format: JSON (JavaScript Object Notation)
+2020-05-15 16:05:31|   0.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JSON'
+2020-05-15 16:05:31|   0.3|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-05-15 16:05:31|   0.3|  0.0|INFORM|Opening the JSON reader with source dataset 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571248740005.json'
+2020-05-15 16:05:31|   0.3|  0.0|ERROR |The file 'C:/Users/odawkins/Downloads/luas-data-sample/luas-data-sample/2019-10-16-18/luas-1571248740005.json' does not exist
+2020-05-15 16:05:31|   0.3|  0.0|WARN  |MULTI_READER(JSON_1): Skipping to next Reader
+2020-05-15 16:05:31|   0.3|  0.0|ERROR |A fatal error has occurred. Check the logfile above for details
+2020-05-15 16:05:31|   0.3|  0.0|INFORM|Translation FAILED with 61 error(s) and 60 warning(s) (0 feature(s) output)
+2020-05-15 16:05:31|   0.3|  0.0|INFORM|FME Session Duration: 0.3 seconds. (CPU: 0.2s user, 0.0s system)
+2020-05-15 16:05:31|   0.3|  0.0|INFORM|END - ProcessID: 12386, peak process memory usage: 72448 kB, current process memory usage: 72448 kB

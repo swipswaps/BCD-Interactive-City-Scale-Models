@@ -1,0 +1,376 @@
+[
+  {
+    "stopID": "14",
+    "stopQueryTime": 1571271960923,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "31",
+    "stopQueryTime": 1571271960926,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "4",
+    "stopQueryTime": 1571271960928,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "26",
+    "stopQueryTime": 1571271960932,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "34",
+    "stopQueryTime": 1571271960934,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "35",
+    "stopQueryTime": 1571271960942,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "11",
+    "stopQueryTime": 1571271960945,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "30",
+    "stopQueryTime": 1571271960946,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "6",
+    "stopQueryTime": 1571271960953,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "24",
+    "stopQueryTime": 1571271960960,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "9",
+    "stopQueryTime": 1571271960962,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "32",
+    "stopQueryTime": 1571271960965,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "1",
+    "stopQueryTime": 1571271960969,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "40",
+    "stopQueryTime": 1571271960972,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "45",
+    "stopQueryTime": 1571271960974,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "50",
+    "stopQueryTime": 1571271960982,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "28",
+    "stopQueryTime": 1571271960984,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "48",
+    "stopQueryTime": 1571271960989,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "58",
+    "stopQueryTime": 1571271960991,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "55",
+    "stopQueryTime": 1571271960993,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "52",
+    "stopQueryTime": 1571271960994,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "57",
+    "stopQueryTime": 1571271961001,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "47",
+    "stopQueryTime": 1571271961013,
+    "count": 1,
+    "results": [
+      {
+        "Direction": "Outbound",
+        "Destination": "Bride's Glen",
+        "Time": "00:02:12",
+        "AVLS": "00:02:52",
+        "Tram": "5003",
+        "Action": "a",
+        "Msg Sent": "17/10/2019 01:25:52",
+        "Msg Received": "17/10/2019 01:25:52",
+        "Msg Processed": "17/10/2019 01:25:52",
+        "XML ID": "39900",
+        "Total Lag": "0.201404",
+        "Create Lag": "0.1857694",
+        "Process Lag": "0.0156346"
+      }
+    ]
+  },
+  {
+    "stopID": "36",
+    "stopQueryTime": 1571271961021,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "13",
+    "stopQueryTime": 1571271961034,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "8",
+    "stopQueryTime": 1571271961041,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "21",
+    "stopQueryTime": 1571271961043,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "20",
+    "stopQueryTime": 1571271961051,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "10",
+    "stopQueryTime": 1571271961054,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "15",
+    "stopQueryTime": 1571271961058,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "16",
+    "stopQueryTime": 1571271961060,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "19",
+    "stopQueryTime": 1571271961061,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "2",
+    "stopQueryTime": 1571271961070,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "7",
+    "stopQueryTime": 1571271961071,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "5",
+    "stopQueryTime": 1571271961073,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "25",
+    "stopQueryTime": 1571271961080,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "23",
+    "stopQueryTime": 1571271961090,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "3",
+    "stopQueryTime": 1571271961091,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "12",
+    "stopQueryTime": 1571271961098,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "18",
+    "stopQueryTime": 1571271961100,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "39",
+    "stopQueryTime": 1571271961108,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "29",
+    "stopQueryTime": 1571271961109,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "38",
+    "stopQueryTime": 1571271961111,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "27",
+    "stopQueryTime": 1571271961115,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "54",
+    "stopQueryTime": 1571271961116,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "53",
+    "stopQueryTime": 1571271961119,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "17",
+    "stopQueryTime": 1571271961120,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "33",
+    "stopQueryTime": 1571271961124,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "42",
+    "stopQueryTime": 1571271961126,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "44",
+    "stopQueryTime": 1571271961132,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "49",
+    "stopQueryTime": 1571271961132,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "56",
+    "stopQueryTime": 1571271961134,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "22",
+    "stopQueryTime": 1571271961136,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "51",
+    "stopQueryTime": 1571271961142,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "37",
+    "stopQueryTime": 1571271961144,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "46",
+    "stopQueryTime": 1571271961149,
+    "count": 1,
+    "results": [
+      {
+        "Direction": "Outbound",
+        "Destination": "Bride's Glen",
+        "Time": "00:00:15",
+        "AVLS": "00:00:55",
+        "Tram": "5003",
+        "Action": "a",
+        "Msg Sent": "17/10/2019 01:25:52",
+        "Msg Received": "17/10/2019 01:25:52",
+        "Msg Processed": "17/10/2019 01:25:52",
+        "XML ID": "39900",
+        "Total Lag": "0.1857694",
+        "Create Lag": "0.1857694",
+        "Process Lag": "0"
+      }
+    ]
+  },
+  {
+    "stopID": "43",
+    "stopQueryTime": 1571271961151,
+    "count": 0,
+    "results": []
+  }
+]

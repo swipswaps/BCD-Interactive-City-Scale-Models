@@ -1,0 +1,23 @@
+{
+	"pattrstorage" : 	{
+		"name" : "dof",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"CoC@ViewDist" : [ 1.6 ],
+					"coc" : [ 0.8 ],
+					"exitAperture" : [ 6.285714 ],
+					"fStop" : [ 1.75 ],
+					"focalLength" : [ 11.0 ],
+					"throwDist" : [ 2200.0 ],
+					"viewDistance" : [ 2.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Placemarks E3.2</name>
+<visibility>1</visibility>
+<Folder id="kml_id_doc_1.1.8">
+<name>kml_id_doc_1.1.8</name>
+<Placemark id="E3.2">
+<name>E3.2</name>
+<visibility>1</visibility>
+<LookAt>
+<longitude>-6.239207845243941</longitude>
+<latitude>53.3452193919145</latitude>
+<altitude>12.98805083375193</altitude>
+<range>203.9653580766643</range>
+<tilt>28.31472746296997</tilt>
+<heading>-5.561968126403072</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+<gx:TimeStamp>
+<when>2018-06-24</when>
+</gx:TimeStamp>
+</LookAt>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<extrude>0</extrude>
+<coordinates>-6.23938839818981,53.3450513904416,17.083915851145</coordinates>
+</Point>
+</Placemark>
+</Folder>
+</Document></kml>

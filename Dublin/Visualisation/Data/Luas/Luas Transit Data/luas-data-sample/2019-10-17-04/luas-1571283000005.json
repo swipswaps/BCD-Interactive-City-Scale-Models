@@ -1,0 +1,344 @@
+[
+  {
+    "stopID": "2",
+    "stopQueryTime": 1571283000840,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "1",
+    "stopQueryTime": 1571283000850,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "4",
+    "stopQueryTime": 1571283000858,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "7",
+    "stopQueryTime": 1571283000901,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "8",
+    "stopQueryTime": 1571283000909,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "9",
+    "stopQueryTime": 1571283000923,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "14",
+    "stopQueryTime": 1571283000928,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "5",
+    "stopQueryTime": 1571283000933,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "11",
+    "stopQueryTime": 1571283000938,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "16",
+    "stopQueryTime": 1571283000947,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "21",
+    "stopQueryTime": 1571283000974,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "23",
+    "stopQueryTime": 1571283000976,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "37",
+    "stopQueryTime": 1571283000984,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "36",
+    "stopQueryTime": 1571283000985,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "35",
+    "stopQueryTime": 1571283000998,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "50",
+    "stopQueryTime": 1571283001003,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "39",
+    "stopQueryTime": 1571283001007,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "17",
+    "stopQueryTime": 1571283001056,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "33",
+    "stopQueryTime": 1571283001077,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "40",
+    "stopQueryTime": 1571283001080,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "3",
+    "stopQueryTime": 1571283001081,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "30",
+    "stopQueryTime": 1571283001082,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "34",
+    "stopQueryTime": 1571283001085,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "10",
+    "stopQueryTime": 1571283001091,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "6",
+    "stopQueryTime": 1571283001092,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "29",
+    "stopQueryTime": 1571283001095,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "49",
+    "stopQueryTime": 1571283001096,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "18",
+    "stopQueryTime": 1571283001112,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "15",
+    "stopQueryTime": 1571283001113,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "22",
+    "stopQueryTime": 1571283001116,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "13",
+    "stopQueryTime": 1571283001117,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "24",
+    "stopQueryTime": 1571283001121,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "19",
+    "stopQueryTime": 1571283001122,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "46",
+    "stopQueryTime": 1571283001126,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "28",
+    "stopQueryTime": 1571283001131,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "31",
+    "stopQueryTime": 1571283001141,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "54",
+    "stopQueryTime": 1571283001142,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "55",
+    "stopQueryTime": 1571283001144,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "57",
+    "stopQueryTime": 1571283001150,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "58",
+    "stopQueryTime": 1571283001152,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "47",
+    "stopQueryTime": 1571283001155,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "48",
+    "stopQueryTime": 1571283001160,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "45",
+    "stopQueryTime": 1571283001163,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "44",
+    "stopQueryTime": 1571283001172,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "56",
+    "stopQueryTime": 1571283001175,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "53",
+    "stopQueryTime": 1571283001180,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "25",
+    "stopQueryTime": 1571283001195,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "27",
+    "stopQueryTime": 1571283001196,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "26",
+    "stopQueryTime": 1571283001199,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "32",
+    "stopQueryTime": 1571283001200,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "38",
+    "stopQueryTime": 1571283001204,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "42",
+    "stopQueryTime": 1571283001206,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "43",
+    "stopQueryTime": 1571283001208,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "20",
+    "stopQueryTime": 1571283001221,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "52",
+    "stopQueryTime": 1571283001319,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "12",
+    "stopQueryTime": 1571283001332,
+    "count": 0,
+    "results": []
+  },
+  {
+    "stopID": "51",
+    "stopQueryTime": 1571283001334,
+    "count": 0,
+    "results": []
+  }
+]
